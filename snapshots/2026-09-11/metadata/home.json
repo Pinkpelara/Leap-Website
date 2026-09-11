@@ -1,0 +1,550 @@
+{
+  "url": "https://www.leapgymnastics.ca/",
+  "sourcePath": "sources/pages/index.html",
+  "title": "Kids Gymnastics in Markham & Stouffville :: Leap Gymnastics",
+  "description": "Gymnastics classes, camps and birthday parties at our Markham gym, serving Markham, Stouffville and York Region. A Gymnastics Ontario member club.",
+  "canonical": [],
+  "robots": null,
+  "headings": [
+    {
+      "level": 1,
+      "text": "Gymnastics programs for Markham and Stouffville families.",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "About Leap Gymnastics",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Our Programs",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Why Choose Leap",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Find the Right Program",
+      "id": null
+    }
+  ],
+  "anchorIDs": [
+    "LSLanguageSelectorTemp",
+    "addAddressModalTemp",
+    "addAddressTemp",
+    "addParticipantTemp",
+    "beam-data",
+    "beam-pet",
+    "bottomNav",
+    "calendarEventTemp",
+    "clubLogo",
+    "clubPolicyModal",
+    "clubPolicyView",
+    "confirmModalTemp",
+    "content",
+    "customLoadingTemp",
+    "editOrderItemTemp",
+    "footer",
+    "footerAgree",
+    "footerAgreement",
+    "footerClose",
+    "greetingBar",
+    "header",
+    "headerImage",
+    "headerNav",
+    "home-about",
+    "home-find",
+    "home-programs",
+    "home-why",
+    "indeterminateInput",
+    "indeterminateTextArea",
+    "indeterminateWidget",
+    "leap-custom-mobile-menu-controller-20260904",
+    "leap-custom-mobile-menu-fix-20260904",
+    "leap-home-footer-restore-20260904",
+    "leap-meta-pixel-noscript-20260706",
+    "leap-product-detail-mobile-nav-20260903",
+    "leap-product-detail-mobile-nav-script-20260903",
+    "lhBurger",
+    "lhGlow",
+    "lhHeader",
+    "lhSheet",
+    "lhSheetClose",
+    "mainNav",
+    "mainNavMenu",
+    "matchParticipantTemp",
+    "percentOrPriceInput",
+    "policyContentTemp",
+    "policyEditableField",
+    "site-participant-field-value",
+    "site-participant-field-value-edit",
+    "siteFieldEdit",
+    "siteFieldView",
+    "topNav",
+    "topNavMenu",
+    "topNotices",
+    "topPage"
+  ],
+  "links": [
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/ajax/cookies.php",
+      "absoluteURL": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "text": "View our policies.",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/login/",
+      "absoluteURL": "https://www.leapgymnastics.ca/login/",
+      "text": "Login",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register →",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "0",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#lhSheet",
+      "absoluteURL": "https://www.leapgymnastics.ca/#lhSheet",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "Shopping Cart",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register Online",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#home-about",
+      "absoluteURL": "https://www.leapgymnastics.ca/#home-about",
+      "text": "About Leap",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#home-programs",
+      "absoluteURL": "https://www.leapgymnastics.ca/#home-programs",
+      "text": "Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#home-why",
+      "absoluteURL": "https://www.leapgymnastics.ca/#home-why",
+      "text": "Why Leap",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "#home-find",
+      "absoluteURL": "https://www.leapgymnastics.ca/#home-find",
+      "text": "Find a program",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/#recreational",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#recreational",
+      "text": "View Classes",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/#advanced",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#advanced",
+      "text": "See programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/#competitive",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#competitive",
+      "text": "See programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/camps/#camp-options",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/#camp-options",
+      "text": "See camps",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "See parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/",
+      "href": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "absoluteURL": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "text": "Uplifter Inc.",
+      "download": false
+    }
+  ],
+  "forms": [],
+  "embeddedData": [],
+  "images": [
+    {
+      "src": "/sites/images/top_header.png?1789142773",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/blobid0.webp",
+      "alt": "Leap Gymnastics team of young gymnasts training in the Markham gym",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=2241397356680766&ev=PageView&noscript=1",
+      "alt": "",
+      "width": "1",
+      "height": "1"
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    }
+  ],
+  "beamBlocks": [
+    {
+      "id": "beam-data",
+      "sha256": "bb19385ee469f48240172eacf14b3e4c7b8af88473a51e24906f4eaecded9d2e"
+    },
+    {
+      "id": "beam-pet",
+      "sha256": "8c6c4cf5d84f12f7ff024a3b8cf0437b753f377cb31d9e9403d732de18b0da52"
+    }
+  ],
+  "readableTextPath": "content/home.md"
+}

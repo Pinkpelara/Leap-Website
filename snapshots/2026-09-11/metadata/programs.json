@@ -1,0 +1,1271 @@
+{
+  "url": "https://www.leapgymnastics.ca/programs/",
+  "sourcePath": "sources/pages/programs/index.html",
+  "title": "Gymnastics Classes in Markham & Stouffville :: Leap Gymnastics",
+  "description": "Explore parent-and-tot, preschool, recreational, boys, tumbling, advanced and competitive gymnastics serving Markham and Stouffville.",
+  "canonical": [],
+  "robots": null,
+  "headings": [
+    {
+      "level": 1,
+      "text": "Gymnastics Programs",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Recreational Programs",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Recreational Program Information",
+      "id": "recreational-program-information"
+    },
+    {
+      "level": 4,
+      "text": "Gymnastics Ontario Participant Registration",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Together Parent & Tot",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Little Leapers (Age 3)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Ready Set Leap (Ages 4–5)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Rising Stars (Ages 6–7)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Floor Tumbling & Obstacle Skills",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Flight Crew (Ages 8+)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Boys Adventure Gym (6+)",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Advanced Recreational Programs",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus Program Information",
+      "id": "leap-plus-program-information"
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 4-6",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 6-8",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 8+",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Leap Drop-Ins",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Drop-In Gymnastics: Ages 3–5 — Introductory Trial Class",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Drop-In Gymnastics: Ages 6–12 — Introductory Trial Class",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Competitive Programs & Assessments",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Weekly Class Schedule",
+      "id": null
+    }
+  ],
+  "anchorIDs": [
+    "LSLanguageSelectorTemp",
+    "addAddressModalTemp",
+    "addAddressTemp",
+    "addParticipantTemp",
+    "advanced",
+    "bottomNav",
+    "calendarEventTemp",
+    "clubLogo",
+    "clubPolicyModal",
+    "clubPolicyView",
+    "competitive",
+    "confirmModalTemp",
+    "content",
+    "customLoadingTemp",
+    "editOrderItemTemp",
+    "flexible-enrolment",
+    "footer",
+    "footerAgree",
+    "footerAgreement",
+    "footerClose",
+    "greetingBar",
+    "header",
+    "headerImage",
+    "headerNav",
+    "indeterminateInput",
+    "indeterminateTextArea",
+    "indeterminateWidget",
+    "leap-calendar-data-20260904",
+    "leap-custom-mobile-menu-controller-20260904",
+    "leap-custom-mobile-menu-fix-20260904",
+    "leap-meta-pixel-noscript-20260706",
+    "leap-plus-program-information",
+    "leap-product-detail-mobile-nav-20260903",
+    "leap-product-detail-mobile-nav-script-20260903",
+    "leap-program-calendar-repair-20260904",
+    "leap-schoolyear-calendar-filter-visibility-fix-20260904",
+    "leap-section-navigation-20260904",
+    "lhBurger",
+    "lhGlow",
+    "lhHeader",
+    "lhSheet",
+    "lhSheetClose",
+    "mainNav",
+    "mainNavMenu",
+    "matchParticipantTemp",
+    "percentOrPriceInput",
+    "policyContentTemp",
+    "policyEditableField",
+    "recreational",
+    "recreational-program-information",
+    "school-year-calendar",
+    "site-participant-field-value",
+    "site-participant-field-value-edit",
+    "siteFieldEdit",
+    "siteFieldView",
+    "sy-class-cal",
+    "sy-daytabs",
+    "sy-drawer",
+    "sy-drawer-content",
+    "topNav",
+    "topNavMenu",
+    "topNotices",
+    "topPage",
+    "try-leap-dropins"
+  ],
+  "links": [
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/ajax/cookies.php",
+      "absoluteURL": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "text": "View our policies.",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/login/",
+      "absoluteURL": "https://www.leapgymnastics.ca/login/",
+      "text": "Login",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register →",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "0",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#lhSheet",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#lhSheet",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "Shopping Cart",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/camps/#class-calendar",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/#class-calendar",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#recreational",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#recreational",
+      "text": "Recreational programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#advanced",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#advanced",
+      "text": "Leap Plus",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#try-leap-dropins",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#try-leap-dropins",
+      "text": "Leap Drop-Ins",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#competitive",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#competitive",
+      "text": "Competitive",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "#school-year-calendar",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#school-year-calendar",
+      "text": "Class calendar",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/faq/#faq-cancellations",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/#faq-cancellations",
+      "text": "Cancellation and Refund Policy",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#leap-together-parent-and-tot",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#leap-together-parent-and-tot",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#little-leapers-3-years-co-ed",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#little-leapers-3-years-co-ed",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#ready-set-leap-4-5-years-co-ed",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#ready-set-leap-4-5-years-co-ed",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#rising-stars-6-7-years",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#rising-stars-6-7-years",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#floor-tumbling-and-obstacle-skills",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#floor-tumbling-and-obstacle-skills",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#flight-crew-8-years",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#flight-crew-8-years",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#boys-adventure-gym",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#boys-adventure-gym",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#leap-plus-4-6",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#leap-plus-4-6",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#leap-plus-6-8",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#leap-plus-6-8",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/?sort=start_date#leap-plus-8",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#leap-plus-8",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/#leap-drop-in-gymnastics-ages-3-5",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#leap-drop-in-gymnastics-ages-3-5",
+      "text": "Choose a trial date",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/#leap-drop-in-gymnastics-ages-6-12",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#leap-drop-in-gymnastics-ages-6-12",
+      "text": "Choose a trial date",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "text": "Leap Elite Foundations",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+      "text": "Leap Together Parent & Tot 9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+      "text": "Leap Together Parent & Tot 9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+      "text": "Little Leapers (Age 3) 9:00am-10:00am · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+      "text": "Ready Set Leap (Ages 4–5) 9:00am-10:00am · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+      "text": "Rising Stars (Ages 6–7) 9:00am-10:00am · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+      "text": "Leap Plus 8+ 9:00am-10:30am · Ages 8+ · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+      "text": "Leap Together Parent & Tot 9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+      "text": "Ready Set Leap (Ages 4–5) 9:00am-10:00am · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+      "text": "Rising Stars (Ages 6–7) 9:00am-10:00am · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+      "text": "Leap Plus 6-8 9:30am-11:00am · Ages 6-8 · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+      "text": "Leap Together Parent & Tot 10:15am-11:15am · Ages 18 months to 3 years · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+      "text": "Little Leapers (Age 3) 10:15am-11:15am · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+      "text": "Ready Set Leap (Ages 4–5) 10:15am-11:15am · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+      "text": "Rising Stars (Ages 6–7) 10:15am-11:15am · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+      "text": "Little Leapers (Age 3) 10:15am-11:15am · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+      "text": "Ready Set Leap (Ages 4–5) 10:15am-11:15am · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+      "text": "Rising Stars (Ages 6–7) 10:15am-11:15am · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+      "text": "Leap Plus 4-6 11:30am-1:00pm · Ages 4-6 · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+      "text": "Ready Set Leap (Ages 4–5) 11:30am-12:30pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+      "text": "Rising Stars (Ages 6–7) 11:30am-12:30pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+      "text": "Flight Crew (Ages 8+) 11:30am-12:30pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+      "text": "Little Leapers (Age 3) 11:30am-12:30pm · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+      "text": "Ready Set Leap (Ages 4–5) 11:30am-12:30pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+      "text": "Rising Stars (Ages 6–7) 11:30am-12:30pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+      "text": "Flight Crew (Ages 8+) 11:30am-12:30pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+      "text": "Ready Set Leap (Ages 4–5) 4:00pm-5:00pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+      "text": "Rising Stars (Ages 6–7) 4:00pm-5:00pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+      "text": "Ready Set Leap (Ages 4–5) 4:00pm-5:00pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+      "text": "Rising Stars (Ages 6–7) 4:00pm-5:00pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+      "text": "Floor Tumbling & Obstacle Skills 4:00pm-5:00pm · Recommended 7+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+      "text": "Little Leapers (Age 3) 4:00pm-5:00pm · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+      "text": "Ready Set Leap (Ages 4–5) 4:00pm-5:00pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+      "text": "Rising Stars (Ages 6–7) 4:00pm-5:00pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+      "text": "Boys Adventure Gym (6+) 4:00pm-5:00pm · Ages 6+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+      "text": "Leap Drop-In Gymnastics: Ages 3–5 — Introductory Trial Class 4:00pm-5:00pm · Ages 3–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "text": "Leap Elite Foundations 5:00pm-7:00pm · Selected athletes · 2 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "text": "Leap Elite Foundations 5:00pm-7:00pm · Selected athletes · 2 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+      "text": "Ready Set Leap (Ages 4–5) 5:15pm-6:15pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+      "text": "Rising Stars (Ages 6–7) 5:15pm-6:15pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+      "text": "Flight Crew (Ages 8+) 5:15pm-6:15pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+      "text": "Ready Set Leap (Ages 4–5) 5:15pm-6:15pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+      "text": "Rising Stars (Ages 6–7) 5:15pm-6:15pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+      "text": "Flight Crew (Ages 8+) 5:15pm-6:15pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+      "text": "Little Leapers (Age 3) 5:15pm-6:15pm · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+      "text": "Ready Set Leap (Ages 4–5) 5:15pm-6:15pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+      "text": "Rising Stars (Ages 6–7) 5:15pm-6:15pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+      "text": "Boys Adventure Gym (6+) 5:15pm-6:15pm · Ages 6+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+      "text": "Little Leapers (Age 3) 5:15pm-6:15pm · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+      "text": "Ready Set Leap (Ages 4–5) 5:15pm-6:15pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+      "text": "Rising Stars (Ages 6–7) 5:15pm-6:15pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+      "text": "Flight Crew (Ages 8+) 5:15pm-6:15pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+      "text": "Little Leapers (Age 3) 5:15pm-6:15pm · Age 3 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+      "text": "Ready Set Leap (Ages 4–5) 5:15pm-6:15pm · Ages 4–5 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+      "text": "Rising Stars (Ages 6–7) 5:15pm-6:15pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+      "text": "Boys Adventure Gym (6+) 6:30pm-7:30pm · Ages 6+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus68-MON-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-MON-630PTO800P",
+      "text": "Leap Plus 6-8 6:30pm-8:00pm · Ages 6-8 · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus8-MON-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-MON-630PTO800P",
+      "text": "Leap Plus 8+ 6:30pm-8:00pm · Ages 8+ · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+      "text": "Rising Stars (Ages 6–7) 6:30pm-7:30pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+      "text": "Leap Plus 8+ 6:30pm-8:00pm · Ages 8+ · 1.5 hours",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+      "text": "Rising Stars (Ages 6–7) 6:30pm-7:30pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+      "text": "Flight Crew (Ages 8+) 6:30pm-7:30pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+      "text": "Floor Tumbling & Obstacle Skills 6:30pm-7:30pm · Recommended 7+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+      "text": "Rising Stars (Ages 6–7) 6:30pm-7:30pm · Ages 6–7 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+      "text": "Flight Crew (Ages 8+) 6:30pm-7:30pm · Ages 8+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+      "text": "Floor Tumbling & Obstacle Skills 6:30pm-7:30pm · Recommended 7+ · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+      "text": "Leap Drop-In Gymnastics: Ages 6–12 — Introductory Trial Class 6:30pm-7:30pm · Ages 6–12 · 1 hour",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/programs/",
+      "href": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "absoluteURL": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "text": "Uplifter Inc.",
+      "download": false
+    }
+  ],
+  "forms": [],
+  "embeddedData": [
+    {
+      "id": "leap-calendar-data-20260904",
+      "type": "application/json",
+      "path": "data/embedded/programs__leap-calendar-data-20260904.json"
+    }
+  ],
+  "images": [
+    {
+      "src": "/sites/images/top_header.png?1789145713",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-elsa-karina-fast-20260620.jpg?v=20260620134518",
+      "alt": "Two young Leap Gymnastics athletes in branded leotards posing together on the gym floor",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=2241397356680766&ev=PageView&noscript=1",
+      "alt": "",
+      "width": "1",
+      "height": "1"
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    }
+  ],
+  "beamBlocks": [],
+  "readableTextPath": "content/programs.md"
+}

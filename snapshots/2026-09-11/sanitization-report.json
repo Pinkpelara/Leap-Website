@@ -1,0 +1,22 @@
+{
+  "policy": "Anonymous HTTP only; no cookie persistence, request credentials, response Set-Cookie headers, user/account exports, form submissions or transactions. Sensitive populated service API keys, secrets and authentication tokens exposed by public output are removed from raw responses and all derived files. Public captcha site keys, analytics identifiers, business contact details and published staff bios are retained.",
+  "changes": [
+    {
+      "path": "data/embedded/registration__registrationData.json",
+      "occurrences": 1,
+      "field": "data.settings.sparkpost_api_key"
+    },
+    {
+      "path": "sources/pages/registration/index.html",
+      "occurrences": 1,
+      "field": "data.settings.sparkpost_api_key"
+    }
+  ],
+  "capturedResponseHeaders": [
+    "Content-Type"
+  ],
+  "totalChangedFiles": 2,
+  "totalChangedResponses": 1,
+  "fieldAudit": "Expanded inspection of populated settings and named API-key/secret/auth-token/password literals identified this one email-service credential. Its value is intentionally absent from the archive and report.",
+  "identicalValueCheck": "All archived source and derived files were checked after replacement; no identical original value remains."
+}

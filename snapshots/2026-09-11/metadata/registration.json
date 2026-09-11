@@ -1,0 +1,1298 @@
+{
+  "url": "https://www.leapgymnastics.ca/registration/",
+  "sourcePath": "sources/pages/registration/index.html",
+  "title": "Gymnastics Registration | Markham & Stouffville :: Leap Gymnastics",
+  "description": "Register for Leap Gymnastics classes, drop-ins, camps, competitive assessments and birthday parties serving Markham and Stouffville.",
+  "canonical": [],
+  "robots": null,
+  "headings": [
+    {
+      "level": 3,
+      "text": "Have an Account?",
+      "id": null
+    },
+    {
+      "level": 1,
+      "text": "Find the right Leap program",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Recreational Gymnastics",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Together Parent & Tot",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Little Leapers (3 Years Co-Ed)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Ready Set Leap (4-5 Years Co-Ed)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Rising Stars (6-7 Years)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Flight Crew (8+ Years)",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Boys Adventure Gym",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Floor Tumbling & Obstacle Skills",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 4-6",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 6-8",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Plus 8+",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Leap Drop-Ins",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Drop-In Gymnastics: Ages 3–5 — Introductory Trial Class",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Drop-In Gymnastics: Ages 6–12 — Introductory Trial Class",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Competitive Programs & Assessments",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Leap Elite Foundations (Development/Pre-Competitive)",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Summer Gymnastics Programs",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Camps",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "PA Day Camp Oct 26, 2026",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "PA Day Camp Nov 20, 2026",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "PA Day Camp Jan 15, 2027",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "March Break Camp Mon Mar 15",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "March Break Camp Tue Mar 16",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "March Break Camp Wed Mar 17",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "March Break Camp Thu Mar 18",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "March Break Camp Fri Mar 19",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "PA Day Camp Jun 04, 2027",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "PA Day Camp Jun 30, 2027",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Birthday Parties",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Birthday party bookings",
+      "id": null
+    }
+  ],
+  "anchorIDs": [
+    "LSLanguageSelectorTemp",
+    "addAddressModalTemp",
+    "addAddressTemp",
+    "addParticipantTemp",
+    "birthday-parties",
+    "birthday-party-booking-months",
+    "bottomNav",
+    "boys-adventure-gym",
+    "calendar-view",
+    "calendarEventTemp",
+    "camps-summer",
+    "clubLogo",
+    "clubPolicyModal",
+    "clubPolicyView",
+    "competitive-programs",
+    "confirmModalTemp",
+    "content",
+    "customLoadingTemp",
+    "default-group-list-with-sub-nav-filters",
+    "default-group-list-with-sub-nav-filters-tpl",
+    "editOrderItemTemp",
+    "fall-winter",
+    "flight-crew-8-years",
+    "floor-tumbling-and-obstacle-skills",
+    "footer",
+    "footerAgree",
+    "footerAgreement",
+    "footerClose",
+    "greetingBar",
+    "header",
+    "headerImage",
+    "headerNav",
+    "indeterminateInput",
+    "indeterminateTextArea",
+    "indeterminateWidget",
+    "leap-custom-mobile-menu-controller-20260904",
+    "leap-custom-mobile-menu-fix-20260904",
+    "leap-drop-in-gymnastics-ages-3-5",
+    "leap-drop-in-gymnastics-ages-6-12",
+    "leap-elite-foundations",
+    "leap-meta-pixel-noscript-20260706",
+    "leap-plus-4-6",
+    "leap-plus-6-8",
+    "leap-plus-8",
+    "leap-product-detail-mobile-nav-20260903",
+    "leap-product-detail-mobile-nav-script-20260903",
+    "leap-registration-current-offerings-20260909",
+    "leap-registration-current-offerings-style-20260909",
+    "leap-registration-layout-20260909",
+    "leap-section-navigation-20260904",
+    "leap-together-parent-and-tot",
+    "leapProgramSearch",
+    "leapProgramSearchClear",
+    "leapProgramSearchStatus",
+    "lhBurger",
+    "lhGlow",
+    "lhHeader",
+    "lhSheet",
+    "lhSheetClose",
+    "little-leapers-3-years-co-ed",
+    "mainNav",
+    "mainNavMenu",
+    "march-break-camp-fri-mar-19",
+    "march-break-camp-mon-mar-15",
+    "march-break-camp-thu-mar-18",
+    "march-break-camp-tue-mar-16",
+    "march-break-camp-wed-mar-17",
+    "matchParticipantTemp",
+    "pa-day-camp-jan-15-2027",
+    "pa-day-camp-jun-04-2027",
+    "pa-day-camp-jun-30-2027",
+    "pa-day-camp-nov-20-2026",
+    "pa-day-camp-oct-26-2026",
+    "percentOrPriceInput",
+    "policyContentTemp",
+    "policyEditableField",
+    "ready-set-leap-4-5-years-co-ed",
+    "registration-list-view",
+    "rising-stars-6-7-years",
+    "site-participant-field-value",
+    "site-participant-field-value-edit",
+    "siteFieldEdit",
+    "siteFieldView",
+    "summer-classes",
+    "topNav",
+    "topNavMenu",
+    "topNotices",
+    "topPage",
+    "try-leap-dropins"
+  ],
+  "links": [
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/ajax/cookies.php",
+      "absoluteURL": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "text": "View our policies.",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/login/",
+      "absoluteURL": "https://www.leapgymnastics.ca/login/",
+      "text": "Login",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/login/?redirect=%2Fregistration%2F%3Fsort%3Dstart_date",
+      "absoluteURL": "https://www.leapgymnastics.ca/login/?redirect=%2Fregistration%2F%3Fsort%3Dstart_date",
+      "text": "login or create an account",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "Shopping Cart",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#fall-winter",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#fall-winter",
+      "text": "Recreational Gymnastics",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#try-leap-dropins",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#try-leap-dropins",
+      "text": "Leap Drop-Ins",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#competitive-programs",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#competitive-programs",
+      "text": "Competitive Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#summer-classes",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#summer-classes",
+      "text": "Summer Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#camps-summer",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#camps-summer",
+      "text": "Camps",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#birthday-parties",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#birthday-parties",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/programs/#flexible-enrolment",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#flexible-enrolment",
+      "text": "View Enrolment and Withdrawal Policy",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+      "text": "Friday 9:00am-10:00am Sep 11 2026-Jun 18 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+      "text": "Saturday 9:00am-10:00am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+      "text": "Saturday 10:15am-11:15am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+      "text": "Sunday 9:00am-10:00am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+      "text": "Wednesday 5:15pm-6:15pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+      "text": "Thursday 4:00pm-5:00pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+      "text": "Thursday 5:15pm-6:15pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+      "text": "Friday 5:15pm-6:15pm Sep 11 2026-Jun 18 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+      "text": "Saturday 9:00am-10:00am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+      "text": "Saturday 10:15am-11:15am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+      "text": "Sunday 10:15am-11:15am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+      "text": "Sunday 11:30am-12:30pm Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+      "text": "Monday 4:00pm-5:00pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+      "text": "Monday 5:15pm-6:15pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+      "text": "Tuesday 5:15pm-6:15pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+      "text": "Wednesday 4:00pm-5:00pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+      "text": "Wednesday 5:15pm-6:15pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+      "text": "Thursday 4:00pm-5:00pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+      "text": "Thursday 5:15pm-6:15pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+      "text": "Friday 5:15pm-6:15pm Sep 11 2026-Jun 18 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+      "text": "Saturday 9:00am-10:00am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+      "text": "Saturday 10:15am-11:15am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+      "text": "Saturday 11:30am-12:30pm Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+      "text": "Sunday 9:00am-10:00am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+      "text": "Sunday 10:15am-11:15am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+      "text": "Sunday 11:30am-12:30pm Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+      "text": "Monday 5:15pm-6:15pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+      "text": "Tuesday 4:00pm-5:00pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+      "text": "Tuesday 5:15pm-6:15pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+      "text": "Tuesday 6:30pm-7:30pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+      "text": "Wednesday 4:00pm-5:00pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+      "text": "Wednesday 5:15pm-6:15pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+      "text": "Wednesday 6:30pm-7:30pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+      "text": "Thursday 4:00pm-5:00pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+      "text": "Thursday 5:15pm-6:15pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+      "text": "Thursday 6:30pm-7:30pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+      "text": "Friday 5:15pm-6:15pm Sep 11 2026-Jun 18 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+      "text": "Saturday 9:00am-10:00am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+      "text": "Saturday 10:15am-11:15am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+      "text": "Saturday 11:30am-12:30pm Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+      "text": "Sunday 9:00am-10:00am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+      "text": "Sunday 10:15am-11:15am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+      "text": "Sunday 11:30am-12:30pm Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+      "text": "Monday 5:15pm-6:15pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+      "text": "Tuesday 5:15pm-6:15pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+      "text": "Wednesday 6:30pm-7:30pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+      "text": "Thursday 5:15pm-6:15pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+      "text": "Thursday 6:30pm-7:30pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+      "text": "Saturday 11:30am-12:30pm Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+      "text": "Sunday 11:30am-12:30pm Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+      "text": "Monday 6:30pm-7:30pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+      "text": "Wednesday 5:15pm-6:15pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+      "text": "Thursday 4:00pm-5:00pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+      "text": "Wednesday 4:00pm-5:00pm Sep 16 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+      "text": "Wednesday 6:30pm-7:30pm Sep 9 2026-Jun 16 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+      "text": "Thursday 6:30pm-7:30pm Sep 10 2026-Jun 17 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+      "text": "Saturday 11:30am-1:00pm Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus68-MON-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-MON-630PTO800P",
+      "text": "Monday 6:30pm-8:00pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+      "text": "Sunday 9:30am-11:00am Sep 13 2026-Jun 20 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus8-MON-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-MON-630PTO800P",
+      "text": "Monday 6:30pm-8:00pm Sep 14 2026-Jun 14 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+      "text": "Tuesday 6:30pm-8:00pm Sep 8 2026-Jun 15 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+      "text": "Saturday 9:00am-10:30am Sep 12 2026-Jun 19 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+      "text": "Fridays 4:00pm-5:00pm 38 available Fridays · Sep 11 2026-Jun 18 2027 · choose individual dates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+      "text": "Fridays 6:30pm-7:30pm 38 available Fridays · Sep 11 2026-Jun 18 2027 · choose individual dates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+      "text": "Tuesdays & Thursdays 5:00pm-7:00pm 76 training dates · Sep 8 2026-Jun 17 2027 · registration after assessment",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/programs/#school-year-calendar",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/#school-year-calendar",
+      "text": "View the current weekly class calendar",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/PADay-2026-10-26",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2026-10-26",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/PADay-2026-11-20",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2026-11-20",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/PADay-2027-01-15",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-01-15",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/MarchBreak-2027-03-15",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-15",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/MarchBreak-2027-03-16",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-16",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/MarchBreak-2027-03-17",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-17",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/MarchBreak-2027-03-18",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-18",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/MarchBreak-2027-03-19",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-19",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/PADay-2027-06-04",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-06-04",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/PADay-2027-06-30",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-06-30",
+      "text": "Register camp or drop-ins Full-day and half-day options",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2026-09",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-09",
+      "text": "September 2026 Available party times · Sep 1 2026-Sep 30 2026",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2026-10",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-10",
+      "text": "October 2026 Available party times · Oct 1 2026-Oct 31 2026",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2026-11",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-11",
+      "text": "November 2026 Available party times · Nov 1 2026-Nov 30 2026",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2026-12",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-12",
+      "text": "December 2026 Available party times · Dec 1 2026-Dec 31 2026",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-01",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-01",
+      "text": "January 2027 Available party times · Jan 1 2027-Jan 31 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-02",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-02",
+      "text": "February 2027 Available party times · Feb 1 2027-Feb 28 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-03",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-03",
+      "text": "March 2027 Available party times · Mar 1 2027-Mar 31 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-04",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-04",
+      "text": "April 2027 Available party times · Apr 1 2027-Apr 30 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-05",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-05",
+      "text": "May 2027 Available party times · May 1 2027-May 31 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/product-detail/BDAY-2027-06",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-06",
+      "text": "June 2027 Available party times · Jun 1 2027-Jun 30 2027",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register →",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "#lhSheet",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/#lhSheet",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "Shopping Cart",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/registration/",
+      "href": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "absoluteURL": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "text": "Uplifter Inc.",
+      "download": false
+    }
+  ],
+  "forms": [],
+  "embeddedData": [
+    {
+      "id": "registrationData",
+      "type": "inline JavaScript JSON literal",
+      "path": "data/embedded/registration__registrationData.json"
+    }
+  ],
+  "images": [
+    {
+      "src": "/sites/images/top_header.png?1789143469",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=2241397356680766&ev=PageView&noscript=1",
+      "alt": "",
+      "width": "1",
+      "height": "1"
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    }
+  ],
+  "beamBlocks": [],
+  "readableTextPath": "content/registration.md"
+}

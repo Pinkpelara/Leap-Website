@@ -1,0 +1,662 @@
+{
+  "url": "https://www.leapgymnastics.ca/birthday-parties/",
+  "sourcePath": "sources/pages/birthday-parties/index.html",
+  "title": "Gymnastics Birthdays | Markham & Stouffville :: Leap Gymnastics",
+  "description": "Book a two-hour coach-led gymnastics birthday party in Markham for families from Markham and Stouffville, with gym and celebration time.",
+  "canonical": [],
+  "robots": null,
+  "headings": [
+    {
+      "level": 1,
+      "text": "Birthday Parties",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Optional Add-Ons",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Ready to book a party?",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Booking Policies",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "After You Book",
+      "id": null
+    },
+    {
+      "level": 2,
+      "text": "Facility Notes & Reminders",
+      "id": null
+    }
+  ],
+  "anchorIDs": [
+    "LSLanguageSelectorTemp",
+    "addAddressModalTemp",
+    "addAddressTemp",
+    "addParticipantTemp",
+    "after-you-book",
+    "beam-pet",
+    "booking-policies",
+    "bottomNav",
+    "calendarEventTemp",
+    "clubLogo",
+    "clubPolicyModal",
+    "clubPolicyView",
+    "confirmModalTemp",
+    "content",
+    "customLoadingTemp",
+    "editOrderItemTemp",
+    "facility-notes",
+    "footer",
+    "footerAgree",
+    "footerAgreement",
+    "footerClose",
+    "greetingBar",
+    "header",
+    "headerImage",
+    "headerNav",
+    "indeterminateInput",
+    "indeterminateTextArea",
+    "indeterminateWidget",
+    "leap-back-to-top-20260710",
+    "leap-custom-mobile-menu-controller-20260904",
+    "leap-custom-mobile-menu-fix-20260904",
+    "leap-meta-pixel-noscript-20260706",
+    "leap-product-detail-mobile-nav-20260903",
+    "leap-product-detail-mobile-nav-script-20260903",
+    "lhBurger",
+    "lhGlow",
+    "lhHeader",
+    "lhSheet",
+    "lhSheetClose",
+    "mainNav",
+    "mainNavMenu",
+    "matchParticipantTemp",
+    "optional-add-ons",
+    "party-packages",
+    "percentOrPriceInput",
+    "policyContentTemp",
+    "policyEditableField",
+    "ready-to-book",
+    "site-participant-field-value",
+    "site-participant-field-value-edit",
+    "siteFieldEdit",
+    "siteFieldView",
+    "topNav",
+    "topNavMenu",
+    "topNotices",
+    "topPage"
+  ],
+  "links": [
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/ajax/cookies.php",
+      "absoluteURL": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "text": "View our policies.",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/login/",
+      "absoluteURL": "https://www.leapgymnastics.ca/login/",
+      "text": "Login",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#topPage",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#topPage",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register →",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#lhSheet",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#lhSheet",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/checkout/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/checkout/",
+      "text": "Shopping Cart",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#party-packages",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#party-packages",
+      "text": "Packages",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#optional-add-ons",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#optional-add-ons",
+      "text": "Add-ons",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#ready-to-book",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#ready-to-book",
+      "text": "Ready to book",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#booking-policies",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#booking-policies",
+      "text": "Policies",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#after-you-book",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#after-you-book",
+      "text": "After you book",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "#facility-notes",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/#facility-notes",
+      "text": "Facility notes",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/?sort=start_date#birthday-parties",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/?sort=start_date#birthday-parties",
+      "text": "View Birthday Party Availability",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://leap-birthday-party-form.pages.dev/",
+      "absoluteURL": "https://leap-birthday-party-form.pages.dev/",
+      "text": "Booked Families: Complete Birthday Party Details Form",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://leap-participant-consent-form.pages.dev/",
+      "absoluteURL": "https://leap-participant-consent-form.pages.dev/",
+      "text": "Complete Participant Consent Form",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://leap-birthday-party-form.pages.dev/",
+      "absoluteURL": "https://leap-birthday-party-form.pages.dev/",
+      "text": "Booked Families: Complete Birthday Party Details Form",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://leap-participant-consent-form.pages.dev/",
+      "absoluteURL": "https://leap-participant-consent-form.pages.dev/",
+      "text": "Complete Participant Consent Form",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://leap-participant-consent-form.pages.dev/",
+      "absoluteURL": "https://leap-participant-consent-form.pages.dev/",
+      "text": "Complete Participant Consent Form",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/",
+      "absoluteURL": "https://www.leapgymnastics.ca/",
+      "text": "Home",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/programs/",
+      "absoluteURL": "https://www.leapgymnastics.ca/programs/",
+      "text": "Gymnastics Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/camps/",
+      "absoluteURL": "https://www.leapgymnastics.ca/camps/",
+      "text": "Camps and Summer Programs",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/try-leap/",
+      "absoluteURL": "https://www.leapgymnastics.ca/try-leap/",
+      "text": "Try LEAP",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/birthday-parties/",
+      "absoluteURL": "https://www.leapgymnastics.ca/birthday-parties/",
+      "text": "Birthday Parties",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/about/",
+      "absoluteURL": "https://www.leapgymnastics.ca/about/",
+      "text": "About",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/faq/",
+      "absoluteURL": "https://www.leapgymnastics.ca/faq/",
+      "text": "FAQ",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/leap-updates/",
+      "absoluteURL": "https://www.leapgymnastics.ca/leap-updates/",
+      "text": "Leap Updates",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/contact/",
+      "absoluteURL": "https://www.leapgymnastics.ca/contact/",
+      "text": "Contact",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://www.gymnasticsontario.ca/",
+      "absoluteURL": "https://www.gymnasticsontario.ca/",
+      "text": "",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "mailto:info@leapgymnastics.ca",
+      "absoluteURL": "mailto:info@leapgymnastics.ca",
+      "text": "info@leapgymnastics.ca",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "tel:+12895901111",
+      "absoluteURL": "tel:+12895901111",
+      "text": "(289) 590-1111",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "/registration/",
+      "absoluteURL": "https://www.leapgymnastics.ca/registration/",
+      "text": "Register",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/birthday-parties/",
+      "href": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "absoluteURL": "https://www.uplifterinc.com/gymnastics-class-management-software",
+      "text": "Uplifter Inc.",
+      "download": false
+    }
+  ],
+  "forms": [],
+  "embeddedData": [],
+  "images": [
+    {
+      "src": "/sites/images/top_header.png?1789146351",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-birthday-party-6c062dbb06_EDIT29.png",
+      "alt": "Children celebrating a birthday at Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=2241397356680766&ev=PageView&noscript=1",
+      "alt": "",
+      "width": "1",
+      "height": "1"
+    },
+    {
+      "src": "/sites/files/leap-logo-white.png",
+      "alt": "Leap Gymnastics",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "alt": "Gymnastics Ontario",
+      "width": "400",
+      "height": "190"
+    }
+  ],
+  "beamBlocks": [
+    {
+      "id": "beam-pet",
+      "sha256": "8c6c4cf5d84f12f7ff024a3b8cf0437b753f377cb31d9e9403d732de18b0da52"
+    }
+  ],
+  "readableTextPath": "content/birthday-parties.md"
+}

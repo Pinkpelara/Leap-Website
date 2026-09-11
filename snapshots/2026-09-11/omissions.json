@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://www.leapgymnastics.ca/login/",
+    "reason": "account, admin, action or transactional route excluded",
+    "discoveredOn": "https://www.leapgymnastics.ca/sitemap.xml"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/login/?redirect=%2Fregistration%2F%3Fsort%3Dstart_date",
+    "reason": "account, admin, action or transactional route excluded",
+    "discoveredOn": "https://www.leapgymnastics.ca/registration/"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/checkout/",
+    "reason": "account, admin, action or transactional route excluded",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "http://www.aboutcookies.org/",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/ajax/cookies.php"
+  },
+  {
+    "url": "https://adssettings.google.com/u/0/authenticated?hl=en",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/ajax/cookies.php"
+  },
+  {
+    "url": "https://leap-birthday-party-form.pages.dev/",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/birthday-parties/"
+  },
+  {
+    "url": "https://leap-participant-consent-form.pages.dev/",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/birthday-parties/"
+  },
+  {
+    "url": "https://www.google.com/maps/search/?api=1&query=158+Anderson+Ave+Units+3+%26+4+Markham+Ontario",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/contact/"
+  },
+  {
+    "url": "https://www.gymnasticsontario.ca/",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "https://www.uplifterinc.com/gymnastics-class-management-software",
+    "reason": "external link (inventoried, not crawled as site content)",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "https://connect.facebook.net/en_US/fbevents.js",
+    "reason": "third-party tracking, captcha or embedded-service dependency not downloaded",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js",
+    "reason": "third-party tracking, captcha or embedded-service dependency not downloaded",
+    "discoveredOn": "https://www.leapgymnastics.ca/summer-camp-themes/"
+  },
+  {
+    "url": "https://www.facebook.com/tr?id=2241397356680766&ev=PageView&noscript=1",
+    "reason": "third-party tracking, captcha or embedded-service dependency not downloaded",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-KN2DJFQGL1",
+    "reason": "third-party tracking, captcha or embedded-service dependency not downloaded",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/js/recaptcha.js?key=6LeWysEUAAAAAN9cNvicDMs_hcT73YMQwKY2yUXq",
+    "reason": "third-party tracking, captcha or embedded-service dependency not downloaded",
+    "discoveredOn": "https://www.leapgymnastics.ca/"
+  }
+]

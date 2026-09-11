@@ -1,0 +1,794 @@
+[
+  {
+    "url": "https://www.leapgymnastics.ca/",
+    "title": "Kids Gymnastics in Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/home.json",
+    "contentPath": "content/home.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/about/",
+    "title": "About Leap Gymnastics | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/about.json",
+    "contentPath": "content/about.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/about/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/ajax/cookies.php",
+    "title": "Uplifter Inc. - Cookie Policy",
+    "metadataPath": "metadata/ajax__cookies.php.json",
+    "contentPath": "content/ajax__cookies.php.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/ajax/cookies.php.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/birthday-parties/",
+    "title": "Gymnastics Birthdays | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/birthday-parties.json",
+    "contentPath": "content/birthday-parties.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/birthday-parties/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/camps/",
+    "title": "Gymnastics Camps in Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/camps.json",
+    "contentPath": "content/camps.md",
+    "embeddedDataCount": 1,
+    "sourcePath": "sources/pages/camps/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/contact-us/",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/contact-us.json",
+    "contentPath": "content/contact-us.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/contact-us/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/contact/",
+    "title": "Contact Leap Gymnastics | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/contact.json",
+    "contentPath": "content/contact.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/contact/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/faq/",
+    "title": "Gymnastics FAQs | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/faq.json",
+    "contentPath": "content/faq.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/faq/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/leap-updates/",
+    "title": "Leap Gymnastics Updates | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/leap-updates.json",
+    "contentPath": "content/leap-updates.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/leap-updates/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/programs/",
+    "title": "Gymnastics Classes in Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/programs.json",
+    "contentPath": "content/programs.md",
+    "embeddedDataCount": 1,
+    "sourcePath": "sources/pages/programs/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/",
+    "title": "Gymnastics Registration | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/registration.json",
+    "contentPath": "content/registration.md",
+    "embeddedDataCount": 1,
+    "sourcePath": "sources/pages/registration/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail.json",
+    "contentPath": "content/registration__product-detail.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-09",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2026-09.json",
+    "contentPath": "content/registration__product-detail__BDAY-2026-09.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2026-09/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-10",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2026-10.json",
+    "contentPath": "content/registration__product-detail__BDAY-2026-10.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2026-10/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-11",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2026-11.json",
+    "contentPath": "content/registration__product-detail__BDAY-2026-11.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2026-11/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2026-12",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2026-12.json",
+    "contentPath": "content/registration__product-detail__BDAY-2026-12.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2026-12/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-01",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-01.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-01.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-01/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-02",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-02.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-02.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-02/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-03",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-03.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-03.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-03/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-04",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-04.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-04.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-04/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-05",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-05.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-05.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-05/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BDAY-2027-06",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BDAY-2027-06.json",
+    "contentPath": "content/registration__product-detail__BDAY-2027-06.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BDAY-2027-06/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BoysAdventureGym-MON-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__BoysAdventureGym-MON-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BoysAdventureGym-MON-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BoysAdventureGym-THU-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__BoysAdventureGym-THU-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BoysAdventureGym-THU-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__BoysAdventureGym-WED-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__BoysAdventureGym-WED-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/BoysAdventureGym-WED-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-MON-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-MON-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-SAT-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-SAT-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-SUN-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-SUN-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-THU-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-THU-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-THU-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-THU-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-TUE-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-TUE-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FlightCrewGirls8Year-WED-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__FlightCrewGirls8Year-WED-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FloorTumblingObstacle-THU-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__FloorTumblingObstacle-THU-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FloorTumblingObstacle-WED-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__FloorTumblingObstacle-WED-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__FloorTumblingObstacle-WED-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__FloorTumblingObstacle-WED-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LEAP-DROPIN-FW26-AGES3-5.json",
+    "contentPath": "content/registration__product-detail__LEAP-DROPIN-FW26-AGES3-5.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LEAP-DROPIN-FW26-AGES6-12.json",
+    "contentPath": "content/registration__product-detail__LEAP-DROPIN-FW26-AGES6-12.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LEAP-ELITE-FOUNDATIONS.json",
+    "contentPath": "content/registration__product-detail__LEAP-ELITE-FOUNDATIONS.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LEAP-ELITE-FOUNDATIONS/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus46-SAT-1130ATO1000P.json",
+    "contentPath": "content/registration__product-detail__LeapPlus46-SAT-1130ATO1000P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus46-SAT-1130ATO1000P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-MON-630PTO800P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus68-MON-630PTO800P.json",
+    "contentPath": "content/registration__product-detail__LeapPlus68-MON-630PTO800P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus68-MON-630PTO800P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus68-SUN-930ATO1100A.json",
+    "contentPath": "content/registration__product-detail__LeapPlus68-SUN-930ATO1100A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus68-SUN-930ATO1100A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-MON-630PTO800P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus8-MON-630PTO800P.json",
+    "contentPath": "content/registration__product-detail__LeapPlus8-MON-630PTO800P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus8-MON-630PTO800P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus8-SAT-9000ATO1030A.json",
+    "contentPath": "content/registration__product-detail__LeapPlus8-SAT-9000ATO1030A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus8-SAT-9000ATO1030A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapPlus8-TUE-630PTO800P.json",
+    "contentPath": "content/registration__product-detail__LeapPlus8-TUE-630PTO800P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapPlus8-TUE-630PTO800P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapTogetherParentTo-FRI-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__LeapTogetherParentTo-FRI-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapTogetherParentTo-SAT-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__LeapTogetherParentTo-SAT-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapTogetherParentTo-SAT-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__LeapTogetherParentTo-SAT-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LeapTogetherParentTo-SUN-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__LeapTogetherParentTo-SUN-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers-FRI-515-20260816-08.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers-FRI-515-20260816-08.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers-FRI-515-20260816-08/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-SAT-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-SAT-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-SAT-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-SAT-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-SUN-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-SUN-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-SUN-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-SUN-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-THU-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-THU-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-THU-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-THU-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__LittleLeapers3YearsC-WED-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__LittleLeapers3YearsC-WED-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-15",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__MarchBreak-2027-03-15.json",
+    "contentPath": "content/registration__product-detail__MarchBreak-2027-03-15.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/MarchBreak-2027-03-15/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-16",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__MarchBreak-2027-03-16.json",
+    "contentPath": "content/registration__product-detail__MarchBreak-2027-03-16.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/MarchBreak-2027-03-16/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-17",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__MarchBreak-2027-03-17.json",
+    "contentPath": "content/registration__product-detail__MarchBreak-2027-03-17.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/MarchBreak-2027-03-17/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-18",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__MarchBreak-2027-03-18.json",
+    "contentPath": "content/registration__product-detail__MarchBreak-2027-03-18.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/MarchBreak-2027-03-18/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/MarchBreak-2027-03-19",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__MarchBreak-2027-03-19.json",
+    "contentPath": "content/registration__product-detail__MarchBreak-2027-03-19.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/MarchBreak-2027-03-19/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2026-10-26",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__PADay-2026-10-26.json",
+    "contentPath": "content/registration__product-detail__PADay-2026-10-26.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/PADay-2026-10-26/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2026-11-20",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__PADay-2026-11-20.json",
+    "contentPath": "content/registration__product-detail__PADay-2026-11-20.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/PADay-2026-11-20/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-01-15",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__PADay-2027-01-15.json",
+    "contentPath": "content/registration__product-detail__PADay-2027-01-15.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/PADay-2027-01-15/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-06-04",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__PADay-2027-06-04.json",
+    "contentPath": "content/registration__product-detail__PADay-2027-06-04.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/PADay-2027-06-04/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/PADay-2027-06-30",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__PADay-2027-06-30.json",
+    "contentPath": "content/registration__product-detail__PADay-2027-06-30.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/PADay-2027-06-30/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap-SAT-1130-20260816-09.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap-SAT-1130-20260816-09.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45Years-FRI-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45Years-FRI-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-MON-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-MON-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-MON-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-MON-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-SAT-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-SAT-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-SAT-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-SAT-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-SUN-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-SUN-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-SUN-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-SUN-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-SUN-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-SUN-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-THU-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-THU-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-THU-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-THU-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-TUE-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-TUE-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-WED-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-WED-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__ReadySetLeap45YearsC-WED-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__ReadySetLeap45YearsC-WED-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStars-FRI-515-2026-2027-RS01.json",
+    "contentPath": "content/registration__product-detail__RisingStars-FRI-515-2026-2027-RS01.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-MON-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-MON-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SAT-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SAT-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SAT-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SAT-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SAT-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SAT-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SUN-1015ATO1115A.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SUN-1015ATO1115A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SUN-1130ATO1230P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SUN-1130ATO1230P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-SUN-900ATO1000A.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-SUN-900ATO1000A.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-THU-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-THU-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-THU-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-THU-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-THU-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-THU-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-TUE-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-TUE-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-TUE-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-TUE-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-TUE-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-TUE-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-WED-400PTO500P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-WED-400PTO500P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-WED-515PTO615P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-WED-515PTO615P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+    "title": "Leap Gymnastics",
+    "metadataPath": "metadata/registration__product-detail__RisingStarsGirls67Ye-WED-630PTO730P.json",
+    "contentPath": "content/registration__product-detail__RisingStarsGirls67Ye-WED-630PTO730P.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/summer-camp-themes/",
+    "title": "2026 Summer Camp Themes | Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/summer-camp-themes.json",
+    "contentPath": "content/summer-camp-themes.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/summer-camp-themes/index.html"
+  },
+  {
+    "url": "https://www.leapgymnastics.ca/try-leap/",
+    "title": "Drop-In Gymnastics in Markham & Stouffville :: Leap Gymnastics",
+    "metadataPath": "metadata/try-leap.json",
+    "contentPath": "content/try-leap.md",
+    "embeddedDataCount": 0,
+    "sourcePath": "sources/pages/try-leap/index.html"
+  }
+]

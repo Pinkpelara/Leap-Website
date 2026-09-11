@@ -1,0 +1,28 @@
+{
+  "captureStartedUTC": "2026-09-11T17:17:06.908853+00:00",
+  "lastUpdatedUTC": "2026-09-11T17:26:56.691857+00:00",
+  "pagesProcessed": 99,
+  "assetsProcessed": 167,
+  "pagesPending": [],
+  "assetsPending": [],
+  "successfulPages": 99,
+  "totalSavedBytes": 36593986,
+  "limits": {
+    "maxPages": 260,
+    "maxAssets": 1000,
+    "concurrency": 6,
+    "maxAssetBytes": 80000000
+  },
+  "discoveryMethods": [
+    "robots.txt",
+    "sitemap.xml",
+    "same-origin HTML anchor links",
+    "JSON and inline JavaScript literal public links",
+    "HTML asset attributes",
+    "CSS url() and imports",
+    "anonymous browser-observed static resource reconciliation",
+    "observed public cookie-policy GET at /ajax/cookies.php (specific read-only exception)"
+  ],
+  "canonicalization": "Fragments removed for fetching and retained in link inventory; cache-buster and registration sort/calendar query variants deduplicated.",
+  "captureFinishedUTC": "2026-09-11T17:26:56.788388+00:00"
+}

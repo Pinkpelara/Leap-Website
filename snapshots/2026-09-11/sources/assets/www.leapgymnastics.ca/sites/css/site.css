@@ -1,0 +1,1144 @@
+.fixedContainer { width:1200px; }
+.contentSection { margin:; }
+#header { background-color:rgb(0, 0, 0); border-top-width:0; border-top-style:none; border-bottom-width:0; border-bottom-style:none; border-color:rgb(0, 170, 227); }
+#headerImage { max-height:100px; }
+#headerNav .firstColumnSection, #mainNav .menuTarget .touch-button { height:110px; }
+#mainNav .menuTarget .touch-button:after, #mainNavMenu li span:after { line-height:110px; }
+#mainNavMenu li a { line-height:90px; }
+.smallScreen #mainNavMenu li a { line-height:40px; }
+.smallScreen #mainNavMenu li span:after { line-height:60px; }
+.firstColumnSection { float:left; }
+#mainNav .menuTarget { float:right; }
+#clubLogo { text-align:left; }
+#mainNavMenu, #topNavMenu { text-align:right; }
+#mainNavMenu ul a { padding:5% 35px; font-size:inherit; }
+#mainNavMenu ul .item-with-ul .touch-button { transform:rotate(180deg); left:0; right:auto; }
+#header .dropdown li ul { left:auto; right:0; }
+#header .dropdown ul ul ul { right:100%; }
+#greetingBar { background-color:rgba(255, 255, 255, 0); color:rgb(102, 102, 102); }
+#greetingBar .mainBody { background-color:rgba(255, 255, 255, 0); }
+.greeting
+             { color:rgb(0, 170, 227); }
+#topNav { background-color:rgba(255, 255, 255, 0); color:rgb(204, 204, 204); }
+#topNavMenu li { background-color:rgba(255, 255, 255, 0); }
+#topNavMenu li:hover { background-color:rgb(51, 51, 51); }
+#topNavMenu ul li { background-color:rgb(51, 51, 51); }
+#topNavMenu ul li:hover { background-color:rgb(68, 68, 68); }
+#topNavMenu a { color:rgb(204, 204, 204); }
+#topNavMenu li:hover a { color:rgb(255, 255, 255); }
+#topNavMenu li:hover li a { color:rgb(204, 204, 204); }
+#topNavMenu li ul li:hover a { color:rgb(255, 255, 255); }
+#topNavMenu { font-family:Montserrat; font-weight:normal; font-size:inherit; text-transform:none; }
+#topNavMenu ul a { font-size:inherit; }
+#topNavMenu ul { text-transform:none; }
+#mainNav, #mainNav .menuTarget { background-color:rgba(255, 255, 255, 0); }
+#headerNav .mainBody { background-color:rgba(255, 255, 255, 0); }
+#mainNav { color:rgb(204, 204, 204); border-top-width:0; border-top-style:none; border-color:rgb(204, 204, 204); }
+#mainNavMenu li:hover { background-color:rgb(51, 51, 51); border-top-color:rgba(0, 170, 227, 0); border-bottom-color:rgba(0, 0, 0, 0); }
+#mainNavMenu ul li, .smallScreen #mainNavMenu { background-color:rgb(51, 51, 51); }
+#mainNavMenu ul li:hover { background-color:rgb(68, 68, 68); }
+#mainNav .menuTarget, #mainNav a, #mainNav a:before, .smallScreen #mainNav a, .smallScreen #mainNav a:before { color:rgb(204, 204, 204); }
+#mainNav .menuTarget:hover, #mainNavMenu li:hover a, #mainNavMenu a:hover::before { color:rgb(255, 255, 255); }
+#mainNavMenu ul a, #mainNavMenu li:hover ul a, #mainNavMenu li ul li:hover li a,  #mainNavMenu ul .touch-button:after, #mainNavMenu li:hover ul .touch-button:after { color:rgb(204, 204, 204); }
+ #mainNavMenu li ul li:hover a, #mainNavMenu li ul li li:hover a, #mainNavMenu li:hover .touch-button:after, #mainNavMenu li ul li:hover .touch-button:after, #mainNavMenu li ul li li:hover .touch-button:after { color:rgb(255, 255, 255); }
+#mainNavMenu li { border-top-color:rgba(0, 0, 0, 0); border-bottom-color:rgba(0, 0, 0, 0); }
+#mainNavMenu ul li, #mainNavMenu ul li:hover { border-bottom-width:0; border-bottom-style:none; border-color:rgb(204, 204, 204); }
+#mainNavMenu ul { border-width:0; border-style:none; border-color:rgb(204, 204, 204); text-transform:uppercase; }
+#mainNavMenu { font-family:Montserrat; font-weight:700; font-size:1.1em; text-transform:uppercase; }
+#subNav { float:left; border-top-width:0; border-top-style:none; border-bottom-width:0; border-bottom-style:none; border-left-width:0; border-left-style:none; border-right-width:0; border-right-style:none; border-color:rgb(238, 238, 238); }
+>#subNav .nav li a { font-family:Montserrat; font-weight:700; }
+#subNav .nav li a { font-size:inherit; text-transform:none; }
+#subNav .nav li a
+             { background-color:rgb(242, 242, 242); color:rgb(0, 135, 185); }
+#subNav .nav li a:hover
+             { background-color:rgb(255, 255, 255); color:rgb(0, 68, 125); }
+>#subNav .nav li { border-top-width:0; }
+#subNav .nav li { border-top-style:none; }
+#subNav .nav { border-bottom-width:0; }
+#subNav .nav, #subNav .nav li { border-color:rgb(238, 238, 238); }
+body, input, select, textarea { font-family:Montserrat; font-weight:normal; }
+h1, h2, h3, h4, h5, .titleStyle { font-family:inherit; font-weight:normal; }
+body { font-size:0.8em; color:rgb(102, 102, 102); background-color:rgb(255, 255, 255); background-image:none; background-repeat:initial; background-attachment:initial; background-size:initial; background-position:center; }
+h1 { color:rgb(68, 68, 68); }
+h2 { color:rgb(68, 68, 68); }
+h3 { color:rgb(68, 68, 68); }
+h4 { color:rgb(102, 102, 102); }
+h5 { color:rgb(102, 102, 102); }
+.currencyColor , .smallScreen .mobileHighlight, .largeSelector.selected
+             { color:rgb(0, 170, 227); }
+.altBG { color:rgb(102, 102, 102); background-color:rgb(238, 238, 238); }
+.altBG h1, .altBG h2, .altBG h3, .altBG h4 { color:rgb(68, 68, 68); }
+a, a:visited, body.smallScreen #sideMenu.dropMenu:hover h1, #categories .jstree
+                li a, .linkStyle
+             { color:rgb(0, 135, 185); }
+a:hover, #categories .jstree li.jstree-open > a, #categories .jstree li:hover > a,
+            .linkStyle:hover, .linkHoverStyle:hover
+             { color:rgb(0, 68, 125); }
+#content a, #content a:visited { text-decoration:none; }
+
+            input, select, textarea,
+            .iconFieldContainer, .inputIconWrapper, .fieldStyle,
+            .ui-multiselect.ui-widget, .ui-multiselect-menu, .ui-multiselect-menu.ui-widget,
+            .selectize-input
+             { border-radius:5px; }
+input[type="reset"], input[type="button"], input[type="submit"], .btnAction,
+                a.btnAction, .cartPopout.scrolling a, .horizontalTabs .tab:hover, .verticalTabs
+                .tab:hover, .horizontalTabs .tab:hover a, .verticalTabs .tab:hover a, .actionBGStyle
+             { background-color:rgb(66, 66, 66); }
+button:hover, input[type="reset"]:hover, input[type="button"]:hover,
+                input[type="submit"]:hover, .btnAction:hover, .cartPopout.scrolling a:hover, 
+                .horizontalTabs .tab.selected,
+                .verticalTabs .tab.selected, .horizontalTabs .tab.selected a, .verticalTabs .tab.selected a, 
+                .actionBGStyle:hover, .actionBGHoverStyle:hover
+             { background-color:rgb(137, 137, 137); }
+input[type="reset"], input[type="button"], input[type="submit"], .btnAction,
+                    a.btnAction, #topNavMenu .cartPopout.scrolling a, .horizontalTabs .tab:hover, .verticalTabs
+                .tab:hover, .horizontalTabs .tab:hover a, .verticalTabs .tab:hover a, .actionBGStyle
+                 { color:rgb(255, 255, 255); }
+button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type="submit"]:hover, .btnAction:hover,
+                    a.btnAction:hover, #topNavMenu .cartPopout.scrolling a:hover,
+                    .horizontalTabs .tab.selected,
+                .verticalTabs .tab.selected, .horizontalTabs .tab.selected a, .verticalTabs .tab.selected a, 
+                .actionBGStyle:hover, .actionBGHoverStyle:hover
+                 { color:rgb(255, 255, 255); }
+.altBG button, .altBG input[type="reset"], .altBG input[type="button"], .altBG input[type="submit"], 
+                .altBG .btnAction, .altBG a.btnAction
+             { background-color:rgb(0, 0, 0); }
+.altBG button:hover, .altBG input[type="reset"]:hover, .altBG input[type="button"]:hover,
+                .altBG input[type="submit"]:hover, .altBG .btnAction:hover, .altBG a.btnAction:hover
+             { background-color:rgb(70, 70, 70); }
+.altBG button, .altBG input[type="reset"], .altBG input[type="button"], .altBG input[type="submit"], 
+                .altBG .btnAction, .altBG a.btnAction
+                 { color:rgb(255, 255, 255); }
+.altBG button:hover, .altBG input[type="reset"]:hover, .altBG input[type="button"]:hover,
+                .altBG input[type="submit"]:hover, .altBG .btnAction:hover, .altBG a.btnAction:hover
+                 { color:rgb(255, 255, 255); }
+
+            input[type="submit"], .btn, input[type="button"], input[type="submit"], 
+            .btnAction, input.btnAction, a.btnAction, .cartPopout.scrolling a, .iconBtn
+             { border-radius:999em; }
+#content .mainBody { background-color:rgb(255, 255, 255); }
+.attentionMsg { color:rgb(0, 68, 125); background-color:rgb(223, 244, 251); }
+.orderTotal { color:rgb(0, 68, 125); }
+.grandTotal th, .orderTotal { background-color:rgb(223, 244, 251); }
+.postFeatured .metaData { text-transform:uppercase; font-weight:inherit; padding:10px 10px 0; display:inherit; padding-bottom:0; background-color:rgb(255, 255, 255); color:rgb(153, 153, 153); }
+.postFeatured h3 { text-transform:none; font-weight:bold; margin:10px 0; }
+.postFeatured .col { border:3px solid #ddd; border-radius:0; background-color:rgb(255, 255, 255); border-color:rgb(221, 221, 221); }
+.postFeatured .cssTable { border-spacing:10px; }
+.postFeatured .postTitle { padding:0 10px; }
+.postFeatured .postDesc { padding:0 10px 10px; }
+.footerBar { background-image:none; background-repeat:initial; background-attachment:initial; background-size:initial; background-position:center; background-color:rgb(0, 0, 0); color:rgb(255, 255, 255); border-top-width:0; border-top-style:none; border-color:rgb(204, 204, 204); }
+.footerBar h1,.footerBar h2,.footerBar h3 { color:rgb(255, 255, 255); }
+#footer h1, #footer h2, #footer h3, #footer .subHeaderTitle { font-family:inherit; font-weight:normal; text-transform:uppercase; color:rgb(60, 60, 60); border-bottom-width:0; border-bottom-style:none; border-color:rgb(204, 204, 204); }
+#footer, #footer h1, #footer h2, #footer h3, #footer .subHeaderTitle { color:rgb(126, 126, 126); }
+#footer a, #footer a:before { color:rgb(66, 184, 238); }
+#footer a:hover, #footer a:hover:before { color:rgb(0, 93, 151); }
+#footer { background-color:rgb(255, 255, 255); background-image:none; background-repeat:initial; background-attachment:initial; background-size:initial; background-position:center; border-top-width:0; border-top-style:none; border-color:rgb(0, 170, 227); }
+#footer .mainBody { background-color:rgba(0, 0, 0, 0); }
+#footer .fixedContainer { border-top-width:0; border-top-style:none; border-color:rgb(204, 204, 204); }
+#footer .copyright { border-top-width:0; border-top-style:none; border-color:rgb(170, 170, 170); }
+/*
+ * Leap registration-system recovery — 2026-07-13
+ * Scope: native Uplifter registration, account, and checkout surfaces only.
+ * Custom CMS content and site assistants are intentionally outside every selector.
+ */
+
+/* Keep the legacy Uplifter list behind the custom Registration CMS guide. */
+html body #registration-list-view {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Existing registration and invoice data-display rules retained from pre-regression CSS. */
+.leap-registration-note {
+  margin: 0 0 18px;
+  padding: 14px 18px;
+  border: 1px solid #d4e9f3;
+  border-radius: 10px;
+  background: #eef7fb;
+  color: #2c5063;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.leap-registration-note strong { color: #1e2a32; }
+.leap-registration-note a { color: #005a7a; font-weight: 700; }
+.leap-program-hidden,
+.leap-camp-hidden { display: none !important; }
+
+#registration-list-view table.prodListItems tbody td:nth-child(2) {
+  min-width: 190px;
+  text-align: right;
+}
+
+#registration-list-view table.prodListItems .leap-fee-total {
+  display: block;
+  color: #1e2a32;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+#registration-list-view table.prodListItems .leap-fee-monthly {
+  display: block;
+  margin-top: 6px;
+  color: #005a7a;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#registration-list-view table.prodListItems input.btnAction:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#registration-list-view table.prodListItems tbody.leap-group-start tr td,
+#registration-list-view table.prodListItems tbody.leap-group-single tr td {
+  padding-top: 18px;
+}
+
+#registration-list-view table.prodListItems tbody.leap-group-start:not(:first-of-type) tr td,
+#registration-list-view table.prodListItems tbody.leap-group-single:not(:first-of-type) tr td {
+  border-top: 2px solid #d8ecf4;
+}
+
+#registration-list-view table.prodListItems tbody.leap-group-middle tr td,
+#registration-list-view table.prodListItems tbody.leap-group-end tr td {
+  border-top: 0;
+  padding-top: 10px;
+}
+
+#registration-list-view table.prodListItems .itemTitle { font-weight: 700; }
+
+#registration-list-view table.prodListItems .leap-subsection-title {
+  display: block;
+  margin: 0 0 10px;
+  color: #00447d;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#registration-list-view table.prodListItems tbody.leap-group-middle .itemTitle,
+#registration-list-view table.prodListItems tbody.leap-group-end .itemTitle {
+  font-weight: 600;
+}
+
+#checkout .finalTotalTable .grandTotal th,
+#checkout .finalTotalTable .grandTotal .orderTotal span { color: #00447d; }
+
+#checkout .finalTotalTable .grandTotal .orderTotal span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#checkout .finalTotalTable td .fullWidthField::after {
+  content: 'For September to June classes, the full season fee is shown above. If you choose instalments, the scheduled monthly amounts are listed below.';
+  display: block;
+  margin-top: 10px;
+  color: #54636d;
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+#checkout .finalTotalTable td.paymentAmount {
+  color: #00447d;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#checkout .finalTotalTable tr:has(td.paymentAmount) th,
+#checkout .finalTotalTable tr:has(td.paymentAmount) td { background: #f3f9fc; }
+
+#checkout .finalTotalTable tr:has(td.paymentAmount) th {
+  color: #1e2a32;
+  font-weight: 600;
+}
+
+#checkout .finalTotalTable select { min-width: 220px; }
+
+/* Preserve the native product-card flow even if an older compiled stylesheet is cached. */
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails)
+#pageBody.calEventDetails .boxGroupContainer {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails)
+#pageBody.calEventDetails .boxGroupContainer > :is(header, table, footer) {
+  order: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Native participant/camp modal only. */
+#editOrderItemModal,
+#editOrderItemModal * { box-sizing: border-box; }
+
+html body:has(#pageBody.calEventDetails)
+#editOrderItemModal .noticeMessage:not(:has(.errorMsg:not(:empty), .warningMsg:not(:empty), .successMsg:not(:empty))) {
+  display: none !important;
+}
+
+/* Remove Uplifter's reserved notice band only when it contains no notice elements. */
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #topNotices:not(:has(> *)),
+html body:not(:has(#lhHeader)):has(#checkout) #topNotices:not(:has(> *)),
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+#topNotices:not(:has(> *)) {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Restore the established Leap shell only on native system pages. */
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header,
+html body:not(:has(#lhHeader)):has(#checkout) header#header,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header {
+  border: 0 !important;
+  background: linear-gradient(128deg, #1d0d4a 0%, #3b1f86 58%, #5369c6 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 8px 24px rgba(33, 16, 82, 0.18) !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar,
+html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header #greetingBar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
+  background: rgba(17, 7, 48, 0.28) !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #topNavMenu a,
+html body:not(:has(#lhHeader)):has(#checkout) header#header #topNavMenu a,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header #topNavMenu a {
+  color: #fff !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart,
+html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header a.userCart {
+  display: inline-flex !important;
+  visibility: visible !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  width: auto !important;
+  min-width: 44px !important;
+  height: 36px !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  padding: 0 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.46) !important;
+  border-radius: 999px !important;
+  background: rgba(255, 255, 255, 0.13) !important;
+  color: #fff !important;
+  line-height: 1 !important;
+  opacity: 1 !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart::before,
+html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart::before,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header a.userCart::before {
+  margin: 0 !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart .menuText,
+html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart .menuText,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header a.userCart .menuText {
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  line-height: 1 !important;
+}
+
+html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart .cartCount,
+html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart .cartCount,
+html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+header#header a.userCart .cartCount {
+  display: inline-grid;
+  place-items: center !important;
+  min-width: 20px !important;
+  height: 20px !important;
+  padding: 0 5px !important;
+  border-radius: 999px !important;
+  background: #e5ff39 !important;
+  color: #211052 !important;
+  font-size: 11px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+}
+
+@media (min-width: 761px) {
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header {
+    height: 116px !important;
+    min-height: 116px !important;
+    max-height: 116px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header :is(#greetingBar, #greetingBar .m-row),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header :is(#greetingBar, #greetingBar .m-row),
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header :is(#greetingBar, #greetingBar .m-row) {
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .m-row,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .m-row,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .m-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header :is(#shift_checkin, #shift_checkout),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header :is(#shift_checkin, #shift_checkout),
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header :is(#shift_checkin, #shift_checkout) {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .m-cell.oneHalf:last-child,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .m-cell.oneHalf:last-child,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .m-cell.oneHalf:last-child {
+    display: flex !important;
+    width: auto !important;
+    height: 38px !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #topNavMenu,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #topNavMenu,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #topNavMenu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 8px !important;
+    width: auto !important;
+    height: 38px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header :is(#headerNav, #headerNav .m-row),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header :is(#headerNav, #headerNav .m-row),
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header :is(#headerNav, #headerNav .m-row) {
+    height: 78px !important;
+    min-height: 78px !important;
+    max-height: 78px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .m-row,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .m-row,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .m-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .firstColumnSection {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    width: auto !important;
+    height: 78px !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav #clubLogo,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav #clubLogo,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav #clubLogo {
+    display: flex !important;
+    flex: 0 0 190px !important;
+    align-items: center !important;
+    width: 190px !important;
+    max-width: 190px !important;
+    height: 58px !important;
+    min-height: 58px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    float: none !important;
+    background: url("/sites/files/leap-logo-white.png") left center / contain no-repeat !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav #clubLogo img {
+    display: block !important;
+    width: 190px !important;
+    max-width: 190px !important;
+    height: 58px !important;
+    object-fit: contain !important;
+    opacity: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .mobileMenu,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .mobileMenu,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .mobileMenu {
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: auto !important;
+    height: 78px !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    height: 42px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu > li:not(.Registration),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu > li:not(.Registration),
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu > li:not(.Registration),
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu :is(.touch-button, ._cmsrepeat),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu :is(.touch-button, ._cmsrepeat),
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu :is(.touch-button, ._cmsrepeat) {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu > li.Registration,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu > li.Registration,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu > li.Registration {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    height: 42px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu > li.Registration > a[href="/registration/"],
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu > li.Registration > a[href="/registration/"],
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu > li.Registration > a[href="/registration/"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    height: 42px !important;
+    padding: 0 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.66) !important;
+    border-radius: 999px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: #fff !important;
+    font-size: 0 !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNavMenu > li.Registration > a[href="/registration/"]::before,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNavMenu > li.Registration > a[href="/registration/"]::before,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNavMenu > li.Registration > a[href="/registration/"]::before {
+    content: "\2190  Back to registration";
+    font-size: 13px !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (max-width: 760px) {
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Compact headers on native account, product, and checkout pages only. */
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) header#header,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header {
+    height: 104px !important;
+    min-height: 104px !important;
+    max-height: 104px !important;
+    overflow: visible !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) :is(#greetingBar, #greetingBar .m-row),
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) :is(#greetingBar, #greetingBar .m-row),
+  html body:not(:has(#lhHeader)):has(#checkout) :is(#greetingBar, #greetingBar .m-row) {
+    display: block !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) :is(#headerNav, #headerNav .fixedContainer, #headerNav .m-row),
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) :is(#headerNav, #headerNav .fixedContainer, #headerNav .m-row),
+  html body:not(:has(#lhHeader)):has(#checkout) :is(#headerNav, #headerNav .fixedContainer, #headerNav .m-row) {
+    height: 64px !important;
+    min-height: 64px !important;
+    max-height: 64px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) #clubLogo,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #clubLogo,
+  html body:not(:has(#lhHeader)):has(#checkout) #clubLogo {
+    width: 145px !important;
+    max-width: 145px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    padding: 0 !important;
+    background: url("/sites/files/leap-logo-white.png") left center / contain no-repeat !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#checkout) #clubLogo img {
+    display: block !important;
+    width: 145px !important;
+    max-width: 145px !important;
+    height: 48px !important;
+    object-fit: contain !important;
+    opacity: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .fixedContainer,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .fixedContainer,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .fixedContainer {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 40px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .m-row,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .m-row,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .m-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header :is(#shift_checkin, #shift_checkout),
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header :is(#shift_checkin, #shift_checkout),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header :is(#shift_checkin, #shift_checkout) {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #greetingBar .m-cell.oneHalf:last-child,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #greetingBar .m-cell.oneHalf:last-child,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #greetingBar .m-cell.oneHalf:last-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: auto !important;
+    height: 40px !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #topNavMenu,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #topNavMenu,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #topNavMenu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: auto !important;
+    height: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #topNavMenu > li:not(:has(a.userCart)),
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #topNavMenu > li:not(:has(a.userCart)),
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #topNavMenu > li:not(:has(a.userCart)) {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header a.userCart,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart {
+    position: relative !important;
+    box-sizing: border-box !important;
+    width: 44px !important;
+    min-width: 44px !important;
+    max-width: 44px !important;
+    height: 36px !important;
+    padding: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header a.userCart .cartCount,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart .cartCount,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart .cartCount {
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    padding: 0 4px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #topNavMenu .touch-button,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #topNavMenu .touch-button,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #topNavMenu .touch-button {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header a.userCart .menuText,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header a.userCart .menuText,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header a.userCart .menuText {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip-path: inset(50%) !important;
+    white-space: nowrap !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .fixedContainer,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .fixedContainer,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .fixedContainer {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 64px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .m-row,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .m-row,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .m-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 10px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .firstColumnSection,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .firstColumnSection {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    align-items: center !important;
+    width: auto !important;
+    min-width: 0 !important;
+    height: 64px !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav #clubLogo,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav #clubLogo,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav #clubLogo {
+    display: flex !important;
+    flex: 0 0 145px !important;
+    align-items: center !important;
+    width: 145px !important;
+    max-width: 145px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    overflow: hidden !important;
+    background: url("/sites/files/leap-logo-white.png") left center / contain no-repeat !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav #clubLogo img,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav #clubLogo img {
+    width: 145px !important;
+    max-width: 145px !important;
+    height: 48px !important;
+    object-fit: contain !important;
+    opacity: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #headerNav .mobileMenu,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .mobileMenu,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #headerNav .mobileMenu {
+    display: flex !important;
+    flex: 0 0 48px !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 64px !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNav,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNav,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNav {
+    position: static !important;
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+    margin: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNav .menuTarget,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNav .menuTarget,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNav .menuTarget {
+    position: static !important;
+    display: grid !important;
+    box-sizing: border-box !important;
+    place-items: center !important;
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+    margin: 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.42) !important;
+    border-radius: 12px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: transparent !important;
+    font-size: 0 !important;
+    line-height: 1 !important;
+    float: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNav > .menuTarget > .touch-button,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNav > .menuTarget > .touch-button,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNav > .menuTarget > .touch-button {
+    display: none !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav)
+  header#header #mainNav .menuTarget::before,
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #mainNav .menuTarget::before,
+  html body:not(:has(#lhHeader)):has(#checkout) header#header #mainNav .menuTarget::before {
+    content: "\2630";
+    color: #fff !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+  }
+
+  /* Keep the custom account presentation, but remove its excessive mobile scale. */
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) article#content {
+    min-height: 0 !important;
+    padding: 16px 12px 32px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) .mainBody.fixedContainer {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#subNav.loginContent form.twoColumns):has(#pageBody.bodyWithNav) :is(#subNav, #pageBody) {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 16px !important;
+    padding: 18px !important;
+  }
+
+  /* Contain only the native registration modal. */
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) {
+    top: 8px !important;
+    left: 8px !important;
+    width: calc(100vw - 16px) !important;
+    max-width: calc(100vw - 16px) !important;
+    max-height: calc(100vh - 16px) !important;
+    max-height: calc(100dvh - 16px) !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) :is(.fancybox-skin, .fancybox-outer, .fancybox-inner) {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    max-height: calc(100vh - 16px) !important;
+    max-height: calc(100dvh - 16px) !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) .fancybox-skin {
+    padding: 8px !important;
+    overflow: hidden !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) :is(.fancybox-outer, .fancybox-inner) {
+    max-height: calc(100vh - 32px) !important;
+    max-height: calc(100dvh - 32px) !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) .fancybox-inner {
+    overflow: hidden !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) .fancybox-wrap:has(#editOrderItemModal) #editOrderItemModal {
+    display: grid !important;
+    grid-template-rows: auto minmax(0, 1fr) auto !important;
+    max-height: calc(100vh - 32px) !important;
+    max-height: calc(100dvh - 32px) !important;
+  }
+
+  #editOrderItemModal > .popBody {
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    overscroll-behavior: contain;
+  }
+
+  #editOrderItemModal > .headerDivider .radioTabs.inlineMobile {
+    position: static !important;
+    bottom: auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+    width: 100% !important;
+    margin: 8px 0 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+
+  #editOrderItemModal > .headerDivider .radioTabs.inlineMobile > .tab {
+    width: auto !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+
+  #editOrderItemModal > .headerDivider .radioTabs.inlineMobile .title {
+    padding: 8px 10px !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+  }
+
+  #editOrderItemModal .popBody table {
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
+
+  #editOrderItemModal .selectize-control,
+  #editOrderItemModal .selectize-input {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  #editOrderItemModal :is(.dropinSlots, .dropinSlots .slotsByDay, .dropinSlots .slotCol, .dropinSlots .checkboxField) {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  #editOrderItemModal .dropinSlots {
+    margin: 12px 0 0 !important;
+    padding: 0 !important;
+  }
+
+  #editOrderItemModal .dropinSlots .checkboxField > label.m-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(72px, max-content) !important;
+    gap: 8px !important;
+    align-items: start !important;
+    width: 100% !important;
+    padding-right: 38px !important;
+  }
+
+  #editOrderItemModal .dropinSlots .checkboxField > label.m-row > .m-cell-lock {
+    width: auto !important;
+    min-width: 0 !important;
+    float: none !important;
+  }
+
+  #editOrderItemModal .dropinSlots .sixEighth > .m-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 3px !important;
+  }
+
+  #editOrderItemModal .dropinSlots .sixEighth .m-cell.oneHalf {
+    width: 100% !important;
+    min-width: 0 !important;
+    float: none !important;
+  }
+
+  #editOrderItemModal .dropinSlots label.m-row .m-cellpad-h {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  #editOrderItemModal .dropinSlots .twoEighth { white-space: nowrap !important; }
+
+  #editOrderItemModal > .footerDivider .xsmallDisplay > .fullWidth {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  #editOrderItemModal > .footerDivider .xsmallDisplay > .fullWidth > :is(button.btnAction, a.btnAction) {
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 40px !important;
+    margin: 0 !important;
+    padding: 9px 12px !important;
+  }
+
+  #editOrderItemModal > .footerDivider
+  .xsmallDisplay > .fullWidth > div[data-bind="with: order_item"] {
+    display: grid !important;
+    grid-column: 1 / -1 !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  #editOrderItemModal > .footerDivider
+  .xsmallDisplay > .fullWidth > div[data-bind="with: order_item"] > :is(button.btnAction, a.btnAction) {
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 40px !important;
+    margin: 0 !important;
+    padding: 9px 12px !important;
+  }
+
+  #editOrderItemModal > .footerDivider .xsmallDisplay > .fullWidth > .btnAction[data-bind*="addNewParticipant"] {
+    grid-column: 1 / -1 !important;
+  }
+}
+
+/* Defeat the prior whole-table grid conversion while retaining native checkout semantics. */
+@media (max-width: 1100px) {
+  html body:has(#checkout) #checkout table.finalTotalTable {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: auto !important;
+  }
+
+  html body:has(#checkout) #checkout .finalTotalTable tbody { display: table-row-group !important; }
+  html body:has(#checkout) #checkout .finalTotalTable tr { display: table-row !important; }
+
+  html body:has(#checkout) #checkout .finalTotalTable :is(th, td) {
+    display: table-cell !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  html body:has(#checkout) #checkout .finalTotalTable select,
+  html body:has(#checkout) #checkout .finalTotalTable .fullWidthField {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Monthly-first pricing on 10-payment school-year program detail pages — 2026-08-05 */
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapTogetherParentTo-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LittleLeapers3YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/ReadySetLeap45YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/RisingStarsGirls67Ye-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FloorTumblingObstacle-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FlightCrewGirls8Year-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/BoysAdventureGym-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus46-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus68-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus8-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LEAP-ELITE-FOUNDATIONS"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span {display:block!important;font-size:0!important;line-height:1.35!important;}
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapTogetherParentTo-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LittleLeapers3YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/ReadySetLeap45YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/RisingStarsGirls67Ye-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FloorTumblingObstacle-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FlightCrewGirls8Year-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/BoysAdventureGym-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before {content:"$95/month";display:block;font-size:22px;font-weight:700;line-height:1.2;}
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus46-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus68-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus8-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before {content:"$142.50/month";display:block;font-size:22px;font-weight:700;line-height:1.2;}
+html:has(link[rel="canonical"][href*="/registration/product-detail/LEAP-ELITE-FOUNDATIONS"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::before {content:"$279/month";display:block;font-size:22px;font-weight:700;line-height:1.2;}
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapTogetherParentTo-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LittleLeapers3YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/ReadySetLeap45YearsC-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/RisingStarsGirls67Ye-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FloorTumblingObstacle-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/FlightCrewGirls8Year-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/BoysAdventureGym-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus46-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus68-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LeapPlus8-"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after,
+html:has(link[rel="canonical"][href*="/registration/product-detail/LEAP-ELITE-FOUNDATIONS"]) body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) #pageBody.calEventDetails header .price > span::after {content:"10 equal payments: one at registration, then nine monthly instalments on the first of each month.";display:block;margin-top:5px;font-size:14px;font-weight:600;line-height:1.45;}

@@ -1,0 +1,5 @@
+.fc-day-grid-event .fc-content {
+    white-space: normal;
+}
+.fc-toolbar button{text-transform:none;}
+.fc-toolbar button:hover{background-color:#e6e6e6; color:inherit}

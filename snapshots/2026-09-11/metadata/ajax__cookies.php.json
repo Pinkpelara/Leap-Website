@@ -1,0 +1,59 @@
+{
+  "url": "https://www.leapgymnastics.ca/ajax/cookies.php",
+  "sourcePath": "sources/pages/ajax/cookies.php.html",
+  "title": "Uplifter Inc. - Cookie Policy",
+  "description": null,
+  "canonical": [],
+  "robots": null,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Uplifter Inc. - Cookie Policy",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "How Uplifter Uses Cookies",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Disabling Cookies",
+      "id": null
+    },
+    {
+      "level": 3,
+      "text": "Cookies used by Uplifter Inc.",
+      "id": null
+    }
+  ],
+  "anchorIDs": [],
+  "links": [
+    {
+      "source": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "href": "http://www.aboutcookies.org",
+      "absoluteURL": "http://www.aboutcookies.org",
+      "text": "http://www.aboutcookies.org",
+      "download": false
+    },
+    {
+      "source": "https://www.leapgymnastics.ca/ajax/cookies.php",
+      "href": "https://adssettings.google.com/u/0/authenticated?hl=en",
+      "absoluteURL": "https://adssettings.google.com/u/0/authenticated?hl=en",
+      "text": "Google",
+      "download": false
+    }
+  ],
+  "forms": [],
+  "embeddedData": [],
+  "images": [
+    {
+      "src": "/images/uplifter-cookies.png",
+      "alt": "Uplifter Cookies",
+      "width": null,
+      "height": null
+    }
+  ],
+  "beamBlocks": [],
+  "readableTextPath": "content/ajax__cookies.php.md"
+}

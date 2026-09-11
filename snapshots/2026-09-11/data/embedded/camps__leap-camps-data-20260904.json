@@ -1,0 +1,155 @@
+{
+  "camps": [
+    {
+      "id": "pa-day-camp-oct-26-2026",
+      "links": [
+        {
+          "href": "/registration/product-detail/PADay-2026-10-26",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "PA Day Camp Oct 26, 2026",
+      "type": "paday",
+      "dates": [
+        "2026-10-26"
+      ],
+      "description": "A PA day camp with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "pa-day-camp-nov-20-2026",
+      "links": [
+        {
+          "href": "/registration/product-detail/PADay-2026-11-20",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "PA Day Camp Nov 20, 2026",
+      "type": "paday",
+      "dates": [
+        "2026-11-20"
+      ],
+      "description": "A PA day camp with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "pa-day-camp-jan-15-2027",
+      "links": [
+        {
+          "href": "/registration/product-detail/PADay-2027-01-15",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "PA Day Camp Jan 15, 2027",
+      "type": "paday",
+      "dates": [
+        "2027-01-15"
+      ],
+      "description": "A PA day camp with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "march-break-camp-mon-mar-15",
+      "links": [
+        {
+          "href": "/registration/product-detail/MarchBreak-2027-03-15",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "March Break Camp Mon Mar 15",
+      "type": "march",
+      "dates": [
+        "2027-03-15"
+      ],
+      "description": "A March Break camp day with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "march-break-camp-tue-mar-16",
+      "links": [
+        {
+          "href": "/registration/product-detail/MarchBreak-2027-03-16",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "March Break Camp Tue Mar 16",
+      "type": "march",
+      "dates": [
+        "2027-03-16"
+      ],
+      "description": "A March Break camp day with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "march-break-camp-wed-mar-17",
+      "links": [
+        {
+          "href": "/registration/product-detail/MarchBreak-2027-03-17",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "March Break Camp Wed Mar 17",
+      "type": "march",
+      "dates": [
+        "2027-03-17"
+      ],
+      "description": "A March Break camp day with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "march-break-camp-thu-mar-18",
+      "links": [
+        {
+          "href": "/registration/product-detail/MarchBreak-2027-03-18",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "March Break Camp Thu Mar 18",
+      "type": "march",
+      "dates": [
+        "2027-03-18"
+      ],
+      "description": "A March Break camp day with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "march-break-camp-fri-mar-19",
+      "links": [
+        {
+          "href": "/registration/product-detail/MarchBreak-2027-03-19",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "March Break Camp Fri Mar 19",
+      "type": "march",
+      "dates": [
+        "2027-03-19"
+      ],
+      "description": "A March Break camp day with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "pa-day-camp-jun-04-2027",
+      "links": [
+        {
+          "href": "/registration/product-detail/PADay-2027-06-04",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "PA Day Camp Jun 04, 2027",
+      "type": "paday",
+      "dates": [
+        "2027-06-04"
+      ],
+      "description": "A PA day camp with gymnastics, active games, and themed activities."
+    },
+    {
+      "id": "pa-day-camp-jun-30-2027",
+      "links": [
+        {
+          "href": "/registration/product-detail/PADay-2027-06-30",
+          "label": "Register camp or drop-ins\nFull-day and half-day options"
+        }
+      ],
+      "title": "PA Day Camp Jun 30, 2027",
+      "type": "paday",
+      "dates": [
+        "2027-06-30"
+      ],
+      "description": "A PA day camp with gymnastics, active games, and themed activities."
+    }
+  ],
+  "classes": []
+}

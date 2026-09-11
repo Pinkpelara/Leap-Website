@@ -1,0 +1,380 @@
+{
+  "completedUTC": "2026-09-11T17:19:48.906139+00:00",
+  "staticObservedResources": [
+    {
+      "observedURL": "https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script&family=Italianno&family=Birthstone&family=Dancing+Script&family=Euphoria+Script&display=swap",
+      "normalizedURL": "https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script&family=Italianno&family=Birthstone&family=Dancing+Script&family=Euphoria+Script&display=swap"
+    },
+    {
+      "observedURL": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;700;800&display=swap",
+      "normalizedURL": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque%3Aopsz%2Cwght%4012..96%2C400%3B12..96%2C500%3B12..96%2C700%3B12..96%2C800&family=Manrope%3Awght%40400%3B500%3B700%3B800&display=swap"
+    },
+    {
+      "observedURL": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;700;800&display=swap",
+      "normalizedURL": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque%3Aopsz%2Cwght%4012..96%2C500%3B12..96%2C700%3B12..96%2C800&family=Manrope%3Awght%40400%3B500%3B700%3B800&display=swap"
+    },
+    {
+      "observedURL": "https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap",
+      "normalizedURL": "https://fonts.googleapis.com/css2?family=Inter%3Awght%40500%3B600%3B700%3B800%3B900&family=Playfair+Display%3Aital%2Cwght%401%2C700&display=swap"
+    },
+    {
+      "observedURL": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
+      "normalizedURL": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    },
+    {
+      "observedURL": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2",
+      "normalizedURL": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2"
+    },
+    {
+      "observedURL": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+      "normalizedURL": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2"
+    },
+    {
+      "observedURL": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2",
+      "normalizedURL": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2"
+    },
+    {
+      "observedURL": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png",
+      "normalizedURL": "https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/bootstrap.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/bootstrap.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/cropper.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/cropper.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/fullcalendar.override.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/fullcalendar.override.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/introjs.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/introjs.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/multi.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/multi.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/overcast/jquery-ui-1.10.3.custom.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/overcast/jquery-ui-1.10.3.custom.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/selectize-disable.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/selectize-disable.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/themes/tooltipster-sideTip-shadow.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/themes/tooltipster-sideTip-shadow.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/tooltipster.bundle.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/tooltipster.bundle.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/ui.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/ui.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/css/usimplecms/registration.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/css/usimplecms/registration.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/globals.php?msg_lang=eng&1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/globals.php?msg_lang=eng"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/images/fonts/uplifter.woff",
+      "normalizedURL": "https://www.leapgymnastics.ca/images/fonts/uplifter.woff"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/core/main.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/core/main.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/core/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/core/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/daygrid/main.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/daygrid/main.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/daygrid/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/daygrid/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/interaction/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/interaction/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/list/main.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/list/main.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/list/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/list/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/moment-timezone/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/moment-timezone/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/moment/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/moment/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/timegrid/main.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/timegrid/main.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/timegrid/main.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/@fullcalendar/timegrid/main.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/accounting.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/accounting.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/bootstrap.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/bootstrap.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/calendar.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/calendar.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/chosen/chosen.jquery.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/chosen/chosen.jquery.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/chosen/chosen.min.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/chosen/chosen.min.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/cropper.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/cropper.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/disableAutoFill.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/disableAutoFill.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/es6-sham.min.js",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/es6-sham.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/es6-shim.min.js",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/es6-shim.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/fancybox2/jquery.fancybox.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/fancybox2/jquery.fancybox.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/fancybox2/jquery.fancybox.pack.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/fancybox2/jquery.fancybox.pack.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/filterTable.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/filterTable.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/introjs.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/introjs.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery-1.8.3.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery-1.8.3.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery-migrate-1.1.1.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery-migrate-1.1.1.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery-ui-1.10.3.custom.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery-ui-1.10.3.custom.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery-ui-timepicker-addon.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery-ui-timepicker-addon.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery.flexnav.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery.flexnav.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery.serializejson.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery.serializejson.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/jquery.ui.touch-punch.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/jquery.ui.touch-punch.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/knockout-custom-bindings.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/knockout-custom-bindings.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/knockout-min-3.4.0.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/knockout-min-3.4.0.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/knockout.mapping-min-2.6.0.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/knockout.mapping-min-2.6.0.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/knockout.validation-min-2.0.3.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/knockout.validation-min-2.0.3.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/ko_selectize.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/ko_selectize.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/localizedFields.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/localizedFields.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/modernizr.custom.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/modernizr.custom.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/moment-timezone.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/moment-timezone.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/moment.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/moment.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/multi.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/multi.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/order-common.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/order-common.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/selectize-disabled.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/selectize-disabled.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/selectize/css/selectize.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/selectize/css/selectize.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/selectize/js/standalone/selectize.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/selectize/js/standalone/selectize.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/strtotime.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/strtotime.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/tooltipster.bundle.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/tooltipster.bundle.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/ui.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/ui.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/underscore-min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/underscore-min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/underscore/underscore-min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/underscore/underscore-min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/usimplecms/registration-view.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/usimplecms/registration-view.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/usimplecms/registration.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/usimplecms/registration.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/utils/utils.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/utils/utils.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/js/validate.min.js?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/js/validate.min.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/css/site.css?1785960695",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/css/site.css"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/blobid0.webp",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/blobid0.webp"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-beam-pet.js",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-beam-pet.js"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-birthday-party-6c062dbb06_EDIT29.png",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-birthday-party-6c062dbb06_EDIT29.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-elsa-karina-fast-20260620.jpg?v=20260620134518",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-elsa-karina-fast-20260620.jpg"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-facility-fast-20260620.jpg?v=20260620134518",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-facility-fast-20260620.jpg"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-logo-white.png",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-logo-white.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-our-story-two-daughters-fast-20260620.jpg?v=20260620134518",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-our-story-two-daughters-fast-20260620.jpg"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/files/leap-young-gymnast-fast-20260620.jpg?v=20260620134518",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/files/leap-young-gymnast-fast-20260620.jpg"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789142773",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789143469",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789145349",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789145713",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789145910",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789146351",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png?1789146353",
+      "normalizedURL": "https://www.leapgymnastics.ca/sites/images/top_header.png"
+    },
+    {
+      "observedURL": "https://www.leapgymnastics.ca/themes/02-Binturong-defaultTheme/css/theme.css?1789047586",
+      "normalizedURL": "https://www.leapgymnastics.ca/themes/02-Binturong-defaultTheme/css/theme.css"
+    }
+  ],
+  "ignoredTrackingCaptchaDynamicOrRedactedCount": 36,
+  "missingStaticResources": [],
+  "note": "Only static resources were considered. Measurement beacons, ephemeral identifiers, captcha and redacted URLs were not retained in this inventory."
+}

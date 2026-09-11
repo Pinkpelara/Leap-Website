@@ -1,0 +1,1256 @@
+[
+  {
+    "day": "5",
+    "group": "plus",
+    "small": "11:30am-1:00pm · Ages 4-6 · 1.5 hours",
+    "time": "11:30am",
+    "title": "Leap Plus 4-6",
+    "id": "leap-plus-4-6",
+    "key": "slot-0",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 4–6, providing additional time for skill development, repetition, apparatus training, strength and flexibility.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LeapPlus46-SAT-1130ATO1000P",
+        "id": "92",
+        "text": "Saturday 11:30am-1:00pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "parent",
+    "small": "9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+    "time": "9:00am",
+    "title": "Leap Together Parent & Tot",
+    "id": "leap-together-parent-and-tot",
+    "key": "slot-1",
+    "copy": "A coach-led introductory gymnastics class for ages 18 months–3 with a parent or caregiver. Children develop early gymnastics foundations through structured work on climbing, hanging, balancing, jumping, rolling, body positions and safe landings.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 11 2026-Jun 18 2027",
+        "href": "/registration/product-detail/LeapTogetherParentTo-FRI-900ATO1000A",
+        "id": "142",
+        "text": "Friday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "parent",
+    "small": "9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+    "time": "9:00am",
+    "title": "Leap Together Parent & Tot",
+    "id": "leap-together-parent-and-tot",
+    "key": "slot-2",
+    "copy": "A coach-led introductory gymnastics class for ages 18 months–3 with a parent or caregiver. Children develop early gymnastics foundations through structured work on climbing, hanging, balancing, jumping, rolling, body positions and safe landings.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LeapTogetherParentTo-SAT-900ATO1000A",
+        "id": "78",
+        "text": "Saturday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "age3",
+    "small": "9:00am-10:00am · Age 3 · 1 hour",
+    "time": "9:00am",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-3",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-900ATO1000A",
+        "id": "32",
+        "text": "Saturday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "age45",
+    "small": "9:00am-10:00am · Ages 4–5 · 1 hour",
+    "time": "9:00am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-4",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-900ATO1000A",
+        "id": "46",
+        "text": "Saturday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "g67",
+    "small": "9:00am-10:00am · Ages 6–7 · 1 hour",
+    "time": "9:00am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-5",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-900ATO1000A",
+        "id": "64",
+        "text": "Saturday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "plus",
+    "small": "9:00am-10:30am · Ages 8+ · 1.5 hours",
+    "time": "9:00am",
+    "title": "Leap Plus 8+",
+    "id": "leap-plus-8",
+    "key": "slot-6",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 8+ for athletes who want deeper skill development within recreational gymnastics. Longer apparatus training allows more time for technical refinement, conditioning, combinations and advanced progressions.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LeapPlus8-SAT-9000ATO1030A",
+        "id": "97",
+        "text": "Saturday 9:00am-10:30am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "parent",
+    "small": "9:00am-10:00am · Ages 18 months to 3 years · 1 hour",
+    "time": "9:00am",
+    "title": "Leap Together Parent & Tot",
+    "id": "leap-together-parent-and-tot",
+    "key": "slot-7",
+    "copy": "A coach-led introductory gymnastics class for ages 18 months–3 with a parent or caregiver. Children develop early gymnastics foundations through structured work on climbing, hanging, balancing, jumping, rolling, body positions and safe landings.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/LeapTogetherParentTo-SUN-900ATO1000A",
+        "id": "80",
+        "text": "Sunday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "age45",
+    "small": "9:00am-10:00am · Ages 4–5 · 1 hour",
+    "time": "9:00am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-8",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-900ATO1000A",
+        "id": "49",
+        "text": "Sunday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "g67",
+    "small": "9:00am-10:00am · Ages 6–7 · 1 hour",
+    "time": "9:00am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-9",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-900ATO1000A",
+        "id": "67",
+        "text": "Sunday 9:00am-10:00am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "plus",
+    "small": "9:30am-11:00am · Ages 6-8 · 1.5 hours",
+    "time": "9:30am",
+    "title": "Leap Plus 6-8",
+    "id": "leap-plus-6-8",
+    "key": "slot-10",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 6–8, with additional time for technical development, repetition, conditioning and increasingly challenging skill progressions across vault, bars, beam and floor.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/LeapPlus68-SUN-930ATO1100A",
+        "id": "89",
+        "text": "Sunday 9:30am-11:00am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "parent",
+    "small": "10:15am-11:15am · Ages 18 months to 3 years · 1 hour",
+    "time": "10:15am",
+    "title": "Leap Together Parent & Tot",
+    "id": "leap-together-parent-and-tot",
+    "key": "slot-11",
+    "copy": "A coach-led introductory gymnastics class for ages 18 months–3 with a parent or caregiver. Children develop early gymnastics foundations through structured work on climbing, hanging, balancing, jumping, rolling, body positions and safe landings.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LeapTogetherParentTo-SAT-1015ATO1115A",
+        "id": "79",
+        "text": "Saturday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "age3",
+    "small": "10:15am-11:15am · Age 3 · 1 hour",
+    "time": "10:15am",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-12",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-SAT-1015ATO1115A",
+        "id": "33",
+        "text": "Saturday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "age45",
+    "small": "10:15am-11:15am · Ages 4–5 · 1 hour",
+    "time": "10:15am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-13",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-SAT-1015ATO1115A",
+        "id": "47",
+        "text": "Saturday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "g67",
+    "small": "10:15am-11:15am · Ages 6–7 · 1 hour",
+    "time": "10:15am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-14",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1015ATO1115A",
+        "id": "65",
+        "text": "Saturday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "age3",
+    "small": "10:15am-11:15am · Age 3 · 1 hour",
+    "time": "10:15am",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-15",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1015ATO1115A",
+        "id": "36",
+        "text": "Sunday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "age45",
+    "small": "10:15am-11:15am · Ages 4–5 · 1 hour",
+    "time": "10:15am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-16",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1015ATO1115A",
+        "id": "50",
+        "text": "Sunday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "g67",
+    "small": "10:15am-11:15am · Ages 6–7 · 1 hour",
+    "time": "10:15am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-17",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1015ATO1115A",
+        "id": "68",
+        "text": "Sunday 10:15am-11:15am"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "age45",
+    "small": "11:30am-12:30pm · Ages 4–5 · 1 hour",
+    "time": "11:30am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-19",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/ReadySetLeap-SAT-1130-20260816-09",
+        "id": "275",
+        "text": "Saturday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "g67",
+    "small": "11:30am-12:30pm · Ages 6–7 · 1 hour",
+    "time": "11:30am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-20",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SAT-1130ATO1230P",
+        "id": "66",
+        "text": "Saturday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "5",
+    "group": "g8",
+    "small": "11:30am-12:30pm · Ages 8+ · 1 hour",
+    "time": "11:30am",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-21",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 12 2026-Jun 19 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-SAT-1130ATO1230P",
+        "id": "75",
+        "text": "Saturday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "age3",
+    "small": "11:30am-12:30pm · Age 3 · 1 hour",
+    "time": "11:30am",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-22",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-SUN-1130ATO1230P",
+        "id": "37",
+        "text": "Sunday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "age45",
+    "small": "11:30am-12:30pm · Ages 4–5 · 1 hour",
+    "time": "11:30am",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-23",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-SUN-1130ATO1230P",
+        "id": "51",
+        "text": "Sunday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "g67",
+    "small": "11:30am-12:30pm · Ages 6–7 · 1 hour",
+    "time": "11:30am",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-24",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-SUN-1130ATO1230P",
+        "id": "69",
+        "text": "Sunday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "6",
+    "group": "g8",
+    "small": "11:30am-12:30pm · Ages 8+ · 1 hour",
+    "time": "11:30am",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-25",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 13 2026-Jun 20 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-SUN-1130ATO1230P",
+        "id": "77",
+        "text": "Sunday 11:30am-12:30pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "age45",
+    "small": "4:00pm-5:00pm · Ages 4–5 · 1 hour",
+    "time": "4:00pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-26",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-400PTO500P",
+        "id": "38",
+        "text": "Monday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "g67",
+    "small": "4:00pm-5:00pm · Ages 6–7 · 1 hour",
+    "time": "4:00pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-27",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-400PTO500P",
+        "id": "55",
+        "text": "Tuesday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "age45",
+    "small": "4:00pm-5:00pm · Ages 4–5 · 1 hour",
+    "time": "4:00pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-28",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-400PTO500P",
+        "id": "42",
+        "text": "Wednesday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "g67",
+    "small": "4:00pm-5:00pm · Ages 6–7 · 1 hour",
+    "time": "4:00pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-29",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-400PTO500P",
+        "id": "58",
+        "text": "Wednesday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "tum",
+    "small": "4:00pm-5:00pm · Recommended 7+ · 1 hour",
+    "time": "4:00pm",
+    "title": "Floor Tumbling & Obstacle Skills",
+    "id": "floor-tumbling-and-obstacle-skills",
+    "key": "slot-30",
+    "copy": "A floor-focused recreational gymnastics program for athletes who want more time to develop their gymnastics skills on the floor.\n\nGymnasts work through structured progressions in body control, handstands, rolls, cartwheels, jumping and landing technique, strength, flexibility and coordination, progressing toward increasingly challenging floor and tumbling skills as they are ready.\n\nUnlike our regular recreational gymnastics programs, this class does not rotate through vault, bars and beam. Training is focused on floor skill development, with conditioning and obstacle-based stations used to support strength, power, agility and safe gymnastics progression.\n\nRecommended for ages 7+. No previous gymnastics experience required.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 16 2026-Jun 16 2027",
+        "href": "/registration/product-detail/FloorTumblingObstacle-WED-400PTO500P",
+        "id": "85",
+        "text": "Wednesday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "age3",
+    "small": "4:00pm-5:00pm · Age 3 · 1 hour",
+    "time": "4:00pm",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-31",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-THU-400PTO500P",
+        "id": "30",
+        "text": "Thursday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "age45",
+    "small": "4:00pm-5:00pm · Ages 4–5 · 1 hour",
+    "time": "4:00pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-32",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-400PTO500P",
+        "id": "44",
+        "text": "Thursday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "g67",
+    "small": "4:00pm-5:00pm · Ages 6–7 · 1 hour",
+    "time": "4:00pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-33",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-400PTO500P",
+        "id": "61",
+        "text": "Thursday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "boys",
+    "small": "4:00pm-5:00pm · Ages 6+ · 1 hour",
+    "time": "4:00pm",
+    "title": "Boys Adventure Gym (6+)",
+    "id": "boys-adventure-gym",
+    "key": "slot-34",
+    "copy": "A boys recreational gymnastics program combining progressive gymnastics skills with strength, agility, climbing and obstacle-based training. Athletes develop floor skills, swinging and support strength, jumping and landing technique, coordination and body control.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/BoysAdventureGym-THU-400PTO500P",
+        "id": "83",
+        "text": "Thursday 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "dropin",
+    "small": "4:00pm-5:00pm · Ages 3–5 · 1 hour",
+    "time": "4:00pm",
+    "title": "Leap Drop-In Gymnastics: Ages 3–5 — Introductory Trial Class",
+    "id": "leap-drop-in-gymnastics-ages-3-5",
+    "key": "slot-35",
+    "copy": "A coached recreational gymnastics class for younger children, developing foundational skills, confidence, coordination, balance, strength, and body awareness on age-appropriate equipment.\n\nImportant note:This is the same introductory trial class offered on every date. Each session covers the same introductory skills and does not progress from week to week. It is designed for new families to experience Leap before registering for a regular program. Families seeking ongoing skill development should register for a regular weekly class.",
+    "tuition": "$25 per selected date",
+    "options": [
+      {
+        "dates": "38 available Fridays · Sep 11 2026-Jun 18 2027 · choose individual dates",
+        "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES3-5",
+        "id": "277",
+        "text": "Fridays 4:00pm-5:00pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "age45",
+    "small": "5:15pm-6:15pm · Ages 4–5 · 1 hour",
+    "time": "5:15pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-36",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-MON-515PTO615P",
+        "id": "39",
+        "text": "Monday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "g67",
+    "small": "5:15pm-6:15pm · Ages 6–7 · 1 hour",
+    "time": "5:15pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-37",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-MON-515PTO615P",
+        "id": "53",
+        "text": "Monday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "g8",
+    "small": "5:15pm-6:15pm · Ages 8+ · 1 hour",
+    "time": "5:15pm",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-38",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-MON-515PTO615P",
+        "id": "70",
+        "text": "Monday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "age45",
+    "small": "5:15pm-6:15pm · Ages 4–5 · 1 hour",
+    "time": "5:15pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-39",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-TUE-515PTO615P",
+        "id": "41",
+        "text": "Tuesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "g67",
+    "small": "5:15pm-6:15pm · Ages 6–7 · 1 hour",
+    "time": "5:15pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-40",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-515PTO615P",
+        "id": "56",
+        "text": "Tuesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "g8",
+    "small": "5:15pm-6:15pm · Ages 8+ · 1 hour",
+    "time": "5:15pm",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-41",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-TUE-515PTO615P",
+        "id": "72",
+        "text": "Tuesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "age3",
+    "small": "5:15pm-6:15pm · Age 3 · 1 hour",
+    "time": "5:15pm",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-42",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-WED-515PTO615P",
+        "id": "29",
+        "text": "Wednesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "age45",
+    "small": "5:15pm-6:15pm · Ages 4–5 · 1 hour",
+    "time": "5:15pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-43",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-WED-515PTO615P",
+        "id": "43",
+        "text": "Wednesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "g67",
+    "small": "5:15pm-6:15pm · Ages 6–7 · 1 hour",
+    "time": "5:15pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-44",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-515PTO615P",
+        "id": "59",
+        "text": "Wednesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "boys",
+    "small": "5:15pm-6:15pm · Ages 6+ · 1 hour",
+    "time": "5:15pm",
+    "title": "Boys Adventure Gym (6+)",
+    "id": "boys-adventure-gym",
+    "key": "slot-45",
+    "copy": "A boys recreational gymnastics program combining progressive gymnastics skills with strength, agility, climbing and obstacle-based training. Athletes develop floor skills, swinging and support strength, jumping and landing technique, coordination and body control.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/BoysAdventureGym-WED-515PTO615P",
+        "id": "82",
+        "text": "Wednesday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "age3",
+    "small": "5:15pm-6:15pm · Age 3 · 1 hour",
+    "time": "5:15pm",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-46",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/LittleLeapers3YearsC-THU-515PTO615P",
+        "id": "31",
+        "text": "Thursday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "age45",
+    "small": "5:15pm-6:15pm · Ages 4–5 · 1 hour",
+    "time": "5:15pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-47",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/ReadySetLeap45YearsC-THU-515PTO615P",
+        "id": "45",
+        "text": "Thursday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "g67",
+    "small": "5:15pm-6:15pm · Ages 6–7 · 1 hour",
+    "time": "5:15pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-48",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-515PTO615P",
+        "id": "62",
+        "text": "Thursday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "g8",
+    "small": "5:15pm-6:15pm · Ages 8+ · 1 hour",
+    "time": "5:15pm",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-49",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-THU-515PTO615P",
+        "id": "74",
+        "text": "Thursday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "age3",
+    "small": "5:15pm-6:15pm · Age 3 · 1 hour",
+    "time": "5:15pm",
+    "title": "Little Leapers (Age 3)",
+    "id": "little-leapers-3-years-co-ed",
+    "key": "slot-50",
+    "copy": "An independent preschool gymnastics program for age 3. Gymnasts develop fundamental positions and skills through structured, coach-led training focused on jumping, landing, rolling, balancing, hanging, supports, body shapes and coordination.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 11 2026-Jun 18 2027",
+        "href": "/registration/product-detail/LittleLeapers-FRI-515-20260816-08",
+        "id": "274",
+        "text": "Friday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "age45",
+    "small": "5:15pm-6:15pm · Ages 4–5 · 1 hour",
+    "time": "5:15pm",
+    "title": "Ready Set Leap (Ages 4–5)",
+    "id": "ready-set-leap-4-5-years-co-ed",
+    "key": "slot-51",
+    "copy": "Foundational recreational gymnastics for ages 4–5, with structured skill development across vault, bars, beam and floor. Gymnasts learn proper technique and progress according to their individual ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 11 2026-Jun 18 2027",
+        "href": "/registration/product-detail/ReadySetLeap45Years-FRI-515PTO615P",
+        "id": "257",
+        "text": "Friday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "g67",
+    "small": "5:15pm-6:15pm · Ages 6–7 · 1 hour",
+    "time": "5:15pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-52",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 11 2026-Jun 18 2027",
+        "href": "/registration/product-detail/RisingStars-FRI-515-2026-2027-RS01",
+        "id": "292",
+        "text": "Friday 5:15pm-6:15pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "boys",
+    "small": "6:30pm-7:30pm · Ages 6+ · 1 hour",
+    "time": "6:30pm",
+    "title": "Boys Adventure Gym (6+)",
+    "id": "boys-adventure-gym",
+    "key": "slot-53",
+    "copy": "A boys recreational gymnastics program combining progressive gymnastics skills with strength, agility, climbing and obstacle-based training. Athletes develop floor skills, swinging and support strength, jumping and landing technique, coordination and body control.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/BoysAdventureGym-MON-630PTO730P",
+        "id": "81",
+        "text": "Monday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "plus",
+    "small": "6:30pm-8:00pm · Ages 6-8 · 1.5 hours",
+    "time": "6:30pm",
+    "title": "Leap Plus 6-8",
+    "id": "leap-plus-6-8",
+    "key": "slot-54",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 6–8, with additional time for technical development, repetition, conditioning and increasingly challenging skill progressions across vault, bars, beam and floor.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/LeapPlus68-MON-630PTO800P",
+        "id": "87",
+        "text": "Monday 6:30pm-8:00pm"
+      }
+    ]
+  },
+  {
+    "day": "0",
+    "group": "plus",
+    "small": "6:30pm-8:00pm · Ages 8+ · 1.5 hours",
+    "time": "6:30pm",
+    "title": "Leap Plus 8+",
+    "id": "leap-plus-8",
+    "key": "slot-55",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 8+ for athletes who want deeper skill development within recreational gymnastics. Longer apparatus training allows more time for technical refinement, conditioning, combinations and advanced progressions.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 14 2026-Jun 14 2027",
+        "href": "/registration/product-detail/LeapPlus8-MON-630PTO800P",
+        "id": "93",
+        "text": "Monday 6:30pm-8:00pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "g67",
+    "small": "6:30pm-7:30pm · Ages 6–7 · 1 hour",
+    "time": "6:30pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-56",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-TUE-630PTO730P",
+        "id": "57",
+        "text": "Tuesday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "1",
+    "group": "plus",
+    "small": "6:30pm-8:00pm · Ages 8+ · 1.5 hours",
+    "time": "6:30pm",
+    "title": "Leap Plus 8+",
+    "id": "leap-plus-8",
+    "key": "slot-57",
+    "copy": "A 90-minute advanced recreational gymnastics program for ages 8+ for athletes who want deeper skill development within recreational gymnastics. Longer apparatus training allows more time for technical refinement, conditioning, combinations and advanced progressions.\n\nAdvanced Recreational · Join Throughout the Year",
+    "tuition": "$142.50/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 8 2026-Jun 15 2027",
+        "href": "/registration/product-detail/LeapPlus8-TUE-630PTO800P",
+        "id": "94",
+        "text": "Tuesday 6:30pm-8:00pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "g67",
+    "small": "6:30pm-7:30pm · Ages 6–7 · 1 hour",
+    "time": "6:30pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-58",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-WED-630PTO730P",
+        "id": "60",
+        "text": "Wednesday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "g8",
+    "small": "6:30pm-7:30pm · Ages 8+ · 1 hour",
+    "time": "6:30pm",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-59",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-WED-630PTO730P",
+        "id": "162",
+        "text": "Wednesday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "2",
+    "group": "tum",
+    "small": "6:30pm-7:30pm · Recommended 7+ · 1 hour",
+    "time": "6:30pm",
+    "title": "Floor Tumbling & Obstacle Skills",
+    "id": "floor-tumbling-and-obstacle-skills",
+    "key": "slot-60",
+    "copy": "A floor-focused recreational gymnastics program for athletes who want more time to develop their gymnastics skills on the floor.\n\nGymnasts work through structured progressions in body control, handstands, rolls, cartwheels, jumping and landing technique, strength, flexibility and coordination, progressing toward increasingly challenging floor and tumbling skills as they are ready.\n\nUnlike our regular recreational gymnastics programs, this class does not rotate through vault, bars and beam. Training is focused on floor skill development, with conditioning and obstacle-based stations used to support strength, power, agility and safe gymnastics progression.\n\nRecommended for ages 7+. No previous gymnastics experience required.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 9 2026-Jun 16 2027",
+        "href": "/registration/product-detail/FloorTumblingObstacle-WED-630PTO730P",
+        "id": "86",
+        "text": "Wednesday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "g67",
+    "small": "6:30pm-7:30pm · Ages 6–7 · 1 hour",
+    "time": "6:30pm",
+    "title": "Rising Stars (Ages 6–7)",
+    "id": "rising-stars-6-7-years",
+    "key": "slot-61",
+    "copy": "Progressive recreational gymnastics for ages 6–7, with coached training across vault, bars, beam and floor. Athletes strengthen fundamental skills and progress toward increasingly challenging gymnastics according to their ability and readiness.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/RisingStarsGirls67Ye-THU-630PTO730P",
+        "id": "63",
+        "text": "Thursday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "g8",
+    "small": "6:30pm-7:30pm · Ages 8+ · 1 hour",
+    "time": "6:30pm",
+    "title": "Flight Crew (Ages 8+)",
+    "id": "flight-crew-8-years",
+    "key": "slot-62",
+    "copy": "Progressive recreational gymnastics for ages 8+, welcoming both beginners and experienced gymnasts. Athletes train across vault, bars, beam and floor with skill progressions matched to their individual level.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/FlightCrewGirls8Year-THU-630PTO730P",
+        "id": "164",
+        "text": "Thursday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "3",
+    "group": "tum",
+    "small": "6:30pm-7:30pm · Recommended 7+ · 1 hour",
+    "time": "6:30pm",
+    "title": "Floor Tumbling & Obstacle Skills",
+    "id": "floor-tumbling-and-obstacle-skills",
+    "key": "slot-63",
+    "copy": "A floor-focused recreational gymnastics program for athletes who want more time to develop their gymnastics skills on the floor.\n\nGymnasts work through structured progressions in body control, handstands, rolls, cartwheels, jumping and landing technique, strength, flexibility and coordination, progressing toward increasingly challenging floor and tumbling skills as they are ready.\n\nUnlike our regular recreational gymnastics programs, this class does not rotate through vault, bars and beam. Training is focused on floor skill development, with conditioning and obstacle-based stations used to support strength, power, agility and safe gymnastics progression.\n\nRecommended for ages 7+. No previous gymnastics experience required.",
+    "tuition": "$95/month while enrolled",
+    "options": [
+      {
+        "dates": "Sep 10 2026-Jun 17 2027",
+        "href": "/registration/product-detail/FloorTumblingObstacle-THU-630PTO730P",
+        "id": "117",
+        "text": "Thursday 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "day": "4",
+    "group": "dropin",
+    "small": "6:30pm-7:30pm · Ages 6–12 · 1 hour",
+    "time": "6:30pm",
+    "title": "Leap Drop-In Gymnastics: Ages 6–12 — Introductory Trial Class",
+    "id": "leap-drop-in-gymnastics-ages-6-12",
+    "key": "slot-64",
+    "copy": "A coached recreational gymnastics class for school-age children, with foundational skills on vault, bars, beam, floor, and other appropriate apparatus. Progressions are adapted to age, experience, and readiness.\n\nImportant note:This is the same introductory trial class offered on every date. Each session covers the same introductory skills and does not progress from week to week. It is designed for new families to experience Leap before registering for a regular program. Families seeking ongoing skill development should register for a regular weekly class.",
+    "tuition": "$25 per selected date",
+    "options": [
+      {
+        "dates": "38 available Fridays · Sep 11 2026-Jun 18 2027 · choose individual dates",
+        "href": "/registration/product-detail/LEAP-DROPIN-FW26-AGES6-12",
+        "id": "278",
+        "text": "Fridays 6:30pm-7:30pm"
+      }
+    ]
+  },
+  {
+    "key": "elite-1",
+    "id": "leap-elite-foundations",
+    "title": "Leap Elite Foundations",
+    "small": "5:00pm-7:00pm · Selected athletes · 2 hours",
+    "day": "1",
+    "time": "5:00pm",
+    "group": "competitive",
+    "copy": "Leap's developmental/pre-competitive program for selected athletes. Athletes train four hours each week and build foundational skills, strength, flexibility, technique, coordination, and body control.",
+    "tuition": "$2,790 total",
+    "options": [
+      {
+        "dates": "76 training dates · Sep 8 2026-Jun 17 2027 · registration after assessment",
+        "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+        "id": "240",
+        "text": "Tuesdays & Thursdays 5:00pm-7:00pm"
+      }
+    ]
+  },
+  {
+    "key": "elite-3",
+    "id": "leap-elite-foundations",
+    "title": "Leap Elite Foundations",
+    "small": "5:00pm-7:00pm · Selected athletes · 2 hours",
+    "day": "3",
+    "time": "5:00pm",
+    "group": "competitive",
+    "copy": "Leap's developmental/pre-competitive program for selected athletes. Athletes train four hours each week and build foundational skills, strength, flexibility, technique, coordination, and body control.",
+    "tuition": "$2,790 total",
+    "options": [
+      {
+        "dates": "76 training dates · Sep 8 2026-Jun 17 2027 · registration after assessment",
+        "href": "/registration/product-detail/LEAP-ELITE-FOUNDATIONS",
+        "id": "240",
+        "text": "Tuesdays & Thursdays 5:00pm-7:00pm"
+      }
+    ]
+  }
+]
