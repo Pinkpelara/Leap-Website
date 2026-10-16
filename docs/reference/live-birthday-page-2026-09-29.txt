@@ -1,0 +1,61 @@
+# Live website copy: Birthday Parties page (verbatim text capture)
+
+Captured 2026-09-29 from https://www.leapgymnastics.ca/birthday-parties/ (text only; table cells are flattened to one line per row: Basic / Premium / Deluxe).
+This is the language source of truth. Reuse these sentences; do not paraphrase policy.
+
+---
+
+Birthday Parties
+Celebrate at Leap Gymnastics in Markham with age-appropriate, coach-led gymnastics activities and time for food, cake and celebration. Compare our three two-hour party packages below.
+Plan your party Party packages Party Information Booking & Forms
+Party packages
+All prices are plus HST. ✓ Included · ✕ Not included. Request paid add-ons before your party; staff confirmation is required.
+Swipe across the table to compare all three packages.
+Party packages Party packages Basic Premium Deluxe
+Price $350 $550 $750
+Participating children included Up to 10 Up to 16 Up to 20
+Two-hour party 60 minutes gymnastics + 60 minutes celebration 75 minutes gymnastics + 45 minutes celebration 75 minutes gymnastics + 45 minutes celebration
+Celebration space Designated celebration area. No private party room. Private party room throughout your booking Private party room throughout your booking
+Only birthday party scheduled during your booking ✕ ✓ ✓
+Balloon décor ✕ Small tabletop balloon arrangement on a stand Custom half balloon garland
+Balloon colours — One colour: white, pink, blue, gold, purple or green One or two colours: white, pink, blue, gold, purple or green
+Children’s plates, cups, napkins and forks ✓ ✓ ✓
+Cleanup after the party ✓ ✓ ✓
+Birthday child’s gifts Loot bag Loot bag + surprise birthday gift Loot bag + upgraded surprise birthday gift
+Guest loot bags + $7 each + $7 each ✓ One per participating child, up to 20 total, including the birthday child
+Beverage station: coffee, tea bags, juice and water ✕ Not available + $40 ✓
+Food and cake Family provides Family provides Family provides
+Additional children — maximum 24 participating children in total + $15 each + $20 each + $25 each
+Themed balloon upgrade — subject to availability and staff confirmation; balloon décor only, not full themed party décor ✕ ✕ + $80
+Extra celebration time — subject to availability and staff confirmation; no additional gymnastics or equipment use + $40 per 30 minutes + $40 per 30 minutes + $40 per 30 minutes
+Party Information
+Arrival
+Host families may arrive up to 10 minutes before the scheduled party start time to drop off food, cake, and party items. Guests should arrive at the scheduled party start time.
+Food
+Simple children’s party food only, such as pizza, sandwiches, fruit, packaged snacks, cake or cupcakes. No ice cream, hot catered meals, buffet-style food, heavily sauced dishes, or food requiring reheating, warming equipment or extensive serving and cleanup.
+Decorations
+Tabletop or freestanding decorations only. No wall-mounted or hanging decorations. Tape, adhesive hooks, pins, tacks and other fasteners may not be used on facility walls.
+Hosting your party
+Leap coaches lead and supervise gymnastics. The birthday family hosts the celebration, serves food and cake and assists their guests.
+Schedule & Participation
+All children participating in the gymnastics portion must be able to participate independently, without parent or caregiver accompaniment on the gym floor, and remain with the group assigned by our coaches. Children who are not able to participate independently are welcome to remain with their parent or guardian in the viewing or celebration area but cannot participate in the gymnastics activities.
+Parent & Guest Access
+Parents and guardians are welcome to stay in the viewing or celebration area. Parents of invited children may also drop them off; however, the birthday child’s parent or guardian must remain on site throughout the party. Only participating children and Leap Gymnastics staff are permitted on the gym floor or gymnastics equipment.
+Footwear
+For safety and cleanliness, parents and guests must wear socks in the viewing area and party room.
+Party end time
+All guests, food, decorations and belongings must be out by the scheduled or staff-approved end time. Packing up must be completed within your booked time. Late departure costs $40 plus HST for each additional 30 minutes or part thereof. This charge does not give permission to stay longer.
+Booking & Forms
+New birthday party bookings are offered Saturdays and Sundays from 1:30–3:30 PM. Existing bookings retain their confirmed times and package inclusions.
+Deposit & Payment: A $100 deposit is required at the time of booking to hold your date. The remaining balance, HST, any approved add-ons and any applicable late-departure charges are finalized with staff and paid during the party by e-transfer to info@leapgymnastics.ca .
+Changes & Cancellations: We require a minimum of 15 days' notice for any cancellations or date change requests. The deposit is refundable only if cancellation meets this notice requirement. All changes are subject to facility availability.
+After booking, please complete the Birthday Party Details Form no later than 7 days before your party so our team can confirm your package, participating child count, decoration details, food plans and any optional add-ons in advance.
+Participant consent: Every child participating in the gymnastics portion must have a Participant Consent Form completed by their own parent or guardian before entering the gym. Please share the consent-form link with invited families before the party.
+View Birthday Party Availability Booked Families: Complete Birthday Party Details Form Complete Participant Consent Form
+
+---
+
+## FAQ entry (https://www.leapgymnastics.ca/faq/)
+
+Do you offer birthday parties?
+Yes. Leap offers two-hour coach-led gymnastics birthday parties, with new bookings on Saturdays and Sundays from 1:30–3:30 PM. Existing bookings retain their confirmed times. Package details, current availability, and our cancellation policy are listed on the Birthday Parties page.

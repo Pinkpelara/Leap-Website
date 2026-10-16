@@ -1,0 +1,100 @@
+SANITIZED FIXTURE. Layout copied from a real Uplifter invoice email for a birthday-party deposit; every personal value is fake.
+This is a text extraction of a PRINTED PDF of the email, NOT the raw email (MIME/HTML). The real email's markup will differ.
+Before writing a production parser, get a raw .eml from the owner (see CODEX_BRIEF.md section 7). Do not parse against this file alone.
+
+----------------------------------------------------------------------
+info < info@leapgymnastics.ca >
+Leap Gymnastics Invoice #00000001
+PAID
+Leap Gymnastics < no-reply@leapgymnastics.uplifterinc.com >
+Mon, 28 Sep 2026 12:17:39 AM -0400
+To "info@leapgymnastics.ca"<info@leapgymnastics.ca>
+Invoice Details # 00000001
+September 28, 2026 at 12:16 AM
+Leap Gymnastics Billing Information Contact Information
+158 Anderson Ave. Units 3 and 4
+Markham, Ontario
+L6E 1A9
+Tel: (289) 590-1111
+Email: info@leapgymnastics.ca
+Jane Sample
+1 Example St
+Sampleville, Ontario
+A1A 1A1
+Tel: (555) 555-0100
+Email: jane.sample@example.com
+Jane Sample
+1 Example St
+Sampleville, Ontario
+A1A 1A1
+Tel: (555) 555-0100
+Registration Details
+Programs
+Participant Program Details Fee
+Sam
+Sample
+Birthday Parties - November 2026
+[2026-11-15 1:30 PM]
+Category Birthday Parties
+Start & End
+Date Nov 1, 2026 - Nov 30, 2026
+Day/Time
+New bookings: Saturdays and Sundays
+1:30pm-3:30pm. Existing bookings retain
+their confirmed times.
+Enrolled at Sep 28, 2026, 12:16 AM
+Location Leap Gymnastics Leap Gymnastics
+Fee Waiver Code
+--
+$100.00
+*All prices are in CAD. Subtotal $100.00
+  HST
+(13%) $13.00
+  Total $113.00
+Additional Information How did you hear about Leap?
+Friend
+Referral Name
+--
+Additional Participant
+information for Sam
+Sample
+Emergency Contact Name
+Jane
+Emergency Contact Phone
+5555550100
+Medical Notes
+--
+Allergies or Medications
+--
+Payment Details
+Payment
+Method Status Payment
+Time
+Payment
+Processing
+Time
+Transaction Id Approval Code Transaction
+Amount
+Credit Card
+Visa **** **** **** 0000
+(01/30)
+Paid 2026-09-28
+12:16 AM
+2026-09-28
+12:16 AM 000000000000000 XXXXXXXXXXXXXXXX $113.00
+Please print and retain this copy for your records.
+158 Anderson Ave. Units 3 and 4, Markham, Ontario L6E 1A9 | info@leapgymnastics.ca
+----------------------------------------------------------------------
+
+Fields a parser would need, and where they appear:
+  invoice number ........ "Leap Gymnastics Invoice #NNNNNNNN" / "Invoice Details # NNNNNNNN"
+  status ................ "PAID"
+  program ............... "Birthday Parties - <Month YYYY>"  (SKU BDAY-YYYY-MM, not shown in the email)
+  event date and time ... "[YYYY-MM-DD h:mm AM|PM]" on the line after the program name
+  participant ........... first and last name, on separate lines under "Participant Program Details Fee"
+  parent contact ........ "Email:" and "Tel:" in the Contact Information block
+  totals ................ Subtotal $100.00 / HST (13%) $13.00 / Total $113.00
+  invoice item fields ... printed under the line item (e.g. "Fee Waiver Code"). A new "Party Package" field would print here.
+  invoice fields ........ "Additional Information" block
+  participant fields .... "Additional Participant information for <name>" block
+NOT in the email: package (until the Party Package field exists), guest count, food, add-ons.
