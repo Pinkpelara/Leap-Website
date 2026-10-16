@@ -10,6 +10,16 @@ The snapshot includes captured public pages, readable content, navigation and hy
 
 Source: https://www.leapgymnastics.ca/
 
+## Consolidated Leap project material
+
+Leap-Website is the primary repository for the cloud workspace. The following material was imported from both Leap-Gym work branches, retaining their commit histories:
+
+- `site-content/`: historical CMS snippets and a site-health report.
+- `operations/`: class utilization and market analysis.
+- `docs/`: September birthday-workflow briefs and reference material.
+
+These imports are historical reference material. They have not been applied to the archived snapshot or the live website. See [cloud migration status](docs/CLOUD_MIGRATION.md) for what is preserved and what still needs transferring.
+
 This is an archive of the current live website, not the proposed cinematic redesign. Capturing it did not change the live site, Beam or registration records.
 
 The public site does not expose its server-side CMS source code, database, customer accounts, payment records or full administration configuration. Those are not included. The snapshot documentation also records removal of any transient anonymous session values.
