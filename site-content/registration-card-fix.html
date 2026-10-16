@@ -1,0 +1,112 @@
+<!--
+  LEAP GYMNASTICS — Registration Page Card Standardization
+  Paste this into Uplifter's "Custom CSS" area (Site Settings > Design > Custom Code).
+
+  ISSUE: Registration page program cards are inconsistent — school-year cards
+  show dates, times, and installment details, while summer/camp cards show
+  vague descriptions without key details. This CSS standardizes the visual
+  layout. The content itself (descriptions, dates, times) must be updated
+  in Uplifter's program admin — see the notes at the bottom of this file.
+-->
+
+<style>
+  /*
+   * Standardize registration program card height and layout.
+   * Cards should all show the same visual rhythm:
+   * [Title] → [Short description] → [Pricing line] → [Options]
+   */
+
+  /* Even out card spacing */
+  .product-card,
+  .program-card,
+  .registration-product,
+  [class*="product-card"],
+  [class*="program-card"] {
+    margin-bottom: 24px !important;
+    padding: 20px !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+  }
+
+  /* Limit description length so cards don't bloat with long text */
+  .product-card .description,
+  .program-card .description,
+  .registration-product .description,
+  [class*="product-card"] p,
+  [class*="program-card"] p {
+    max-height: 4.8em;
+    overflow: hidden;
+    line-height: 1.6;
+  }
+
+  /* Make pricing/session lines prominent and consistent */
+  .product-card .pricing,
+  .program-card .pricing,
+  [class*="pricing"],
+  [class*="session-info"] {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    background: #f8f9fa !important;
+    padding: 8px 12px !important;
+    border-radius: 4px !important;
+    margin: 12px 0 !important;
+  }
+
+  /* Style register/detail links consistently */
+  .product-card a[href*="product-detail"],
+  .program-card a[href*="product-detail"],
+  [class*="product-card"] a[href*="registration"],
+  [class*="view-details"],
+  a[class*="register-link"] {
+    display: inline-block !important;
+    color: #00796b !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    padding: 8px 0 !important;
+  }
+</style>
+
+<!--
+  ═══════════════════════════════════════════════════════════════
+  UPLIFTER ADMIN CHANGES NEEDED
+  ═══════════════════════════════════════════════════════════════
+
+  The CSS above fixes the visual layout, but the actual card CONTENT
+  (descriptions, whether dates/times display) is controlled by how each
+  program is configured in Uplifter's admin panel. To make summer and
+  camp cards match the school-year format:
+
+  1. SHORTEN SUMMER CLASS DESCRIPTIONS
+     Current: "A summer version of Ready Set Leap for ages 4-5. For
+     independent preschoolers who are ready for a little more structure,
+     this class builds confidence through beginner vault, bars, beam,
+     floor, and movement-circuit progressions."
+
+     Recommended: "Ages 4-5. Beginner vault, bars, beam, floor, and
+     movement-circuit progressions. 1-hour weekly class."
+
+  2. ADD DAY/TIME TO SUMMER PROGRAM TITLES OR DESCRIPTIONS
+     The school-year cards show "Monday 9:00am-10:00am" for each option.
+     Summer cards should show the same. If Uplifter's product setup has
+     a "schedule" or "session time" field, populate it for every summer
+     class and camp.
+
+  3. STANDARDIZE CAMP CARD DESCRIPTIONS
+     Current: "Choose the full-week camp or individual full-day camp
+     dates for this week."
+
+     Recommended: "Full-day gymnastics camp. Ages 4-12.
+     Mon-Fri 9:00 AM-4:00 PM. Before- and after-care available."
+
+  4. ADD PRICING FORMAT TO ALL CARDS
+     School-year cards show: "37 classes · $950 · 10 instalments of $95"
+     Summer cards should show: "10 classes · Mon 11:15 AM · $200.00"
+     Camp cards should show: "5 days · Mon-Fri 9 AM-4 PM · $340.00"
+
+  5. ENSURE EVERY CARD HAS A DATE RANGE
+     All cards should display their start and end dates, e.g.:
+     "June 29 - August 31, 2026"
+-->

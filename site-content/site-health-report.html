@@ -1,0 +1,142 @@
+<!--
+  LEAP GYMNASTICS — Site Health Scan Report
+  Date: June 4, 2026
+  Scanned: leapgymnastics.ca (all main pages)
+
+  This file documents every issue found. Items marked [FIXED] have
+  corresponding HTML/CSS files in this repo ready to paste into Uplifter.
+  Items marked [ACTION NEEDED] require manual changes in Uplifter admin.
+-->
+
+<!--
+  ═══════════════════════════════════════════════════════
+  CRITICAL ISSUES
+  ═══════════════════════════════════════════════════════
+
+  1. [FIXED] BLACK CIRCLES IN HEADER NAV
+     Pages affected: All pages (site-wide header)
+     Description: Two empty black circles appear next to the Register
+       button in the top-right header area. These are anchor links
+       with no icon, image, or text content — likely social-media or
+       utility-icon slots that were never populated.
+     Fix file: nav-circle-fix.html
+     Alternative: Remove the empty links in Uplifter > Site Settings >
+       Header / Navigation, or populate them with actual social icons.
+
+  2. [FIXED] CAMPS PAGE MISSING INDIVIDUAL PROGRAM DETAILS
+     Page: /camps/
+     Description: The camps page shows general descriptions of camps and
+       summer classes but does not list individual programs with dates,
+       times, prices, and register links — unlike the School Year Programs
+       page which shows every program in full detail.
+     Fix file: camps-detail.html (paste below the existing callout)
+     Contains: All 10 summer camp weeks with dates, days, times, pricing,
+       and direct register links; all 6 summer classes with day, time,
+       date range, pricing, and register links; PA Day and March Break
+       camp listings.
+
+  3. [ACTION NEEDED] REGISTRATION PAGE CARD INCONSISTENCY
+     Page: /registration/
+     Description: Program card formats vary widely:
+       - School-year cards: name, short description, "37 classes · $950 ·
+         10 instalments of $95", then multiple day/time options each with
+         date ranges and pricing.
+       - Summer class cards: name, long description, "10 classes · $200
+         summer price", single option with date range but no time shown
+         prominently.
+       - Camp cards: name, vague description ("Choose the full-week camp
+         or individual full-day camp dates"), pricing, two options
+         (full-week vs. drop-in) but no times shown.
+       - Birthday party cards: monthly availability slots, different
+         format again.
+     Impact: Looks unprofessional; families can't quickly compare options.
+     Fix file: registration-card-fix.html (CSS + Uplifter admin steps)
+     Root cause: Program descriptions and session details are set per-
+       product in Uplifter's admin panel. The CSS file standardizes the
+       visual layout; the admin changes listed in that file standardize
+       the actual content.
+
+  ═══════════════════════════════════════════════════════
+  MODERATE ISSUES
+  ═══════════════════════════════════════════════════════
+
+  4. [ACTION NEEDED] BROKEN NAV LINK: "Updates" → 404
+     Navigation link "Updates" points to /updates/ which returns a
+     404 page ("Sorry, the page you are trying to find is not available").
+     Fix: Either create the page in Uplifter, or remove the "Updates"
+     link from the main navigation in Site Settings > Menu.
+
+  5. [ACTION NEEDED] BROKEN NAV LINK: "Camps and Summer Programs" URL
+     The top-bar link points to /camps-and-summer-programs/ which 404s.
+     The correct camps page URL is /camps/.
+     Fix: Update the link in Uplifter > Site Settings > Header nav to
+     point to /camps/ instead of /camps-and-summer-programs/.
+
+  6. [FIXED in prior commit] STALE GRAND OPENING BANNER
+     Page: Homepage
+     Description: The homepage banner still promoted the Grand Opening
+       event on May 30, which has already passed.
+     Status: Already replaced with "Now Open" banner in homepage-banner.html.
+     Note: Verify the updated banner has been pasted into Uplifter's
+       homepage content area.
+
+  7. [FIXED in prior commit] HST PRICING INCONSISTENCY
+     Pages: Homepage, Camps, Birthday Parties
+     Description: Birthday party page says "$350 → $250 (before HST)"
+       but homepage and camps page showed the same price without the
+       HST note.
+     Status: Already fixed — "(before HST)" added to homepage-banner.html
+       and camps-callout.html.
+
+  ═══════════════════════════════════════════════════════
+  MINOR ISSUES / RECOMMENDATIONS
+  ═══════════════════════════════════════════════════════
+
+  8. [OK] FAQ PAGE — COULD EXPAND
+     Page: /faq/
+     Currently has ~6 questions. Consider adding common topics:
+       - Refund/cancellation policy
+       - Makeup classes for missed sessions
+       - What age can children start?
+       - Is there a trial class?
+       - Parking information
+     The sibling discount FAQ (faq-sibling-discount.html) should be
+     confirmed as posted.
+
+  9. [OK] BIRTHDAY PARTIES PAGE — CLEAN
+     Page: /birthday-parties/
+     All three packages (Basic $350, Premium $525, Deluxe $750) display
+     correctly. Pricing, availability, deposit info, and policies are
+     all present. No issues found.
+
+  10. [OK] ABOUT PAGE — CLEAN
+      Page: /about/
+      Content is current. Gymnastics Ontario affiliation displayed.
+      No broken elements.
+
+  11. [OK] CONTACT PAGE — CLEAN
+      Page: /contact/
+      Address, phone, email all present and correct. Map integration
+      working. No broken elements.
+
+  12. [OK] PROGRAMS (SCHOOL YEAR) PAGE — CLEAN
+      Page: /programs/
+      All programs display in the correct detailed format with day/time
+      options, pricing, and register links. This is the reference format
+      that camps should match.
+
+  ═══════════════════════════════════════════════════════
+  PAGES SCANNED
+  ═══════════════════════════════════════════════════════
+
+  ✓ Homepage          (leapgymnastics.ca)
+  ✓ Programs          (/programs/)
+  ✓ Camps             (/camps/)
+  ✓ Birthday Parties  (/birthday-parties/)
+  ✓ About             (/about/)
+  ✓ FAQ               (/faq/)
+  ✓ Contact           (/contact/)
+  ✓ Registration      (/registration/)
+  ✓ Updates           (/updates/) — 404
+  ✓ Camps alt URL     (/camps-and-summer-programs/) — 404
+-->

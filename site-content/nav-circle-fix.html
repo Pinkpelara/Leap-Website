@@ -1,0 +1,57 @@
+<!--
+  LEAP GYMNASTICS — Navigation Circle Fix
+  Paste this into Uplifter's "Custom CSS" or "Header Code Injection" area
+  (Site Settings > Design > Custom Code, or similar).
+
+  ISSUE: Two black circles appear in the header nav next to the Register button.
+  These are empty anchor links (likely social-media or icon slots) that have
+  no image or text content, so they render as filled circles.
+
+  The CSS below hides any nav link whose content is empty. If you later add
+  real social-media icons (Facebook, Instagram, etc.) with images or SVGs,
+  remove the corresponding rule so those icons show.
+-->
+
+<style>
+  /*
+   * Hide empty icon-style links in the site header.
+   * Uplifter nav bars often place social/icon links as bare <a> tags
+   * styled as circles. When the icon image is missing, a dark circle remains.
+   * These selectors target the common Uplifter patterns.
+   */
+
+  /* Generic: hide any header nav link that has no text and no child img/svg */
+  .site-header a[href]:empty,
+  .site-header a[href] img[src=""],
+  header a[href]:empty,
+  nav a[href]:empty {
+    display: none !important;
+  }
+
+  /* Uplifter-specific social icon wrappers */
+  .social-icons a:empty,
+  .social-links a:empty,
+  .header-icons a:empty,
+  .header-social a:empty,
+  .nav-icons a:empty {
+    display: none !important;
+  }
+
+  /* Fallback: hide any small circular link in the header that has no content */
+  header a[href][style*="border-radius"]:empty,
+  .site-header a[href][style*="border-radius"]:empty {
+    display: none !important;
+  }
+
+  /*
+   * If the above selectors don't match your theme exactly, open the site
+   * in a browser, right-click one of the black circles, choose "Inspect",
+   * and find its CSS class or ID. Then replace the selectors above with
+   * the specific one, e.g.:
+   *
+   *   .your-specific-class { display: none !important; }
+   *
+   * Alternatively, remove the empty links entirely from
+   * Uplifter > Site Settings > Header / Navigation configuration.
+   */
+</style>
