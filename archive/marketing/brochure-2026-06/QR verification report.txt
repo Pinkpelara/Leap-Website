@@ -1,0 +1,102 @@
+Leap Brochure QR Verification
+Checked: 2026-06-10T20:55:11.676Z
+
+1. QR — learn more school-year recreational
+   source: 260x260px, rendered: 56x56px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/programs/
+2. QR — Leap Together info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#leap-together-parent-and-tot
+3. QR — Little Leapers info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#little-leapers-3-years-co-ed
+4. QR — Ready Set Leap info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#ready-set-leap-4-5-years-co-ed
+5. QR — Rising Stars info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#rising-stars-girls-6-7-years
+6. QR — Flight Crew info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#flight-crew-girls-8-years
+7. QR — Boys Adventure Gym info and registration
+   source: 370x370px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#boys-adventure-gym
+8. QR — Floor Tumbling info and registration
+   source: 410x410px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#floor-tumbling-and-obstacle-skills
+9. QR — Try Leap trial class
+   source: 330x330px, rendered: 72x72px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/try-leap/
+10. QR — learn more leap plus advanced recreational
+   source: 260x260px, rendered: 52x52px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/programs/
+11. QR — Leap Plus 4-6 info and registration
+   source: 370x370px, rendered: 62x62px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#leap-plus-4-6
+12. QR — Leap Plus 6-8 info and registration
+   source: 370x370px, rendered: 62x62px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#leap-plus-6-8
+13. QR — Leap Plus 8+ info and registration
+   source: 370x370px, rendered: 62x62px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#leap-plus-8
+14. QR — Little Explorers Drop-In
+   source: 410x410px, rendered: 64x64px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#little-explorers-drop-in
+15. QR — learn more camps
+   source: 260x260px, rendered: 56x56px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/camps/
+16. QR — camp dates and registration
+   source: 370x370px, rendered: 112x112px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#camps-summer
+17. QR — learn more summer classes
+   source: 260x260px, rendered: 48x48px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/camps/
+18. QR — summer class calendar and registration
+   source: 370x370px, rendered: 74x74px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/#summer-classes
+19. QR — learn more competitive pathway
+   source: 260x260px, rendered: 42x42px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/programs/
+20. QR — competitive program info
+   source: 370x370px, rendered: 74x74px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/programs/#competitive
+21. QR — learn more birthday parties
+   source: 260x260px, rendered: 52x52px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/birthday-parties/
+22. QR — birthday party packages
+   source: 370x370px, rendered: 86x86px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/birthday-parties/
+23. QR — register online
+   source: 370x370px, rendered: 172x172px
+   decoded: YES
+   value: https://www.leapgymnastics.ca/registration/
+
+Total QR codes checked: 23
+Failures: 0
+
+Print PDF: \\fs03.artsci.utoronto.ca\data\users\pourkam1\Downloads\Leap\Leap Brochure Print Poster\Leap Brochure - 11x17 print poster.pdf
+300-DPI PNG proof front: \\fs03.artsci.utoronto.ca\data\users\pourkam1\Downloads\Leap\Leap Brochure Print Poster\Leap Brochure - 11x17 front 300dpi.png
+300-DPI PNG proof back: \\fs03.artsci.utoronto.ca\data\users\pourkam1\Downloads\Leap\Leap Brochure Print Poster\Leap Brochure - 11x17 back 300dpi.png

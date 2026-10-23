@@ -15,7 +15,7 @@ Leap-Website is the primary project repository. This migration closes the earlie
 
 No private customer records, signed waivers, private form links, email exports, credentials, browser profiles, administrative HTML, corporate documents or raw chats were added. Originals remain in place; no original source files were moved or deleted.
 
-A separate private backup needs a reviewed destination and scope. The private-backup preference was requested during this task. Marketing/design originals, videos and corporate paperwork in the separate AI/Leap folder are not all represented here. Public assets are captured from the website. Little-Beam remains separate and was not modified.
+The owner requested continued use of the public repository, with a possible visibility change later. A second pass added 39 reviewed original files: vector logos, brochure/print files, invitation-maker source and July SEO notes. See ../archive/README.md and its checksum manifest. Private customer material, signed forms, correspondence, corporate paperwork, credentials and unreviewed photos/videos remain excluded. This is still not a complete private backup. Little-Beam remains separate and was not modified.
 
 One legacy override contained a private reservation identifier. Public source/tests use a synthetic identifier. Restore authorized private configuration before deployment. Setup does not deploy anything.
 

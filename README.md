@@ -19,6 +19,7 @@ Updated October 23, 2026 for the computer handoff: reviewed birthday source, por
 | Previous public website | [September 11 snapshot](snapshots/2026-09-11/README.md) |
 | Historical CMS files | [site-content](site-content/) |
 | Historical analysis | [operations](operations/) |
+| Original logos, brochure, invitation maker and SEO notes | [Asset archive](archive/README.md) |
 | Portable Tencent runtime | [tools/tencent-memory](tools/tencent-memory/) |
 | Earlier briefs | [docs](docs/), superseded where they conflict with current state |
 | Beam repository (private) | [Little-Beam](https://github.com/Pinkpelara/Little-Beam) |

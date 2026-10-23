@@ -1,0 +1,240 @@
+{
+  "archivedOn": "2026-10-23",
+  "note": "Historical original assets. Dates, fees and offers must be verified before reuse.",
+  "files": [
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector.ai",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector.ai",
+      "bytes": 17603,
+      "sha256": "9635aa5fca788c28095b3da01e0cf36a04ad589a396b8587e01fd53415f9d0c0"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector.eps",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector.eps",
+      "bytes": 60290,
+      "sha256": "7742fb5cad30efc2358b7ed2c22036d5bb878952a87cc0b23dc153ef2a6c1251"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector.pdf",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector.pdf",
+      "bytes": 17603,
+      "sha256": "9635aa5fca788c28095b3da01e0cf36a04ad589a396b8587e01fd53415f9d0c0"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector.svg",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector.svg",
+      "bytes": 38256,
+      "sha256": "072fea51b5852820044c90c357f11fda0e4e85a78801438f8d09777ea910d5b0"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector_preview.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector_preview.png",
+      "bytes": 65074,
+      "sha256": "a1a6e1c578c237edeb2fe8aea235a36ee6f813a28bf7116c7a4390e5569fa47a"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_black_vector_transparent.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_black_vector_transparent.png",
+      "bytes": 61661,
+      "sha256": "5b8a72ab555cf940879f1ae85a0200431e1698f9f37288a94f1eb39038e5a0fd"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector.ai",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector.ai",
+      "bytes": 17605,
+      "sha256": "1f1688606bddf7d13c059a857897352ef87b66e93b8d71f75ec09dd7a4f9680d"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector.eps",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector.eps",
+      "bytes": 60290,
+      "sha256": "d2843a853fb1a004088d79d580bde34d941151f0c20d852dfc193ffb00a36b6c"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector.pdf",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector.pdf",
+      "bytes": 17605,
+      "sha256": "1f1688606bddf7d13c059a857897352ef87b66e93b8d71f75ec09dd7a4f9680d"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector.svg",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector.svg",
+      "bytes": 38256,
+      "sha256": "e3ebdb6c232a88af1b7ecce3c2935a1bd7f70a841dbdf57d63dbe4206fa1a18b"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector_preview.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector_preview.png",
+      "bytes": 59111,
+      "sha256": "eb9b88b3c59dd8e1139da71000d54d3ac7b459d589c52be65f60398df0a3539c"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_Gymnastics_full_logo_white_vector_transparent.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_Gymnastics_full_logo_white_vector_transparent.png",
+      "bytes": 62680,
+      "sha256": "1a15ea3309741218b49ad496509f2ff1572188ab9a005bf49dbcd426b88db3b7"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector.ai",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector.ai",
+      "bytes": 15430,
+      "sha256": "35a83c52b780ca60c397ca86c84af831dde23c5fa6edb4942ff3727e9dc4e48a"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector.eps",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector.eps",
+      "bytes": 52099,
+      "sha256": "b19d8c2988ac6d5f21c3ca52508e6014dcb9d14a83352ea40a45ca45aeee5a59"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector.pdf",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector.pdf",
+      "bytes": 15430,
+      "sha256": "35a83c52b780ca60c397ca86c84af831dde23c5fa6edb4942ff3727e9dc4e48a"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector.svg",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector.svg",
+      "bytes": 32602,
+      "sha256": "cf844c25c79b308665c3085cef48c61af0dd34fc8c48bbf9a4c8dc94d71048ae"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector_preview.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector_preview.png",
+      "bytes": 53848,
+      "sha256": "4e927a8fd9f782e157c303f94c2780c49d7b6f2c79b3dd067ff7c2b4453fae05"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_black_vector_transparent.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_black_vector_transparent.png",
+      "bytes": 53941,
+      "sha256": "c14a2feb04975fcec1c3ccd34f784df1fd6db404c9936f4b6f0ee4b0cbc45f66"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector.ai",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector.ai",
+      "bytes": 15432,
+      "sha256": "0db039c76dd7a4a770bdbcdb25456ea8eb3dcdc311723b6ae861170b4be91ee2"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector.eps",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector.eps",
+      "bytes": 52099,
+      "sha256": "f7b2de1f3b4a13ca163f91a173c7038b4035ec0539b105ea93751d5c5b29aa6e"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector.pdf",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector.pdf",
+      "bytes": 15432,
+      "sha256": "0db039c76dd7a4a770bdbcdb25456ea8eb3dcdc311723b6ae861170b4be91ee2"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector.svg",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector.svg",
+      "bytes": 32602,
+      "sha256": "ec18cd27d567dcfa48b5cfe24d2fa9bcb556f73c4d67637cf0b51089d832c7d0"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector_preview.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector_preview.png",
+      "bytes": 49479,
+      "sha256": "7a48c118ca855e11cf4c5b9ecb2084a609d1c465731d3e0743161330150dd4d5"
+    },
+    {
+      "path": "archive/brand/vector-logos/Leap_wordmark_only_white_vector_transparent.png",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/Leap_wordmark_only_white_vector_transparent.png",
+      "bytes": 54705,
+      "sha256": "8a05f9321b002a7b49ec854a1e8972ce7d8769b232ecc9aa7d3f1af917108488"
+    },
+    {
+      "path": "archive/brand/vector-logos/manifest.json",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/manifest.json",
+      "bytes": 2068,
+      "sha256": "60b30aee5c39a6aa9951ff8a74f944b2ca906db837d7d7009e54c76605017cf1"
+    },
+    {
+      "path": "archive/brand/vector-logos/READ_ME_Print_Use.txt",
+      "source": "Leap_Gymnastics_AI_Vector_Logos/READ_ME_Print_Use.txt",
+      "bytes": 790,
+      "sha256": "eab18aaac81d0e4601e4ef68c0f64267b23086c398ef5db2243afcfb60f01488"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 back 300dpi.png",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 back 300dpi.png",
+      "bytes": 2844799,
+      "sha256": "7c60a10771016a4141feb3e4bbcb054d06cc16650fa699738f3d8519e72e054e"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 BACK PRINT THIS 300dpi.jpg",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 BACK PRINT THIS 300dpi.jpg",
+      "bytes": 3433873,
+      "sha256": "424f9fbddb597ccba524eee800b35368ca09c070d8dc18ecea4fb452468baddd"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 front 300dpi.png",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 front 300dpi.png",
+      "bytes": 3100533,
+      "sha256": "552fa78c7dee437e0de5b95d6d5d1e3b186360773f2ea42dc5028b8882b475f7"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 FRONT PRINT THIS 300dpi.jpg",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 FRONT PRINT THIS 300dpi.jpg",
+      "bytes": 4419213,
+      "sha256": "2bee449f211381c71908b4807a360d51e15a2bbc755dc1ac7e48b47cc3be1d88"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 print poster.html",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 print poster.html",
+      "bytes": 1416613,
+      "sha256": "9a614cc8373469bd0d825fe0b68209043cbcda1a1638012aec2bd25f47b2477b"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 print poster.pdf",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 print poster.pdf",
+      "bytes": 1584926,
+      "sha256": "cc3d1a8e7b0943fdd0a06a1fd966d67b16801974458b92191db8ac3f1e60ec12"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/Leap Brochure - 11x17 PRINT SAFE flattened.pdf",
+      "source": "Leap Brochure Print Poster/Leap Brochure - 11x17 PRINT SAFE flattened.pdf",
+      "bytes": 6498966,
+      "sha256": "76058c9b5d88134377ff68e8c1569f3b6ae0d3cf60b035e4d24fc93690ccdcc3"
+    },
+    {
+      "path": "archive/marketing/brochure-2026-06/QR verification report.txt",
+      "source": "Leap Brochure Print Poster/QR verification report.txt",
+      "bytes": 4323,
+      "sha256": "6835f729d3734b5e9d51792501394046004cb9cadb04367e9f646c1e2f686815"
+    },
+    {
+      "path": "archive/research/seo-2026-07/1-UPLIFTER-BUG-REPORT.md",
+      "source": "SEO/1-UPLIFTER-BUG-REPORT.md",
+      "bytes": 4833,
+      "sha256": "a0ea272efdc3ee657ee39b0b29b2da1c1ba7381fcfecc0538002ed691c5a8284"
+    },
+    {
+      "path": "archive/research/seo-2026-07/2-GOOGLE-PROFILE-AND-REVIEWS.md",
+      "source": "SEO/2-GOOGLE-PROFILE-AND-REVIEWS.md",
+      "bytes": 8068,
+      "sha256": "234317153c8a30f485a4777bcc5e60de0f1b6a1a15157e3ae53ab191eda6a10f"
+    },
+    {
+      "path": "archive/research/seo-2026-07/3-SMALL-TWEAKS-AND-CMS-FIXES.md",
+      "source": "SEO/3-SMALL-TWEAKS-AND-CMS-FIXES.md",
+      "bytes": 6406,
+      "sha256": "74878627fc58553bc39c80c4bcd2d08973c93ec3b04654a9d979dfb0b1a7726e"
+    },
+    {
+      "path": "archive/research/seo-2026-07/README-START-HERE.md",
+      "source": "SEO/README-START-HERE.md",
+      "bytes": 4744,
+      "sha256": "695eda5b71602da1b38875b1a50b980759c4beda944c1e0e855cc71284e75040"
+    },
+    {
+      "path": "archive/marketing/invitation-maker/Leap Birthday Invitation Maker.dc.html",
+      "source": "Leap Birthday/Leap Birthday Invitation Maker.dc.html",
+      "bytes": 33997,
+      "sha256": "b42a119cd9c47ef57aa754ca68f4442ea883355c3a2fa0b3c03595ffaee84e17"
+    }
+  ]
+}

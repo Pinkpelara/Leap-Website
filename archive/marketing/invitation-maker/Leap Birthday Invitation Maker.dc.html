@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Kaushan+Script&display=swap" rel="stylesheet">
+<style>
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:#F3F1F6; font-family:'Nunito',sans-serif; }
+  a{ color:#F0568A; }
+  a:hover{ color:#D63D72; }
+  input,select,textarea{ font-family:'Nunito',sans-serif; }
+  ::placeholder{ color:#B7B1C2; }
+  @media print{
+    .leap-noprint{ display:none !important; }
+    html,body{ background:#fff !important; }
+    .leap-shell{ display:block !important; height:auto !important; overflow:visible !important; }
+    .leap-preview{ padding:0 !important; background:#fff !important; overflow:visible !important; }
+    .leap-stage{ width:auto !important; height:auto !important; transform:none !important; }
+    #print-card{ transform:none !important; margin:0 auto !important; box-shadow:none !important; border-radius:0 !important; }
+  }
+</style>
+</helmet>
+
+<div class="leap-shell" style="display:flex; height:100vh; width:100%; overflow:hidden; background:#F3F1F6; color:#2C2445;">
+
+  <!-- ===== FORM PANEL ===== -->
+  <div class="leap-noprint" style="width:400px; flex:none; height:100%; overflow-y:auto; background:#FFFFFF; border-right:1px solid #ECE8F2; padding:26px 28px 44px;">
+    <div style="display:flex; align-items:center; margin-bottom:4px;">
+      <img src="assets/leap-logo-dark.png" alt="Leap Gymnastics" style="width:150px; height:auto; display:block;">
+    </div>
+    <h1 style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:23px; margin:2px 0 4px;">Birthday Invitation Maker</h1>
+    <p style="margin:0 0 22px; font-size:13.5px; color:#7C7690; line-height:1.5;">Fill in your details, pick a design and colours, then print to PDF or share on screen.</p>
+
+    <div style="display:flex; flex-direction:column; gap:16px;">
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:6px;">Birthday child</label>
+        <div style="display:flex; gap:10px;">
+          <input value="{{ name }}" onChange="{{ onName }}" placeholder="Name" style="flex:1; min-width:0; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+          <input value="{{ age }}" onChange="{{ onAge }}" placeholder="Age" style="width:78px; flex:none; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445; text-align:center;" style-focus="border-color:#7C6BF0;">
+        </div>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:6px;">Date &amp; time</label>
+        <div style="display:flex; gap:10px;">
+          <input type="date" value="{{ date }}" onChange="{{ onDate }}" style="flex:1; min-width:0; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+          <input value="{{ time }}" onChange="{{ onTime }}" placeholder="1:00 – 3:00 PM" style="flex:1; min-width:0; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+        </div>
+        <div style="font-size:11.5px; color:#A7A1B4; margin-top:5px;">Party slots: 1:00–3:00 · 3:15–5:15 · 5:30–7:30</div>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:6px;">A little message</label>
+        <textarea value="{{ message }}" onChange="{{ onMessage }}" rows="3" placeholder="Come flip, jump and tumble with us!" style="width:100%; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445; resize:vertical; line-height:1.45;" style-focus="border-color:#7C6BF0;"></textarea>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:6px;">RSVP to</label>
+        <div style="display:flex; gap:10px;">
+          <input value="{{ rsvpName }}" onChange="{{ onRsvpName }}" placeholder="Your name" style="flex:1; min-width:0; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+          <input value="{{ rsvpContact }}" onChange="{{ onRsvpContact }}" placeholder="Phone or email" style="flex:1; min-width:0; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+        </div>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:6px;">Location</label>
+        <input value="{{ address }}" onChange="{{ onAddress }}" style="width:100%; padding:11px 12px; border:1.5px solid #E4E0EC; border-radius:11px; font-size:14px; outline:none; color:#2C2445;" style-focus="border-color:#7C6BF0;">
+      </div>
+
+      <div style="height:1px; background:#EEEBF3; margin:2px 0;"></div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:9px;">Card design</label>
+        <div style="display:flex; flex-direction:column; gap:9px;">
+          <sc-for list="{{ styleChips }}" as="sc" hint-placeholder-count="5">
+            <div onClick="{{ sc.onClick }}" style="{{ sc.wrap }}">
+              <div style="{{ sc.preview }}"></div>
+              <div style="min-width:0;">
+                <div style="font:700 14px 'Fredoka'; color:#2C2445; line-height:1.1;">{{ sc.label }}</div>
+                <div style="font-size:12px; color:#8B8599;">{{ sc.sub }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:9px;">Colours</label>
+        <div style="display:flex; gap:8px;">
+          <sc-for list="{{ chips }}" as="chip" hint-placeholder-count="4">
+            <div onClick="{{ chip.onClick }}" style="{{ chip.style }}">
+              <span style="{{ chip.dot }}"></span>
+              <span style="font-size:11px;">{{ chip.short }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div>
+        <label style="display:block; font:700 11px 'Nunito'; letter-spacing:1px; text-transform:uppercase; color:#9A93A8; margin-bottom:8px;">Orientation</label>
+        <div style="display:flex; gap:10px;">
+          <button onClick="{{ onPortrait }}" style="{{ pBtn }}">Portrait</button>
+          <button onClick="{{ onLandscape }}" style="{{ lBtn }}">Landscape</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== PREVIEW PANEL ===== -->
+  <div class="leap-preview" style="flex:1; min-width:0; height:100%; overflow:auto; background:#F3F1F6; display:flex; flex-direction:column; align-items:center;">
+
+    <div class="leap-noprint" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 28px; position:sticky; top:0; background:rgba(243,241,246,.9); backdrop-filter:blur(6px); z-index:5;">
+      <div style="font:700 13px 'Nunito'; color:#8A8398;">Live preview</div>
+      <button onClick="{{ onPrint }}" style="display:flex; align-items:center; gap:8px; padding:11px 20px; border:none; border-radius:12px; background:#2C2445; color:#fff; font:700 14px 'Nunito'; cursor:pointer; box-shadow:0 6px 16px rgba(44,36,69,.28);" style-hover="background:#3A3159;">
+        <span style="font-size:15px;">⤓</span> Print / Save as PDF
+      </button>
+    </div>
+
+    <div style="flex:1; width:100%; display:flex; align-items:flex-start; justify-content:center; padding:8px 28px 56px;">
+      <div class="leap-stage" style="{{ stageStyle }}">
+        <div id="print-card" style="{{ cardOuter }}">
+
+          <!-- confetti layer (shared) -->
+          <div style="position:absolute; inset:0; pointer-events:none; z-index:0;">
+            <sc-for list="{{ confetti }}" as="c" hint-placeholder-count="16"><span style="{{ c.style }}"></span></sc-for>
+          </div>
+
+          <!-- decoration by style -->
+          <sc-if value="{{ isParty }}" hint-placeholder-val="{{ true }}">
+            <div style="{{ frameStyle }}"></div>
+            <div style="position:absolute; top:24px; right:30px; transform:rotate(9deg); z-index:1;"><div style="width:36px; height:46px; background:{{ t.c1 }}; border-radius:50% 50% 47% 47%/56% 56% 44% 44%; box-shadow:inset -6px -7px 0 rgba(255,255,255,.2); position:relative;"><div style="position:absolute; left:50%; bottom:-3px; width:7px; height:7px; background:{{ t.c1 }}; transform:translateX(-50%) rotate(45deg);"></div></div><div style="width:1.5px; height:28px; margin:2px auto 0; background:rgba(0,0,0,.1);"></div></div>
+            <div style="position:absolute; top:40px; right:62px; transform:rotate(-11deg); z-index:1;"><div style="width:28px; height:36px; background:{{ t.c4 }}; border-radius:50% 50% 47% 47%/56% 56% 44% 44%; box-shadow:inset -5px -5px 0 rgba(255,255,255,.2); position:relative;"><div style="position:absolute; left:50%; bottom:-3px; width:6px; height:6px; background:{{ t.c4 }}; transform:translateX(-50%) rotate(45deg);"></div></div><div style="width:1.5px; height:22px; margin:2px auto 0; background:rgba(0,0,0,.1);"></div></div>
+          </sc-if>
+          <sc-if value="{{ isStar }}" hint-placeholder-val="{{ true }}"><div style="{{ frameStyle }}"></div></sc-if>
+          <sc-if value="{{ isFramed }}" hint-placeholder-val="{{ true }}"><div style="{{ frameStyle }}"></div><div style="{{ framedInner }}"></div></sc-if>
+          <sc-if value="{{ isArch }}" hint-placeholder-val="{{ true }}">
+            <div style="position:absolute; top:0; left:0; right:0; z-index:1; display:flex; justify-content:center; align-items:flex-start; gap:5px; padding-top:8px;">
+              <sc-for list="{{ garland }}" as="b" hint-placeholder-count="7"><div style="{{ b.wrap }}"><div style="{{ b.body }}"><div style="{{ b.knot }}"></div></div></div></sc-for>
+            </div>
+          </sc-if>
+
+          <!-- ==================== PORTRAIT ==================== -->
+          <sc-if value="{{ port }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; z-index:2; height:100%; display:flex; flex-direction:column;">
+
+              <!-- HERO -->
+              <sc-if value="{{ isParty }}" hint-placeholder-val="{{ true }}">
+                <div style="flex:none; padding:46px 44px 4px; text-align:center;">
+                  <div style="font:700 11px 'Nunito'; letter-spacing:2.5px; color:{{ t.c1 }};">YOU'RE INVITED TO A GYMNASTICS</div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:42px; line-height:1.05; color:{{ t.c4 }}; margin-top:8px;">{{ name }}</div>
+                  <div style="font-size:16px; color:{{ t.sub }};">is turning</div>
+                  <div style="position:relative; display:flex; align-items:center; justify-content:center; margin:2px 0;"><div style="{{ sunburst }}"></div><div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:128px; line-height:.85; color:{{ t.c2 }}; text-shadow:0 4px 0 {{ t.c2 }}22;">{{ age }}</div></div>
+                  <div style="{{ ribbon }}">Birthday Bash!</div>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ isTicket }}" hint-placeholder-val="{{ true }}">
+                <div style="flex:none;">
+                  <div style="height:6px; background:{{ t.c1 }};"></div>
+                  <div style="position:relative; background:{{ t.c1 }}14; padding:30px 40px 36px; text-align:center; overflow:hidden;">
+                    <div style="{{ sunburst }}"></div>
+                    <div style="position:relative; font:700 11px 'Nunito'; letter-spacing:3px; color:{{ t.c1 }};">★ GYMNASTICS BIRTHDAY PARTY ★</div>
+                    <div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:38px; line-height:1.05; color:{{ t.ink }}; margin-top:6px;">{{ name }}</div>
+                    <div style="position:relative; font-size:15px; color:{{ t.sub }};">is turning</div>
+                    <div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:106px; line-height:.85; color:{{ t.c1 }};">{{ age }}</div>
+                  </div>
+                  <div style="position:relative; height:0;">
+                    <div style="position:absolute; left:-16px; top:-16px; width:32px; height:32px; border-radius:50%; background:{{ ctx.cardBg }};"></div>
+                    <div style="position:absolute; right:-16px; top:-16px; width:32px; height:32px; border-radius:50%; background:{{ ctx.cardBg }};"></div>
+                    <div style="position:absolute; left:16px; right:16px; top:-1px; border-top:2px dashed {{ t.c1 }}55;"></div>
+                  </div>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ isStar }}" hint-placeholder-val="{{ true }}">
+                <div style="flex:none; padding:48px 44px 4px; text-align:center;">
+                  <div style="font:700 11px 'Nunito'; letter-spacing:3px; color:{{ t.c3 }};">✦ YOU'RE INVITED ✦</div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:42px; line-height:1.05; color:{{ t.ink }}; margin-top:8px;">{{ name }}</div>
+                  <div style="font-size:16px; color:{{ t.sub }};">is turning</div>
+                  <div style="position:relative; display:flex; align-items:center; justify-content:center; margin:4px 0;"><div style="{{ bigStar }}"></div><div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:132px; line-height:.85; color:{{ t.c1 }};">{{ age }}</div></div>
+                  <div style="display:inline-block; border:2px solid {{ t.c3 }}; color:{{ t.ink }}; border-radius:999px; padding:8px 24px; font-family:'Fredoka',sans-serif; font-weight:600; font-size:17px;">Gymnastics Birthday Bash</div>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ isArch }}" hint-placeholder-val="{{ true }}">
+                <div style="flex:none; padding:112px 44px 4px; text-align:center;">
+                  <div style="font:700 11px 'Nunito'; letter-spacing:2.5px; color:{{ t.c1 }};">YOU'RE INVITED TO A GYMNASTICS</div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:42px; line-height:1.05; color:{{ t.c4 }}; margin-top:8px;">{{ name }}</div>
+                  <div style="font-size:16px; color:{{ t.sub }};">is turning</div>
+                  <div style="position:relative; display:flex; align-items:center; justify-content:center; margin:2px 0;"><div style="position:absolute; width:172px; height:172px; border-radius:50%; background:{{ t.c2 }}1a;"></div><div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:126px; line-height:.85; color:{{ t.c2 }};">{{ age }}</div></div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:600; font-size:23px; color:{{ t.ink }};">Gymnastics Birthday Bash!</div>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ isFramed }}" hint-placeholder-val="{{ true }}">
+                <div style="flex:none; padding:52px 48px 4px; text-align:center;">
+                  <div style="font:700 11px 'Nunito'; letter-spacing:2.5px; color:{{ t.c1 }};">YOU'RE INVITED TO A GYMNASTICS</div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:40px; line-height:1.05; color:{{ t.ink }}; margin-top:8px;">{{ name }}</div>
+                  <div style="font-size:16px; color:{{ t.sub }};">is turning</div>
+                  <div style="display:flex; align-items:center; justify-content:center; margin:8px 0;"><div style="width:180px; height:180px; border-radius:50%; border:6px solid {{ t.c2 }}; display:flex; align-items:center; justify-content:center;"><span style="font-family:'Fredoka',sans-serif; font-weight:700; font-size:108px; line-height:1; color:{{ t.c1 }};">{{ age }}</span></div></div>
+                  <div style="font-family:'Fredoka',sans-serif; font-weight:600; font-size:23px; color:{{ t.ink }};">Gymnastics Birthday Bash!</div>
+                </div>
+              </sc-if>
+
+              <!-- SHARED CONTENT -->
+              <div style="flex:1; padding:16px 46px 38px; display:flex; flex-direction:column; align-items:center; text-align:center; justify-content:space-between; gap:14px;">
+                <div style="font-size:14.5px; line-height:1.5; color:{{ t.sub }}; max-width:330px;">{{ message }}</div>
+                <div style="{{ panelStyle }} text-align:left;">
+                  <div style="display:flex; gap:14px; align-items:baseline;"><div style="{{ panelLabel }}">WHEN</div><div style="font-size:14px; color:{{ t.ink }}; font-weight:700;">{{ fdate }}<span style="font-weight:600; color:{{ t.sub }};"> · {{ time }}</span></div></div>
+                  <div style="height:1px; background:#EEEBF3; margin:12px 0;"></div>
+                  <div style="display:flex; gap:14px; align-items:baseline;"><div style="{{ panelLabel }}">WHERE</div><div style="font-size:13.5px; color:{{ t.ink }}; font-weight:600; line-height:1.4;">Leap Gymnastics<br>{{ address }}</div></div>
+                </div>
+                <div style="font-size:13px; color:{{ t.sub }};">Please RSVP to <b style="color:{{ t.ink }};">{{ rsvpName }}</b> · {{ rsvpContact }}</div>
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <div style="{{ medalWrap }}">{{ medal }}</div>
+                  {{ footerLogo }}
+                </div>
+              </div>
+
+            </div>
+          </sc-if>
+
+          <!-- ==================== LANDSCAPE ==================== -->
+          <sc-if value="{{ land }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; z-index:2; display:flex; height:100%;">
+              <div style="width:290px; flex:none; position:relative; background:{{ ctx.leftBg }}; border-right:3px dashed {{ ctx.divLeft }}; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:30px 24px; overflow:hidden;">
+                <sc-if value="{{ isParty }}" hint-placeholder-val="{{ true }}"><div style="{{ sunburst }}"></div></sc-if>
+                <sc-if value="{{ isArch }}" hint-placeholder-val="{{ true }}"><div style="{{ sunburst }}"></div></sc-if>
+                <sc-if value="{{ isTicket }}" hint-placeholder-val="{{ true }}"><div style="{{ sunburst }}"></div></sc-if>
+                <sc-if value="{{ isStar }}" hint-placeholder-val="{{ true }}"><div style="{{ bigStar }}"></div></sc-if>
+                <div style="position:relative; font:700 11px 'Nunito'; letter-spacing:3px; color:{{ ctx.leftKicker }};">YOU'RE INVITED</div>
+                <div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:34px; line-height:1.05; color:{{ ctx.leftInk }}; margin-top:6px;">{{ name }}</div>
+                <div style="position:relative; font-size:15px; color:{{ t.sub }};">is turning</div>
+                <div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:700; font-size:116px; line-height:.82; color:{{ ctx.leftAge }};">{{ age }}</div>
+                <div style="position:relative; font-family:'Fredoka',sans-serif; font-weight:600; font-size:19px; color:{{ ctx.leftInk }}; line-height:1.15;">Gymnastics<br>Birthday Bash!</div>
+              </div>
+              <div style="flex:1; min-width:0; box-sizing:border-box; padding:36px 40px; display:flex; flex-direction:column; justify-content:space-between; text-align:left;">
+                <div style="font-family:'Fredoka',sans-serif; font-weight:600; font-size:19px; color:{{ t.ink }}; line-height:1.2;">Come celebrate at<br>Leap Gymnastics!</div>
+                <div style="font-size:14.5px; line-height:1.5; color:{{ t.sub }};">{{ message }}</div>
+                <div style="{{ panelStyle }}">
+                  <div style="display:flex; gap:14px; align-items:baseline;"><div style="{{ panelLabel }}">WHEN</div><div style="font-size:14px; color:{{ t.ink }}; font-weight:700;">{{ fdate }}<span style="font-weight:600; color:{{ t.sub }};"> · {{ time }}</span></div></div>
+                  <div style="height:1px; background:#EEEBF3; margin:11px 0;"></div>
+                  <div style="display:flex; gap:14px; align-items:baseline;"><div style="{{ panelLabel }}">WHERE</div><div style="font-size:13.5px; color:{{ t.ink }}; font-weight:600; line-height:1.4;">Leap Gymnastics · {{ address }}</div></div>
+                </div>
+                <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:16px;">
+                  <div style="font-size:13px; color:{{ t.sub }};">RSVP to <b style="color:{{ t.ink }};">{{ rsvpName }}</b><br>{{ rsvpContact }}</div>
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <div style="{{ medalWrap }}">{{ medal }}</div>
+                    {{ footerLogoSm }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </sc-if>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = {
+    name: "Ava", age: "6", date: "2026-08-15", time: "1:00 – 3:00 PM",
+    rsvpName: "Sarah", rsvpContact: "(289) 555-0123",
+    message: "Come flip, jump and tumble with us for an afternoon of high-flying fun!",
+    address: "158 Anderson Ave, Units 3 & 4, Markham, ON",
+    theme: "confetti", orientation: "portrait", style: "party"
+  };
+
+  syncPage(port) {
+    let el = document.getElementById('leap-page-size');
+    if (!el) { el = document.createElement('style'); el.id = 'leap-page-size'; document.head.appendChild(el); }
+    const w = port ? 5 : 7, h = port ? 7 : 5;
+    const next = `@media print{@page{size:${w}in ${h}in;margin:0}#print-card{width:${w}in !important;height:${h}in !important}}`;
+    if (el.textContent !== next) el.textContent = next;
+  }
+
+  themes() {
+    return {
+      confetti: { label: 'Confetti Pop', short: 'Pop',   bg: '#FFFDF7', ink: '#33304A', c1: '#F0568A', c2: '#7C6BF0', c3: '#F5B72E', c4: '#1FB0AE', sub: '#7C7690' },
+      bounce:   { label: 'Sky Bounce',   short: 'Sky',   bg: '#F0F8FF', ink: '#1B3A57', c1: '#2F86D8', c2: '#16A9C9', c3: '#F5B72E', c4: '#3FBE8B', sub: '#5A7690' },
+      berry:    { label: 'Berry Sweet',  short: 'Berry', bg: '#FFF4F7', ink: '#4A1F35', c1: '#ED4A78', c2: '#A85CE0', c3: '#F58A4C', c4: '#E24A94', sub: '#8A5A72' },
+      lime:     { label: 'Mint Zest',    short: 'Mint',  bg: '#F1FAF0', ink: '#234032', c1: '#35A86A', c2: '#1FA0A0', c3: '#F5B72E', c4: '#F0842E', sub: '#5C7358' }
+    };
+  }
+
+  renderVals() {
+    const s = this.state;
+    const T = this.themes();
+    const t = T[s.theme] || T.confetti;
+    const mk = k => e => this.setState({ [k]: e.target.value });
+
+    let fdate = s.date;
+    if (s.date) {
+      const d = new Date(s.date + 'T00:00:00');
+      if (!isNaN(d)) fdate = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    }
+
+    const starClip = 'polygon(50% 2%,61% 35%,96% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,4% 35%,39% 35%)';
+    const sty = s.style;
+    const isParty = sty === 'party', isTicket = sty === 'ticket', isStar = sty === 'star', isArch = sty === 'arch', isFramed = sty === 'framed';
+
+    // all designs are light / print-friendly
+    const light = { ink: t.ink, sub: t.sub, panelBg: '#FFFFFF', panelInk: t.ink, divider: '#EEEBF3' };
+    const CTX = {
+      party:  { ...light, cardBg: t.bg,      leftBg: 'transparent',  leftInk: t.c4,  leftAge: t.c2, leftKicker: t.c1, divLeft: t.c2 + '55' },
+      ticket: { ...light, cardBg: '#FFFFFF', leftBg: t.c1 + '12',    leftInk: t.ink, leftAge: t.c1, leftKicker: t.c1, divLeft: t.c1 + '40' },
+      star:   { ...light, cardBg: t.bg,      leftBg: 'transparent',  leftInk: t.ink, leftAge: t.c1, leftKicker: t.c3, divLeft: t.c3 + '55' },
+      arch:   { ...light, cardBg: t.bg,      leftBg: 'transparent',  leftInk: t.c4,  leftAge: t.c2, leftKicker: t.c1, divLeft: t.c2 + '55' },
+      framed: { ...light, cardBg: t.bg,      leftBg: 'transparent',  leftInk: t.ink, leftAge: t.c1, leftKicker: t.c1, divLeft: t.c1 + '55' }
+    };
+    const ctx = CTX[sty] || CTX.party;
+
+    const cols = [t.c1, t.c2, t.c3, t.c4];
+    const pos = [[5,8],[15,22],[3,42],[9,64],[6,84],[19,90],[36,5],[58,4],[80,7],[92,15],[95,36],[91,58],[95,80],[83,91],[62,94],[42,92],[26,13],[73,21]];
+    const shapes = ['circle','star','diamond','ring','circle','star'];
+    const confetti = pos.map((p, i) => {
+      const c = cols[i % 4];
+      const shp = shapes[i % shapes.length];
+      let sz = shp === 'star' ? 18 : (i % 3 === 0 ? 14 : (i % 3 === 1 ? 10 : 8));
+      const rot = shp === 'star' ? (i * 23) % 40 - 20 : (i * 47) % 360;
+      let extra = 'border-radius:50%;background:' + c + ';';
+      if (shp === 'diamond') extra = 'background:' + c + ';border-radius:3px;';
+      if (shp === 'ring') extra = 'border-radius:50%;background:transparent;border:3px solid ' + c + ';';
+      if (shp === 'star') extra = 'background:' + c + ';clip-path:' + starClip + ';';
+      const op = isTicket ? '.55' : '.9';
+      return { style: `position:absolute;left:${p[0]}%;top:${p[1]}%;width:${sz}px;height:${sz}px;${extra}transform:rotate(${rot}deg);opacity:${op};` };
+    });
+
+    // decorative style strings (light)
+    const sunburst = `position:absolute;width:320px;height:320px;left:50%;top:50%;transform:translate(-50%,-50%);background:repeating-conic-gradient(${t.c3}4a 0deg 10deg, transparent 10deg 20deg);-webkit-mask:radial-gradient(closest-side,#000 16%, transparent 68%);mask:radial-gradient(closest-side,#000 16%, transparent 68%);pointer-events:none;`;
+    const bigStar = `position:absolute;width:290px;height:290px;left:50%;top:50%;transform:translate(-50%,-52%);background:${t.c1};opacity:.12;clip-path:${starClip};pointer-events:none;`;
+    const ribbon = `position:relative;display:inline-block;white-space:nowrap;background:${t.c1};color:#fff;font-family:'Fredoka',sans-serif;font-weight:600;font-size:20px;line-height:1;padding:11px 38px;clip-path:polygon(0 0,100% 0,94% 50%,100% 100%,0 100%,6% 50%);box-shadow:0 6px 14px ${t.c1}33;`;
+    const frameStyle = isStar
+      ? `position:absolute;inset:14px;border:2px solid ${t.c3}88;border-radius:20px;pointer-events:none;z-index:1;`
+      : isFramed
+      ? `position:absolute;inset:0;border:9px solid ${t.c1};border-radius:28px;pointer-events:none;z-index:1;`
+      : `position:absolute;inset:13px;border:2.5px dashed ${t.c2}66;border-radius:20px;pointer-events:none;z-index:1;`;
+    const framedInner = `position:absolute;inset:19px;border:2px dashed ${t.c2}77;border-radius:16px;pointer-events:none;z-index:1;`;
+    const swoosh = `width:132px;height:20px;margin:-4px auto 0;border-bottom:3px solid ${t.c1};border-radius:0 0 62% 62%;`;
+
+    const panelStyle = `width:100%;box-sizing:border-box;background:${ctx.panelBg};border-radius:18px;padding:16px 20px;box-shadow:0 6px 18px rgba(44,36,69,.08);border:1px solid #F0EDF4;`;
+    const panelLabel = `font:800 11px 'Nunito';letter-spacing:1.5px;color:${isStar ? t.c3 : t.c1};width:52px;flex:none;`;
+
+    // medal icon
+    const h = React.createElement;
+    const medalWrap = `position:relative;width:44px;height:54px;flex:none;`;
+    const medal = h('div', { style: { position: 'relative', width: '44px', height: '54px' } },
+      h('div', { style: { position: 'absolute', left: '9px', top: 0, width: '11px', height: '24px', background: t.c1, transform: 'rotate(-13deg)', borderRadius: '2px' } }),
+      h('div', { style: { position: 'absolute', right: '9px', top: 0, width: '11px', height: '24px', background: t.c2, transform: 'rotate(13deg)', borderRadius: '2px' } }),
+      h('div', { style: { position: 'absolute', left: '50%', bottom: 0, transform: 'translateX(-50%)', width: '36px', height: '36px', borderRadius: '50%', background: `radial-gradient(circle at 35% 30%,#FFEFA8,${t.c3})`, border: '3px solid #fff', boxShadow: '0 3px 9px rgba(0,0,0,.18)', display: 'flex', alignItems: 'center', justifyContent: 'center' } },
+        h('div', { style: { width: '15px', height: '15px', background: '#fff', clipPath: starClip, opacity: .9 } })
+      )
+    );
+
+    // garland for arch style
+    const gcols = [t.c1, t.c2, t.c4, t.c3, t.c1, t.c2, t.c4];
+    const goff = [26, 12, 2, 0, 4, 12, 26];
+    const gsz  = [28, 34, 38, 42, 38, 34, 28];
+    const garland = gcols.map((c, i) => ({
+      wrap: `margin-top:${goff[i]}px;`,
+      body: `width:${gsz[i]}px;height:${Math.round(gsz[i] * 1.25)}px;background:${c};border-radius:50% 50% 47% 47%/56% 56% 44% 44%;box-shadow:inset -6px -7px 0 rgba(255,255,255,.2);position:relative;`,
+      knot: `position:absolute;left:50%;bottom:-3px;width:6px;height:6px;background:${c};transform:translateX(-50%) rotate(45deg);`
+    }));
+
+    // style picker chips
+    const styleDefs = [
+      { id: 'party',  label: 'Party Pop',   sub: 'Confetti & sunburst', prev: `background:${t.bg};` },
+      { id: 'ticket', label: 'Main Event',  sub: 'Event-ticket look',   prev: `background:linear-gradient(180deg,${t.c1}26 0 42%,#fff 42%);border-top:3px solid ${t.c1};` },
+      { id: 'star',   label: 'Starlight',   sub: 'Elegant star accent',  prev: `background:radial-gradient(circle at 50% 44%, ${t.c3}66 0 20%, transparent 21%), ${t.bg};` },
+      { id: 'arch',   label: 'Balloon Arch',sub: 'Balloon garland',      prev: `background:radial-gradient(circle at 24% 16%, ${t.c1} 0 7%, transparent 8%), radial-gradient(circle at 50% 12%, ${t.c2} 0 8%, transparent 9%), radial-gradient(circle at 76% 16%, ${t.c4} 0 7%, transparent 8%), ${t.bg};` },
+      { id: 'framed', label: 'Framed',      sub: 'Bold colour border',   prev: `background:${t.bg};box-shadow:inset 0 0 0 4px ${t.c1};` }
+    ];
+    const styleChips = styleDefs.map(d => {
+      const active = sty === d.id;
+      return {
+        id: d.id, label: d.label, sub: d.sub,
+        onClick: () => this.setState({ style: d.id }),
+        wrap: `display:flex;align-items:center;gap:12px;padding:9px 11px;border-radius:13px;cursor:pointer;border:2px solid ${active ? t.c1 : '#E7E3EE'};background:#fff;box-shadow:${active ? '0 4px 12px rgba(44,36,69,.10)' : 'none'};`,
+        preview: `width:40px;height:52px;flex:none;border-radius:6px;border:1px solid rgba(0,0,0,.06);${d.prev}`
+      };
+    });
+
+    // colour chips (4)
+    const chips = Object.keys(T).map(id => {
+      const tt = T[id];
+      const active = s.theme === id;
+      return {
+        id, short: tt.short,
+        onClick: () => this.setState({ theme: id }),
+        style: `flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:6px;padding:9px 4px;border-radius:12px;cursor:pointer;font:700 'Nunito';border:2px solid ${active ? tt.c1 : '#E7E3EE'};background:#fff;box-shadow:${active ? '0 4px 12px rgba(44,36,69,.10)' : 'none'};color:#2C2445;`,
+        dot: `width:100%;height:15px;border-radius:6px;background:linear-gradient(90deg,${tt.c1} 0 33%,${tt.c2} 33% 66%,${tt.c3} 66% 100%);`
+      };
+    });
+
+    const port = s.orientation === 'portrait';
+    this.syncPage(port);
+    const scale = port ? 0.74 : 0.82;
+    const cw = port ? 480 : 672, ch = port ? 672 : 480;
+    const orientBtn = active => `flex:1;padding:11px;border-radius:11px;cursor:pointer;font:700 14px 'Nunito';border:2px solid ${active ? t.c1 : '#E4E0EC'};background:${active ? t.c1 : '#fff'};color:${active ? '#fff' : '#2C2445'};`;
+
+    return {
+      name: s.name, age: s.age, time: s.time, message: s.message,
+      rsvpName: s.rsvpName, rsvpContact: s.rsvpContact, address: s.address, date: s.date,
+      t, ctx, fdate, confetti, chips, styleChips, garland, port, land: !port,
+      footerLogo: h('img', { src: `assets/leap-logo-${s.theme}.png`, alt: 'Leap Gymnastics', style: { width: '158px', height: 'auto', display: 'block' } }),
+      footerLogoSm: h('img', { src: `assets/leap-logo-${s.theme}.png`, alt: 'Leap Gymnastics', style: { width: '140px', height: 'auto', display: 'block' } }),
+      isParty, isTicket, isStar, isArch, isFramed,
+      sunburst, bigStar, ribbon, frameStyle, framedInner, swoosh, panelStyle, panelLabel, medal, medalWrap,
+      onName: mk('name'), onAge: mk('age'), onDate: mk('date'), onTime: mk('time'),
+      onRsvpName: mk('rsvpName'), onRsvpContact: mk('rsvpContact'), onMessage: mk('message'), onAddress: mk('address'),
+      onPortrait: () => this.setState({ orientation: 'portrait' }),
+      onLandscape: () => this.setState({ orientation: 'landscape' }),
+      onPrint: () => window.print(),
+      stageStyle: `width:${Math.round(cw * scale)}px;height:${Math.round(ch * scale)}px;flex:none;`,
+      cardOuter: `position:relative;overflow:hidden;width:${cw}px;height:${ch}px;border-radius:28px;background:${ctx.cardBg};box-shadow:0 20px 50px rgba(44,36,69,.16);transform:scale(${scale});transform-origin:top left;`,
+      pBtn: orientBtn(port), lBtn: orientBtn(!port)
+    };
+  }
+}
+</script>
+</body>
+</html>

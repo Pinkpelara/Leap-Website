@@ -1,0 +1,50 @@
+[
+  {
+    "basename": "Leap_Gymnastics_full_logo_white_vector",
+    "svg": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_white_vector.svg",
+    "pdf": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_white_vector.pdf",
+    "eps": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_white_vector.eps",
+    "ai": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_white_vector.ai",
+    "width_px": 920.75,
+    "height_px": 449.5,
+    "trace_scale": 4,
+    "contours": 21,
+    "points": 3363
+  },
+  {
+    "basename": "Leap_Gymnastics_full_logo_black_vector",
+    "svg": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_black_vector.svg",
+    "pdf": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_black_vector.pdf",
+    "eps": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_black_vector.eps",
+    "ai": "/mnt/data/leap_logo_vector_files/Leap_Gymnastics_full_logo_black_vector.ai",
+    "width_px": 920.75,
+    "height_px": 449.5,
+    "trace_scale": 4,
+    "contours": 21,
+    "points": 3363
+  },
+  {
+    "basename": "Leap_wordmark_only_white_vector",
+    "svg": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_white_vector.svg",
+    "pdf": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_white_vector.pdf",
+    "eps": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_white_vector.eps",
+    "ai": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_white_vector.ai",
+    "width_px": 920.75,
+    "height_px": 398.0,
+    "trace_scale": 4,
+    "contours": 10,
+    "points": 2889
+  },
+  {
+    "basename": "Leap_wordmark_only_black_vector",
+    "svg": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_black_vector.svg",
+    "pdf": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_black_vector.pdf",
+    "eps": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_black_vector.eps",
+    "ai": "/mnt/data/leap_logo_vector_files/Leap_wordmark_only_black_vector.ai",
+    "width_px": 920.75,
+    "height_px": 398.0,
+    "trace_scale": 4,
+    "contours": 10,
+    "points": 2889
+  }
+]
