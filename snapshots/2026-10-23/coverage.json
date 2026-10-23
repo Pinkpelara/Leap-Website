@@ -1,0 +1,25 @@
+{
+  "captureStartedUTC": "2026-10-23T16:33:56.328670+00:00",
+  "lastUpdatedUTC": "2026-10-23T16:34:46.322362+00:00",
+  "pagesProcessed": 110,
+  "assetsProcessed": 165,
+  "pagesPending": [],
+  "assetsPending": [],
+  "successfulPages": 110,
+  "totalSavedBytes": 40543011,
+  "limits": {
+    "maxPages": 260,
+    "maxAssets": 1000,
+    "concurrency": 6,
+    "maxAssetBytes": 80000000
+  },
+  "discoveryMethods": [
+    "robots.txt",
+    "sitemap.xml",
+    "same-origin HTML anchor links",
+    "JSON and inline JavaScript literal public links",
+    "HTML asset attributes",
+    "CSS url() and imports"
+  ],
+  "canonicalization": "Fragments removed for fetching and retained in link inventory; cache-buster and registration sort/calendar query variants deduplicated."
+}

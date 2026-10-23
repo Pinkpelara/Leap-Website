@@ -1,0 +1,28 @@
+{
+  "note": "Names only. Recover values and bindings from existing authorized service settings. Do not reset signing keys or cutovers.",
+  "names": [
+    "ASSETS",
+    "CUTOVER_MS",
+    "DB",
+    "GUEST_ORIGIN",
+    "INVOICE_CLIENT_ID",
+    "INVOICE_CLIENT_SECRET",
+    "INVOICE_CUTOVER_MS",
+    "INVOICE_MODE",
+    "INVOICE_ORGANIZATION_ID",
+    "INVOICE_REFRESH_TOKEN",
+    "LEGACY_DB",
+    "LEGACY_DELIVERY",
+    "LEGACY_ORIGIN",
+    "MAIL_MODE",
+    "NATIVE_INVOICE_CUTOVER_MS",
+    "PUBLIC_ORIGIN",
+    "TICK_SECRET",
+    "TOKEN_SECRET",
+    "WORKFLOW",
+    "ZOHO_ACCOUNT_ID",
+    "ZOHO_CLIENT_ID",
+    "ZOHO_CLIENT_SECRET",
+    "ZOHO_REFRESH_TOKEN"
+  ]
+}

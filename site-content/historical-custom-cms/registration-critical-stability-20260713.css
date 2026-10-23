@@ -1,0 +1,13 @@
+/* SAFE LEGACY-LIST GUARD ONLY.
+   The former native .boxGroupContainer flex/order rules were removed because
+   they reordered and overflowed Uplifter's registration product card.
+   Do not add native product-card layout rules back to this file. */
+html body #registration-list-view {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

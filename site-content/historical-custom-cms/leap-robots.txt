@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+Allow: /
+Disallow: /admin/
+Allow: /registration/
+Allow: /pages/
+
+Sitemap: https://www.leapgymnastics.ca/sitemap.xml

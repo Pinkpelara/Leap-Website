@@ -1,3 +1,5 @@
+> Historical reference. Read [current state](CURRENT_STATE.md) and [working rules](WORKING_RULES.md) first. Later confirmed decisions supersede this brief; do not deploy it automatically.
+
 # Codex brief: Leap Gymnastics birthday-party workflow
 
 Read this whole file before writing code. Everything under "Verified" was checked against the live site, the owner's Uplifter admin, a real invoice email and a real form submission on 2026-09-29. Everything under "Unverified" was not. Do not treat the second group as fact.

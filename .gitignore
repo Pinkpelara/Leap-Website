@@ -1,0 +1,14 @@
+node_modules/
+output/
+.local/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+.wrangler/
+*private*.json
+*secrets*.json
+*websession*
+*auth-session*

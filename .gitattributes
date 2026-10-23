@@ -1,1 +1,6 @@
 snapshots/** -text
+
+snapshots/** -whitespace
+cloudflare-pages/** -text -whitespace
+site-content/historical-custom-cms/** -text -whitespace
+tools/** -text -whitespace

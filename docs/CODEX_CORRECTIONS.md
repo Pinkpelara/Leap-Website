@@ -1,3 +1,5 @@
+> Historical reference. Read [current state](CURRENT_STATE.md) and [working rules](WORKING_RULES.md) first. Later confirmed decisions supersede this brief; do not deploy it automatically.
+
 # Leap birthday parties: corrections to make in place
 
 You (Codex) already have access to Leap's Uplifter admin, website and forms. Do NOT rebuild anything. Make the smallest edit that fixes each item below, in the place named. Before you save each change, note the current text so it can be reverted. Where an item says "needs owner approval", prepare it and show it; do not publish.

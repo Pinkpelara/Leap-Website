@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Leap Gymnastics participant informed consent and assumption of risk agreement for the 2026-2027 season.">
+  <meta name="theme-color" content="#3b1f86">
+  <title>Participant Consent &amp; Assumption of Risk | Leap Gymnastics</title>
+  <link rel="canonical" href="https://leap-participant-consent-form.pages.dev/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to form</a>
+
+  <main id="main-content">
+    <section class="welcome" id="welcomeScreen" aria-labelledby="welcomeTitle">
+      <div class="welcome__inner">
+        <img class="welcome__logo" src="/assets/leap-logo-white.png" alt="Leap Gymnastics">
+        <p class="eyebrow">Participant forms · 2026-2027</p>
+        <h1 id="welcomeTitle">Participant Informed Consent &amp; Assumption of Risk</h1>
+        <p class="welcome__lead">Please read the full agreement and complete one form for each participant before taking part in Leap Gymnastics activities.</p>
+        <div class="welcome__facts" aria-label="Form details">
+          <span>About 5-7 minutes</span>
+          <span>6 short sections</span>
+          <span>Electronic signature</span>
+        </div>
+        <button class="button button--primary button--large" id="startButton" type="button">Begin form <span aria-hidden="true">→</span></button>
+        <a class="welcome__pdf" href="https://www.gymnasticsontario.ca/download/416/membership-forms/51473/participant-informed-consent-and-assumption-of-risk-agreement-2026-2027.pdf" target="_blank" rel="noopener">View the original 2026-2027 agreement (PDF)</a>
+      </div>
+    </section>
+
+    <section class="form-app" id="formScreen" hidden aria-labelledby="formTitle">
+      <header class="form-brand">
+        <a href="https://www.leapgymnastics.ca/" aria-label="Visit the Leap Gymnastics website">
+          <img src="/assets/leap-logo-white.png" alt="Leap Gymnastics">
+        </a>
+        <div>
+          <p>Gymnastics Ontario member club</p>
+          <div class="form-brand__title" id="formTitle" role="heading" aria-level="1">Participant Consent &amp; Risk Agreement</div>
+        </div>
+      </header>
+
+      <nav class="progress" aria-label="Form progress">
+        <ol>
+          <li><button type="button" data-step-target="0" aria-current="step"><span>01</span>Participant</button></li>
+          <li><button type="button" data-step-target="1" disabled><span>02</span>Agreement</button></li>
+          <li><button type="button" data-step-target="2" disabled><span>03</span>Risks</button></li>
+          <li><button type="button" data-step-target="3" disabled><span>04</span>Terms</button></li>
+          <li><button type="button" data-step-target="4" disabled><span>05</span>Sign</button></li>
+          <li><button type="button" data-step-target="5" disabled><span>06</span>Review</button></li>
+        </ol>
+      </nav>
+
+      <div class="form-alert" id="formAlert" role="alert" aria-live="assertive" hidden></div>
+
+      <form id="consentForm" novalidate>
+        <section class="step-card" data-step="0" aria-labelledby="step0Title">
+          <p class="section-kicker">Section 1 of 6</p>
+          <h2 id="step0Title" tabindex="-1">Participant information</h2>
+          <p class="section-intro">Tell us who this agreement covers and how Leap Gymnastics can reach the participant or their parent/guardian.</p>
+
+          <div class="field-grid">
+            <div class="field field--wide">
+              <label for="participantName">Participant's full legal name <span aria-hidden="true">*</span></label>
+              <input id="participantName" name="participant_name" type="text" autocomplete="name" placeholder="First and last name" required>
+              <p class="field-error" id="participantNameError"></p>
+            </div>
+            <div class="field">
+              <label for="participantDob">Date of birth <span aria-hidden="true">*</span></label>
+              <input id="participantDob" name="participant_dob" type="date" min="1900-01-01" required>
+              <p class="field-error" id="participantDobError"></p>
+            </div>
+            <div class="field">
+              <label for="programClass">Program or class <span class="optional">Optional</span></label>
+              <input id="programClass" name="program_class" type="text" placeholder="e.g. Recreational or Camp">
+            </div>
+            <div class="field">
+              <label for="contactEmail">Contact email <span aria-hidden="true">*</span></label>
+              <input id="contactEmail" name="contact_email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+              <p class="field-error" id="contactEmailError"></p>
+            </div>
+            <div class="field">
+              <label for="contactPhone">Contact phone <span aria-hidden="true">*</span></label>
+              <input id="contactPhone" name="contact_phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(000) 000-0000" required>
+              <p class="field-error" id="contactPhoneError"></p>
+            </div>
+          </div>
+
+          <aside class="privacy-note">
+            <strong>Privacy note</strong>
+            <p>Your completed form is sent to Leap Gymnastics for participant administration. Do not include medical details in the optional program field.</p>
+          </aside>
+        </section>
+
+        <section class="step-card legal-card" data-step="1" aria-labelledby="step1Title" hidden>
+          <p class="section-kicker">Section 2 of 6</p>
+          <h2 id="step1Title" tabindex="-1">The agreement</h2>
+          <div class="warning-banner"><strong>Warning:</strong> Please read carefully. By signing this document, you will assume certain risks and responsibilities.</div>
+
+          <div class="legal-copy">
+            <ol class="legal-list">
+              <li>This is a binding legal agreement. Clarify any questions or concerns before signing. As a participant in the sport of gymnastics and the spectating, orientation, instruction, activities, competitions, programs, and services of Gymnastics Ontario and Leap Gymnastics (collectively the “Activities”), the undersigned, being the Participant and the Participant's Parent/Guardian (if Participant is under 18 years old), (collectively the “Parties”), acknowledge and agree to the terms outlined in this document.</li>
+              <li>Gymnastics Ontario, Leap Gymnastics, and their respective Directors, Officers, committee members, members, employees, coaches, volunteers, officials, participants, agents, sponsors, owners/operators of the facilities in which the Activities take place, and representatives (collectively the “Organization”).</li>
+            </ol>
+          </div>
+
+          <label class="acknowledgement" for="ack12">
+            <input id="ack12" name="ack_paragraphs_1_2" type="checkbox" required>
+            <span><strong>We have read and agree to be bound by paragraphs 1 and 2.</strong><small>Required</small></span>
+          </label>
+        </section>
+
+        <section class="step-card legal-card" data-step="2" aria-labelledby="step2Title" hidden>
+          <p class="section-kicker">Section 3 of 6</p>
+          <h2 id="step2Title" tabindex="-1">Description and acknowledgement of risks</h2>
+          <div class="warning-banner"><strong>Warning:</strong> Please read every item before continuing.</div>
+
+          <div class="legal-copy">
+            <ol class="legal-list" start="3">
+              <li>The Parties understand and acknowledge that:
+                <ol class="legal-sublist" type="a">
+                  <li>The Activities have foreseeable and unforeseeable inherent risks, hazards, and dangers that no amount of care, caution or expertise can eliminate, including without limitation, the potential for serious bodily injury.</li>
+                  <li>The Organization may offer or promote online programming (such as webinars, remote conferences, workshops, and online training) which have different foreseeable and unforeseeable risks than in-person programming.</li>
+                  <li>The Organization has a difficult task to ensure safety and it is not infallible. The Organization may be unaware of the Participant's fitness or abilities, may give incomplete warnings or instructions, may misjudge weather or environmental conditions, and the equipment being used might malfunction.</li>
+                </ol>
+              </li>
+              <li>The Participant is participating voluntarily in the Activities. In consideration of that participation, the Parties hereby acknowledge that they are aware of the risks, dangers and hazards and may be exposed to such risks, dangers, and hazards. The risks, dangers and hazards include, but are not limited to:
+                <ol class="legal-sublist" type="a">
+                  <li>Privacy breaches, hacking, technology malfunction or damage.</li>
+                  <li>Executing strenuous and demanding physical techniques and exerting and stretching various muscle groups.</li>
+                  <li>Vigorous physical exertion, strenuous cardiovascular workouts, and rapid movements.</li>
+                  <li>The failure to properly use any piece of equipment or from the mechanical failure of any piece of equipment or apparatus.</li>
+                  <li>Failure to follow instructions or rules.</li>
+                  <li>Serious injury to virtually all bones, joints, ligaments, muscles, tendons, and other aspects of the Participant's body or to the Participant's general health and well-being.</li>
+                  <li>Abrasions, sprains, strains, fractures, or dislocations.</li>
+                  <li>Concussion or other head injuries, including but not limited to, closed head injury or blunt head trauma.</li>
+                  <li>Physical contact with other participants, spotters, spectators, equipment, and hazards.</li>
+                  <li>Collisions with walls, any gymnastics apparatus, floors, or mats.</li>
+                  <li>Falling, tumbling, or hitting any gymnastics apparatus, the floor, mats, or other surfaces.</li>
+                  <li>Failure to act safely or within the Participant's ability or designated areas.</li>
+                  <li>Negligence of other persons, including other spectators, participants, or employees.</li>
+                  <li>Travel to and from competitive events and associated non-competitive events which are an integral part of the Activities.</li>
+                  <li>Contracting COVID-19 or any other contagious disease.</li>
+                </ol>
+              </li>
+            </ol>
+          </div>
+
+          <label class="acknowledgement" for="ack34">
+            <input id="ack34" name="ack_paragraphs_3_4" type="checkbox" required>
+            <span><strong>We have read and agree to be bound by paragraphs 3 and 4.</strong><small>Required</small></span>
+          </label>
+        </section>
+
+        <section class="step-card legal-card" data-step="3" aria-labelledby="step3Title" hidden>
+          <p class="section-kicker">Section 4 of 6</p>
+          <h2 id="step3Title" tabindex="-1">Terms, jurisdiction and acknowledgement</h2>
+          <div class="warning-banner"><strong>Warning:</strong> Please read every item before continuing.</div>
+
+          <div class="legal-copy">
+            <h3>Terms</h3>
+            <ol class="legal-list" start="5">
+              <li>In consideration of the Organization allowing the Participant to participate in the Activities, the Parties agree:
+                <ol class="legal-sublist" type="a">
+                  <li>That when the Participant practices or trains in their own space, the Parties are responsible for the Participant's surroundings and the location and equipment that is selected for the Participant.</li>
+                  <li>That the Participant's mental and physical condition is appropriate to participate in the Activities and the Parties assume all risks related to the Participant's mental and physical condition.</li>
+                  <li>That the Participant may experience anxiety while challenging themselves during the Activities.</li>
+                  <li>To comply with the rules and regulations for participation in the Activities.</li>
+                  <li>To comply with the rules of the facility or equipment.</li>
+                  <li>The risks associated with the Activities are increased when the Participant is impaired, and the Participant will not participate if impaired in any way.</li>
+                </ol>
+              </li>
+              <li>In consideration of the Organization allowing the Participant to participate, the Parties agree:
+                <ol class="legal-sublist" type="a">
+                  <li>That the Parties are not relying on any oral or written statements made by the Organization or their agents, whether in brochure or advertisement or in individual conversations, to agree to participate in the Activities.</li>
+                  <li>That the Organization is not responsible or liable for any damage to the Participant's vehicle, property, or equipment that may occur as a result of the Activities; and</li>
+                  <li>That this Agreement is intended to be as broad and inclusive as is permitted by law of the Province of Ontario and if any portion thereof is held invalid, the balance shall, notwithstanding, continue in full legal force and effect.</li>
+                </ol>
+              </li>
+            </ol>
+
+            <h3>Jurisdiction</h3>
+            <ol class="legal-list" start="7">
+              <li>The Parties agree that in the event that they file a lawsuit against the Organization, they agree to do so solely in the Province of Ontario.</li>
+            </ol>
+
+            <h3>Acknowledgement</h3>
+            <ol class="legal-list" start="8">
+              <li>The Parties acknowledge that they have read this Agreement and understand it, that they have executed this Agreement voluntarily, and that this Agreement is to be binding upon themselves, their heirs, their spouses, parents, guardians, next of kin, executors, administrators and legal or personal representatives.</li>
+            </ol>
+          </div>
+
+          <label class="acknowledgement" for="ack57">
+            <input id="ack57" name="ack_paragraphs_5_7" type="checkbox" required>
+            <span><strong>We have read and agree to be bound by paragraphs 5 to 7.</strong><small>Required</small></span>
+          </label>
+        </section>
+
+        <section class="step-card" data-step="4" aria-labelledby="step4Title" hidden>
+          <p class="section-kicker">Section 5 of 6</p>
+          <h2 id="step4Title" tabindex="-1">Electronic signatures</h2>
+          <p class="section-intro">Type each full legal name below. The participant signs in all cases; a parent or guardian must also sign when the participant is under 18.</p>
+
+          <fieldset class="signature-group">
+            <legend>Participant signature</legend>
+            <div class="field-grid">
+              <div class="field field--wide signature-field">
+                <label for="participantSignature">Signature - type full legal name <span aria-hidden="true">*</span></label>
+                <input id="participantSignature" name="participant_signature" type="text" autocomplete="off" placeholder="Type full legal name to sign" required>
+                <p class="field-error" id="participantSignatureError"></p>
+              </div>
+              <div class="field">
+                <label for="participantSignedDate">Date signed</label>
+                <input id="participantSignedDate" name="participant_signed_date" type="text" readonly>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="signature-group guardian-group" id="guardianGroup" hidden>
+            <legend>Parent or guardian signature</legend>
+            <p class="minor-notice"><span aria-hidden="true"></span>The participant is under 18, so a parent or guardian signature is required.</p>
+            <div class="field-grid">
+              <div class="field field--wide">
+                <label for="guardianName">Parent or guardian full legal name <span aria-hidden="true">*</span></label>
+                <input id="guardianName" name="guardian_name" type="text" autocomplete="name" placeholder="First and last name">
+                <p class="field-error" id="guardianNameError"></p>
+              </div>
+              <div class="field field--wide signature-field">
+                <label for="guardianSignature">Signature - type full legal name <span aria-hidden="true">*</span></label>
+                <input id="guardianSignature" name="guardian_signature" type="text" autocomplete="off" placeholder="Type full legal name to sign">
+                <p class="field-error" id="guardianSignatureError"></p>
+              </div>
+              <div class="field">
+                <label for="guardianSignedDate">Date signed</label>
+                <input id="guardianSignedDate" name="guardian_signed_date" type="text" readonly>
+              </div>
+            </div>
+          </fieldset>
+
+          <label class="consent-box" for="electronicConsent">
+            <input id="electronicConsent" name="electronic_signature_consent" type="checkbox" required>
+            <span><strong>I confirm</strong> that I have read and understood this entire agreement, that the information provided is accurate, and that the typed name or names above constitute legally binding electronic signatures.</span>
+          </label>
+        </section>
+
+        <section class="step-card review-card" data-step="5" aria-labelledby="step5Title" hidden>
+          <p class="section-kicker">Section 6 of 6</p>
+          <h2 id="step5Title" tabindex="-1">Review and submit</h2>
+          <p class="section-intro">Check the details below. Use Back to correct anything before submitting.</p>
+
+          <dl class="review-list" id="reviewList"></dl>
+
+          <div class="review-agreement">
+            <h3>Agreement record</h3>
+            <ul>
+              <li>Gymnastics Ontario and Leap Gymnastics agreement version: <strong>2026-2027</strong></li>
+              <li>Paragraphs 1 and 2 acknowledged</li>
+              <li>Paragraphs 3 and 4 acknowledged</li>
+              <li>Paragraphs 5 to 7 acknowledged</li>
+              <li>Electronic-signature consent confirmed</li>
+            </ul>
+          </div>
+
+          <label class="consent-box consent-box--final" for="finalConfirmation">
+            <input id="finalConfirmation" name="final_confirmation" type="checkbox" required>
+            <span><strong>Final confirmation:</strong> I confirm that I am ready to submit this signed agreement to Leap Gymnastics.</span>
+          </label>
+
+          <div class="bot-field" aria-hidden="true">
+            <label for="botcheck">Leave this field empty</label>
+            <input id="botcheck" name="botcheck" type="text" tabindex="-1" autocomplete="off">
+          </div>
+        </section>
+
+        <div class="form-actions" id="formActions">
+          <button class="button button--secondary" id="backButton" type="button">← Back</button>
+          <p id="progressText" aria-live="polite">Section 1 of 6</p>
+          <button class="button button--primary" id="nextButton" type="button">Continue</button>
+          <button class="button button--primary submit-button" id="submitButton" type="submit" hidden>
+            <span class="spinner" aria-hidden="true"></span>
+            <span class="submit-label">Sign &amp; submit agreement</span>
+          </button>
+        </div>
+      </form>
+
+      <section class="success-card" id="successScreen" hidden aria-labelledby="successTitle" aria-live="polite">
+        <div class="success-mark" aria-hidden="true">✓</div>
+        <p class="section-kicker">Submission confirmed</p>
+        <h2 id="successTitle">Agreement received - thank you!</h2>
+        <p>Your signed participant agreement has been delivered to Leap Gymnastics. Keep the reference below for your records.</p>
+        <dl class="success-details">
+          <div><dt>Participant</dt><dd id="successParticipant"></dd></div>
+          <div><dt>Agreement</dt><dd>2026-2027</dd></div>
+          <div><dt>Reference</dt><dd id="successReference"></dd></div>
+          <div><dt>Submitted</dt><dd id="successDate"></dd></div>
+        </dl>
+        <div class="success-actions">
+          <button class="button button--secondary" id="printButton" type="button">Print / save confirmation</button>
+          <a class="button button--secondary" href="https://www.gymnasticsontario.ca/download/416/membership-forms/51473/participant-informed-consent-and-assumption-of-risk-agreement-2026-2027.pdf" target="_blank" rel="noopener">Open original PDF</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Leap Gymnastics</strong>
+          <span>158 Anderson Ave, Units 3 &amp; 4, Markham, ON</span>
+        </div>
+        <div>
+          <a href="mailto:info@leapgymnastics.ca">info@leapgymnastics.ca</a>
+          <a href="tel:+12895901111">(289) 590-1111</a>
+        </div>
+        <p>© <span id="currentYear"></span> Leap Gymnastics · Gymnastics Ontario member club</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

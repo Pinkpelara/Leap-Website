@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import fs from 'node:fs/promises';
+import {recoverMail,mailReference} from '../cloudflare-pages/birthday-qc-20261016/mail-recovery.js';
+const db=new DatabaseSync(':memory:');db.exec(await fs.readFile('cloudflare-pages/birthday-qc-20261016/schema.sql','utf8'));
+const DB={prepare(s){return {a:[],bind(...a){this.a=a;return this;},async first(){return db.prepare(s).get(...this.a)},async all(){return {results:db.prepare(s).all(...this.a)}},async run(){return {meta:{changes:db.prepare(s).run(...this.a).changes}}}}}};
+const env={DB,ZOHO_ACCOUNT_ID:'mock'};let found=true,broken=false;
+const reference=await mailReference('test');
+globalThis.fetch=async url=>{url=String(url);if(url.includes('/oauth/'))return Response.json({access_token:'mock'});if(broken)throw Error('Provider unavailable');if(url.includes('/search?'))return Response.json({data:found?[{folderId:'sent',messageId:'accepted'}]:[]});if(url.endsWith('/content'))return Response.json({data:{content:'Email reference: '+reference}});throw Error('Unexpected network mutation');};
+db.prepare("INSERT INTO messages(id,kind,due_at,status,attempted_at) VALUES('test','receipt',0,'uncertain',?)").run(Date.now()-1000000);
+db.prepare('INSERT INTO state VALUES(?,?)').run('mail-track:test',reference);
+await recoverMail(env);assert.equal(db.prepare('SELECT status FROM messages').get().status,'sent');
+found=false;db.prepare("UPDATE messages SET status='uncertain'").run();await recoverMail(env);assert.equal(db.prepare('SELECT status FROM messages').get().status,'pending');
+broken=true;db.prepare("UPDATE messages SET status='uncertain'").run();await recoverMail(env);assert.equal(db.prepare('SELECT status FROM messages').get().status,'uncertain');
+broken=false;await recoverMail({...env,LEGACY_DELIVERY:true});assert.equal(db.prepare('SELECT status FROM messages').get().status,'uncertain');
+db.prepare("DELETE FROM state").run();await recoverMail(env);assert.equal(db.prepare('SELECT status FROM messages').get().status,'uncertain');
+console.log('PASS accepted email not resent; absent email retries; provider outage waits; legacy and untracked historical messages unchanged.');

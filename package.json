@@ -1,0 +1,11 @@
+{
+  "name": "leap-project-handoff",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.16.0"},
+  "scripts": {
+    "build": "node tools/build_birthday_qc_20261016.mjs",
+    "test": "node tools/run-offline-tests.mjs"
+  },
+  "devDependencies": {"esbuild": "0.28.2", "htmlparser2": "12.0.0"}
+}

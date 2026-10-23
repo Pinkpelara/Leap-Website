@@ -1,29 +1,28 @@
-# Leap Website — live-site archive
+# Leap Gymnastics project hub
 
-This repository stores dated captures of the public Leap Gymnastics website.
+Updated October 23, 2026 for the computer handoff: reviewed birthday source, portable build/tests, curated memory, working rules, Uplifter references and public website captures.
 
-## Current snapshot
+## Start here
 
-[11 September 2026 — complete capture inventory](snapshots/2026-09-11/README.md)
+- [Current state and known gaps](docs/CURRENT_STATE.md)
+- [New computer setup](docs/NEW_COMPUTER.md)
+- [Do's, don'ts and protected systems](docs/WORKING_RULES.md)
+- [Uplifter knowledge base](docs/uplifter/KB.md)
+- [Migration coverage](docs/CLOUD_MIGRATION.md)
+- [Curated project memory](memory/curated-records.json)
 
-The snapshot includes captured public pages, readable content, navigation and hyperlinks, client-side HTML/CSS/JavaScript, program and calendar data, referenced public assets, browser screenshots and file checksums. The manifest and coverage report describe the actual captured scope and any inaccessible dependencies.
+| Area | Location |
+|---|---|
+| Birthday, consent, portal, invoice and recovery source | [Birthday application](cloudflare-pages/birthday-qc-20261016/) |
+| Build and offline tests | [tools](tools/), package.json and pnpm-lock.yaml |
+| Current public website | [October 23 snapshot](snapshots/2026-10-23/README.md) |
+| Previous public website | [September 11 snapshot](snapshots/2026-09-11/README.md) |
+| Historical CMS files | [site-content](site-content/) |
+| Historical analysis | [operations](operations/) |
+| Portable Tencent runtime | [tools/tencent-memory](tools/tencent-memory/) |
+| Earlier briefs | [docs](docs/), superseded where they conflict with current state |
+| Beam repository (private) | [Little-Beam](https://github.com/Pinkpelara/Little-Beam) |
 
-Source: https://www.leapgymnastics.ca/
+Use Node 22.16+, install from the lockfile and run pnpm test. Tests are synthetic and do not deploy or send customer messages.
 
-## Consolidated Leap project material
-
-Leap-Website is the primary repository for the cloud workspace. The following material was imported from both Leap-Gym work branches, retaining their commit histories:
-
-- `site-content/`: historical CMS snippets and a site-health report.
-- `operations/`: class utilization and market analysis.
-- `docs/`: September birthday-workflow briefs and reference material.
-
-These imports are historical reference material. They have not been applied to the archived snapshot or the live website. See [cloud migration status](docs/CLOUD_MIGRATION.md) for what is preserved and what still needs transferring.
-
-This is an archive of the current live website, not the proposed cinematic redesign. Capturing it did not change the live site, Beam or registration records.
-
-The public site does not expose its server-side CMS source code, database, customer accounts, payment records or full administration configuration. Those are not included. The snapshot documentation also records removal of any transient anonymous session values.
-
-## Integrity
-
-Each dated snapshot contains SHA256SUMS.txt. The archived bytes are kept without Git line-ending conversion. Use the URL manifest to map downloaded resources back to their live source URLs.
+This is a public source/reference handoff, not a complete backup of private business records or hosted databases. Credentials, browser sessions, raw chats, signed waivers and customer data are excluded. One private reservation override uses a synthetic fixture; restore authorized private configuration before deployment. The live site and Beam were not changed by this migration.

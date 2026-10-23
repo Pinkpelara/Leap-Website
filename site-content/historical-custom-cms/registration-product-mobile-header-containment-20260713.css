@@ -1,0 +1,53 @@
+/* Product-detail mobile header containment only.
+   Deliberately does not select the native Uplifter registration card. */
+@media (max-width: 760px) {
+  html body:has(#pageBody.calEventDetails) #headerNav .mobileMenu,
+  html body:has(#pageBody.calEventDetails) #mainNav,
+  html body:has(#pageBody.calEventDetails) #mainNavMenu {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) #headerNav .mobileMenu {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) #mainNav,
+  html body:has(#pageBody.calEventDetails) #mainNavMenu {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  html body:has(#pageBody.calEventDetails) #mainNavMenu > li.Registration {
+    position: static !important;
+    flex: 0 0 auto !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #headerNav .m-row {
+    gap: 8px !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #clubLogo {
+    flex: 0 0 132px !important;
+    width: 132px !important;
+    max-width: 132px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    padding: 0 !important;
+  }
+
+  html body:not(:has(#lhHeader)):has(#pageBody.calEventDetails) header#header #clubLogo img {
+    width: 132px !important;
+    height: 48px !important;
+  }
+}

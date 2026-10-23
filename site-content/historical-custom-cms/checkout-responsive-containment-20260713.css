@@ -1,0 +1,59 @@
+/* Checkout invoice-summary containment. The rule is scoped to #checkout and
+   returns to Uplifter's native table layout above 1100px. */
+@media (max-width: 1100px) {
+  html body #checkout .finalTotalTable {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  html body #checkout .finalTotalTable tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  html body #checkout .finalTotalTable tr {
+    display: grid !important;
+    grid-template-columns: minmax(0, 40%) minmax(0, 60%) !important;
+    width: 100% !important;
+  }
+
+  html body #checkout .finalTotalTable th,
+  html body #checkout .finalTotalTable td {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  html body #checkout .finalTotalTable td[colspan] {
+    grid-column: 2 !important;
+  }
+
+  html body #checkout .finalTotalTable select,
+  html body #checkout .finalTotalTable .fullWidthField {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html body #checkout .finalTotalTable .grandTotal .orderTotal span {
+    font-size: 1.45rem !important;
+    white-space: nowrap !important;
+  }
+
+  html body #checkout .finalTotalTable tr:has(select) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  html body #checkout .finalTotalTable tr:has(select) > th,
+  html body #checkout .finalTotalTable tr:has(select) > td {
+    grid-column: 1 !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}

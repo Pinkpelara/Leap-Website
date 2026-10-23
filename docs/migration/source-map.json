@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-23",
+  "sourceRoot": "Original Windows New project workspace",
+  "files": [
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/agreements.json",
+      "path": "cloudflare-pages/birthday-qc-20261016/agreements.json",
+      "sha256": "7d9bf5072bedf8e7d498aaed966d35417cf9d76c9be0729937e726bfdf17c5f1"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/assets.generated.json",
+      "path": "cloudflare-pages/birthday-qc-20261016/assets.generated.json",
+      "sha256": "ffa5d7e687ee5b290ab7a5bcd9202d0293e635b07a958360c8c945f4b6d3f6c5"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/basic.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/basic.html",
+      "sha256": "15f4b1e43ba2d296159d5cc6b2ce6b9b410ec54ee30ed2fcdb7cff38dce8c226"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/billing.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/billing.js",
+      "sha256": "dcf001c56dfced9d0e4775e9d07be98bd3ee4bcc27e930ae2b50428042547c87"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/birthday-display.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/birthday-display.js",
+      "sha256": "c3855ed8dc1220b5a3b557f8c455167bf10380f7b08298d2bd8832584c0bca20"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/booking.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/booking.js",
+      "sha256": "507be7cab3ab61e789ed692d60b33338e5ac79510556e63db882710c126c784d"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/connected.css",
+      "path": "cloudflare-pages/birthday-qc-20261016/connected.css",
+      "sha256": "9410279943dae6042235e80d71bfd0ee385ed7c74e70fd117d69de53068e5662"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/consent/app.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/consent/app.js",
+      "sha256": "1f9b91121e28e0d32072cdc171bd71cb8c77927c0c0bf1967b536d7411f6cc7b"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/consent/index.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/consent/index.html",
+      "sha256": "df46e3fdf6b5231350457594cca08268fb382979e78527994291de081a46011b"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/consent/styles.css",
+      "path": "cloudflare-pages/birthday-qc-20261016/consent/styles.css",
+      "sha256": "ae78a667f18dd9adf61e80a23d5c2c4b56f4b7814520ba6a3f9673937878051a"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/delivery.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/delivery.js",
+      "sha256": "4ee79af28193681c9551b2e9bccd3c1f5f92bbe20be38817888d77a579133c03"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/deluxe.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/deluxe.html",
+      "sha256": "0600939984252a994e0594b9dcf0be021376aaa2a960fc6c065e2f89d8aa8201"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/domain.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/domain.js",
+      "sha256": "7dc700dab3680e7cc3298352cb67837b7b05d24b539d47b640c42ac51b3bd7d3"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/emails.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/emails.js",
+      "sha256": "17bd60795b1151e966562c2978691ec49ade7d16db41096e7951a2ccbddcd006"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/entry-worker.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/entry-worker.js",
+      "sha256": "dcbbdf289eaa63e41bb5cabda17039db5163129f9f00ae055a8737416c49b915"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/entry.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/entry.html",
+      "sha256": "823e59dfbc02061e478db8c5ff7479cbf8f2fc1a01b3c0634bb6ebca5a014fbf"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/entry.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/entry.js",
+      "sha256": "a6c4862e4323c6bf1266b5e85898ec65dbf0f967d3029e027674f774c87c7d78"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/existing-pages-router.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/existing-pages-router.js",
+      "sha256": "2c4551e50b925e92f27deface2a9cf62ca9c163769af77f06cb0d04e4191297f"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/invoice-preview.css",
+      "path": "cloudflare-pages/birthday-qc-20261016/invoice-preview.css",
+      "sha256": "2864d4554581b7765fa58de0c5a3f14d99c07ed671b2f967f3ebe5f2a08e8c4a"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/invoicing.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/invoicing.js",
+      "sha256": "2dd9bd013ca1f9f6fab64512b489cca251894f25c083b14fec3da8df8a8a9a13"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/legacy/party.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/legacy/party.html",
+      "sha256": "16420b7797bc37bc336dbf1ac59ddf6f9697a51b597f89e35e79f0d9e7281623"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/legacy/party.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/legacy/party.js",
+      "sha256": "863888fbf12529d3b8899d01aeb0fe724cacd4f29da57831310aa4d11ce4a370"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/legacy-assets.generated.json",
+      "path": "cloudflare-pages/birthday-qc-20261016/legacy-assets.generated.json",
+      "sha256": "1feeaf7b5564a8c7c3e8c8425ab53c9223a8f18f8733f07b81e40ef92dfaec40"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/legacy-package-availability.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/legacy-package-availability.js",
+      "sha256": "72dec0e8a18cc69e76d148e7ad22ac3ce8d2ec26a624a6af188912f442305bd7"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/mail-recovery.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/mail-recovery.js",
+      "sha256": "6ca8b4a85e7bdc0773286d73c362a85606cb62316b73c3886435e4d15327b274"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/mail.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/mail.js",
+      "sha256": "7d57e0b4aac21aa4b04cca32fc5dd4a3789286985af2c930a70899895764efd6"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/parent.css",
+      "path": "cloudflare-pages/birthday-qc-20261016/parent.css",
+      "sha256": "d6ffa1174943361cb0158c9b1f8f29f425bd7b99781752a2b4b71e3451f9482e"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/party.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/party.html",
+      "sha256": "0451c3170cd5502b6ed8b2866058606a221e08eaf0d009701b8c162a20025840"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/party.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/party.js",
+      "sha256": "253fa794ba3cd2884d14e24ada583ced1abc4e9201a1f23baaa515cf8a58658f"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/portal.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/portal.js",
+      "sha256": "0cff84978079738c5e4532cd9b6e593cc398a7c0e7a213e97ce8883bbe51fc04"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/premium.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/premium.html",
+      "sha256": "7fb09eb9429c2912f9e961a7bb26a8d707816c8c7694ab40856e461bdc6d7a14"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/presentation.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/presentation.js",
+      "sha256": "7e47f2659bc1477a6b1766c606a4de74eeed99b0de4e8fe1cb1d6f88364bfd61"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/scheduler.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/scheduler.js",
+      "sha256": "9cd8fb3a78c858eabbcaeeaa1022a8fb2a03dd0f2966bdbac8de989db5353c3c"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/schema.sql",
+      "path": "cloudflare-pages/birthday-qc-20261016/schema.sql",
+      "sha256": "342055ae5b76775e4f6af55837e9a9bce85823de53053fa715d260d1b6f7b1d2"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/security.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/security.js",
+      "sha256": "4b9f7dbcfdbde29bafc904e3e8a3a1e6e19d46b4ddb0959b6ccffd15b7ae9e49"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/staff.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/staff.html",
+      "sha256": "8d1fa5756d93719801595a75bc8c8622aeac4da6bae7281ed257f028c115e90e"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/staff.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/staff.js",
+      "sha256": "741a8dd25ac4540d9411512d3ef0ebe92d5bd03a2300de49b6c6978d4c633043"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/standalone-consent/app.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/standalone-consent/app.js",
+      "sha256": "fee930b7f51d701d750aa9a0cb5b717912953472e217ee80f5f60a1ecdb2c206"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/standalone-consent/index.html",
+      "path": "cloudflare-pages/birthday-qc-20261016/standalone-consent/index.html",
+      "sha256": "9c4ec9cf04b33cb49944aa91a84f73b476002631411f224604f04d338ef02a38"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/standalone-consent/styles.css",
+      "path": "cloudflare-pages/birthday-qc-20261016/standalone-consent/styles.css",
+      "sha256": "fa0f996d979c8c73333ab3eeebcb68fb4f2b21c78cee8f3a2511b6c550563a10"
+    },
+    {
+      "source": "cloudflare-pages/birthday-qc-20261016/worker.js",
+      "path": "cloudflare-pages/birthday-qc-20261016/worker.js",
+      "sha256": "7796d101319395d1c71bcb0c35e3276992a65e2294b5dec4101bbeffa3bf9284"
+    },
+    {
+      "source": "cloudflare-pages/birthday-invoicing-20261013/consent/index.html",
+      "path": "cloudflare-pages/birthday-invoicing-20261013/consent/index.html",
+      "sha256": "df46e3fdf6b5231350457594cca08268fb382979e78527994291de081a46011b"
+    },
+    {
+      "source": "custom-cms/camps-mainContent-with-summer-themes-link.html",
+      "path": "site-content/historical-custom-cms/camps-mainContent-with-summer-themes-link.html",
+      "sha256": "78654004b160eccd78d202fd4c4d388c4148ba1bfcf65098a641e2879994c18a"
+    },
+    {
+      "source": "custom-cms/checkout-responsive-containment-20260713.css",
+      "path": "site-content/historical-custom-cms/checkout-responsive-containment-20260713.css",
+      "sha256": "94fcdad7ff566f0e54cf8316c44d6f07f7967c54d9474572b0c035a2b75a9e05"
+    },
+    {
+      "source": "custom-cms/leap-logo-ink.png",
+      "path": "site-content/historical-custom-cms/leap-logo-ink.png",
+      "sha256": "c1eb2c1e780eb4d1245ec2fb1fc441b6730ce289e63e1a0a47ead27ea286857a"
+    },
+    {
+      "source": "custom-cms/leap-logo-white.png",
+      "path": "site-content/historical-custom-cms/leap-logo-white.png",
+      "sha256": "4a90a45130f998cc110d6af15b450e0c0e7cca3891e8468c3818c7fba52240a5"
+    },
+    {
+      "source": "custom-cms/leap-robots.txt",
+      "path": "site-content/historical-custom-cms/leap-robots.txt",
+      "sha256": "a0a35b676d50113abbf8442c766d127fc52713ac5563685210e588fdf2f7fc05"
+    },
+    {
+      "source": "custom-cms/leap-sitemap.txt",
+      "path": "site-content/historical-custom-cms/leap-sitemap.txt",
+      "sha256": "f04fa53e5bdf59b20d93581962dc4d2692d21512085de3cdf257d558d66857e5"
+    },
+    {
+      "source": "custom-cms/leap-sitemap.xml",
+      "path": "site-content/historical-custom-cms/leap-sitemap.xml",
+      "sha256": "cba51abb45dfadf376c06fa1bf8ec9a6e34c6df99e61332039bff3b5b66dd3b9"
+    },
+    {
+      "source": "custom-cms/registration-card-structure-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-card-structure-20260713.css",
+      "sha256": "e7487e04d4fa5a74107d88ecc83a0583a45051fe902fd0bd9bf7422169dea606"
+    },
+    {
+      "source": "custom-cms/registration-critical-stability-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-critical-stability-20260713.css",
+      "sha256": "978988ebc31365656501b776c2ed39634d9e534514286686eccd36f50001b02f"
+    },
+    {
+      "source": "custom-cms/registration-modal-stability-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-modal-stability-20260713.css",
+      "sha256": "e5aa0e10517d72c52610d4db96d4df31d9986760c9775a355101c7336fbdee4e"
+    },
+    {
+      "source": "custom-cms/registration-product-cache-safety-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-product-cache-safety-20260713.css",
+      "sha256": "7b0eaddead46b9f90e1bf7b8a77232e1ef7f0a513c2f65f71b9c7b62c1ca0139"
+    },
+    {
+      "source": "custom-cms/registration-product-mobile-header-containment-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-product-mobile-header-containment-20260713.css",
+      "sha256": "d239f2943d89c16acd5da381578b7aa60404da0ff1fcf87bdb2f53543adeeb6c"
+    },
+    {
+      "source": "custom-cms/registration-system-recovery-20260713.css",
+      "path": "site-content/historical-custom-cms/registration-system-recovery-20260713.css",
+      "sha256": "489c2f96ef6f6e4cf49b53d0017b89f7ab24499531be06e4ce0fbe6e1501bf2f"
+    },
+    {
+      "source": "custom-cms/summer-camp-themes-mainContent.html",
+      "path": "site-content/historical-custom-cms/summer-camp-themes-mainContent.html",
+      "sha256": "02222142a2674e6aeaea11ddf3db23fddc8824f6cf3b11abbe10bdb35ab3e49b"
+    },
+    {
+      "source": "custom-cms/support.js",
+      "path": "site-content/historical-custom-cms/support.js",
+      "sha256": "505f94e08eeccbc87acc6fcc6a47dd9f51fcd74a8d28ab58eb7eb784f7b92efe"
+    },
+    {
+      "source": "tools/build_birthday_qc_20261016.mjs",
+      "path": "tools/build_birthday_qc_20261016.mjs",
+      "sha256": "c39df8bdfd48cec856960c17101d1e61553925fd3f20e3eaf4a1dd922157a67e"
+    },
+    {
+      "source": "tools/test_birthday_qc_20261016.mjs",
+      "path": "tools/test_birthday_qc_20261016.mjs",
+      "sha256": "8a0a5d0fd3124c9cb6e616daaa600c1e953f9a5a14cc37d9494840c8cd91d47f"
+    },
+    {
+      "source": "tools/test_birthday_qc_forms_20261016.mjs",
+      "path": "tools/test_birthday_qc_forms_20261016.mjs",
+      "sha256": "0bf56adad33860f27cbdfbb4ffef7992a4882d8529acac032617c01642c8f9f6"
+    },
+    {
+      "source": "tools/test_birthday_qc_invoices_20261016.mjs",
+      "path": "tools/test_birthday_qc_invoices_20261016.mjs",
+      "sha256": "b758f989affebf1368409b2cc9a171bcc8093fcd20d3c9ca125bb27aef943a57"
+    },
+    {
+      "source": "tools/test_birthday_mail_recovery_20261022.mjs",
+      "path": "tools/test_birthday_mail_recovery_20261022.mjs",
+      "sha256": "28e23837ddedd961f26b0393d8439de13e28e83cacbee4acbb97168fc473987b"
+    },
+    {
+      "source": "tools/test_birthday_portal_20261022.mjs",
+      "path": "tools/test_birthday_portal_20261022.mjs",
+      "sha256": "71aaa5acc338319811970a59a32c1c26f3f52b411a34b1b30d569ee6cd526310"
+    },
+    {
+      "source": "tools/test_birthday_calendar_alias_20261021.mjs",
+      "path": "tools/test_birthday_calendar_alias_20261021.mjs",
+      "sha256": "c82a208ac46206bc9bef018739eed51744b2b347eee2f5cf849886a763237202"
+    },
+    {
+      "source": "tools/test_birthday_package_restriction_20261021.mjs",
+      "path": "tools/test_birthday_package_restriction_20261021.mjs",
+      "sha256": "c4975f0a4b4ac38705edf848c6ed4b674773c006292a867ef1f72824ce44a4e8"
+    },
+    {
+      "source": "output/birthday-invoice-flow-20261022/native-invoice-message.html",
+      "path": "docs/uplifter/native-invoice-message.html",
+      "sha256": "9f1b8e178ebdfbe4c72423d61ce143c9c51d9925b0be5822a42faad945e98270"
+    }
+  ],
+  "notes": [
+    "Hashes describe final reviewed public migration copies; build/test portability and private-fixture substitutions are documented in NEW_COMPUTER.md.",
+    "Latest maintained source preserves the historical directory name birthday-qc-20261016."
+  ]
+}

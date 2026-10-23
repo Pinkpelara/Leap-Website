@@ -1,0 +1,3364 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;700;800&display=swap');
+
+.itemOverlay.textCenter.fullWidth,
+#header, #footer, #topNotices, .headerBar, .footerBar,
+#footerAgreement, a.backToTop {
+  display: none !important;
+}
+html { scroll-behavior: smooth; }
+body { margin: 0 !important; padding: 0 !important; }
+#wrapper, #content, #content.clearfix,
+#content > .contentSection,
+#content > .contentSection > .mainBody,
+#content > .contentSection > ._cmsrepeat,
+#content > .contentSection > .mainBody > ._cmsrepeat,
+#content > .contentSection > ._cmsrepeat > .mainContent,
+#content > .contentSection > .mainBody > ._cmsrepeat > .mainContent {
+  width: 100% !important; max-width: none !important;
+  margin: 0 !important; padding: 0 !important;
+  float: none !important; overflow: visible !important;
+}
+#content > .contentSection { background: transparent !important; }
+#content > .contentSection > ._cmsrepeat > .mainContent,
+#content > .contentSection > .mainBody > ._cmsrepeat > .mainContent {
+  background: transparent !important;
+}
+.leap-site { display: block; }
+video { -webkit-transform: translateZ(0); transform: translateZ(0); }
+video::-webkit-media-controls-panel,
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button,
+video::-webkit-media-controls { display: none !important; -webkit-appearance: none; opacity: 0; pointer-events: none; }
+.trialWebsite, .trial-website, [class*="trialWebsite"], #trialWebsite { display: none !important; }
+@media (max-width: 900px) {
+  #header, .headerBar, #topNotices, #footer, .footerBar,
+  .topNav, .mainNav, #nav, .navMenu, .mobileNavMenu { display: none !important; }
+}
+
+:root {
+  --bg: #f4efe8;
+  --surface: #fffaf4;
+  --surface-strong: #111111;
+  --ink: #121212;
+  --ink-soft: #4f4a45;
+  --line: rgba(18, 18, 18, 0.14);
+  --line-strong: rgba(18, 18, 18, 0.26);
+  --blue: #1a4de0;
+  --blue-deep: #0b245a;
+  --warm: #ff8d4d;
+  --shadow: 0 22px 60px rgba(12, 16, 28, 0.14);
+  --radius: 28px;
+  --radius-sm: 18px;
+  --content: min(1180px, calc(100vw - 40px));
+  --content-wide: min(1360px, calc(100vw - 40px));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.announcement {
+  background: var(--surface-strong);
+  color: #f5f1ea !important;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.announcement__inner {
+  width: var(--content-wide);
+  margin: 0 auto;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.announcement__inner span:last-child {
+  color: rgba(245, 241, 234, 0.78);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(244, 239, 232, 0.95);
+  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+}
+
+@supports (backdrop-filter: blur(18px)) {
+  .site-header {
+    backdrop-filter: blur(18px);
+    background: rgba(244, 239, 232, 0.86);
+  }
+}
+
+.site-header.is-scrolled {
+  background: rgba(244, 239, 232, 0.95);
+}
+
+.nav-shell {
+  width: var(--content-wide);
+  margin: 0 auto;
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand img {
+  width: 150px;
+  max-width: 150px;
+  height: auto;
+}
+
+.brand-copy {
+  display: grid;
+  gap: 2px;
+}
+
+.brand-copy strong {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.brand-copy span {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.site-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.site-nav__links a {
+  position: relative;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.site-nav__links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 2px;
+  background: var(--blue);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+
+.site-nav__links a:hover::after,
+.site-nav__links a.is-active::after {
+  transform: scaleX(1);
+}
+
+.site-nav__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  transition: transform 180ms ease, background 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button--dark {
+  background: var(--surface-strong);
+  color: #fff;
+}
+
+.button--outline {
+  border-color: var(--line-strong);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.button--outline:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.button--light {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.menu-toggle span,
+.menu-toggle span::before,
+.menu-toggle span::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--ink);
+  position: relative;
+}
+
+.menu-toggle span::before,
+.menu-toggle span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.menu-toggle span::before {
+  top: -6px;
+}
+
+.menu-toggle span::after {
+  top: 6px;
+}
+
+.hero,
+.page-hero {
+  position: relative;
+  overflow: clip;
+}
+
+.hero {
+  min-height: calc(100svh - 124px);
+  background: #090909;
+  color: #fff !important;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p,
+.hero span,
+.hero strong,
+.hero a,
+.hero .eyebrow,
+.page-hero h1,
+.page-hero h2,
+.page-hero h3,
+.page-hero p,
+.page-hero span,
+.page-hero .eyebrow {
+  color: #fff !important;
+}
+
+.hero__media,
+.page-hero__media {
+  position: absolute;
+  inset: 0;
+}
+
+.hero__media::after,
+.page-hero__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(7, 7, 7, 0.72), rgba(7, 7, 7, 0.28));
+}
+
+.page-hero__media::after {
+  background: linear-gradient(135deg, rgba(8, 10, 20, 0.82), rgba(8, 10, 20, 0.36));
+}
+
+.hero__media video,
+.hero__media img,
+.page-hero__media img,
+.page-hero__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* when a hero has both video and fallback img, position them both absolutely;
+   video sits on top, img shows through if video fails to load */
+.hero__media video,
+.page-hero__media video {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__media video ~ img,
+.page-hero__media video ~ img {
+  position: absolute;
+  inset: 0;
+}
+
+.page-hero__media--programs img {
+  object-position: center 30%;
+}
+
+.page-hero__media--camps video {
+  object-position: center 35%;
+}
+
+.page-hero__media--about img {
+  object-position: center 42%;
+  transform: scale(1.02);
+}
+
+.hero__shell,
+.page-hero__shell,
+.shell,
+.footer-shell {
+  width: var(--content);
+  margin: 0 auto;
+}
+
+.hero__shell {
+  position: relative;
+  z-index: 3;
+  width: var(--content-wide);
+  padding: 86px 0 74px;
+  display: grid;
+  grid-template-columns: minmax(0, 760px) minmax(240px, 340px);
+  align-items: end;
+  gap: 42px;
+}
+
+.page-hero {
+  min-height: 58svh;
+  color: #fff !important;
+  background: #0d1320;
+}
+
+.page-hero__shell {
+  position: relative;
+  z-index: 3;
+  width: var(--content-wide);
+  padding: 116px 0 82px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 42px;
+  height: 1px;
+  background: currentColor;
+}
+
+.hero h1,
+.page-hero h1,
+.section-head h2,
+.split__copy h2,
+.split__copy h3,
+.cta-band h2 {
+  margin: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  letter-spacing: -0.05em;
+}
+
+.hero h1,
+.page-hero h1 {
+  font-size: clamp(3.3rem, 7vw, 7rem);
+  line-height: 0.96;
+}
+
+.hero p,
+.page-hero p {
+  max-width: 40rem;
+  margin: 22px 0 0;
+  font-size: clamp(1.05rem, 1.45vw, 1.24rem);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.hero__meta {
+  padding: 24px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  display: grid;
+  gap: 22px;
+}
+
+.meta-row strong {
+  font-size: 0.86rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.meta-row span {
+  color: #fff;
+}
+
+.timeline-ribbon {
+  background: var(--surface-strong);
+  color: #f8f3ed;
+  overflow: clip;
+}
+
+.timeline-ribbon__track {
+  width: max-content;
+  display: flex;
+  gap: 34px;
+  padding: 18px 24px;
+  animation: ribbon-scroll 30s linear infinite;
+}
+
+.timeline-ribbon__track span {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.84rem;
+}
+
+@keyframes ribbon-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.section {
+  padding: 90px 0;
+}
+
+.section--tight {
+  padding: 70px 0;
+}
+
+.section--dark {
+  background: var(--surface-strong);
+  color: #fff !important;
+}
+
+.section--dark h2,
+.section--dark h3,
+.section--dark p,
+.section--dark span,
+.section--dark strong,
+.section--dark a,
+.cta-band,
+.cta-band h2,
+.cta-band p,
+.cta-band a {
+  color: #fff !important;
+}
+
+.section--cream {
+  background: var(--surface);
+}
+
+.section-head {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 34px;
+  max-width: 820px;
+}
+
+.section-head h2 {
+  font-size: clamp(2rem, 3.4vw, 3.8rem);
+  line-height: 0.98;
+}
+
+.section-head p,
+.split__copy p,
+.schedule-note,
+.rail-list__copy,
+.feature-block p,
+.phase-block p,
+.package p,
+.contact-panel p,
+.notice-panel p,
+.footer-top p {
+  color: var(--ink-soft);
+}
+
+.section--dark .split__copy p,
+.section--dark .schedule-note {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.split,
+.launch-grid,
+.feature-grid,
+.package-grid,
+.contact-grid,
+.two-column,
+.footer-top {
+  display: grid;
+  gap: 24px;
+}
+
+.split {
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  gap: 34px;
+  align-items: center;
+}
+
+.split--reverse {
+  grid-template-columns: minmax(320px, 0.92fr) minmax(0, 1.08fr);
+}
+
+.split__media {
+  min-height: 520px;
+  overflow: clip;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.split__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split__copy {
+  display: grid;
+  gap: 22px;
+}
+
+.split__copy h2,
+.split__copy h3 {
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  line-height: 1;
+}
+
+.info-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.info-strip strong,
+.rail-list__label,
+.phase-block strong,
+.feature-block strong,
+.package strong,
+.contact-panel strong,
+.notice-panel strong,
+.data-table th {
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.launch-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.feature-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.package-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.contact-grid,
+.two-column,
+.footer-top { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.rail-list {
+  border-top: 1px solid var(--line);
+}
+
+.rail-list__item {
+  display: grid;
+  grid-template-columns: 140px 1fr auto;
+  gap: 20px;
+  align-items: start;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.rail-list__title {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 1.14rem;
+}
+
+.rail-list__value {
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.phase-block,
+.feature-block,
+.package,
+.contact-panel,
+.notice-panel {
+  padding: 30px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.section--dark .phase-block,
+.section--dark .notice-panel {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.phase-block h3,
+.feature-block h3,
+.package h3,
+.contact-panel h3,
+.notice-panel h3 {
+  margin: 0 0 10px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.package__price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 18px 0 22px;
+}
+
+.package__price span:first-child {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.package__price span:last-child {
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.package ul,
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.package li,
+.check-list li {
+  position: relative;
+  padding-left: 22px;
+}
+
+.package li::before,
+.check-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--warm);
+}
+
+.party-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.party-gallery__item {
+  overflow: clip;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.party-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+@media (max-width: 640px) {
+  .party-gallery {
+    grid-template-columns: 1fr;
+  }
+  .party-gallery__item img {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 16px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border-top: 1px solid var(--line);
+}
+
+.program-anchor {
+  scroll-margin-top: 140px;
+}
+
+.jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.jump-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  transition: transform 180ms ease, border-color 180ms ease, color 180ms ease, background 180ms ease;
+}
+
+.jump-nav a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(26, 77, 224, 0.28);
+  background: rgba(26, 77, 224, 0.06);
+  color: var(--blue);
+}
+
+.program-overview,
+.program-grid,
+.program-detail-grid,
+.quick-facts {
+  display: grid;
+  gap: 24px;
+}
+
+.program-overview {
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+}
+
+.program-overview__note {
+  padding: 30px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.program-overview__note h3,
+.program-card__top h3 {
+  margin: 8px 0 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  line-height: 0.98;
+}
+
+.program-overview__note h3 {
+  font-size: clamp(1.7rem, 2.6vw, 2.4rem);
+}
+
+.program-overview__note p,
+.quick-facts p,
+.program-card p,
+.program-block li {
+  color: var(--ink-soft);
+}
+
+.quick-facts {
+  gap: 12px;
+}
+
+.quick-facts div {
+  padding: 18px 20px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.quick-facts strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.program-card {
+  padding: 32px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 20px;
+}
+
+.program-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.program-card__top h3 {
+  font-size: clamp(1.6rem, 2.5vw, 2.15rem);
+}
+
+.program-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(26, 77, 224, 0.12);
+  background: rgba(26, 77, 224, 0.08);
+  color: var(--blue-deep);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.program-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.program-meta span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(18, 18, 18, 0.05);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.program-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 24px;
+}
+
+.program-card__actions,
+.notice-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 6px;
+}
+
+.program-block {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.program-block strong {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.program-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.program-block li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.program-block li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.cta-band {
+  overflow: clip;
+  border-radius: calc(var(--radius) + 8px);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 141, 77, 0.18), transparent 38%),
+    radial-gradient(circle at 80% 0%, rgba(26, 77, 224, 0.2), transparent 32%),
+    #0e1220;
+  color: #fff;
+  padding: 44px;
+}
+
+.cta-band h2 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 0.96;
+}
+
+.cta-band p {
+  max-width: 44rem;
+  margin: 18px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.cta-band__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 14px;
+}
+
+.faq {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.65);
+  overflow: clip;
+}
+
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 22px 26px;
+  font-weight: 800;
+  font-size: 1.06rem;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq__body {
+  padding: 0 26px 22px;
+  color: var(--ink);
+}
+
+.site-footer {
+  background: var(--surface-strong);
+  color: #f6f0e9;
+  margin-top: 90px;
+}
+
+.footer-shell {
+  width: var(--content-wide);
+  padding: 42px 0 30px;
+  display: grid;
+  gap: 28px;
+}
+
+.footer-top {
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
+
+.footer-nav a,
+.footer-meta a {
+  color: rgba(246, 240, 233, 0.9);
+}
+
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 22px;
+  color: rgba(246, 240, 233, 0.75);
+  font-size: 0.92rem;
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 560ms ease, transform 560ms ease;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 1120px) {
+  .hero__shell,
+  .split,
+  .split--reverse,
+  .program-overview,
+  .program-detail-grid,
+  .launch-grid,
+  .feature-grid,
+  .package-grid,
+  .contact-grid,
+  .two-column,
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .announcement__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .brand img {
+    width: 120px !important;
+    max-width: 120px !important;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 20px;
+    right: 20px;
+    display: none;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: rgba(247, 242, 235, 0.98);
+    box-shadow: var(--shadow);
+    z-index: 40;
+  }
+
+  .site-nav.is-open {
+    display: grid;
+    gap: 18px;
+  }
+
+  .site-nav__links,
+  .site-nav__actions {
+    display: grid;
+    gap: 14px;
+  }
+
+  .site-nav__links a {
+    font-size: 1.05rem;
+    padding: 6px 0;
+  }
+
+  .nav-shell {
+    min-height: 74px;
+  }
+
+  .hero__shell {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 70px 0 56px;
+  }
+
+  .rail-list__item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .rail-list__label {
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blue);
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .section--tight {
+    padding: 50px 0;
+  }
+
+  .page-hero__shell {
+    padding: 80px 0 56px;
+  }
+
+  .program-anchor {
+    scroll-margin-top: 90px;
+  }
+
+  .faq summary {
+    padding: 16px 20px;
+    font-size: 1rem;
+  }
+
+  .faq__body {
+    padding: 0 20px 16px;
+  }
+
+  .jump-nav {
+    gap: 8px;
+    padding: 16px;
+  }
+
+  .jump-nav a {
+    padding: 10px 14px;
+    font-size: 0.82rem;
+  }
+
+  .package__price span:first-child {
+    font-size: 2.4rem;
+  }
+
+  .data-table {
+    min-width: 520px;
+    font-size: 0.88rem;
+  }
+
+  .data-table td,
+  .data-table th {
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-shell,
+  .shell,
+  .hero__shell,
+  .page-hero__shell,
+  .announcement__inner,
+  .footer-shell {
+    width: min(100vw - 28px, 100%);
+  }
+
+  .brand img {
+    width: 100px !important;
+    max-width: 100px !important;
+  }
+
+  .brand-copy strong {
+    font-size: 0.7rem;
+  }
+
+  .brand-copy span {
+    font-size: 0.72rem;
+  }
+
+  /* videos stay visible on mobile — autoplay muted works on iOS/Android */
+
+  .hero h1,
+  .page-hero h1 {
+    font-size: clamp(2.2rem, 8vw, 3.3rem);
+  }
+
+  .hero p,
+  .page-hero p {
+    font-size: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.92rem;
+    min-height: 46px;
+  }
+
+  .hero__actions,
+  .cta-band__actions {
+    display: grid;
+    gap: 10px;
+  }
+
+  .phase-block,
+  .feature-block,
+  .package,
+  .contact-panel,
+  .notice-panel,
+  .program-card,
+  .cta-band {
+    padding: 20px;
+  }
+
+  .split__media {
+    min-height: 280px;
+  }
+
+  .section-head h2 {
+    font-size: clamp(1.6rem, 6vw, 2rem);
+  }
+
+  .cta-band h2 {
+    font-size: clamp(1.6rem, 6vw, 2rem);
+  }
+
+  .package__price span:first-child {
+    font-size: 2rem;
+  }
+
+  .feature-block h3,
+  .package h3,
+  .notice-panel h3 {
+    font-size: 1.25rem;
+  }
+
+  .announcement {
+    font-size: 0.78rem;
+  }
+
+  .footer-nav {
+    gap: 10px 16px;
+  }
+
+  .footer-meta {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+
+  .party-gallery {
+    gap: 16px;
+  }
+
+  .info-strip {
+    gap: 10px 18px;
+  }
+
+  .data-table {
+    min-width: 440px;
+    font-size: 0.82rem;
+  }
+
+  .data-table td,
+  .data-table th {
+    padding: 10px 8px;
+  }
+
+  .program-card__top {
+    gap: 10px;
+  }
+
+  .program-tag {
+    font-size: 0.7rem;
+    padding: 6px 10px;
+  }
+}
+
+
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS START */
+.gymontario-home-strip { background: #09152e; color: #fff; }
+.gymontario-mark, .gymontario-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.gymontario-mark { width: var(--content, min(1180px, calc(100vw - 40px))); margin: 0 auto; padding: 22px 0; }
+.gymontario-copy { display: grid; gap: 4px; }
+.gymontario-copy span { font-size: 0.78rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.66); }
+.gymontario-copy strong { font-family: "Bricolage Grotesque", "Manrope", Arial, sans-serif; font-size: clamp(1.35rem, 2vw, 2.05rem); line-height: 1; color: #fff; }
+.gymontario-logo { display: block; width: min(210px, 42vw); height: auto; }
+.gymontario-link { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.gymontario-footer { margin-top: 26px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+@media (max-width: 680px) { .gymontario-mark, .gymontario-footer { align-items: flex-start; flex-direction: column; } }
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS END */
+</style>
+<div class="leap-site"><!-- LEAP SITE HEADER START -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500;600;700;800&display=swap');
+body > header#header,
+body > .itemOverlay.fullWidth {
+  display: none !important;
+}
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+.lh-header,
+.lh-sheet {
+  --lh-bg: #0b0b0b;
+  --lh-paper: #f5f1ea;
+  --lh-accent: #d4a64a;
+  --lh-muted: rgba(245,241,234,.62);
+}
+.lh-header,
+.lh-header *,
+.lh-sheet,
+.lh-sheet * {
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+.lh-header {
+  --lh-h: 96px;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  background: var(--lh-bg);
+  color: var(--lh-paper);
+  font-family: "Inter", system-ui, sans-serif;
+  overflow: hidden;
+  isolation: isolate;
+}
+.lh-header::before,
+.lh-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  z-index: 8;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(245,241,234,.18) 12%, rgba(245,241,234,.18) 88%, transparent);
+}
+.lh-header::before { top: 0; }
+.lh-header::after { bottom: 0; }
+.lh-arc {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+.lh-arc-faint {
+  fill: none;
+  stroke: rgba(245,241,234,.06);
+  stroke-width: 1;
+}
+.lh-arc-bright {
+  fill: none;
+  stroke: rgba(245,241,234,.42);
+  stroke-width: 1.1;
+  stroke-linecap: round;
+  stroke-dasharray: 2400;
+  stroke-dashoffset: 2400;
+  filter: drop-shadow(0 0 5px rgba(245,241,234,.28));
+  animation: lh-trace 9s cubic-bezier(.65,0,.35,1) infinite;
+}
+.lh-spark {
+  fill: var(--lh-paper);
+  filter: drop-shadow(0 0 5px rgba(245,241,234,.95)) drop-shadow(0 0 12px rgba(212,166,74,.45));
+  offset-path: path('M -60 110 C 220 200, 560 190, 880 110 S 1240 10, 1500 -30');
+  offset-distance: 0%;
+  animation: lh-spark 9s cubic-bezier(.65,0,.35,1) infinite;
+}
+@keyframes lh-trace {
+  0% { stroke-dashoffset: 2400; opacity: 0; }
+  6% { opacity: 1; }
+  55% { stroke-dashoffset: 0; opacity: 1; }
+  80% { stroke-dashoffset: 0; opacity: .4; }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+@keyframes lh-spark {
+  0% { offset-distance: 0%; opacity: 0; }
+  6% { opacity: 1; }
+  55%, 100% { offset-distance: 100%; opacity: 0; }
+}
+.lh-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(212,166,74,.18), rgba(212,166,74,0) 60%);
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity .6s ease, transform .25s ease;
+  will-change: transform, opacity;
+}
+.lh-header:hover .lh-glow { opacity: 1; }
+.lh-inner {
+  position: relative;
+  z-index: 5;
+  width: min(100% - 40px, 1240px);
+  margin: 0 auto;
+  height: var(--lh-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  transition: height .35s ease;
+}
+.lh-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  padding: 6px 4px;
+  border-radius: 6px;
+  transition: transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.lh-brand:hover { transform: translateY(-1px); }
+.lh-brand:focus-visible {
+  outline: 1px solid var(--lh-accent);
+  outline-offset: 6px;
+}
+.lh-header .lh-brand-img {
+  display: block;
+  width: clamp(178px, 15vw, 230px) !important;
+  height: clamp(68px, 6vw, 80px) !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  filter: drop-shadow(0 2px 14px rgba(212,166,74,0));
+  transition: filter .5s ease;
+}
+.lh-brand:hover .lh-brand-img {
+  filter: drop-shadow(0 2px 22px rgba(212,166,74,.5)) drop-shadow(0 0 10px rgba(245,241,234,.25));
+}
+.lh-brand-tag {
+  display: none;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: .9rem;
+  color: var(--lh-muted);
+  letter-spacing: .01em;
+  border-left: 1px solid rgba(245,241,234,.18);
+  padding-left: 14px;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+@media (min-width: 1080px) {
+  .lh-brand-tag { display: inline-block; }
+}
+.lh-right {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 28px);
+  min-width: 0;
+}
+.lh-nav {
+  display: none;
+  align-items: center;
+  gap: clamp(14px, 1.8vw, 26px);
+}
+@media (min-width: 980px) {
+  .lh-nav { display: flex; }
+}
+.lh-nav a {
+  color: rgba(245,241,234,.82);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .86rem;
+  letter-spacing: .02em;
+  position: relative;
+  padding: 6px 0;
+  white-space: nowrap;
+  transition: color .2s ease;
+}
+.lh-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--lh-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .35s cubic-bezier(.65,0,.35,1);
+}
+.lh-nav a:hover,
+.lh-nav a:focus-visible,
+.lh-nav a[aria-current="page"] {
+  color: var(--lh-paper);
+}
+.lh-nav a:hover::after,
+.lh-nav a:focus-visible::after {
+  transform: scaleX(1);
+}
+.lh-nav a[aria-current="page"]::after {
+  transform: scaleX(1);
+  background: rgba(245,241,234,.6);
+}
+.lh-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 11px 20px;
+  background: var(--lh-paper);
+  color: #0b0b0b !important;
+  border: 0;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: gap .25s ease, background .25s ease, transform .25s ease;
+}
+.lh-cta:hover,
+.lh-cta:focus-visible {
+  gap: 14px;
+  background: var(--lh-accent);
+  transform: translateY(-1px);
+}
+.lh-cta-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: .65rem;
+}
+.lh-cart {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(245,241,234,.28);
+  border-radius: 999px;
+  color: var(--lh-paper) !important;
+  text-decoration: none;
+  background: rgba(245,241,234,.06);
+  transition: border-color .25s ease, background .25s ease, transform .25s ease;
+}
+.lh-cart:hover,
+.lh-cart:focus-visible {
+  border-color: var(--lh-accent);
+  background: rgba(212,166,74,.14);
+  transform: translateY(-1px);
+}
+.lh-cart svg {
+  width: 19px;
+  height: 19px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+  pointer-events: none;
+}
+.lh-cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: var(--lh-accent);
+  color: #0b0b0b;
+  border: 1px solid #0b0b0b;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 900;
+}
+.lh-cart[data-count]:not([data-count=""]):not([data-count="0"]) .lh-cart-count {
+  display: inline-flex;
+}
+.lh-burger {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(245,241,234,.22);
+  background: transparent;
+  cursor: pointer;
+  align-items: center;
+  padding: 0;
+}
+@media (min-width: 980px) {
+  .lh-burger { display: none; }
+}
+.lh-burger span {
+  display: block;
+  width: 16px;
+  height: 1px;
+  background: var(--lh-paper);
+}
+.lh-burger:hover,
+.lh-burger:focus-visible {
+  border-color: var(--lh-accent);
+}
+.lh-header.is-compact { --lh-h: 72px; }
+.lh-header.is-compact .lh-brand-img {
+  width: 190px !important;
+  height: 62px !important;
+}
+.lh-sheet {
+  position: fixed;
+  inset: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  z-index: 1000000;
+  background: rgba(11,11,11,.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: none;
+  flex-direction: column;
+  padding: 24px;
+  font-family: "Inter", system-ui, sans-serif;
+}
+.lh-sheet.is-open { display: flex; }
+.lh-sheet-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.lh-sheet-logo {
+  display: block;
+  width: 172px !important;
+  height: 58px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+}
+.lh-sheet-close {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(245,241,234,.22);
+  background: transparent;
+  color: var(--lh-paper);
+  font-size: 1.4rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.lh-sheet-close:hover,
+.lh-sheet-close:focus-visible {
+  border-color: var(--lh-accent);
+}
+.lh-sheet a {
+  color: #f5f1ea !important;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.55rem, 8vw, 2.2rem);
+  line-height: 1.08;
+  font-weight: 300;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(245,241,234,.08);
+}
+.lh-sheet a:hover,
+.lh-sheet a:focus-visible {
+  color: #d4a64a !important;
+}
+.lh-sheet a.lh-sheet-cta {
+  margin-top: auto;
+  display: inline-flex;
+  justify-content: center;
+  padding: 16px;
+  background: #f5f1ea !important;
+  color: #0b0b0b !important;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif !important;
+  font-size: .85rem !important;
+  font-weight: 800 !important;
+  letter-spacing: .1em !important;
+  text-transform: uppercase;
+  border: 0 !important;
+}
+.leap-site .site-footer p {
+  color: rgba(255,255,255,.78) !important;
+}
+.leap-updates .date-line,
+.leap-updates-page .date-line {
+  color: #04717c !important;
+}
+#footer a {
+  color: #005f7c !important;
+}
+@media (max-width: 520px) {
+  .lh-inner {
+    width: calc(100% - 28px);
+    gap: 14px;
+  }
+  .lh-header .lh-brand-img,
+  .lh-header.is-compact .lh-brand-img {
+    width: 172px !important;
+    height: 58px !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+  .lh-cta {
+    min-height: 40px;
+    padding: 10px 15px;
+    font-size: .72rem;
+  }
+  .lh-cart {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 390px) {
+  .lh-cta { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lh-arc-bright,
+  .lh-spark {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: .5 !important;
+  }
+  .lh-glow { display: none; }
+  .lh-brand,
+  .lh-inner,
+  .lh-nav a::after,
+  .lh-cta,
+  .lh-cart {
+    transition: none !important;
+  }
+}
+
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS START */
+.gymontario-home-strip { background: #09152e; color: #fff; }
+.gymontario-mark, .gymontario-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.gymontario-mark { width: var(--content, min(1180px, calc(100vw - 40px))); margin: 0 auto; padding: 22px 0; }
+.gymontario-copy { display: grid; gap: 4px; }
+.gymontario-copy span { font-size: 0.78rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.66); }
+.gymontario-copy strong { font-family: "Bricolage Grotesque", "Manrope", Arial, sans-serif; font-size: clamp(1.35rem, 2vw, 2.05rem); line-height: 1; color: #fff; }
+.gymontario-logo { display: block; width: min(210px, 42vw); height: auto; }
+.gymontario-link { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.gymontario-footer { margin-top: 26px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+@media (max-width: 680px) { .gymontario-mark, .gymontario-footer { align-items: flex-start; flex-direction: column; } }
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS END */
+</style>
+<header id="lhHeader" class="lh-header" role="banner"><span id="lhGlow" class="lh-glow" aria-hidden="true"></span>
+<div class="lh-inner"><a class="lh-brand" href="/" aria-label="Leap Gymnastics home"> <img class="lh-brand-img" src="/sites/files/leap-logo-4763567f8b_EDIT30.png" border="0" alt="Leap Gymnastics"> <span class="lh-brand-tag">Markham &middot; York Region</span> </a>
+<div class="lh-right"><nav class="lh-nav" aria-label="Primary"><a title="School Year Programs" href="/programs/">Programs</a> <a title="Camps and Summer Programs" href="/camps/">Camps</a> <a href="/birthday-parties/">Parties</a> <a href="/about/">About</a> <a href="/faq/">FAQ</a> <a href="/leap-updates/">Updates</a> <a href="/contact/">Contact</a></nav><a class="lh-cta" href="/registration/">Register <span class="lh-cta-arrow" aria-hidden="true">&rarr;</span></a> <a class="lh-cart" title="Shopping Cart" href="/registration/checkout/" aria-label="Shopping Cart"> </a> <button id="lhBurger" class="lh-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="lhSheet"></button></div>
+</div>
+</header>
+<div id="lhSheet" class="lh-sheet" role="dialog" aria-modal="true" aria-label="Site menu">
+<div class="lh-sheet-top"><img class="lh-sheet-logo" src="/sites/files/leap-logo-4763567f8b_EDIT30.png" border="0" alt="Leap Gymnastics"> <button id="lhSheetClose" class="lh-sheet-close" type="button" aria-label="Close menu">&times;</button></div>
+<a href="/programs/">School Year Programs</a> <a href="/camps/">Camps and Summer Programs</a> <a href="/birthday-parties/">Birthday Parties</a> <a href="/about/">About</a> <a href="/faq/">FAQ</a> <a href="/leap-updates/">Leap Updates</a> <a href="/contact/">Contact</a> <a href="/registration/checkout/">Shopping Cart</a> <a class="lh-sheet-cta" href="/registration/">Register</a></div>
+<script async="true" type="text/javascript">
+(function () {
+  function initLeapHeader() {
+    var h = document.getElementById("lhHeader");
+    if (!h || h.dataset.leapReady === "1") return;
+    h.dataset.leapReady = "1";
+    var g = document.getElementById("lhGlow");
+    var sheet = document.getElementById("lhSheet");
+    var burger = document.getElementById("lhBurger");
+    var closeBtn = document.getElementById("lhSheetClose");
+    var cart = h.querySelector(".lh-cart");
+    var rx = 0, ry = 0, tx = 0, ty = 0, raf = 0;
+
+    function syncCartCount() {
+      if (!cart) return;
+      var source = document.querySelector(".userCart .cartCount, .cartCount");
+      var count = source ? (source.textContent || "").replace(/[^0-9]/g, "") : "";
+      if (count) cart.setAttribute("data-count", count);
+      else cart.removeAttribute("data-count");
+      var badge = cart.querySelector(".lh-cart-count");
+      if (badge) badge.textContent = count;
+    }
+    syncCartCount();
+    setTimeout(syncCartCount, 900);
+
+    function loop() {
+      tx += (rx - tx) * .18;
+      ty += (ry - ty) * .18;
+      if (g) g.style.transform = "translate(" + (tx - 260) + "px," + (ty - 260) + "px)";
+      if (Math.abs(rx - tx) > .3 || Math.abs(ry - ty) > .3) raf = requestAnimationFrame(loop);
+      else raf = 0;
+    }
+
+    h.addEventListener("pointermove", function (e) {
+      if (e.pointerType && e.pointerType !== "mouse" && e.pointerType !== "pen") return;
+      var r = h.getBoundingClientRect();
+      rx = e.clientX - r.left;
+      ry = e.clientY - r.top;
+      if (!raf) raf = requestAnimationFrame(loop);
+    }, { passive: true });
+
+    function updateCompact() {
+      h.classList.toggle("is-compact", window.scrollY > 80);
+    }
+    updateCompact();
+    window.addEventListener("scroll", updateCompact, { passive: true });
+
+    try {
+      var current = location.pathname.replace(/\/+$/, "") || "/";
+      Array.prototype.forEach.call(h.querySelectorAll(".lh-nav a"), function (a) {
+        var href = (a.getAttribute("href") || "").replace(/\/+$/, "") || "/";
+        if ((href === "/" && current === "/") || (href !== "/" && current.indexOf(href) === 0)) {
+          a.setAttribute("aria-current", "page");
+        }
+      });
+    } catch (error) {}
+
+    function openSheet() {
+      if (!sheet) return;
+      sheet.classList.add("is-open");
+      if (burger) burger.setAttribute("aria-expanded", "true");
+      document.body.dataset.leapPreviousOverflow = document.body.style.overflow || "";
+      document.body.style.overflow = "hidden";
+      if (closeBtn) closeBtn.focus();
+    }
+    function closeSheet() {
+      if (!sheet) return;
+      sheet.classList.remove("is-open");
+      if (burger) burger.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = document.body.dataset.leapPreviousOverflow || "";
+    }
+
+    if (burger && sheet) {
+      burger.addEventListener("click", openSheet);
+      if (closeBtn) closeBtn.addEventListener("click", closeSheet);
+      Array.prototype.forEach.call(sheet.querySelectorAll("a"), function (a) {
+        a.addEventListener("click", closeSheet);
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeSheet();
+      });
+    }
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initLeapHeader, { once: true });
+  else initLeapHeader();
+  window.LeapInitInteractiveHeader = initLeapHeader;
+})();</script>
+<!-- LEAP SITE HEADER END -->
+<div class="announcement">
+<div class="announcement__inner">Camps and Summer Programs P.A. day camps, March Break camp, Summer Camp, and Summer Gymnastics Classes</div>
+</div>
+<main><style id='leap-camps-css'>
+.camps-page .section{padding:84px 0}
+.camps-page #camp-options,.camps-page #camp-calendar,.camps-page #class-calendar{scroll-margin-top:128px}
+.camps-page .lc-lead{font-size:1.18rem;font-weight:600;margin:2px 0;max-width:640px}
+.camps-page .lc-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.leap-site .camps-page .button--light,.camps-page .button--light{background:#e9ff5c;border-color:#e9ff5c;color:#101314!important}
+.leap-site .camps-page .button--outline,.camps-page .button--outline{background:#fff;border-color:rgba(16,19,20,.38);color:#101314!important}
+.leap-site .camps-page .page-hero .button--outline,.leap-site .camps-page .section--dark .button--outline,.leap-site .camps-page .cta-band .button--outline,.camps-page .page-hero .button--outline,.camps-page .section--dark .button--outline,.camps-page .cta-band .button--outline{background:#fff;border-color:#fff;color:#101314!important}
+.leap-site .camps-page .button--outline:hover,.camps-page .button--outline:hover{background:#f4fff4;border-color:#0b7a63;color:#064e43!important}
+.lc-choose{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.lc-card{position:relative;border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:14px;background:#fff;border:1px solid rgba(16,19,20,.12);border-top:5px solid #0b7a63;box-shadow:0 26px 64px rgba(16,19,20,.12)}
+.lc-card__tag{font-family:var(--mono,ui-monospace,monospace);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#0b7a63}
+.lc-card h3{margin:0;font-size:1.8rem;letter-spacing:-.025em}
+.lc-card>p{margin:0;line-height:1.6;color:#2e3a39}
+.lc-card__sub{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#101314;opacity:.5;margin:6px 0 -4px}
+.lc-card ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.lc-card li{position:relative;padding-left:22px;line-height:1.45;color:#2e3a39}
+.lc-card li:before{content:'';position:absolute;left:0;top:.5em;width:9px;height:9px;border-radius:50%;background:#e9ff5c;border:1.5px solid #0b7a63}
+.lc-card .lc-card__cta{margin-top:auto;padding-top:6px}
+.camps-page .lc-card__subcta{display:flex;margin-top:10px}
+.camps-page .lc-card__subcta .button{min-width:min(100%,300px)}
+
+.lc-price-list{gap:10px!important}
+.lc-price-list li{display:grid;gap:4px;padding-left:0!important}
+.lc-price-list li:before{display:none!important}
+.lc-price-list strong{color:#101314;font-size:.96rem;letter-spacing:-.01em}
+.lc-price-list span{color:#2e3a39;line-height:1.45;font-size:.92rem}
+.section--dark .lc-price-list strong{color:#fff}
+.section--dark .lc-price-list span{color:rgba(255,255,255,.82)}
+.lc-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.lc-filter{border:1px solid rgba(16,19,20,.18);background:#fff;color:#101314;border-radius:999px;padding:8px 17px;font-weight:700;font-size:.84rem;cursor:pointer;transition:.15s}
+.section--dark .lc-filter{background:rgba(255,255,255,.07);color:#fff;border-color:rgba(255,255,255,.22)}
+.lc-filter:hover{transform:translateY(-1px)}
+.lc-filter.is-active{background:#e9ff5c;color:#064e43;border-color:#e9ff5c}
+.lc-cal{max-width:680px;margin:0 auto}.lc-calnav{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px}.lc-calnav__title{font-weight:800;font-size:1.35rem;letter-spacing:-.02em}.lc-navbtn{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.07);color:#fff;font-size:1.4rem;cursor:pointer;line-height:1}.lc-navbtn:hover{background:#e9ff5c;color:#064e43;border-color:#e9ff5c}.lc-month--single .lc-day{min-height:72px}.lc-day.is-today{outline:2px solid #e9ff5c;outline-offset:-2px}.lc-day.is-today .d{color:#e9ff5c;opacity:1}
+.lc-month{border:1px solid rgba(255,255,255,.14);border-radius:16px;overflow:hidden;background:rgba(255,255,255,.04)}
+.lc-month h4{margin:0;padding:13px 16px;background:#064e43;color:#fff;font-size:1.02rem;letter-spacing:-.01em}
+.lc-dow{display:grid;grid-template-columns:repeat(7,1fr);font-size:.6rem;font-weight:800;text-align:center;letter-spacing:.05em;opacity:.55;padding:8px 8px 2px}
+.lc-days{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;padding:4px 8px 12px}
+.lc-day{min-height:46px;border:1px solid rgba(255,255,255,.07);border-radius:7px;padding:4px}
+.lc-day .d{font-size:.6rem;opacity:.45;font-weight:700}
+.lc-day.is-off{opacity:.25}
+.lc-ev{display:block;width:100%;text-align:left;border:0;border-radius:5px;padding:3px 6px;margin-top:3px;font-size:.62rem;font-weight:800;cursor:pointer;color:#fff;line-height:1.1}
+.lc-ev:hover{filter:brightness(1.12)}
+.lc-ev--summer{background:#0b7a63}
+.lc-ev--paday{background:#bd7d1c}
+.lc-ev--march{background:#5b6470}
+.lc-legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;font-size:.78rem;opacity:.85}
+.lc-legend span{display:inline-flex;align-items:center;gap:7px}
+.lc-legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.lc-tbd{margin-top:14px;border:1px dashed rgba(255,255,255,.25);border-radius:12px;padding:14px 16px;font-size:.9rem;opacity:.85}
+.lc-wk{display:grid;grid-template-columns:70px repeat(5,1fr);border:1px solid rgba(16,19,20,.12);border-radius:16px;overflow:hidden;background:#fff}
+.lc-wk .hd{background:#064e43;color:#fff;font-weight:800;font-size:.82rem;padding:12px 8px;text-align:center}
+.lc-wk .tm{font-size:.72rem;font-weight:700;opacity:.55;padding:14px 8px;border-top:1px solid rgba(16,19,20,.08);display:flex;align-items:center}
+.lc-wk .cell{border-top:1px solid rgba(16,19,20,.08);border-left:1px solid rgba(16,19,20,.05);padding:7px;min-height:84px}
+.lc-classbtn{display:block;width:100%;border:0;border-radius:10px;background:#0b7a63;color:#fff;padding:9px 10px;text-align:left;cursor:pointer;font-weight:800;font-size:.74rem;line-height:1.25;transition:.15s}
+.lc-classbtn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(11,122,99,.3)}
+.lc-classbtn small{display:block;font-weight:600;opacity:.85;font-size:.66rem;margin-top:3px}
+.lc-daytabs{display:none;gap:7px;margin-bottom:14px;flex-wrap:wrap}
+.lc-inc{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.lc-inc-card{border:1px solid rgba(16,19,20,.12);border-radius:14px;padding:22px;background:#fffdf8}
+.lc-inc-card .lc-num{font-family:var(--mono,monospace);font-size:.72rem;font-weight:800;color:#0b7a63;letter-spacing:.1em}
+.lc-inc-card h4{margin:8px 0 7px;font-size:1.12rem;letter-spacing:-.01em}
+.lc-inc-card p{margin:0;line-height:1.55;color:#2e3a39;font-size:.94rem}
+.lc-acc{border:1px solid rgba(16,19,20,.12);border-radius:13px;margin-bottom:11px;overflow:hidden;background:#fffdf8}
+.lc-acc>summary{cursor:pointer;padding:17px 20px;font-weight:800;list-style:none;font-size:1.08rem;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.lc-acc>summary::-webkit-details-marker{display:none}
+.lc-acc>summary:after{content:'+';font-size:1.4rem;opacity:.45;font-weight:400;line-height:1}
+.lc-acc[open]>summary:after{content:'–'}
+.lc-acc__body{padding:0 20px 18px;line-height:1.7;color:#2e3a39}
+.lc-acc__body ul{margin:0;padding-left:20px}
+.lc-drawer{position:fixed;inset:0;z-index:9000;display:none}
+.lc-drawer.open{display:block}
+.lc-drawer__bg{position:absolute;inset:0;background:rgba(16,19,20,.55)}
+.lc-drawer__panel{position:absolute;top:0;right:0;height:100%;width:min(430px,93vw);background:#fffdf8;color:#101314;padding:34px 30px;overflow:auto;transform:translateX(100%);transition:.28s cubic-bezier(.4,0,.1,1);box-shadow:-24px 0 70px rgba(0,0,0,.32)}
+.lc-drawer.open .lc-drawer__panel{transform:none}
+.lc-drawer__tag{font-family:var(--mono,monospace);font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#0b7a63}
+.lc-drawer__panel h3{margin:6px 0 2px;font-size:1.7rem;letter-spacing:-.025em}
+.lc-drawer__close{position:absolute;top:18px;right:20px;border:0;background:none;font-size:1.7rem;cursor:pointer;line-height:1;opacity:.5}
+.lc-dl{margin:18px 0;display:flex;flex-direction:column;gap:11px}
+.lc-dl div{display:flex;gap:12px;font-size:.95rem;line-height:1.4}
+.lc-dl b{flex:0 0 104px;opacity:.5;font-weight:800;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.lc-status{display:inline-block;font-size:.74rem;font-weight:800;padding:3px 10px;border-radius:999px}
+.lc-status--open{background:#e9ff5c;color:#064e43}
+.lc-status--soon{background:rgba(16,19,20,.08);color:#101314}
+.lc-fmt{border-top:1px solid rgba(16,19,20,.1);margin-top:6px;padding-top:14px}
+.lc-fmt h5{margin:0 0 8px;font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;opacity:.55}
+.lc-fmt div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(16,19,20,.06);font-size:.92rem}
+@media(max-width:860px){.lc-cal{grid-template-columns:1fr}}
+@media(max-width:780px){.camps-page .section{padding:60px 0}.lc-choose{grid-template-columns:1fr}.lc-inc{grid-template-columns:1fr 1fr}.lc-daytabs{display:flex}.lc-wk{grid-template-columns:1fr;border:0;background:none}.lc-wk .hd,.lc-wk .tm{display:none}.lc-wk .cell{border:0;padding:0;min-height:0;margin-bottom:8px;display:none}.lc-wk .cell.is-show{display:block}}
+@media(max-width:520px){.lc-inc{grid-template-columns:1fr}.lc-dl b{flex-basis:88px}}
+.camps-page .lc-mobile-agenda{display:none}
+@media(max-width:640px){
+  .camps-page .lc-actions,.camps-page .lc-card__cta{display:grid;grid-template-columns:1fr;gap:10px}
+  .camps-page .lc-actions .button,.camps-page .lc-card__cta .button{width:100%;min-height:46px;display:inline-flex;align-items:center;justify-content:center;text-align:center;white-space:normal}
+  .camps-page .lc-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:18px}
+  .camps-page .lc-filter{min-height:44px;padding:10px 12px;border-radius:8px;white-space:normal;line-height:1.15;text-align:center}
+  .camps-page .lc-cal{max-width:none;width:100%}
+  .camps-page .lc-calnav{gap:10px;margin-bottom:14px}
+  .camps-page .lc-calnav__title{text-align:center;font-size:1.12rem;line-height:1.15;letter-spacing:0}
+  .camps-page .lc-navbtn{width:46px;height:46px;flex:0 0 46px}
+  .camps-page .lc-month{display:none}
+  .camps-page .lc-mobile-agenda{display:grid;gap:10px}
+  .camps-page .lc-agenda-day{border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px;background:rgba(255,255,255,.06)}
+  .camps-page .lc-agenda-date{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px;color:#fff;font-weight:900;line-height:1.2}
+  .camps-page .lc-agenda-date b{font-size:.72rem;font-weight:800;opacity:.72;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+  .camps-page .lc-agenda-events{display:grid;gap:8px}
+  .camps-page .lc-agenda-event{min-height:46px;padding:10px 12px;border-radius:9px;font-size:.86rem;line-height:1.2;text-align:left}
+  .camps-page .lc-agenda-event span,.camps-page .lc-agenda-event small{display:block}
+  .camps-page .lc-agenda-event small{margin-top:3px;font-size:.74rem;font-weight:700;opacity:.9}
+  .camps-page .lc-agenda-empty{border:1px dashed rgba(255,255,255,.25);border-radius:12px;padding:18px;color:rgba(255,255,255,.82);text-align:center;line-height:1.45}
+  .camps-page .lc-legend{display:grid;grid-template-columns:1fr;gap:8px;font-size:.82rem}
+  .camps-page .lc-drawer__panel{top:auto;right:0;bottom:0;left:0;width:100%;height:auto;max-height:min(82vh,640px);border-radius:18px 18px 0 0;padding:30px 18px calc(22px + env(safe-area-inset-bottom));transform:translateY(100%)}
+  .camps-page .lc-drawer.open .lc-drawer__panel{transform:none}
+  .camps-page .lc-drawer__close{top:14px;right:16px;width:44px;height:44px;border-radius:50%;background:#fff;border:1px solid rgba(16,19,20,.12);opacity:.78}
+  .camps-page .lc-drawer__panel h3{font-size:1.45rem;padding-right:42px;line-height:1.08}
+  .camps-page .lc-dl div{flex-direction:column;gap:4px}
+  .camps-page .lc-dl b{flex-basis:auto;padding-top:0}
+  .camps-page .lc-fmt div{grid-template-columns:1fr;gap:3px}
+}
+@media(max-width:420px){.camps-page .lc-filters{grid-template-columns:1fr}.camps-page .lc-calnav__title{font-size:1.02rem}}
+</style><style id="leap-camps-calendar-mobile-fix">
+.leap-site .camps-page #camp-calendar,
+.leap-site .camps-page #class-calendar,
+.leap-site .camps-page #lc-camp-cal,
+.leap-site .camps-page #lc-class-cal {
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  .leap-site .camps-page #camp-calendar .lc-filters,
+  .leap-site .camps-page #class-calendar .lc-filters {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    margin: 0 -4px 16px !important;
+    padding: 0 4px 4px !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+  .leap-site .camps-page #camp-calendar .lc-filters::-webkit-scrollbar,
+  .leap-site .camps-page #class-calendar .lc-filters::-webkit-scrollbar {
+    display: none !important;
+  }
+  .leap-site .camps-page #camp-calendar .lc-filter,
+  .leap-site .camps-page #class-calendar .lc-filter,
+  .leap-site .camps-page .lc-daytabs .lc-filter {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: max-content !important;
+    min-height: 38px !important;
+    padding: 8px 13px !important;
+    border-radius: 999px !important;
+    white-space: nowrap !important;
+    line-height: 1 !important;
+    font-size: .78rem !important;
+    text-align: center !important;
+  }
+  .leap-site .camps-page .lc-daytabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    margin: 0 -4px 12px !important;
+    padding: 0 4px 4px !important;
+    scrollbar-width: none !important;
+  }
+  .leap-site .camps-page .lc-daytabs::-webkit-scrollbar {
+    display: none !important;
+  }
+  .leap-site .camps-page .lc-calnav {
+    align-items: center !important;
+  }
+  .leap-site .camps-page .lc-calnav__title {
+    min-width: 0 !important;
+  }
+  .leap-site .camps-page .lc-mobile-agenda {
+    gap: 8px !important;
+  }
+  .leap-site .camps-page .lc-agenda-day {
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+  .leap-site .camps-page .lc-agenda-event {
+    min-height: 42px !important;
+    padding: 9px 11px !important;
+  }
+  .leap-site .camps-page .lc-wk {
+    overflow: visible !important;
+  }
+  .leap-site .camps-page .lc-wk .cell.is-show {
+    display: block !important;
+  }
+}
+@media (max-width: 430px) {
+  .leap-site .camps-page #camp-calendar .lc-filter,
+  .leap-site .camps-page #class-calendar .lc-filter,
+  .leap-site .camps-page .lc-daytabs .lc-filter {
+    font-size: .74rem !important;
+    padding: 8px 12px !important;
+  }
+}
+</style>
+<div class='camps-page'>
+<section class='page-hero'>
+<div class='page-hero__media page-hero__media--camps'><video preload='auto' autoplay='autoplay' loop='loop' muted='' width='300' height='150'><source src='https://leapgymnastics.uplifterinc.com/sites/files/leap-camps-video-web-5ffa31bc50.mp4' type='video/mp4'></video></div>
+<div class='page-hero__shell'>
+<h1>Camps &amp; Summer Programs</h1>
+<p class='lc-lead'>Camps and summer gymnastics classes at LEAP Gymnastics.</p>
+<p>Choose full-day camp options or weekly summer gymnastics classes from the calendars below.</p>
+<div class='lc-actions'><a class='button button--light' href='#camp-calendar'>View Camp Calendar</a> <a class='button button--outline' href='#class-calendar'>View Summer Class Calendar</a></div>
+</div>
+</section><section class='section' id='camp-options'>
+<div class='shell'>
+<div class='section-head'><h2>Choose Your Option</h2></div>
+<div class='lc-choose'>
+<div class='lc-card'>
+<h3>Camps</h3>
+<p>LEAP camp days give children a full day of movement, creativity, and supervised activity in a gymnastics setting.</p>
+<p>Campers spend time on the gym floor with coached gymnastics activities, games, obstacle courses, crafts, and active play. Each day includes a balance of structured movement, group activities, creative time, and lunch and snack breaks, so children stay active while still having time to rest and reset.</p>
+<p>Camp programming is designed for children ages 4 to 12. Activities are planned with age, readiness, and safety in mind, and campers are grouped and supervised by coaches throughout the day.</p>
+<p>LEAP offers camp days during school breaks and select school closure days, including Summer Camp, PA Day Camp, and March Break Camp when available.</p>
+<p>Campers must be fully potty-trained and able to participate independently in a group setting. Camp is best suited for children who are comfortable following coach instructions, staying with their group, and taking part in a full day of activities without one-on-one support.</p>
+<p>Camp groups use a 1:8 coach-to-participant ratio unless otherwise stated.</p>
+<p>Camp pricing starts at $72 per day and $272 per week.</p>
+<p>Families can view current camp dates, availability, full-week and individual-day options, and any available add-ons on the registration page.</p>
+<p>All programs are subject to the applicable Gymnastics Ontario fee.</p>
+<div class='lc-card__cta'><a class='button button--light' href='/registration/#camps-summer' target='_top'>Register for Camps</a> <a class='button button--outline' href='#camp-calendar'>View Camp Calendar</a><div class='lc-card__subcta'><a class='button button--outline' href='/summer-camp-themes/' target='_top'>View 2026 Summer Camp Themes</a></div></div>
+</div>
+<div class='lc-card'>
+<h3>Summer Gymnastics Classes</h3>
+<p>LEAP summer classes are weekly gymnastics programs for children who want to stay active, continue building skills, and keep moving during the summer season.</p>
+<p>Summer classes are separate from camp. They are a good option for families who want a consistent weekly gymnastics class rather than a full-day camp program.</p>
+<p>Each class includes coached gymnastics instruction, age-appropriate progressions, and skill development on the equipment. Gymnasts work on strength, flexibility, balance, coordination, confidence, and foundational gymnastics skills in a structured class setting.</p>
+<p>Classes are grouped by age and program, so participants can work with gymnasts at a similar stage of development.</p>
+<p>Summer classes use a 1:8 coach-to-participant ratio unless otherwise stated.</p>
+<p>Summer class pricing starts at $200.</p>
+<p>Families can view current class dates, times, availability, and registration options on the summer class calendar.</p>
+<p>All programs are subject to the applicable Gymnastics Ontario fee.</p>
+<div class='lc-card__cta'><a class='button button--outline' href='#class-calendar'>View Summer Class Calendar</a></div>
+</div>
+</div>
+</div>
+</section><section class='section section--dark' id='camp-calendar'>
+<div class='shell'>
+<div class='section-head'><h2>Camp Calendar</h2></div>
+<div class='lc-filters' data-cal='camp'>
+<button class='lc-filter is-active' data-f='all'>All Camps</button>
+<button class='lc-filter' data-f='summer'>Summer Camp</button>
+<button class='lc-filter' data-f='paday'>PA Day Camp</button>
+<button class='lc-filter' data-f='march'>March Break Camp</button>
+</div>
+<div class='lc-cal' id='lc-camp-cal'></div>
+<div class='lc-legend'><span><i style='background:#0b7a63'></i>Summer Camp</span><span><i style='background:#bd7d1c'></i>PA Day Camp</span><span><i style='background:#5b6470'></i>March Break Camp</span></div>
+<div class='lc-tbd'>Camp pricing starts at $72 per day and $272 per week. Families can view current camp dates, availability, full-week and individual-day options, and any available add-ons on the registration page.</div>
+</div>
+</section>
+<section class='section' id='class-calendar'>
+<div class='shell'>
+<div class='section-head'><h2>Summer Class Calendar</h2></div>
+<div class='lc-filters' data-cal='class'>
+<button class='lc-filter is-active' data-f='all'>All</button>
+<button class='lc-filter' data-f='age3'>Age 3</button>
+<button class='lc-filter' data-f='age45'>Ages 4-5</button>
+<button class='lc-filter' data-f='g67'>Girls 6-7</button>
+<button class='lc-filter' data-f='g8'>Girls 8+</button>
+<button class='lc-filter' data-f='b6'>Boys 6+</button>
+<button class='lc-filter' data-f='tum'>Tumbling</button>
+</div>
+<div class='lc-daytabs' id='lc-daytabs'></div>
+<div class='lc-wk' id='lc-class-cal'></div>
+</div>
+</section><section class='section'>
+<div class='shell'>
+<div class='section-head'><h2>What Camps Include</h2><p>Leap camps mix coached gymnastics with games, crafts, and supervised group activities, plus lunch and snacks.</p></div>
+<div class='lc-inc'>
+<div class='lc-inc-card'><div class='lc-num'>01</div><h4>Gymnastics Stations</h4><p>Rolling, jumping, balancing, climbing, swinging, landing, and body-control activities.</p></div>
+<div class='lc-inc-card'><div class='lc-num'>02</div><h4>Obstacle Courses</h4><p>Climbing, crawling, and tumbling challenges that build strength, coordination, and confidence.</p></div>
+<div class='lc-inc-card'><div class='lc-num'>03</div><h4>Group Activities</h4><p>Supervised games and group activities between gym rotations.</p></div>
+<div class='lc-inc-card'><div class='lc-num'>04</div><h4>Breaks</h4><p>Snack, lunch, water, creative activities, and quieter breaks between active gym time.</p></div>
+</div>
+</div>
+</section>
+<section class='section'>
+<div class='shell'>
+<div class='section-head'><h2>Good to Know</h2></div>
+<div style='max-width:820px;margin:0 auto'>
+<details class='lc-acc'><summary>Camp Requirements</summary><div class='lc-acc__body'><ul><li>Ages 4 to 12</li><li>Fully potty-trained</li><li>Comfortable participating independently</li><li>Able to spend the camp day without a parent or guardian</li></ul></div></details>
+<details class='lc-acc'><summary>What to Bring</summary><div class='lc-acc__body'><ul><li>Labelled water bottle</li><li>Lunch</li><li>Two snacks</li><li>Comfortable athletic clothing</li><li>Hair tied back</li><li>No jewelry</li></ul><p>Campers are barefoot in the gym.</p></div></details>
+<details class='lc-acc'><summary>Camp Care</summary><div class='lc-acc__body'><p>Before care and after care may be available for Summer Camp dates. Current times and prices appear inside the relevant Summer Camp registration details. Camp care is an add-on and is not a separate program.</p></div></details>
+<details class='lc-acc'><summary>Registration and Fees</summary><div class='lc-acc__body'><p>Camps start at $72 per day; Summer Camp weeks are listed at $272 for short holiday weeks and $340 for five-day weeks. Summer classes show their class count and price before registration. Applicable Gymnastics Ontario fees, if required, will appear during checkout.</p></div></details>
+<details class='lc-acc'><summary>Terms and Conditions</summary><div class='lc-acc__body'><p>Leap's official registration policies and terms apply to all camp and class bookings. Review them in Leap's <a href='/registration/' target='_top'>registration system</a> before registering.</p></div></details>
+</div>
+</div>
+</section>
+<section class='section section--tight'>
+<div class='shell'>
+<div class='cta-band'><h2>Need Help Choosing</h2><p>Not sure whether to choose a camp or a summer gymnastics class? Contact Leap and we can help you choose the right option based on your child's age, experience, and schedule.</p><div class='cta-band__actions'><a class='button button--light' href='/contact/' target='_top'>Contact Leap</a> <a class='button button--outline' href='/registration/' target='_top'>Register Online</a></div></div>
+</div>
+</section>
+<div class='lc-drawer' id='lc-drawer'><div class='lc-drawer__bg' data-close=''></div><div class='lc-drawer__panel'><button class='lc-drawer__close' data-close=''>&times;</button><div id='lc-drawer-content'></div></div></div>
+</div><script>(function(){function init(){var C=[{t:'paday',iso:'2026-06-05',nm:'PA Day Camp',ty:'PA Day Camp',rg:'June 5, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2026-06-26',nm:'PA Day Camp',ty:'PA Day Camp',rg:'June 26, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2026-10-26',nm:'PA Day Camp',ty:'PA Day Camp',rg:'October 26, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2026-11-20',nm:'PA Day Camp',ty:'PA Day Camp',rg:'November 20, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2027-01-15',nm:'PA Day Camp',ty:'PA Day Camp',rg:'January 15, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2027-06-04',nm:'PA Day Camp',ty:'PA Day Camp',rg:'June 4, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'paday',iso:'2027-06-30',nm:'PA Day Camp',ty:'PA Day Camp',rg:'June 30, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'summer',iso:'2026-06-29',nm:'Summer Camp Week 1',ty:'Summer Camp',rg:'June 29 to July 3, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Short week (4 days)|Mon, Tue, Thu, Fri;Individual full days|Available',nt:'No camp on Canada Day, Wednesday July 1.'},{t:'summer',iso:'2026-07-06',nm:'Summer Camp Week 2',ty:'Summer Camp',rg:'July 6 to July 10, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-07-13',nm:'Summer Camp Week 3',ty:'Summer Camp',rg:'July 13 to July 17, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-07-20',nm:'Summer Camp Week 4',ty:'Summer Camp',rg:'July 20 to July 24, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-07-27',nm:'Summer Camp Week 5',ty:'Summer Camp',rg:'July 27 to July 31, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-08-04',nm:'Summer Camp Week 6',ty:'Summer Camp',rg:'August 4 to August 7, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Short week (4 days)|Tuesday to Friday;Individual full days|Available',nt:'No camp on the Civic Holiday, Monday August 3.'},{t:'summer',iso:'2026-08-10',nm:'Summer Camp Week 7',ty:'Summer Camp',rg:'August 10 to August 14, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-08-17',nm:'Summer Camp Week 8',ty:'Summer Camp',rg:'August 17 to August 21, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-08-24',nm:'Summer Camp Week 9',ty:'Summer Camp',rg:'August 24 to August 28, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'summer',iso:'2026-08-31',nm:'Summer Camp Week 10',ty:'Summer Camp',rg:'August 31 to September 4, 2026',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'Full week|Monday to Friday;Individual full days|Available',nt:''},{t:'march',iso:'2027-03-15',nm:'March Break Camp',ty:'March Break Camp',rg:'Monday, March 15, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'march',iso:'2027-03-16',nm:'March Break Camp',ty:'March Break Camp',rg:'Tuesday, March 16, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'march',iso:'2027-03-17',nm:'March Break Camp',ty:'March Break Camp',rg:'Wednesday, March 17, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'march',iso:'2027-03-18',nm:'March Break Camp',ty:'March Break Camp',rg:'Thursday, March 18, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''},{t:'march',iso:'2027-03-19',nm:'March Break Camp',ty:'March Break Camp',rg:'Friday, March 19, 2027',hr:'9:00am to 4:00pm',ag:'4 to 12',st:'open',fm:'',nt:''}];var SKIP={'2026-07-01':1,'2026-08-03':1};function isoOf(d){return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate());}function summerDays(s){var pt=s.split('-');var d=new Date(+pt[0],+pt[1]-1,+pt[2]);var w=d.getDay();d.setDate(d.getDate()-(w===0?6:w-1));var o=[];for(var i=0;i<5;i++){var vv=isoOf(d);if(!SKIP[vv])o.push(vv);d.setDate(d.getDate()+1);}return o;}for(var ci=0;ci<C.length;ci++){C[ci]._d=(C[ci].t==='summer')?summerDays(C[ci].iso):[C[ci].iso];}var MO=[[2026,5,'June 2026'],[2026,6,'July 2026'],[2026,7,'August 2026'],[2026,8,'September 2026']];var DOW=['M','T','W','T','F','S','S'];function p2(n){return n<10?'0'+n:''+n;}var calEl=document.getElementById('lc-camp-cal');var today=new Date();var st={y:today.getFullYear(),m:today.getMonth()};var curF='all';var DOWS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];var MN=['January','February','March','April','May','June','July','August','September','October','November','December'];function isMobileCal(){return window.matchMedia?window.matchMedia('(max-width: 640px)').matches:window.innerWidth<=640;}function eventLabel(ev){return ev.t==='paday'?'PA Day':ev.t==='march'?'March Break':'Summer Camp';}function campPrice(ev){if(ev.t==='paday'||ev.t==='march')return '$72 per day';if(ev.t==='summer')return ev.fm&&ev.fm.indexOf('Short week')>=0?'$272 short week':'$340 full week';return '';}function shortDate(iso){var pt=iso.split('-');var d=new Date(+pt[0],+pt[1]-1,+pt[2]);return DOWS[d.getDay()]+' '+MN[d.getMonth()].slice(0,3)+' '+d.getDate();}function renderMonth(){if(!calEl)return;var y=st.y,mm=st.m;var fd=new Date(y,mm,1).getDay();var dim=new Date(y,mm+1,0).getDate();var H="<div class='lc-calnav'><button class='lc-navbtn' data-nav='-1' aria-label='Previous month'>&#8249;</button><div class='lc-calnav__title'>"+MN[mm]+" "+y+"</div><button class='lc-navbtn' data-nav='1' aria-label='Next month'>&#8250;</button></div>";if(isMobileCal()){var days=[];for(var dy=1;dy<=dim;dy++){var iso=y+'-'+p2(mm+1)+'-'+p2(dy);var evs=[];for(var e=0;e<C.length;e++){if(C[e]._d.indexOf(iso)>=0&&(curF==='all'||C[e].t===curF))evs.push({ev:C[e],idx:e});}if(evs.length)days.push({iso:iso,evs:evs});}H+="<div class='lc-mobile-agenda'>";if(!days.length){H+="<div class='lc-agenda-empty'>No camp dates in this month for the selected filter.</div>";}for(var di=0;di<days.length;di++){H+="<div class='lc-agenda-day'><div class='lc-agenda-date'><span>"+shortDate(days[di].iso)+"</span><b>"+days[di].evs.length+" option"+(days[di].evs.length===1?'':'s')+"</b></div><div class='lc-agenda-events'>";for(var ai=0;ai<days[di].evs.length;ai++){var item=days[di].evs[ai],ev=item.ev;H+="<button class='lc-ev lc-agenda-event lc-ev--"+ev.t+"' data-cev='"+item.idx+"' data-t='"+ev.t+"'><span>"+ev.nm+"</span><small>"+eventLabel(ev)+" &middot; "+ev.hr+"</small></button>";}H+="</div></div>";}H+="</div>";}else{H+="<div class='lc-month lc-month--single'><div class='lc-dow'>";for(var w=0;w<7;w++)H+="<span>"+DOWS[w]+"</span>";H+="</div><div class='lc-days'>";for(var b=0;b<fd;b++)H+="<div class='lc-day is-off'></div>";for(var dy2=1;dy2<=dim;dy2++){var iso2=y+'-'+p2(mm+1)+'-'+p2(dy2);var isT=(y===today.getFullYear()&&mm===today.getMonth()&&dy2===today.getDate());H+="<div class='lc-day"+(isT?' is-today':'')+"'><div class='d'>"+dy2+"</div>";for(var e2=0;e2<C.length;e2++){if(C[e2]._d.indexOf(iso2)>=0&&(curF==='all'||C[e2].t===curF))H+="<button class='lc-ev lc-ev--"+C[e2].t+"' data-cev='"+e2+"' data-t='"+C[e2].t+"'>"+eventLabel(C[e2])+"</button>";}H+="</div>";}H+="</div></div>";}calEl.innerHTML=H;}renderMonth();var lastMobileCal=isMobileCal();window.addEventListener('resize',function(){var nextMobileCal=isMobileCal();if(nextMobileCal!==lastMobileCal){lastMobileCal=nextMobileCal;renderMonth();}});if(calEl)calEl.addEventListener('click',function(ce){var nb=ce.target.closest('[data-nav]');if(nb){st.m+=parseInt(nb.getAttribute('data-nav'),10);if(st.m<0){st.m=11;st.y--;}if(st.m>11){st.m=0;st.y++;}renderMonth();}});var CL=[{"fk":"age3","dy":0,"row":0,"nm":"Little Leapers (Age 3)","ag":"Age 3","tm":"Monday 10:00 to 11:00am","rg":"Jun 29, 2026 to Aug 31, 2026","ct":"10 classes, $200.00","fc":"Jumping, rolling, balancing, swinging, and early gymnastics shapes through coach-led games."},{"fk":"age45","dy":0,"row":1,"nm":"Ready Set Leap (Ages 4-5)","ag":"Ages 4-5","tm":"Monday 11:15am to 12:15pm","rg":"Jun 29, 2026 to Aug 31, 2026","ct":"10 classes, $200.00","fc":"Beginner vault, bars, beam, floor, and movement-circuit progressions for independent preschoolers."},{"fk":"g67","dy":1,"row":1,"nm":"Rising Stars (Girls 6-7)","ag":"Girls 6-7","tm":"Tuesday 11:15am to 12:15pm","rg":"Jun 30, 2026 to Sep 1, 2026","ct":"10 classes, $200.00","fc":"Strength, flexibility, balance, and confidence on vault, bars, beam, and floor."},{"fk":"b6","dy":2,"row":1,"nm":"Boys Adventure Gym (6+)","ag":"Boys 6+","tm":"Wednesday 11:15am to 12:15pm","rg":"Jul 8, 2026 to Sep 2, 2026","ct":"9 classes, $200.00","fc":"Obstacle courses, climbing, bars, tumbling, and strength challenges."},{"fk":"g8","dy":3,"row":1,"nm":"Flight Crew (Girls 8+)","ag":"Girls 8+","tm":"Thursday 11:15am to 12:15pm","rg":"Jul 2, 2026 to Sep 3, 2026","ct":"10 classes, $220.00","fc":"Coached work on vault, bars, beam, and floor for newcomers and experienced gymnasts."},{"fk":"tum","dy":4,"row":1,"nm":"Floor Tumbling & Obstacle Skills","ag":"Recommended 7+","tm":"Friday 11:15am to 12:15pm","rg":"Jul 3, 2026 to Sep 4, 2026","ct":"10 classes, $200.00","fc":"Rolls, cartwheels, handstands, jumps, safe landings, and movement challenges."}];var DAYS=['Monday','Tuesday','Wednesday','Thursday','Friday'],ROWS=['10:00am','11:15am'];var wk=document.getElementById('lc-class-cal');if(wk){var W="<div class='hd'></div>";for(var d=0;d<5;d++)W+="<div class='hd'>"+DAYS[d]+"</div>";for(var r=0;r<ROWS.length;r++){W+="<div class='tm'>"+ROWS[r]+"</div>";for(var d2=0;d2<5;d2++){W+="<div class='cell' data-day='"+d2+"'>";for(var c=0;c<CL.length;c++){if(CL[c].dy===d2&&CL[c].row===r)W+="<button class='lc-classbtn' data-ccl='"+c+"' data-f='"+CL[c].fk+"'>"+CL[c].nm+"<small>"+CL[c].ag+"</small></button>";}W+="</div>";}}wk.innerHTML=W;}var dtab=document.getElementById('lc-daytabs');if(dtab&&wk){var T='';for(var d=0;d<5;d++)T+="<button class='lc-filter"+(d===0?' is-active':'')+"' data-day='"+d+"'>"+DAYS[d].slice(0,3)+"</button>";dtab.innerHTML=T;function showDay(dd){var cs=wk.querySelectorAll('.cell');for(var i=0;i<cs.length;i++)cs[i].classList.toggle('is-show',cs[i].getAttribute('data-day')===''+dd);}showDay(0);dtab.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var tt=dtab.querySelectorAll('button');for(var i=0;i<tt.length;i++)tt[i].classList.remove('is-active');b.classList.add('is-active');showDay(b.getAttribute('data-day'));});}var drawer=document.getElementById('lc-drawer'),dc=document.getElementById('lc-drawer-content');function rw(l,v){return v?"<div><b>"+l+"</b><span>"+v+"</span></div>":'';}function openCamp(ev){var s=ev.st==='open'?"<span class='lc-status lc-status--open'>Open for registration</span>":"<span class='lc-status lc-status--soon'>Coming soon</span>";var h="<div class='lc-drawer__tag'>"+ev.ty+"</div><h3>"+ev.nm+"</h3><div class='lc-dl'>"+rw('Dates',ev.rg)+rw('Hours',ev.hr)+rw('Ages',ev.ag)+rw('Pricing',campPrice(ev))+"<div><b>Status</b><span>"+s+"</span></div></div>";if(ev.fm){var fp=ev.fm.split(';');h+="<div class='lc-fmt'><h5>Registration formats</h5>";for(var i=0;i<fp.length;i++){var pp=fp[i].split('|');h+="<div><span>"+pp[0]+"</span><span>"+pp[1]+"</span></div>";}h+="</div>";}if(ev.ty==='Summer Camp')h+="<p style='font-size:.88rem;opacity:.8;margin-top:14px'>Before care (from 8:15am) and after care (until 5:30pm) are available by request. Contact Leap to add either option.</p>";h+="<p style='font-size:.85rem;opacity:.7;margin-top:8px'>The registration page shows current spots, full-week or individual-day choices, add-ons, and final checkout details.</p>";if(ev.nt)h+="<p style='font-size:.88rem;opacity:.8;margin-top:10px'>"+ev.nt+"</p>";h+="<a class='button button--light' href='/registration/#camps-summer' target='_top' style='margin-top:18px;display:inline-block'>Register</a>";dc.innerHTML=h;drawer.classList.add('open');}function openClass(cl){var h="<div class='lc-drawer__tag'>Summer Class</div><h3>"+cl.nm+"</h3><div class='lc-dl'>"+rw('Age',cl.ag)+rw('When',cl.tm)+rw('Dates',cl.rg)+rw('Pricing',cl.ct)+"</div><p style='line-height:1.6;color:#2e3a39'>"+cl.fc+"</p><a class='button button--light' href='/registration/#summer-classes' target='_top' style='margin-top:18px;display:inline-block'>Register</a>";dc.innerHTML=h;drawer.classList.add('open');}document.addEventListener('click',function(e){var ev=e.target.closest('.lc-ev');if(ev){openCamp(C[+ev.getAttribute('data-cev')]);return;}var cb=e.target.closest('.lc-classbtn');if(cb){openClass(CL[+cb.getAttribute('data-ccl')]);return;}if(e.target.closest('[data-close]')&&drawer){drawer.classList.remove('open');}});var fls=document.querySelectorAll('.lc-filters');for(var fi=0;fi<fls.length;fi++){(function(fl){fl.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=b.getAttribute('data-f');var bs=fl.querySelectorAll('button');for(var j=0;j<bs.length;j++)bs[j].classList.remove('is-active');b.classList.add('is-active');if(fl.getAttribute('data-cal')==='camp'){curF=f;renderMonth();}else{var cbs=document.querySelectorAll('#lc-class-cal .lc-classbtn');for(var k2=0;k2<cbs.length;k2++)cbs[k2].style.display=(f==='all'||cbs[k2].getAttribute('data-f')===f)?'':'none';}});})(fls[fi]);}}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script><script id="leap-camps-anchor-aliases">
+(function () {
+  var aliases = {
+    "camps-and-summer-programs": "camp-options",
+    "summer-programs": "camp-options",
+    "summer": "camp-options",
+    "camp": "camp-calendar",
+    "camps": "camp-calendar",
+    "summer-camp": "camp-calendar",
+    "summer-camps": "camp-calendar",
+    "pa-day-camp": "camp-calendar",
+    "pa-day-camps": "camp-calendar",
+    "march-break-camp": "camp-calendar",
+    "march-break-camps": "camp-calendar",
+    "summer-class-calendar": "class-calendar",
+    "summer-classes": "class-calendar",
+    "summer-gymnastics-classes": "class-calendar",
+    "classes": "class-calendar"
+  };
+  function routeAlias() {
+    var raw = window.location.hash ? decodeURIComponent(window.location.hash.slice(1)) : "";
+    var target = aliases[raw];
+    if (!target || document.getElementById(raw)) return;
+    var el = document.getElementById(target);
+    if (!el) return;
+    if (window.history && history.replaceState) history.replaceState(null, "", "#" + target);
+    el.scrollIntoView({ block: "start" });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", routeAlias);
+  else routeAlias();
+  window.addEventListener("hashchange", routeAlias);
+})();
+</script>
+</main><footer class="site-footer">
+<div class="footer-shell">
+<div class="footer-top">
+<div><a class="brand" href="/" target="_top"> <img src="/sites/files/leap-logo-4763567f8b_EDIT30.png" border="0" alt="Leap Gymnastics"> </a>
+
+</div>
+<nav class="footer-nav" aria-label="Footer"><a href="/programs/" target="_top">School Year Programs</a> <a href="/birthday-parties/" target="_top">Birthday Parties</a> <a href="/faq/" target="_top">FAQ</a> <a href="/leap-updates/" target="_top">Leap Updates</a> <a href="/contact/" target="_top">Contact</a> <a href="/registration/#camps-summer" target="_top">Register</a></nav></div>
+<!-- GYMNASTICS ONTARIO FOOTER START -->
+<div class="gymontario-footer" aria-label="Gymnastics Ontario membership">
+<div class="gymontario-copy">We are a proud member of<strong>Gymnastics Ontario</strong></div>
+<a class="gymontario-link" href="https://www.gymnasticsontario.ca/" target="_blank" rel="noopener" aria-label="Gymnastics Ontario"><img class="gymontario-logo" src="https://www.gymnasticsontario.ca/wp-content/uploads/2024/08/GYM-ONT-logo-white.png" border="0" alt="Gymnastics Ontario" width="400" height="190"></a></div>
+<!-- GYMNASTICS ONTARIO FOOTER END -->
+<div class="footer-meta">158 Anderson Ave, Units 3 &amp; 4, Markham, ON <a href="mailto:info@leapgymnastics.ca" target="_top">info@leapgymnastics.ca</a> <a href="tel:+12895901111" target="_top">(289) 590-1111</a> <a href="/registration/#camps-summer" target="_top">Register</a></div>
+</div>
+</footer></div>
+<p>
+<script async="true" type="text/javascript">
+
+const leapMenuToggle = document.querySelector(".leap-site .menu-toggle");
+const leapSiteNav = document.querySelector(".leap-site .site-nav");
+const leapHeader = document.querySelector(".leap-site .site-header");
+if (leapMenuToggle && leapSiteNav) {
+  leapMenuToggle.addEventListener("click", () => {
+    const isOpen = leapSiteNav.classList.toggle("is-open");
+    leapMenuToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+}
+if (leapHeader) {
+  const onScroll = () => leapHeader.classList.toggle("is-scrolled", window.scrollY > 24);
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+}
+const normalizeLeapPath = (v) => { if(!v)return"/"; try{const u=new URL(v,window.location.origin);let p=u.pathname||"/";if(p.length>1&&p.endsWith("/"))p=p.slice(0,-1);return p||"/";}catch(e){return v;} };
+const currentLeapPath = normalizeLeapPath(window.location.pathname);
+document.querySelectorAll(".leap-site [data-nav-link]").forEach((link) => {
+  if (normalizeLeapPath(link.getAttribute("href")) === currentLeapPath) link.classList.add("is-active");
+});
+const revealElements = document.querySelectorAll(".leap-site [data-reveal]");
+if ("IntersectionObserver" in window && revealElements.length) {
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("is-visible"); obs.unobserve(e.target); } });
+  }, { threshold: 0.16 });
+  revealElements.forEach((el) => observer.observe(el));
+} else {
+  revealElements.forEach((el) => el.classList.add("is-visible"));
+}
+(function () {
+  function playAll() {
+    document.querySelectorAll("video").forEach(function (v) {
+      v.muted = true; v.playsInline = true; v.removeAttribute("controls");
+      if (v.paused) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
+    });
+  }
+  playAll();
+  window.addEventListener("load", playAll);
+  var unlocked = false;
+  function unlock() { if (unlocked) return; unlocked = true; playAll(); }
+  document.addEventListener("touchstart", unlock, { once: true, passive: true });
+  document.addEventListener("scroll", unlock, { once: true, passive: true });
+  document.addEventListener("click", unlock, { once: true, passive: true });
+})();</script>
+</p>
+<style>
+/* LEAP CINEMATIC POLISH START */
+.leap-site {
+  --leap-ink: #101314;
+  --leap-ink-soft: #2e3a39;
+  --leap-panel: #fffdf8;
+  --leap-paper: #f6f1e8;
+  --leap-mint: #0b7a63;
+  --leap-mint-deep: #064e43;
+  --leap-energy: #e9ff5c;
+  --leap-sky: #dff5ff;
+  --leap-border: rgba(16, 19, 20, 0.12);
+  --leap-shadow: 0 24px 70px rgba(16, 19, 20, 0.16);
+  color: var(--leap-ink);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.92), rgba(246,241,232,0.96)),
+    radial-gradient(circle at 20% 0%, rgba(233,255,92,0.22), transparent 28%),
+    radial-gradient(circle at 78% 8%, rgba(11,122,99,0.16), transparent 30%);
+}
+
+.leap-site,
+.leap-site * {
+  letter-spacing: 0;
+}
+
+.leap-site [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.leap-site .announcement {
+  display: none !important;
+}
+
+.leap-site .announcement__inner {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+}
+
+.leap-site .site-header {
+  top: 0;
+  z-index: 40;
+  background: rgba(255, 253, 248, 0.94);
+  border-bottom: 1px solid rgba(16, 19, 20, 0.12);
+  box-shadow: 0 10px 34px rgba(16, 19, 20, 0.08);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.leap-site .nav-shell {
+  width: min(100% - 48px, 1220px);
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+
+.leap-site .brand {
+  flex: 0 0 auto;
+  gap: 12px;
+  color: var(--leap-ink);
+  min-width: 0;
+}
+
+.leap-site .brand img {
+  width: 148px !important;
+  max-width: 148px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  transform: none;
+  filter: none;
+}
+
+.leap-site .brand-copy {
+  display: none !important;
+}
+
+.leap-site .brand-copy strong {
+  color: var(--leap-ink);
+  font-weight: 900;
+}
+
+.leap-site .brand-copy,
+.leap-site .brand-copy span {
+  color: rgba(16, 19, 20, 0.68);
+}
+
+.leap-site .site-nav {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  min-width: 0;
+}
+
+.leap-site .site-nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(12px, 1.35vw, 22px);
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.leap-site .site-nav__links a {
+  position: relative;
+  color: rgba(16, 19, 20, 0.74);
+  font-weight: 800;
+  white-space: nowrap;
+  font-size: 0.94rem;
+}
+
+.leap-site .site-nav__links a[href="/registration/#camps-summer"],
+.leap-site .site-nav__links a[href="/registration/#camps-summer"][target="_top"] {
+  display: none !important;
+}
+
+.leap-site .site-nav__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.leap-site .site-nav__actions .button--outline {
+  display: none !important;
+}
+
+.leap-site .site-nav__links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background: var(--leap-mint);
+  transition: transform 180ms ease;
+}
+
+.leap-site .site-nav__links a:hover,
+.leap-site .site-nav__links a:focus-visible {
+  color: var(--leap-ink);
+}
+
+.leap-site .site-nav__links a:hover::after,
+.leap-site .site-nav__links a:focus-visible::after {
+  transform: scaleX(1);
+}
+
+.leap-site .button {
+  border-radius: 8px;
+  min-height: 44px;
+  padding: 12px 18px;
+  border-width: 1px;
+  font-weight: 900;
+  box-shadow: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.leap-site .button:hover,
+.leap-site .button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(16, 19, 20, 0.16);
+}
+
+.leap-site .button--dark {
+  background: var(--leap-ink);
+  border-color: var(--leap-ink);
+  color: #fff;
+}
+
+.leap-site .button--dark:hover,
+.leap-site .button--dark:focus-visible {
+  background: var(--leap-mint-deep);
+  border-color: var(--leap-mint-deep);
+}
+
+.leap-site .button--light {
+  background: var(--leap-energy);
+  border-color: var(--leap-energy);
+  color: var(--leap-ink) !important;
+}
+
+.leap-site .hero .button--light,
+.leap-site .page-hero .button--light,
+.leap-site .cta-band .button--light,
+.leap-site .section--dark .button--light {
+  color: var(--leap-ink) !important;
+}
+
+.leap-site .button--outline {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: currentColor;
+}
+
+.leap-site .hero,
+.leap-site .page-hero {
+  min-height: min(720px, calc(100vh - 40px));
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--leap-ink);
+}
+
+.leap-site .hero::before,
+.leap-site .page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.24), rgba(0,0,0,0.08) 42%, rgba(0,0,0,0.38)),
+    linear-gradient(120deg, rgba(6,78,67,0.24), rgba(6,78,67,0.06) 42%, transparent 68%);
+}
+
+.leap-site .hero::after,
+.leap-site .page-hero::after {
+  content: "";
+  position: absolute;
+  left: min(6vw, 76px);
+  right: min(6vw, 76px);
+  bottom: 28px;
+  z-index: 2;
+  height: 1px;
+  background: linear-gradient(90deg, var(--leap-energy), rgba(255,255,255,0.36), transparent);
+}
+
+.leap-site .hero__media,
+.leap-site .page-hero__media {
+  inset: 0;
+  position: absolute;
+}
+
+.leap-site .hero__media::after {
+  background: linear-gradient(90deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.04)) !important;
+}
+
+.leap-site .page-hero__media::after {
+  background: linear-gradient(135deg, rgba(8, 10, 20, 0.28), rgba(8, 10, 20, 0.06)) !important;
+}
+
+.leap-site .hero__media img,
+.leap-site .hero__media video,
+.leap-site .page-hero__media img,
+.leap-site .page-hero__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.03);
+}
+
+.leap-site .hero__shell,
+.leap-site .page-hero__shell {
+  position: relative;
+  z-index: 3;
+  width: min(100% - 48px, 1220px);
+  min-height: min(720px, calc(100vh - 40px));
+  align-items: end;
+  padding-top: clamp(110px, 12vw, 168px);
+  padding-bottom: clamp(58px, 7vw, 92px);
+}
+
+.leap-site .hero__shell {
+  display: grid !important;
+  grid-template-columns: minmax(0, 820px) minmax(0, 1fr);
+  grid-template-areas:
+    "content ."
+    "meta meta";
+  align-content: end;
+  column-gap: clamp(32px, 6vw, 84px);
+  row-gap: clamp(30px, 5vw, 58px);
+}
+
+.leap-site .hero__content {
+  grid-area: content;
+  max-width: 820px;
+}
+
+.leap-site .page-hero__shell {
+  max-width: none !important;
+}
+
+.leap-site .hero h1,
+.leap-site .page-hero h1 {
+  max-width: 760px;
+  color: #fff;
+  font-size: clamp(3rem, 7.2vw, 6.9rem);
+  line-height: 0.92;
+  font-weight: 950;
+  text-wrap: balance;
+  text-shadow: 0 18px 58px rgba(0, 0, 0, 0.42);
+}
+
+.leap-site .hero p,
+.leap-site .page-hero p,
+.leap-site .page-hero .schedule-note {
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1.04rem, 1.6vw, 1.28rem);
+  line-height: 1.58;
+}
+
+.leap-site .page-hero a:not(.button),
+.leap-site .hero a:not(.button) {
+  color: inherit;
+}
+
+.leap-site .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: var(--leap-energy);
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.leap-site .eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 3px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.leap-site .hero__actions {
+  gap: 12px;
+}
+
+.leap-site .hero__meta {
+  grid-area: meta;
+  width: 100%;
+  max-width: none;
+  display: grid;
+  grid-template-columns: 1.65fr 1.1fr 0.78fr 1.45fr;
+  gap: clamp(14px, 2.6vw, 34px);
+  padding: 20px 0 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.leap-site .meta-row {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.96rem;
+  line-height: 1.45;
+}
+
+.leap-site .meta-row strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--leap-energy);
+  font-size: 0.78rem;
+  line-height: 1.1;
+  font-weight: 950;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.leap-site .section {
+  position: relative;
+  padding-top: clamp(72px, 9vw, 124px);
+  padding-bottom: clamp(72px, 9vw, 124px);
+  background: transparent;
+}
+
+.leap-site .shell,
+.leap-site .footer-shell,
+.leap-site .page-hero__shell,
+.leap-site .hero__shell {
+  width: min(100% - 48px, 1220px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leap-site .section--tight {
+  padding-top: clamp(36px, 5vw, 66px);
+  padding-bottom: clamp(36px, 5vw, 66px);
+}
+
+.leap-site .section--cream {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.72), rgba(235,247,244,0.5)),
+    var(--leap-paper);
+}
+
+.leap-site .section--dark {
+  color: #fff;
+  background:
+    linear-gradient(135deg, rgba(6,78,67,0.78), rgba(16,19,20,0.96) 44%, #101314),
+    var(--leap-ink);
+}
+
+.leap-site .section--dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(233,255,92,0.08), transparent 45%);
+}
+
+.leap-site .section-head {
+  max-width: 820px;
+}
+
+.leap-site .section-head h2,
+.leap-site .split__copy h2,
+.leap-site .cta-band h2 {
+  color: inherit;
+  font-size: clamp(2.1rem, 4.8vw, 4.8rem);
+  line-height: 0.98;
+  font-weight: 950;
+  text-wrap: balance;
+}
+
+.leap-site .section-head p,
+.leap-site .split__copy p,
+.leap-site .cta-band p,
+.leap-site .feature-block p,
+.leap-site .notice-panel p,
+.leap-site .program-card p,
+.leap-site .faq__body,
+.leap-site .contact-panel p,
+.leap-site .package p {
+  color: rgba(16, 19, 20, 0.72);
+  line-height: 1.7;
+}
+
+.leap-site .section--dark p,
+.leap-site .section--dark .split__copy p,
+.leap-site .section--dark .cta-band p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.leap-site .rail-list {
+  border-top: 1px solid var(--leap-border);
+}
+
+.leap-site .rail-list__item {
+  position: relative;
+  grid-template-columns: minmax(130px, 0.75fr) minmax(0, 2.2fr) minmax(118px, 0.75fr);
+  gap: clamp(18px, 4vw, 56px);
+  padding: clamp(22px, 3.7vw, 42px) 0;
+  border-color: var(--leap-border);
+}
+
+.leap-site .rail-list__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22px;
+  bottom: 22px;
+  width: 4px;
+  border-radius: 999px;
+  background: var(--leap-mint);
+  opacity: 0;
+  transform: scaleY(0.55);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.leap-site .rail-list__item:hover::before {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.leap-site .rail-list__label,
+.leap-site .rail-list__value,
+.leap-site .program-tag,
+.leap-site .jump-nav a,
+.leap-site .info-strip strong {
+  color: var(--leap-mint-deep);
+  font-weight: 950;
+  letter-spacing: 0;
+}
+
+.leap-site .rail-list__title {
+  color: var(--leap-ink);
+  font-size: clamp(1.08rem, 1.6vw, 1.36rem);
+  font-weight: 950;
+}
+
+.leap-site .split {
+  gap: clamp(34px, 6vw, 82px);
+}
+
+.leap-site .split__media,
+.leap-site .program-card,
+.leap-site .notice-panel,
+.leap-site .feature-block,
+.leap-site .package,
+.leap-site .contact-panel,
+.leap-site .faq details,
+.leap-site .cta-band,
+.leap-site .jump-nav,
+.leap-site .data-table {
+  border-radius: 8px;
+  border: 1px solid var(--leap-border);
+  box-shadow: 0 18px 56px rgba(16, 19, 20, 0.08);
+}
+
+.leap-site .split__media {
+  overflow: hidden;
+}
+
+.leap-site .split__media img,
+.leap-site .party-gallery img {
+  transform: scale(1.01);
+  transition: transform 420ms ease;
+}
+
+.leap-site .split__media:hover img,
+.leap-site .party-gallery img:hover {
+  transform: scale(1.045);
+}
+
+.leap-site .program-card,
+.leap-site .notice-panel,
+.leap-site .feature-block,
+.leap-site .package,
+.leap-site .contact-panel,
+.leap-site .faq details {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 253, 248, 0.92);
+}
+
+.leap-site .program-card::before,
+.leap-site .notice-panel::before,
+.leap-site .feature-block::before,
+.leap-site .package::before,
+.leap-site .contact-panel::before,
+.leap-site .faq details::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--leap-mint), var(--leap-energy));
+}
+
+.leap-site .program-card:hover,
+.leap-site .notice-panel:hover,
+.leap-site .feature-block:hover,
+.leap-site .package:hover,
+.leap-site .contact-panel:hover {
+  box-shadow: var(--leap-shadow);
+  transform: translateY(-3px);
+}
+
+.leap-site .program-card h3,
+.leap-site .feature-block h3,
+.leap-site .notice-panel h3,
+.leap-site .package h3,
+.leap-site .contact-panel h3,
+.leap-site .faq summary {
+  color: var(--leap-ink);
+  font-weight: 950;
+  text-wrap: balance;
+}
+
+.leap-site .program-card__actions {
+  border-top: 1px solid var(--leap-border);
+  padding-top: 18px;
+}
+
+.leap-site .jump-nav {
+  background: rgba(255, 253, 248, 0.9);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.leap-site .jump-nav a {
+  border-radius: 8px;
+  background: rgba(11, 122, 99, 0.08);
+}
+
+.leap-site .jump-nav a:hover,
+.leap-site .jump-nav a:focus-visible {
+  color: #fff;
+  background: var(--leap-mint-deep);
+}
+
+.leap-site .info-strip {
+  border-top-color: rgba(255, 255, 255, 0.18);
+  border-bottom-color: rgba(255, 255, 255, 0.18);
+}
+
+.leap-site .info-strip div,
+.leap-site .section--dark .info-strip div {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.leap-site .info-strip strong {
+  color: var(--leap-energy);
+}
+
+.leap-site .cta-band {
+  color: #fff;
+  background:
+    linear-gradient(135deg, rgba(6,78,67,0.92), rgba(16,19,20,0.98) 54%),
+    var(--leap-ink);
+}
+
+.leap-site .cta-band::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: min(44vw, 520px);
+  height: min(44vw, 420px);
+  pointer-events: none;
+  background: linear-gradient(135deg, transparent 0 48%, rgba(233,255,92,0.18) 48% 62%, transparent 62%);
+}
+
+.leap-site .site-footer {
+  background: var(--leap-ink);
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.leap-site .site-footer .brand img {
+  filter: none;
+}
+
+.leap-site .site-footer a,
+.leap-site .footer-nav a {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.leap-site .site-footer a:hover,
+.leap-site .footer-nav a:hover {
+  color: var(--leap-energy);
+}
+
+@media (max-width: 980px) {
+  .leap-site .nav-shell {
+    width: min(100% - 28px, 100%);
+    min-height: 86px;
+  }
+
+  .leap-site .brand img {
+    width: 118px !important;
+    max-width: 118px !important;
+  }
+
+  .leap-site .site-nav {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 14px;
+    right: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(16, 19, 20, 0.1);
+    background: rgba(255, 253, 248, 0.96);
+    box-shadow: var(--leap-shadow);
+  }
+
+  .leap-site .menu-toggle[aria-expanded="false"] + .site-nav {
+    display: none !important;
+  }
+
+  .leap-site .menu-toggle[aria-expanded="true"] + .site-nav,
+  .leap-site .site-nav.is-open,
+  .leap-site .site-header.is-open .site-nav {
+    display: flex !important;
+  }
+
+  .leap-site .site-nav__links a {
+    color: var(--leap-ink);
+  }
+
+  .leap-site .site-nav__links,
+  .leap-site .site-nav__actions {
+    display: grid;
+    justify-content: stretch;
+  }
+
+  .leap-site .site-nav__links a[href="/registration/#camps-summer"],
+  .leap-site .site-nav__links a[href="/registration/#camps-summer"][target="_top"] {
+    display: block !important;
+  }
+
+  .leap-site .menu-toggle {
+    position: relative;
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--leap-ink);
+  }
+
+  .leap-site .menu-toggle::before,
+  .leap-site .menu-toggle::after {
+    content: "";
+    position: absolute;
+    left: 13px;
+    right: 13px;
+    height: 2px;
+    border-radius: 999px;
+    background: #fff;
+    transition: transform 180ms ease, top 180ms ease, box-shadow 180ms ease;
+  }
+
+  .leap-site .menu-toggle::before {
+    top: 17px;
+    box-shadow: 0 7px 0 #fff;
+  }
+
+  .leap-site .menu-toggle::after {
+    top: 31px;
+  }
+
+  .leap-site .menu-toggle[aria-expanded="true"]::before {
+    top: 24px;
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  .leap-site .menu-toggle[aria-expanded="true"]::after {
+    top: 24px;
+    transform: rotate(-45deg);
+  }
+
+  .leap-site .rail-list__item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-left: 16px;
+  }
+
+  .leap-site .rail-list__item::before {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .leap-site .nav-shell {
+    min-height: 84px;
+  }
+
+  .leap-site .brand img {
+    width: 108px !important;
+    max-width: 108px !important;
+  }
+
+  .leap-site .hero,
+  .leap-site .page-hero,
+  .leap-site .hero__shell,
+  .leap-site .page-hero__shell {
+    min-height: 620px;
+  }
+
+  .leap-site .hero__shell {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "meta";
+    row-gap: 24px;
+    padding-top: 84px;
+    padding-bottom: 28px;
+  }
+
+  .leap-site .hero h1,
+  .leap-site .page-hero h1 {
+    font-size: clamp(2.8rem, 16vw, 4.6rem);
+  }
+
+  .leap-site .hero p,
+  .leap-site .page-hero p,
+  .leap-site .page-hero .schedule-note {
+    font-size: 1rem;
+  }
+
+  .leap-site .button {
+    width: 100%;
+  }
+
+  .leap-site .hero__meta {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-top: 16px;
+    background: transparent;
+  }
+
+  .leap-site .meta-row {
+    font-size: 0.88rem;
+  }
+
+  .leap-site .meta-row:last-child {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leap-site *,
+  .leap-site *::before,
+  .leap-site *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+/* LEAP CINEMATIC POLISH END */
+
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS START */
+.gymontario-home-strip { background: #09152e; color: #fff; }
+.gymontario-mark, .gymontario-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.gymontario-mark { width: var(--content, min(1180px, calc(100vw - 40px))); margin: 0 auto; padding: 22px 0; }
+.gymontario-copy { display: grid; gap: 4px; }
+.gymontario-copy span { font-size: 0.78rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.66); }
+.gymontario-copy strong { font-family: "Bricolage Grotesque", "Manrope", Arial, sans-serif; font-size: clamp(1.35rem, 2vw, 2.05rem); line-height: 1; color: #fff; }
+.gymontario-logo { display: block; width: min(210px, 42vw); height: auto; }
+.gymontario-link { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.gymontario-footer { margin-top: 26px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+@media (max-width: 680px) { .gymontario-mark, .gymontario-footer { align-items: flex-start; flex-direction: column; } }
+/* GYMNASTICS ONTARIO MEMBERSHIP CSS END */
+</style>
+<p>
+<script async="true" type="text/javascript">
+(function () {
+  var labelMap = {
+    "/programs/": "School Year Programs",
+    "/camps/": "Camps and Summer Programs"
+  };
+
+  Array.prototype.forEach.call(document.querySelectorAll('a[href]'), function (link) {
+    var href = link.getAttribute("href") || "";
+    var normalized = href.replace(/^https?:\/\/[^/]+/i, "");
+    var cleanText = (link.textContent || "").replace(/\s+/g, " ").trim();
+    if (normalized === "/programs/" && cleanText === "Programs") {
+      link.textContent = labelMap["/programs/"];
+    }
+    if (normalized === "/camps/" && (/^Camps (?:&|and) Summer Schedule$/i.test(cleanText) || cleanText === "Camps")) {
+      link.textContent = labelMap["/camps/"];
+    }
+  });
+
+  var path = window.location.pathname.replace(/\/+$/, "/");
+  var section = path === "/programs/" ? "fall-winter" : path === "/camps/" ? "camps-summer" : "";
+  if (!section) return;
+  var target = "/registration/#" + section;
+  Array.prototype.forEach.call(document.querySelectorAll('a[href="/registration/#camps-summer"], a[href$="/registration/"]'), function (link) {
+    var label = (link.textContent || "").replace(/\s+/g, " ").trim().toLowerCase();
+    if (label === "register" || label === "registration details" || label === "register for camps") {
+      link.setAttribute("href", target);
+    }
+  });
+})();</script>
+<script async="true" type="text/javascript">
+(function () {
+  var cfg = {
+    life: 760,
+    maxPoints: 72,
+    sampleMs: 7,
+    haloWidth: 18,
+    coreWidth: 3.4,
+    dotSize: 4.2,
+    dprMax: 2,
+    halo: "rgba(255,255,255,0.18)",
+    core: "255,255,255",
+    accent: "234,255,51",
+    zIndex: 2147483646
+  };
+
+  if (window.__leapCursorArcLoaded) return;
+  window.__leapCursorArcLoaded = true;
+  if (!window.matchMedia) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  var canvas = document.createElement("canvas");
+  var ctx = canvas.getContext && canvas.getContext("2d");
+  if (!ctx) return;
+
+  canvas.setAttribute("aria-hidden", "true");
+  canvas.style.cssText = [
+    "position:fixed",
+    "inset:0",
+    "width:100vw",
+    "height:100vh",
+    "pointer-events:none",
+    "z-index:" + cfg.zIndex,
+    "contain:layout size style paint"
+  ].join(";") + ";";
+
+  var points = [];
+  var lastSample = 0;
+  var active = true;
+
+  function mount() {
+    if (!document.body || canvas.parentNode) return;
+    document.body.appendChild(canvas);
+    resize();
+    draw();
+  }
+
+  function resize() {
+    var dpr = Math.min(cfg.dprMax, window.devicePixelRatio || 1);
+    canvas.width = Math.max(1, Math.ceil(window.innerWidth * dpr));
+    canvas.height = Math.max(1, Math.ceil(window.innerHeight * dpr));
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  function trim(now) {
+    while (points.length && now - points[0].t > cfg.life) points.shift();
+    while (points.length > cfg.maxPoints) points.shift();
+  }
+
+  function addPoint(x, y, now) {
+    var last = points[points.length - 1];
+    if (last) {
+      var dx = x - last.x;
+      var dy = y - last.y;
+      if (dx * dx + dy * dy < 5) return;
+    }
+    points.push({ x: x, y: y, t: now });
+    trim(now);
+  }
+
+  function onMove(e) {
+    var now = performance.now();
+    if (now - lastSample < cfg.sampleMs) return;
+    lastSample = now;
+    addPoint(e.clientX, e.clientY, now);
+  }
+
+  function onTouch(e) {
+    if (!e.touches || !e.touches.length) return;
+    var touch = e.touches[0];
+    var now = performance.now();
+    if (now - lastSample < cfg.sampleMs) return;
+    lastSample = now;
+    addPoint(touch.clientX, touch.clientY, now);
+  }
+
+  function clearSoon() {
+    setTimeout(function () { points.length = 0; }, 420);
+  }
+
+  function curvePath(start, end) {
+    ctx.beginPath();
+    ctx.moveTo(points[start].x, points[start].y);
+    for (var i = start + 1; i < end - 1; i++) {
+      var midX = (points[i].x + points[i + 1].x) / 2;
+      var midY = (points[i].y + points[i + 1].y) / 2;
+      ctx.quadraticCurveTo(points[i].x, points[i].y, midX, midY);
+    }
+    ctx.lineTo(points[end - 1].x, points[end - 1].y);
+  }
+
+  function draw() {
+    requestAnimationFrame(draw);
+    if (!active) return;
+    var now = performance.now();
+    trim(now);
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    if (points.length < 2) return;
+
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+
+    ctx.save();
+    ctx.strokeStyle = cfg.halo;
+    ctx.lineWidth = cfg.haloWidth;
+    ctx.shadowColor = "rgba(255,255,255,0.72)";
+    ctx.shadowBlur = 22;
+    curvePath(0, points.length);
+    ctx.stroke();
+    ctx.restore();
+
+    for (var i = 0; i < points.length - 1; i++) {
+      var age = 1 - (now - points[i].t) / cfg.life;
+      if (age <= 0) continue;
+      var nextAge = 1 - (now - points[i + 1].t) / cfg.life;
+      var width = 1 + cfg.coreWidth * Math.max(0.12, age);
+      var grad = ctx.createLinearGradient(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
+      grad.addColorStop(0, "rgba(" + cfg.core + "," + Math.max(0, age * 0.9) + ")");
+      grad.addColorStop(1, "rgba(" + cfg.accent + "," + Math.max(0, nextAge * 0.42) + ")");
+      ctx.save();
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = width;
+      ctx.shadowColor = "rgba(255,255,255,0.9)";
+      ctx.shadowBlur = 5 + age * 8;
+      ctx.beginPath();
+      ctx.moveTo(points[i].x, points[i].y);
+      ctx.lineTo(points[i + 1].x, points[i + 1].y);
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    var head = points[points.length - 1];
+    var headAge = 1 - (now - head.t) / cfg.life;
+    if (headAge > 0) {
+      ctx.save();
+      ctx.shadowColor = "rgba(255,255,255,0.95)";
+      ctx.shadowBlur = 22;
+      ctx.fillStyle = "rgba(255,255,255,0.95)";
+      ctx.beginPath();
+      ctx.arc(head.x, head.y, cfg.dotSize, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+
+  function onVisibility() {
+    active = document.visibilityState !== "hidden";
+    if (!active) points.length = 0;
+  }
+
+  window.addEventListener("resize", resize, { passive: true });
+  document.addEventListener("visibilitychange", onVisibility);
+  if (window.PointerEvent) window.addEventListener("pointermove", onMove, { passive: true });
+  else window.addEventListener("mousemove", onMove, { passive: true });
+  window.addEventListener("touchmove", onTouch, { passive: true });
+  window.addEventListener("touchend", clearSoon, { passive: true });
+  window.addEventListener("touchcancel", clearSoon, { passive: true });
+
+  if (document.body) mount();
+  else document.addEventListener("DOMContentLoaded", mount, { once: true });
+})();</script>
+</p>

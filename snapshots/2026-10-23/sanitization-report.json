@@ -1,0 +1,15 @@
+{
+  "policy": "Anonymous HTTP only; no cookie persistence, request credentials, response Set-Cookie headers, user/account exports, form submissions or transactions. Only HTML input values and inline assignments specifically named as CSRF/session/authentication secrets are redacted. Public captcha site keys and tracking IDs are identifiers, not authentication secrets. Public business contact details and published staff bios are retained as public site content.",
+  "changes": [
+    {
+      "url": "https://www.leapgymnastics.ca/registration/",
+      "changes": {
+        "exposed service credential values": 1
+      }
+    }
+  ],
+  "capturedResponseHeaders": [
+    "Content-Type"
+  ],
+  "totalChangedResponses": 1
+}

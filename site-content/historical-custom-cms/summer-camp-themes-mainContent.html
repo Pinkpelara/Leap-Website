@@ -1,0 +1,795 @@
+<style id="leap-theme-nav-fix-20260621">
+body > header#header { display: none !important; }
+.leap-theme-nav,
+.leap-theme-nav * { box-sizing: border-box; }
+.leap-theme-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: 100%;
+  min-height: 78px;
+  padding: 12px clamp(18px, 4vw, 44px);
+  background: #050505;
+  color: #f6f1e8;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  box-shadow: 0 1px 0 rgba(255,255,255,.08);
+}
+.leap-theme-nav__logo {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+.leap-theme-nav__logo img {
+  display: block;
+  width: min(202px, 48vw);
+  height: 54px;
+  object-fit: contain;
+}
+.leap-theme-nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 0;
+}
+.leap-theme-nav__links a,
+.leap-theme-menu a {
+  color: inherit;
+  text-decoration: none;
+}
+.leap-theme-nav__links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.leap-theme-nav__links a:hover,
+.leap-theme-nav__links a:focus-visible {
+  background: rgba(255,255,255,.12);
+}
+.leap-theme-nav__links a[data-primary] {
+  background: #f6f1e8;
+  color: #111;
+}
+.leap-theme-nav__menu,
+.leap-theme-menu__close {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #f6f1e8;
+  cursor: pointer;
+}
+.leap-theme-nav__menu span,
+.leap-theme-nav__menu::before,
+.leap-theme-nav__menu::after {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 3px;
+  border-radius: 999px;
+  background: currentColor;
+}
+.leap-theme-nav__menu {
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+}
+.leap-theme-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 100001;
+  display: none;
+  flex-direction: column;
+  gap: 0;
+  padding: max(18px, env(safe-area-inset-top)) 22px max(118px, calc(env(safe-area-inset-bottom) + 118px));
+  background: rgba(5,5,5,.98);
+  color: #f6f1e8;
+  overflow-y: auto;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+.leap-theme-menu.is-open { display: flex; }
+.leap-theme-menu__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.leap-theme-menu__top img {
+  display: block;
+  width: min(154px, 42vw);
+  height: 48px;
+  object-fit: contain;
+}
+.leap-theme-menu__close {
+  display: inline-flex;
+  flex: 0 0 auto;
+  border: 1px solid rgba(246,241,232,.28);
+  border-radius: 999px;
+  font-size: 28px;
+  line-height: 1;
+}
+.leap-theme-menu a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 46px;
+  border-bottom: 1px solid rgba(246,241,232,.1);
+  font-size: clamp(19px, 5.4vw, 23px);
+  font-weight: 800;
+  line-height: 1.12;
+}
+.leap-theme-menu a[data-primary] {
+  justify-content: center;
+  margin-top: 14px;
+  min-height: 46px;
+  border: 0;
+  border-radius: 999px;
+  background: #f6f1e8;
+  color: #111;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+@media (max-width: 760px) {
+  .leap-theme-nav {
+    min-height: 84px;
+    padding: 12px 16px;
+  }
+  .leap-theme-nav__logo img {
+    width: min(220px, 62vw);
+    height: 58px;
+  }
+  .leap-theme-nav__links { display: none; }
+  .leap-theme-nav__menu { display: inline-flex; }
+}
+</style>
+<nav class="leap-theme-nav" aria-label="Site navigation">
+  <a class="leap-theme-nav__logo" href="/" target="_top" aria-label="Leap Gymnastics home"><img src="/sites/files/leap-logo-white.png" alt="Leap Gymnastics"></a>
+  <div class="leap-theme-nav__links">
+    <a href="/camps/" target="_top">Back to Camps</a>
+    <a href="/registration/#camps-summer" target="_top" data-primary>Register</a>
+    <a href="/contact/" target="_top">Contact</a>
+  </div>
+  <button class="leap-theme-nav__menu" id="leapThemeMenuButton" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="leapThemeMenu"><span></span></button>
+</nav>
+<div class="leap-theme-menu" id="leapThemeMenu" aria-label="Site menu" role="dialog" aria-modal="true">
+  <div class="leap-theme-menu__top"><img src="/sites/files/leap-logo-white.png" alt="Leap Gymnastics"><button class="leap-theme-menu__close" id="leapThemeMenuClose" type="button" aria-label="Close menu">&times;</button></div>
+  <a href="/" target="_top">Home</a>
+  <a href="/programs/" target="_top">School Year Programs</a>
+  <a href="/camps/" target="_top">Camps and Summer Programs</a>
+  <a href="/try-leap/" target="_top">Try LEAP</a>
+  <a href="/birthday-parties/" target="_top">Birthday Parties</a>
+  <a href="/faq/" target="_top">FAQ</a>
+  <a href="/contact/" target="_top">Contact</a>
+  <a href="/registration/#camps-summer" target="_top" data-primary>Register</a>
+</div>
+<script>
+(function(){
+  function initThemeMenu(){
+    var menu = document.getElementById("leapThemeMenu");
+    var open = document.getElementById("leapThemeMenuButton");
+    var close = document.getElementById("leapThemeMenuClose");
+    if (!menu || !open || open.dataset.ready === "1") return;
+    open.dataset.ready = "1";
+    function openMenu(){
+      menu.classList.add("is-open");
+      open.setAttribute("aria-expanded", "true");
+      document.body.dataset.leapThemeOverflow = document.body.style.overflow || "";
+      document.body.style.overflow = "hidden";
+      if (close) close.focus();
+    }
+    function closeMenu(){
+      menu.classList.remove("is-open");
+      open.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = document.body.dataset.leapThemeOverflow || "";
+      open.focus();
+    }
+    open.addEventListener("click", openMenu);
+    if (close) close.addEventListener("click", closeMenu);
+    Array.prototype.forEach.call(menu.querySelectorAll("a"), function(link){ link.addEventListener("click", closeMenu); });
+    document.addEventListener("keydown", function(event){ if (event.key === "Escape" && menu.classList.contains("is-open")) closeMenu(); });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initThemeMenu, { once: true });
+  else initThemeMenu();
+})();
+</script>
+<script src="/sites/files/support.js"></script>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#20222b;-webkit-font-smoothing:antialiased;}
+  @keyframes popin{0%{transform:scale(.7);opacity:0;}70%{transform:scale(1.06);}100%{transform:scale(1);opacity:1;}}
+  @keyframes risein{0%{transform:translateY(34px);opacity:0;}100%{transform:translateY(0);opacity:1;}}
+  @keyframes sheen{0%{transform:translateX(-120%);}100%{transform:translateX(220%);}}
+  @keyframes sweepx{from{left:0%;}to{left:100%;}}
+  @keyframes cardIn{from{transform:translateY(26px);}to{transform:translateY(0);}}
+  @keyframes blob{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(34px,-26px) scale(1.12);}66%{transform:translate(-26px,28px) scale(.92);}}
+  @keyframes drift{0%,100%{transform:translate(0,0) rotate(0deg);}50%{transform:translate(12px,-14px) rotate(8deg);}}
+  @keyframes driftB{0%,100%{transform:translate(0,0) rotate(0deg);}50%{transform:translate(-16px,12px) rotate(-10deg);}}
+  @keyframes glyphbob{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-4px) rotate(-4deg);}}
+  @keyframes twinkle{0%,100%{opacity:.4;transform:scale(1);}50%{opacity:1;transform:scale(1.3);}}
+  @keyframes gshift{0%{background-position:0% 50%;}100%{background-position:300% 50%;}}
+  @keyframes ctaPulse{0%,100%{transform:scale(1);}50%{transform:scale(1.04);}}
+  @keyframes spinslow{to{transform:rotate(360deg);}}
+  @keyframes floatChip{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
+  @keyframes coinwobble{0%,100%{transform:rotateY(-20deg);}50%{transform:rotateY(20deg);}}
+  @keyframes cardfloat{0%,100%{transform:translateZ(0) translateY(0);}50%{transform:translateZ(14px) translateY(-3px);}}
+  ::-webkit-scrollbar{width:11px;height:11px;}
+  ::-webkit-scrollbar-thumb{background:#cdcabf;border-radius:20px;border:3px solid transparent;background-clip:content-box;}
+</style>
+</helmet>
+
+<div style="{{ pageStyle }}">
+
+  <!-- drifting colour blobs + confetti -->
+  <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;">
+    <div style="position:absolute;top:-6%;left:-4%;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(232,83,60,.20),transparent 65%);animation:blob 18s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:-2%;right:-6%;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(108,92,224,.16),transparent 65%);animation:blob 22s ease-in-out infinite reverse;"></div>
+    <div style="position:absolute;top:42%;left:48%;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(17,138,140,.13),transparent 66%);animation:blob 26s ease-in-out infinite;"></div>
+    <div style="position:absolute;bottom:4%;left:-3%;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(214,58,120,.13),transparent 66%);animation:blob 24s ease-in-out infinite reverse;"></div>
+    <div style="position:absolute;top:9%;left:7%;width:18px;height:18px;border-radius:50%;background:#6C5CE0;animation:twinkle 4s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:5%;right:14%;width:14px;height:14px;border-radius:50%;background:#D9822B;animation:twinkle 5.2s ease-in-out infinite .6s;"></div>
+    <div style="position:absolute;top:17%;right:7%;width:42px;height:42px;border-radius:50%;border:6px solid #118A8C;animation:drift 9s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:23%;left:9%;width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-bottom:22px solid #2EA84F;animation:driftB 8s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:3%;left:30%;width:11px;height:11px;border-radius:3px;background:#D63A78;animation:drift 7s ease-in-out infinite .4s;"></div>
+    <div style="position:absolute;top:14%;left:20%;width:30px;height:30px;border-radius:50%;border:5px solid #2D6CDF;animation:driftB 10s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:20%;right:26%;width:16px;height:16px;border-radius:4px;background:#E8533C;animation:drift 6.5s ease-in-out infinite .2s;"></div>
+    <div style="position:absolute;top:30%;right:18%;width:13px;height:13px;border-radius:50%;background:#E5B829;animation:twinkle 4.6s ease-in-out infinite .9s;"></div>
+  </div>
+
+  <div style="position:relative;z-index:1;max-width:1160px;margin:0 auto;padding:clamp(28px,5vw,72px) clamp(18px,4vw,44px) 90px;">
+
+    <!-- HERO -->
+    <header style="max-width:840px;margin:0 auto clamp(34px,5vw,56px);text-align:center;">
+      <img src="/sites/files/leap-logo-ink.png" alt="Leap Gymnastics" style="height:clamp(50px,8vw,72px);width:auto;display:block;margin:0 auto 20px;" />
+      <div style="display:inline-flex;align-items:center;gap:9px;font-family:'Outfit';font-weight:600;font-size:13px;letter-spacing:2.5px;color:#7a6fa6;text-transform:uppercase;">
+        <span style="width:24px;height:2px;background:{{ accent }};display:inline-block;"></span>
+        Summer Camp Program
+        <span style="width:24px;height:2px;background:{{ accent }};display:inline-block;"></span>
+      </div>
+      <h1 style="font-family:'Outfit';font-weight:800;font-size:clamp(38px,7vw,72px);margin:18px 0 0;line-height:1.02;letter-spacing:-1.5px;color:#191b22;">Summer Camp <span style="white-space:nowrap;background:linear-gradient(90deg,#E8533C,#D63A78,#6C5CE0,#2D6CDF,#118A8C,#E8533C);background-size:300% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gshift 8s linear infinite;">Themes</span></h1>
+      <p style="margin:22px auto 0;font-size:clamp(16px,2vw,19px);line-height:1.65;color:#54515c;max-width:740px;">{{ intro1 }}</p>
+      <div style="max-width:720px;margin:24px auto 0;text-align:left;background:#fff;border:1px solid #ebe9e2;border-left:4px solid {{ accent }};border-radius:14px;padding:18px 22px;font-size:clamp(14px,1.7vw,16px);line-height:1.6;color:#54515c;box-shadow:0 8px 28px rgba(25,27,34,.05);">
+        {{ intro2 }}
+      </div>
+      <div style="margin-top:28px;display:inline-flex;align-items:center;gap:9px;font-family:'Outfit';font-weight:700;font-size:14.5px;color:#fff;background:linear-gradient(100deg,{{ accent }},#D63A78);padding:13px 24px;border-radius:999px;box-shadow:0 12px 28px {{ accentSoftDark }};animation:ctaPulse 2.6s ease-in-out infinite;">
+        <span style="font-size:16px;">▸</span>
+        Tap any week to explore its theme and play a quick game
+      </div>
+    </header>
+
+    <!-- THEME GRID -->
+    <main style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));gap:clamp(16px,2vw,22px);">
+      <sc-for list="{{ themes }}" as="t" hint-placeholder-count="10">
+        <div style="{{ t.wrapStyle }}">
+        <button onClick="{{ t.open }}" style="{{ t.cardStyle }}" style-hover="{{ t.cardHover }}">
+          <div style="position:absolute;top:0;right:0;width:150px;height:150px;border-radius:50%;background:rgba(255,255,255,.14);"></div>
+          <div style="position:absolute;bottom:0;left:0;width:96px;height:96px;border-radius:50%;background:rgba(255,255,255,.09);"></div>
+          <div style="position:absolute;top:30%;right:18%;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.5);animation:twinkle 5s ease-in-out infinite;"></div>
+          <div style="position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px;">
+            <div style="position:relative;width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:27px;background:linear-gradient(145deg,rgba(255,255,255,.34),rgba(255,255,255,.14));box-shadow:inset 0 1px 1px rgba(255,255,255,.5), 0 6px 14px rgba(0,0,0,.16);animation:floatChip 4.5s ease-in-out infinite;">{{ t.glyph }}</div>
+            <span style="font-family:'Outfit';font-weight:800;font-size:11px;letter-spacing:2px;color:#fff;background:rgba(255,255,255,.18);padding:6px 11px;border-radius:8px;">{{ t.wkLabel }}</span>
+          </div>
+          <h3 style="position:relative;font-family:'Outfit';font-weight:700;font-size:clamp(20px,2.5vw,23px);margin:0 0 10px;color:#fff;line-height:1.18;letter-spacing:-.3px;text-shadow:0 1px 8px rgba(0,0,0,.12);">{{ t.name }}</h3>
+          <p style="position:relative;margin:0;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.94);flex:1;">{{ t.desc }}</p>
+          <span style="position:relative;margin-top:20px;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-family:'Outfit';font-weight:700;font-size:14px;color:{{ t.color }};background:#fff;padding:11px 19px;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.18);">Play {{ t.gameName }}<span style="font-size:16px;">→</span></span>
+        </button>
+        </div>
+      </sc-for>
+    </main>
+
+    <!-- CLASSIC THEMES -->
+    <section style="margin-top:clamp(34px,5vw,56px);background:linear-gradient(135deg,#1d1f29,#15161e);border-radius:24px;padding:clamp(26px,4vw,46px);position:relative;overflow:hidden;box-shadow:0 20px 50px rgba(25,27,34,.25);">
+      <div style="position:absolute;top:-60px;right:-30px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(232,83,60,.4),transparent 70%);animation:blob 20s ease-in-out infinite;"></div>
+      <div style="position:absolute;bottom:-70px;left:10%;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(108,92,224,.32),transparent 70%);animation:blob 24s ease-in-out infinite reverse;"></div>
+      <div style="position:relative;display:flex;align-items:center;gap:14px;flex-wrap:wrap;">
+        <span style="width:50px;height:50px;border-radius:14px;background:linear-gradient(145deg,{{ accent }},#D63A78);display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 8px 20px {{ accentSoftDark }};animation:floatChip 4.5s ease-in-out infinite;">🏅</span>
+        <h2 style="font-family:'Outfit';font-weight:700;font-size:clamp(24px,3.4vw,34px);margin:0;color:#fff;letter-spacing:-.5px;">{{ classicTitle }}</h2>
+      </div>
+      <p style="position:relative;margin:18px 0 0;font-size:clamp(15px,1.9vw,17px);line-height:1.7;color:#c7c5d2;max-width:860px;">{{ classicDesc }}</p>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <footer style="margin-top:24px;background:#fff;border:1px solid #ebe9e2;border-radius:16px;padding:clamp(18px,3vw,26px);">
+      <p style="margin:0;font-size:13.5px;line-height:1.7;color:#7a7682;"><span style="display:inline-block;background:#f3f1ea;color:#8a8678;font-family:'Outfit';font-weight:700;padding:3px 12px;border-radius:999px;margin-right:10px;font-size:12px;letter-spacing:.5px;">PLEASE NOTE</span>{{ disclaimer }}</p>
+    </footer>
+
+    <div style="text-align:center;margin-top:34px;">
+      <img src="/sites/files/leap-logo-ink.png" alt="Leap Gymnastics" style="height:38px;width:auto;opacity:.8;display:inline-block;" />
+      <div style="margin-top:9px;font-family:'Outfit';font-weight:600;font-size:11.5px;letter-spacing:1.5px;color:#8b82a8;">MARKHAM · YORK REGION</div>
+    </div>
+  </div>
+
+  <!-- PLAY MODAL -->
+  <sc-if value="{{ open }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeTheme }}" style="position:fixed;inset:0;z-index:50;background:rgba(20,18,26,.5);backdrop-filter:blur(7px);display:flex;align-items:flex-end;justify-content:center;padding:0;">
+      <div onClick="{{ stop }}" style="{{ modalStyle }}">
+        <div style="{{ modalBarStyle }}">
+          <div style="position:absolute;top:0;left:0;width:60%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.25),transparent);transform:skewX(-18deg);animation:sheen 4.5s ease-in-out infinite;pointer-events:none;"></div>
+          <div style="position:relative;display:flex;align-items:center;gap:13px;min-width:0;">
+            <span style="width:46px;height:46px;border-radius:13px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:24px;flex:none;">{{ open.glyph }}</span>
+            <div style="min-width:0;">
+              <div style="font-family:'Outfit';font-weight:700;font-size:11px;letter-spacing:2px;opacity:.85;">{{ open.wkLabel }}</div>
+              <div style="font-family:'Outfit';font-weight:700;font-size:clamp(17px,3vw,23px);line-height:1.12;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-.3px;">{{ open.name }}</div>
+            </div>
+          </div>
+          <button type="button" aria-label="Close theme game" onClick="{{ closeTheme }}" style="position:relative;z-index:2;flex:none;width:42px;height:42px;border:none;border-radius:11px;background:rgba(255,255,255,.18);color:#fff;font-size:19px;cursor:pointer;display:flex;align-items:center;justify-content:center;touch-action:manipulation;">✕</button>
+        </div>
+        <div style="overflow-y:auto;padding:clamp(20px,3vw,30px);">
+          <p style="margin:0 0 22px;font-size:clamp(14px,1.8vw,15.5px);line-height:1.7;color:#4f4c57;">{{ open.desc }}</p>
+          <div ref="{{ stageRef }}" style="min-height:300px;"></div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:900},&quot;background&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Stone&quot;,&quot;Cool&quot;,&quot;Warm&quot;],&quot;default&quot;:&quot;Stone&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;patterns&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = { openId: null };
+
+  data() {
+    return [
+      {id:'squish', wk:1, name:'Squish & Stick Week', color:'#E8533C', soft:'#FBE6E1', dark:false, glyph:'🤸', gameName:'Stick the Landing',
+        desc:'Inspired by squishies, stickers, soft toys, and sensory play, this week brings in the cozy, collectible things many kids love right now. The “stick” part also gives campers a fun connection to gymnastics, where balance, control, and confident landings are part of the experience.'},
+      {id:'mystery', wk:2, name:'Blind Box & Mystery Mission Week', color:'#6C5CE0', soft:'#EAE6FB', dark:false, glyph:'🔍', gameName:'Memory Match',
+        desc:'Inspired by blind boxes, mystery bags, clues, scavenger games, and mission cards, this week taps into the excitement of surprise and discovery. Campers move through the week with little missions, challenges, and activities that keep them curious and engaged.'},
+      {id:'popit', wk:3, name:'Pop-It Precision Week', color:'#118A8C', soft:'#DEF0F0', dark:false, glyph:'🎯', gameName:'Pattern Memory',
+        desc:'Inspired by pop-its, colour patterns, hopscotch, and target games, this week uses bright and familiar play ideas that children naturally understand. The theme brings focus, patterns, and playful challenges into camp in a way that feels simple and fun.'},
+      {id:'glow', wk:4, name:'Glow Games Week', color:'#2EA84F', soft:'#101a14', dark:true, glyph:'⚡', gameName:'Reaction Rush',
+        desc:'Inspired by neon colours, music games, freeze dance, and glow-party energy, this week brings a bold and high-energy feel to camp. Campers can look forward to music, movement, games, creative activities, and lots of chances to participate with their group.'},
+      {id:'maker', wk:5, name:'Mini Maker Week', color:'#D9822B', soft:'#FBEBD9', dark:false, glyph:'🛠️', gameName:'Pixel Studio',
+        desc:'Inspired by tiny worlds, mini builds, designing, and creative obstacle-course ideas, this week is for kids who love to imagine, create, and make things their own. Campers bring that creativity into crafts, games, gymnastics, and playful challenges around the facility.'},
+      {id:'levelup', wk:6, name:'Level Up Leap Week', color:'#2D6CDF', soft:'#E1EAFB', dark:false, glyph:'🏆', gameName:'Level Up',
+        desc:'Inspired by video games, level cards, sticker charts, and earning the next step, this week celebrates progress in a way kids understand. Campers are encouraged to try, practise, listen, and feel proud as they build confidence throughout the week.'},
+      {id:'charm', wk:7, name:'Charm Lab Week', color:'#C73E73', soft:'#FBE3EC', dark:false, glyph:'🧪', gameName:'Charm Lab',
+        desc:'Inspired by charms, bracelets, beads, keychains, and personalized accessories, this week taps into kids’ love of collecting, creating, and showing their personality. It is a fun way to celebrate effort, teamwork, brave tries, and little wins along the way.'},
+      {id:'lava', wk:8, name:'Floor Is Lava: Obstacle Edition', color:'#E85423', soft:'#FBE5DB', dark:false, glyph:'🌋', gameName:'Lava Crossing',
+        desc:'Inspired by the classic “floor is lava” game, adventure courses, ninja-style movement, and safe-zone challenges, this week turns movement into an adventure. Campers get the excitement of obstacle-style play while still enjoying the full Leap Gymnastics camp experience.'},
+      {id:'spy', wk:9, name:'Spy School Challenge Week', color:'#3F5598', soft:'#12172a', dark:true, glyph:'🕵️', gameName:'Code Breaker',
+        desc:'Inspired by secret agents, clue cards, codes, quiet missions, and obstacle challenges, this week brings imagination and teamwork into camp. Campers work through playful missions and challenges with their group while staying active and engaged.'},
+      {id:'carnival', wk:10, name:'Carnival Flip Fest Week', color:'#D63A78', soft:'#FBE2EC', dark:false, glyph:'🎪', gameName:'Prize Wheel',
+        desc:'Inspired by carnival games, tickets, ribbons, target games, and fun fair energy, this week brings a cheerful end-of-summer feeling to camp. Campers enjoy games, challenges, crafts, movement stations, and celebration as they wrap up the summer.'},
+    ];
+  }
+
+  renderVals() {
+    const bg = this.props.background || 'Stone';
+    const bgMap = { Stone:'#efeafb', Cool:'#f4f6f8', Warm:'#f8f4ee' };
+    const dotMap = { Stone:'rgba(90,70,140,.06)', Cool:'rgba(40,55,80,.05)', Warm:'rgba(80,55,30,.05)' };
+    const base = bgMap[bg] || bgMap.Stone;
+    const dot = dotMap[bg] || dotMap.Stone;
+    const showPattern = this.props.patterns !== false;
+    const patternBg = showPattern ? `radial-gradient(${dot} 1.5px, transparent 1.5px) 0 0/22px 22px, ` : '';
+    const pageStyle = `position:relative;min-height:100vh;background:${patternBg}radial-gradient(1100px 680px at 4% -8%, rgba(124,108,232,.26), transparent 56%), radial-gradient(1050px 700px at 100% 0%, rgba(150,98,224,.22), transparent 56%), radial-gradient(1000px 720px at 18% 108%, rgba(214,58,120,.15), transparent 55%), radial-gradient(1000px 720px at 104% 88%, rgba(45,108,223,.16), transparent 56%), radial-gradient(900px 620px at 60% 44%, rgba(232,83,60,.07), transparent 60%), linear-gradient(160deg, #f4effd, ${base} 52%, #e7e0f9);`;
+
+    const accent = '#E8533C', accentSoft = '#FBE6E1', accentSoftDark = 'rgba(232,83,60,.28)';
+
+    const themes = this.data().map((t, i) => ({
+      ...t,
+      wkLabel: 'WEEK ' + String(t.wk).padStart(2,'0'),
+      wrapStyle: `display:flex;animation:cardIn .6s cubic-bezier(.2,.8,.3,1) both;animation-delay:${(i*0.06).toFixed(2)}s;`,
+      cardStyle: this.cardStyle(t, false),
+      cardHover: this.cardStyle(t, true),
+      open: () => this.setState({ openId: t.id }),
+    }));
+
+    const openRaw = this.state.openId ? this.data().find(x => x.id === this.state.openId) : null;
+    const open = openRaw ? { ...openRaw, wkLabel: 'WEEK ' + String(openRaw.wk).padStart(2,'0') } : null;
+
+    let modalStyle = '', modalBarStyle = '';
+    if (open) {
+      const bgPanel = '#ffffff';
+      modalStyle = `width:100%;max-width:660px;max-height:94vh;display:flex;flex-direction:column;background:${bgPanel};border-radius:24px 24px 0 0;box-shadow:0 -10px 60px rgba(0,0,0,.4);animation:risein .34s cubic-bezier(.2,.9,.3,1.05);overflow:hidden;`;
+      modalBarStyle = `position:relative;overflow:hidden;flex:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:clamp(16px,3vw,22px);color:#fff;background:linear-gradient(135deg,${this.light(open.color,.12)},${this.shade(open.color)});box-shadow:0 6px 24px ${this.alpha(open.color,.45)}, inset 0 -1px 0 rgba(255,255,255,.18);`;
+    }
+
+    return {
+      themes, pageStyle, accent, accentSoft, accentSoftDark,
+      pageTitle: 'Summer Camp Themes',
+      intro1: 'Each week at Leap Gymnastics has its own theme inspired by the games, toys, characters, colours, challenges, and creative activities today’s kids are connecting with. Themes help make camp feel fresh, playful, and easy for children to get excited about, while still keeping gymnastics at the centre of the camp experience.',
+      intro2: 'Campers take part in gymnastics, games, crafts, obstacle courses, active play, and group activities. The theme simply adds a fun storyline to the week. It does not limit the gymnastics or activities offered.',
+      classicTitle: 'Classic Theme Weeks',
+      classicDesc: 'From time to time, Leap Gymnastics may also include classic camp-style themes that children of different ages recognize and enjoy, such as dinosaur adventures, superhero challenges, video-game inspired activities, storybook magic, character-inspired play, and games-of-the-world weeks. These familiar themes give camp a fresh feel while still keeping the day active, creative, and connected to gymnastics.',
+      disclaimer: 'Weekly themes are used to add fun and imagination to camp. They do not limit the gymnastics or activities offered each week. Exact activities may vary. On select days, camp may include nearby park visits or other planned activities outside the club. Any off-site activity will be communicated and coordinated with parents in advance.',
+      open, modalStyle, modalBarStyle,
+      closeTheme: () => { this._mountedEl = null; this.setState({ openId: null }); },
+      stop: (e) => { e.stopPropagation(); },
+      stageRef: (elx) => { this._stageEl = elx; if (elx) this.tryMount(); },
+    };
+  }
+
+  cardStyle(t, hover) {
+    const lift = hover ? 'translateY(-9px) scale(1.018)' : 'translateY(0) scale(1)';
+    const sh = hover
+      ? `0 30px 60px ${this.alpha(t.color,.5)}, 0 0 0 4px ${this.alpha(t.color,.18)}`
+      : `0 14px 30px ${this.alpha(t.color,.3)}`;
+    const bg = `linear-gradient(152deg, ${this.light(t.color,.16)} 0%, ${t.color} 52%, ${this.shade(t.color)} 100%)`;
+    return `position:relative;overflow:hidden;display:flex;flex-direction:column;text-align:left;cursor:pointer;border:none;border-radius:22px;padding:24px;width:100%;min-height:100%;height:auto;background:${bg};box-shadow:${sh};transform:${lift};transition:transform .28s cubic-bezier(.2,.9,.3,1.2), box-shadow .28s;font-family:inherit;`;
+  }
+
+  shade(hex){ const {r,g,b}=this.hx(hex); const f=.82; return `rgb(${Math.round(r*f)},${Math.round(g*f)},${Math.round(b*f)})`; }
+  light(hex,a){ const {r,g,b}=this.hx(hex); const m=(x)=>Math.round(x+(255-x)*a); return `rgb(${m(r)},${m(g)},${m(b)})`; }
+  alpha(hex,a){ const {r,g,b}=this.hx(hex); return `rgba(${r},${g},${b},${a})`; }
+  hx(hex){ const h=hex.replace('#',''); return {r:parseInt(h.slice(0,2),16),g:parseInt(h.slice(2,4),16),b:parseInt(h.slice(4,6),16)}; }
+
+  componentDidUpdate(){ document.body.style.overflow = this.state.openId ? 'hidden' : ''; }
+  componentWillUnmount(){ this.clearTimers(); document.body.style.overflow=''; }
+  componentDidMount(){ this._mountedEl = null; }
+
+  clearTimers(){ (this._timers||[]).forEach(id => { clearInterval(id); clearTimeout(id); }); this._timers = []; if (this._raf) cancelAnimationFrame(this._raf); }
+  later(fn,ms){ const id=setTimeout(fn,ms); (this._timers=this._timers||[]).push(id); return id; }
+  every(fn,ms){ const id=setInterval(fn,ms); (this._timers=this._timers||[]).push(id); return id; }
+
+  tryMount(){
+    const id = this.state.openId;
+    if (!id || !this._stageEl) return;
+    if (this._mountedEl === this._stageEl) return;
+    this._mountedEl = this._stageEl;
+    this.clearTimers();
+    const t = this.data().find(x => x.id === id);
+    this._stageEl.innerHTML = '';
+    const fn = this['game_'+id];
+    if (fn) fn.call(this, this._stageEl, t);
+  }
+
+  // ---------- DOM + juice helpers ----------
+  el(tag, css, html){ const e=document.createElement(tag); if(css)e.style.cssText=css; if(html!=null)e.innerHTML=html; return e; }
+
+  burst(x,y,colors){
+    const layer=this.el('div','position:fixed;inset:0;pointer-events:none;z-index:120;');
+    document.body.append(layer);
+    const C=colors||['#E8533C','#6C5CE0','#118A8C','#D9822B','#2D6CDF','#D63A78'];
+    for(let i=0;i<26;i++){
+      const p=this.el('div',`position:absolute;left:${x}px;top:${y}px;width:10px;height:10px;border-radius:${Math.random()<.5?'50%':'2px'};background:${C[i%C.length]};`);
+      layer.append(p);
+      const ang=Math.random()*Math.PI*2, dist=70+Math.random()*120;
+      p.animate([{transform:'translate(0,0) rotate(0deg)',opacity:1},{transform:`translate(${Math.cos(ang)*dist}px,${Math.sin(ang)*dist+90}px) rotate(${Math.random()*540}deg)`,opacity:0}],{duration:850+Math.random()*450,easing:'cubic-bezier(.2,.7,.3,1)'});
+    }
+    this.later(()=>layer.remove(), 1400);
+  }
+  floatText(x,y,txt,color){
+    const e=this.el('div',`position:fixed;left:${x}px;top:${y}px;transform:translate(-50%,-50%);font-family:'Outfit';font-weight:800;font-size:22px;color:${color};text-shadow:0 2px 10px rgba(0,0,0,.45);pointer-events:none;z-index:120;`,txt);
+    document.body.append(e);
+    e.animate([{transform:'translate(-50%,-50%) scale(.6)',opacity:0},{transform:'translate(-50%,-95%) scale(1.15)',opacity:1,offset:.3},{transform:'translate(-50%,-160%) scale(1)',opacity:0}],{duration:880,easing:'cubic-bezier(.2,.7,.3,1)'});
+    this.later(()=>e.remove(),920);
+  }
+  shake(el,m){ el.animate([{transform:'translate(0,0)'},{transform:`translate(${m}px,-2px)`},{transform:`translate(-${m}px,2px)`},{transform:`translate(${m*.5}px,1px)`},{transform:'translate(0,0)'}],{duration:300}); }
+
+  arena(root, t, opts){
+    opts = opts || {};
+    const lightMode = !!opts.light;
+    const acc = t.color, accL = this.light(acc,.35);
+    const hud=this.el('div','display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px;');
+    const goal=this.el('div',`font-family:'Outfit';font-weight:600;font-size:13px;letter-spacing:.2px;color:#5a5560;background:#f4f3ee;border:1px solid #e6e3dc;padding:9px 14px;border-radius:10px;`, opts.goal||'');
+    const scoreWrap=this.el('div','display:flex;align-items:center;gap:8px;');
+    const combo=this.el('div',`font-family:'Outfit';font-weight:800;font-size:11px;letter-spacing:.5px;color:#fff;background:${acc};padding:6px 10px;border-radius:8px;box-shadow:0 0 16px ${this.alpha(acc,.6)};opacity:0;transition:opacity .2s;`,'');
+    const score=this.el('div',`font-family:'Outfit';font-weight:800;font-size:21px;color:#1b1d24;min-width:50px;text-align:right;`,'0');
+    scoreWrap.append(combo,score);
+    hud.append(goal,scoreWrap);
+
+    const surface=this.el('div','position:relative;overflow:hidden;border-radius:18px;perspective:1100px;');
+    if(lightMode){
+      surface.style.background='linear-gradient(160deg,#fbfaf7,#f1efe9)';
+      surface.style.boxShadow='inset 0 2px 22px rgba(0,0,0,.05), inset 0 0 0 1px #e6e3dc';
+    } else {
+      surface.style.background=`radial-gradient(120% 90% at 50% 0%, ${this.alpha(acc,.30)}, transparent 55%), linear-gradient(165deg,#191b29,#0c0d16)`;
+      surface.style.boxShadow=`inset 0 0 0 1px rgba(255,255,255,.05), inset 0 -44px 90px rgba(0,0,0,.55), 0 0 44px ${this.alpha(acc,.16)}`;
+    }
+    const grad=lightMode?'rgba(0,0,0,.03)':'rgba(255,255,255,.04)';
+    const tex=this.el('div',`position:absolute;inset:0;pointer-events:none;background:linear-gradient(${grad} 1px,transparent 1px),linear-gradient(90deg,${grad} 1px,transparent 1px);background-size:28px 28px;-webkit-mask-image:radial-gradient(circle at 50% 45%,#000,transparent 82%);mask-image:radial-gradient(circle at 50% 45%,#000,transparent 82%);`);
+    surface.append(tex);
+    root.append(hud);
+    if(opts.how){
+      const instr=this.el('div',`display:flex;align-items:flex-start;gap:9px;margin-bottom:13px;font-family:'Plus Jakarta Sans';font-weight:600;font-size:13px;line-height:1.55;color:#56525d;background:${this.alpha(acc,.08)};border:1px solid ${this.alpha(acc,.2)};border-radius:12px;padding:11px 14px;`, `<span style="font-size:15px;line-height:1.25;flex:none;">💡</span><span><b style="font-family:'Outfit';font-weight:700;color:${this.shade(acc)};">How to play — </b>${opts.how}</span>`);
+      root.append(instr);
+    }
+    root.append(surface);
+
+    let sc=0, won=false;
+    const setScore=(v)=>{ sc=v; score.textContent=v; score.animate([{transform:'scale(1.28)'},{transform:'scale(1)'}],{duration:200}); };
+    const setCombo=(n)=>{ if(n>1){ combo.textContent='x'+n; combo.style.opacity='1'; combo.animate([{transform:'scale(1.35)'},{transform:'scale(1)'}],{duration:200}); } else combo.style.opacity='0'; };
+    const setGoal=(html)=>{ goal.innerHTML=html; };
+    const win=(title, sub)=>{
+      if(won) return; won=true;
+      const ov=this.el('div',`position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:rgba(10,11,20,.74);backdrop-filter:blur(4px);z-index:12;border-radius:18px;`);
+      const tt=this.el('div',`font-family:'Outfit';font-weight:800;font-size:clamp(26px,6vw,36px);letter-spacing:-.5px;background:linear-gradient(90deg,${accL},#fff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;`,title);
+      tt.style.animation='popin .4s cubic-bezier(.2,.9,.3,1.4) both';
+      const ss=this.el('div',`font-family:'Plus Jakarta Sans';font-weight:600;font-size:14px;color:rgba(255,255,255,.82);`,sub||'');
+      const again=this.el('button',`margin-top:16px;font-family:'Outfit';font-weight:700;font-size:14px;color:#fff;border:none;cursor:pointer;background:${acc};padding:12px 28px;border-radius:11px;box-shadow:0 8px 24px ${this.alpha(acc,.5)};`,'Play again ↻');
+      again.onclick=()=>{ this._mountedEl=null; this.tryMount(); };
+      ov.append(tt,ss,again); surface.append(ov);
+      const r=surface.getBoundingClientRect(); this.burst(r.left+r.width/2, r.top+r.height/2);
+    };
+    return { hud, goal, surface, score, scoreWrap, setScore, setCombo, setGoal, win, getScore:()=>sc };
+  }
+
+  // ===================== GAMES =====================
+
+  game_squish(root, t){
+    const a=this.arena(root,t,{goal:'Round 0 / 6', how:'Tap LAND when the gymnast is inside the green zone — the closer to the centre, the more points. Six landings to finish your routine.'});
+    const S=a.surface; S.style.height='300px';
+    const beam=this.el('div',`position:absolute;left:8%;right:8%;top:60%;height:30px;border-radius:15px;background:linear-gradient(90deg,${this.alpha(t.color,.18)},${this.alpha(t.color,.28)});box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);`);
+    const zw=20;
+    const zone=this.el('div',`position:absolute;left:${50-zw/2}%;top:-2px;bottom:-2px;width:${zw}%;border-radius:15px;background:linear-gradient(#46e87a,#1fa24d);box-shadow:0 0 22px #3ce06a;`);
+    beam.append(zone);
+    const marker=this.el('div',`position:absolute;top:-17px;width:46px;height:46px;margin-left:-23px;left:0%;display:flex;align-items:center;justify-content:center;font-size:30px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.45));will-change:left;animation:sweepx 1.15s linear infinite alternate;`,'🤸');
+    beam.append(marker); S.append(beam);
+    const verdict=this.el('div',`position:absolute;top:16%;left:0;right:0;text-align:center;font-family:'Outfit';font-weight:800;font-size:30px;opacity:0;`,'');
+    S.append(verdict);
+    const btn=this.el('button',`position:absolute;bottom:7%;left:50%;transform:translateX(-50%);font-family:'Outfit';font-weight:800;font-size:18px;color:#0d0e18;border:none;cursor:pointer;background:${this.light(t.color,.22)};padding:13px 44px;border-radius:12px;box-shadow:0 0 26px ${this.alpha(t.color,.55)};`,'LAND!');
+    S.append(btn);
+    let dur=1.15, rounds=0, score=0, combo=0, locked=false;
+    const goalRounds=6;
+    btn.onclick=()=>{ if(locked)return; locked=true;
+      marker.style.animationPlayState='paused';
+      const mr=marker.getBoundingClientRect(), br=beam.getBoundingClientRect();
+      const pos=Math.max(0,Math.min(100,((mr.left+mr.width/2)-br.left)/br.width*100));
+      const dist=Math.abs(pos-50); let vt,pts,col;
+      if(dist<6){ vt='PERFECT!'; pts=100; col='#46e87a'; combo++; }
+      else if(dist<16){ vt='NICE'; pts=50; col=this.light(t.color,.3); combo++; }
+      else { vt='WOBBLE'; pts=10; col='#ff6b6b'; combo=0; }
+      if(combo>1) pts+=combo*10;
+      score+=pts; a.setScore(score); a.setCombo(combo);
+      const r=marker.getBoundingClientRect(); this.floatText(r.left+r.width/2, r.top, '+'+pts, col);
+      if(vt==='PERFECT!') this.shake(S,10);
+      verdict.style.color=col; verdict.textContent=vt; verdict.style.opacity='1';
+      verdict.animate([{transform:'scale(.6)',opacity:0},{transform:'scale(1)',opacity:1}],{duration:200});
+      marker.animate([{transform:'translateY(0)'},{transform:'translateY(-18px)'},{transform:'translateY(0)'}],{duration:320});
+      rounds++; a.setGoal('Round '+rounds+' / '+goalRounds);
+      this.later(()=>{ verdict.style.opacity='0'; if(rounds>=goalRounds){ a.win('Routine Stuck!', score+' points'); } else { dur=Math.max(0.55,dur*0.85); marker.style.animation='sweepx '+dur+'s linear infinite alternate'; marker.style.animationPlayState='running'; locked=false; } }, 640);
+    };
+  }
+
+  game_mystery(root, t){
+    const a=this.arena(root,t,{goal:'Match all 6 pairs', light:false, how:'Tap two cards to flip them over. If they match, they stay — find all 6 pairs to win.'});
+    const S=a.surface; S.style.padding='18px';
+    const icons=['🏅','⭐','💎','🎯','🔑','🚀'];
+    let deck=[]; icons.forEach(ic=>{ deck.push(ic); deck.push(ic); });
+    for(let i=deck.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [deck[i],deck[j]]=[deck[j],deck[i]]; }
+    const grid=this.el('div','display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:320px;margin:0 auto;');
+    let first=null, lock=false, matched=0, moves=0, combo=0, score=0;
+    deck.forEach((ic)=>{
+      const card=this.el('button','position:relative;aspect-ratio:.82;border:none;cursor:pointer;background:transparent;padding:0;perspective:900px;');
+      const inner=this.el('div','position:relative;width:100%;height:100%;transition:transform .5s cubic-bezier(.2,.8,.3,1.1);transform-style:preserve-3d;will-change:transform;');
+      const back=this.el('div',`position:absolute;inset:0;border-radius:13px;display:flex;align-items:center;justify-content:center;font-family:'Outfit';font-weight:800;font-size:24px;color:${this.light(t.color,.6)};background:radial-gradient(circle at 36% 28%, ${this.light(t.color,.2)}, ${t.color} 70%, ${this.shade(t.color)});box-shadow:inset 0 2px 6px rgba(255,255,255,.35), inset 0 -5px 10px rgba(0,0,0,.25), 0 8px 18px rgba(0,0,0,.4);-webkit-backface-visibility:hidden;backface-visibility:hidden;text-shadow:0 1px 3px rgba(0,0,0,.3);`,'?');
+      const front=this.el('div',`position:absolute;inset:0;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:30px;background:radial-gradient(circle at 40% 30%,#fff,#f0eef4);box-shadow:inset 0 0 0 3px ${t.color}, 0 8px 18px rgba(0,0,0,.32);-webkit-backface-visibility:hidden;backface-visibility:hidden;transform:rotateY(180deg);`,ic);
+      inner.append(back,front); card.append(inner);
+      card._ic=ic; card._inner=inner; card._front=front; card._flipped=false;
+      card.onclick=()=>{ if(lock||card._flipped)return; inner.style.transform='rotateY(180deg)'; card._flipped=true;
+        if(!first){ first=card; return; }
+        moves++; lock=true;
+        if(first._ic===card._ic){
+          matched++; combo++; const pts=100+(combo>1?combo*15:0); score+=pts; a.setScore(score); a.setCombo(combo);
+          [first,card].forEach(c=>{ c._inner.animate([{transform:'rotateY(180deg) translateZ(0)'},{transform:'rotateY(180deg) translateZ(28px)'},{transform:'rotateY(180deg) translateZ(0)'}],{duration:420,easing:'cubic-bezier(.2,.8,.3,1)'}); c._front.style.boxShadow=`inset 0 0 0 3px ${this.light(t.color,.2)}, 0 0 22px ${this.alpha(t.color,.8)}, 0 8px 18px rgba(0,0,0,.32)`; });
+          const r=card.getBoundingClientRect(); this.floatText(r.left+r.width/2, r.top, '+'+pts, this.light(t.color,.3));
+          first=null; lock=false;
+          if(matched===icons.length) this.later(()=>a.win('All Matched!', moves+' moves'), 320);
+        } else {
+          combo=0; a.setCombo(0); this.shake(card,6);
+          const fc=first;
+          this.later(()=>{ inner.style.transform='rotateY(0)'; fc._inner.style.transform='rotateY(0)'; fc._flipped=false; card._flipped=false; first=null; lock=false; }, 720);
+        }
+      };
+      grid.append(card);
+    });
+    S.append(grid);
+  }
+
+  game_popit(root, t){
+    const a=this.arena(root,t,{goal:'Round 0 / 6', how:'Watch the pads light up, then tap them back in the same order. Each round adds one more — reach round 6.'});
+    const S=a.surface; S.style.minHeight='320px'; S.style.padding='20px';
+    const wrap=this.el('div','display:flex;flex-direction:column;align-items:center;gap:14px;');
+    const status=this.el('div',`font-family:'Outfit';font-weight:700;font-size:15px;color:#fff;height:20px;`,'Watch the pattern…');
+    const grid=this.el('div','display:grid;grid-template-columns:repeat(3,1fr);gap:12px;width:236px;');
+    const pads=[];
+    const padBase=()=>`background:radial-gradient(circle at 38% 30%, ${this.light(t.color,.34)}, ${this.shade(t.color)});box-shadow:0 7px 0 ${this.shade(t.color)}, 0 10px 18px ${this.alpha(t.color,.4)}, inset 0 3px 6px rgba(255,255,255,.35), inset 0 -5px 8px rgba(0,0,0,.22);`;
+    const padBaseStr=padBase();
+    for(let i=0;i<9;i++){ const p=this.el('button',`aspect-ratio:1;border:none;border-radius:50%;cursor:pointer;${padBaseStr}transition:transform .09s, box-shadow .12s, filter .15s;`); p._base=padBaseStr; pads.push(p); grid.append(p); }
+    wrap.append(status,grid); S.append(wrap);
+    let seq=[], step=0, round=0, accept=false, score=0; const goalRounds=6;
+    const flash=(i,dur)=>{ const p=pads[i]; p.style.background=`radial-gradient(circle at 40% 32%, #fff, ${this.light(t.color,.4)})`; p.style.boxShadow=`0 2px 0 ${this.shade(t.color)}, 0 0 32px ${this.alpha(t.color,1)}, inset 0 2px 5px rgba(255,255,255,.6)`; p.style.transform='translateY(5px) scale(.97)'; p.style.filter='brightness(1.25)'; this.later(()=>{ p.style.cssText=`aspect-ratio:1;border:none;border-radius:50%;cursor:pointer;${p._base}transition:transform .09s, box-shadow .12s, filter .15s;`; }, dur*0.55); };
+    const playSeq=()=>{ accept=false; status.textContent='Watch the pattern…'; let d=0; seq.forEach((i)=>{ this.later(()=>flash(i,460), d); d+=520; }); this.later(()=>{ accept=true; step=0; status.textContent='Your turn!'; }, d+150); };
+    const next=()=>{ round++; a.setGoal('Round '+round+' / '+goalRounds); seq.push(Math.floor(Math.random()*9)); this.later(playSeq, 520); };
+    pads.forEach((p,i)=>{ p.onclick=()=>{ if(!accept)return; flash(i,260);
+      if(i===seq[step]){ step++;
+        if(step===seq.length){ accept=false; score+=seq.length*20; a.setScore(score); const r=grid.getBoundingClientRect(); this.floatText(r.left+r.width/2, r.top, 'Round '+round+'!', this.light(t.color,.3));
+          if(round>=goalRounds) this.later(()=>a.win('Perfect Memory!', score+' points'), 420); else { status.textContent='Nice!'; next(); } }
+      } else { accept=false; this.shake(grid,8); status.textContent='Oops — watch again'; this.later(()=>{ step=0; playSeq(); }, 950); }
+    }; });
+    next();
+  }
+
+  game_glow(root, t){
+    const a=this.arena(root,t,{goal:'Tap lights · avoid red', how:'Tap the glowing lights before they fade to score. Do NOT tap the red ✕ — it costs points. You have 30 seconds.'});
+    const S=a.surface; S.style.height='320px';
+    const timerBar=this.el('div',`position:absolute;top:0;left:0;height:5px;width:100%;background:${this.light(t.color,.3)};box-shadow:0 0 12px ${t.color};z-index:6;`);
+    S.append(timerBar);
+    const neon=['#2EA84F','#39d6e8','#c6f03a','#ffd23a','#5dff8f'];
+    let score=0, combo=0, alive=true, ended=false; const start=performance.now();
+    const spawn=()=>{ if(!alive)return; const bomb=Math.random()<0.18; const c=bomb?'#ff3b3b':neon[Math.floor(Math.random()*neon.length)]; const s=46+Math.random()*22;
+      const d=this.el('button',`position:absolute;width:${s}px;height:${s}px;border:none;border-radius:50%;cursor:pointer;background:radial-gradient(circle at 40% 35%, #fff, ${c});box-shadow:0 0 20px ${c},0 0 40px ${c};`);
+      if(bomb) d.innerHTML=`<span style="display:flex;align-items:center;justify-content:center;height:100%;color:#fff;font-weight:800;font-size:${Math.round(s*.45)}px;">✕</span>`;
+      d.style.left=(8+Math.random()*78)+'%'; d.style.top=(13+Math.random()*68)+'%'; S.append(d);
+      const life=d.animate([{transform:'scale(.2)',opacity:0},{transform:'scale(1)',opacity:1,offset:.18},{transform:'scale(1)',opacity:1,offset:.7},{transform:'scale(.3)',opacity:0}],{duration:1320});
+      d.onpointerdown=()=>{ if(d._hit||!alive)return; d._hit=true; const r=d.getBoundingClientRect();
+        if(bomb){ combo=0; a.setCombo(0); score=Math.max(0,score-50); a.setScore(score); this.shake(S,12); this.floatText(r.left+r.width/2,r.top,'-50','#ff6b6b'); }
+        else { combo++; const pts=10+(combo>1?combo*2:0); score+=pts; a.setScore(score); a.setCombo(combo); this.floatText(r.left+r.width/2,r.top,'+'+pts,c); this.burst(r.left+r.width/2,r.top,[c,'#fff']); }
+        d.remove();
+      };
+      life.onfinish=()=>d.remove();
+    };
+    this.every(spawn, 680);
+    this.every(()=>{ if(ended)return; const left=Math.max(0,30000-(performance.now()-start)); timerBar.style.width=(left/30000*100)+'%'; if(left<=0){ ended=true; alive=false; a.win('Time!', score+' points'); } }, 100);
+    spawn();
+  }
+
+  game_maker(root, t){
+    const a=this.arena(root,t,{goal:'Pixel Studio — tap to paint', light:true, how:'Pick a colour, then tap or drag across the grid to paint. Turn on Mirror for symmetry; Clear starts over.'});
+    a.scoreWrap.style.display='none';
+    const S=a.surface; S.style.padding='16px';
+    const palette=['#E8533C','#D9822B','#E5B829','#2EA84F','#118A8C','#2D6CDF','#6C5CE0','#D63A78','#20222b','#ffffff'];
+    let cur=palette[0], mirror=false;
+    const top=this.el('div','display:flex;flex-wrap:wrap;gap:7px;justify-content:center;align-items:center;margin-bottom:12px;');
+    const sw=[];
+    palette.forEach(c=>{ const s=this.el('button',`width:30px;height:30px;border-radius:8px;cursor:pointer;background:${c};border:2px solid ${c===cur?'#20222b':'#d9d6cf'};box-shadow:0 2px 6px rgba(0,0,0,.1);`); s.onclick=()=>{ cur=c; sw.forEach((x,i)=>x.style.borderColor=palette[i]===cur?'#20222b':'#d9d6cf'); }; sw.push(s); top.append(s); });
+    const N=12;
+    const grid=this.el('div',`display:grid;grid-template-columns:repeat(${N},1fr);gap:2px;max-width:312px;margin:0 auto;touch-action:none;`);
+    const cells=[];
+    for(let i=0;i<N*N;i++){ const c=this.el('button','aspect-ratio:1;border:1px solid #eceae3;background:#fff;cursor:pointer;border-radius:2px;padding:0;');
+      const paint=()=>{ c.style.background=cur; c.style.boxShadow=cur==='#ffffff'?'':`inset 0 0 5px ${this.alpha(cur,.5)}`; if(mirror){ const row=Math.floor(i/N), col=i%N; const mc=cells[row*N+(N-1-col)]; mc.style.background=cur; mc.style.boxShadow=c.style.boxShadow; } };
+      c.onpointerdown=paint; c.onpointerenter=(e)=>{ if(e.buttons)paint(); };
+      cells.push(c); grid.append(c);
+    }
+    const tools=this.el('div','display:flex;gap:8px;justify-content:center;margin-top:12px;');
+    const mir=this.el('button',`font-family:'Outfit';font-weight:700;border:none;cursor:pointer;background:#f4f3ee;color:#4f4c57;padding:9px 16px;border-radius:10px;font-size:13px;`,'Mirror: Off');
+    mir.onclick=()=>{ mirror=!mirror; mir.textContent='Mirror: '+(mirror?'On':'Off'); mir.style.background=mirror?t.color:'#f4f3ee'; mir.style.color=mirror?'#fff':'#4f4c57'; };
+    const clr=this.el('button',`font-family:'Outfit';font-weight:700;border:none;cursor:pointer;background:#f4f3ee;color:#4f4c57;padding:9px 16px;border-radius:10px;font-size:13px;`,'Clear');
+    clr.onclick=()=>cells.forEach(c=>{ c.style.background='#fff'; c.style.boxShadow=''; });
+    tools.append(mir,clr);
+    S.append(top,grid,tools);
+  }
+
+  game_levelup(root, t){
+    const a=this.arena(root,t,{goal:'Reach Level 5', how:'Tap the badge to earn XP — tap quickly for bonus points before the charge fades. Fill the ring to reach Level 5.'});
+    const S=a.surface; S.style.height='300px';
+    const ring=this.el('div','position:absolute;top:50%;left:50%;transform:translate(-50%,-58%);width:158px;height:158px;border-radius:50%;');
+    const ringBg=this.el('div',`position:absolute;inset:0;border-radius:50%;background:conic-gradient(${this.light(t.color,.25)} 0deg, rgba(255,255,255,.08) 0deg);transition:background .12s;box-shadow:0 0 0 1px rgba(255,255,255,.06);`);
+    const coinWrap=this.el('div','position:absolute;inset:12px;border-radius:50%;');
+    const inner=this.el('button',`position:absolute;inset:0;border-radius:50%;border:none;cursor:pointer;transform-style:preserve-3d;animation:coinwobble 3.6s ease-in-out infinite;background:radial-gradient(circle at 38% 30%, ${this.light(t.color,.55)}, ${t.color} 60%, ${this.shade(t.color)});box-shadow:0 16px 34px ${this.alpha(t.color,.55)}, inset 0 -8px 16px rgba(0,0,0,.32), inset 0 7px 13px rgba(255,255,255,.38), inset 0 0 0 6px ${this.alpha(this.light(t.color,.35),.7)};color:#fff;font-family:'Outfit';display:flex;flex-direction:column;align-items:center;justify-content:center;`);
+    inner.innerHTML='<div style="font-size:11px;opacity:.85;font-weight:600;letter-spacing:1px;">LEVEL</div><div data-n style="font-size:40px;font-weight:800;line-height:1;text-shadow:0 2px 4px rgba(0,0,0,.3);">1</div>';
+    const spec=this.el('div','position:absolute;top:11%;left:20%;width:44%;height:32%;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),transparent 70%);pointer-events:none;');
+    inner.append(spec);
+    coinWrap.append(inner);
+    ring.append(ringBg,coinWrap); S.append(ring);
+    const hint=this.el('div',`position:absolute;bottom:11%;left:0;right:0;text-align:center;font-family:'Outfit';font-weight:700;font-size:14px;color:rgba(255,255,255,.82);`,'Tap fast to charge!');
+    S.append(hint);
+    let lvl=1, xp=0, need=10, lastTap=0, won=false;
+    const nEl=inner.querySelector('[data-n]');
+    const draw=()=>{ ringBg.style.background=`conic-gradient(${this.light(t.color,.3)} ${xp/need*360}deg, rgba(255,255,255,.08) 0deg)`; nEl.textContent=lvl; };
+    draw(); a.setScore(1); a.setGoal('Reach Level 5');
+    this.every(()=>{ if(xp>0 && performance.now()-lastTap>700){ xp=Math.max(0,xp-0.5); draw(); } }, 120);
+    inner.onclick=()=>{ if(won)return; const now=performance.now(); const fast=now-lastTap<350; lastTap=now; xp+=fast?2:1;
+      const r=inner.getBoundingClientRect(); this.floatText(r.left+r.width/2, r.top+14, fast?'+2':'+1', this.light(t.color,.45));
+      inner.style.filter='brightness(1.3)'; this.later(()=>inner.style.filter='', 110);
+      if(xp>=need){ lvl++; xp=0; need=Math.round(need*1.5); a.setScore(lvl); this.burst(r.left+r.width/2,r.top); this.shake(S,8); inner.animate([{transform:'rotateY(0deg) scale(1)'},{transform:'rotateY(360deg) scale(1.14)'},{transform:'rotateY(720deg) scale(1)'}],{duration:620,easing:'cubic-bezier(.3,.1,.2,1)'}); hint.textContent='LEVEL '+lvl+'!'; if(lvl>=5){ won=true; this.later(()=>a.win('Max Level!', 'You reached Level '+lvl), 360); } }
+      draw();
+    };
+  }
+
+  game_charm(root, t){
+    const a=this.arena(root,t,{goal:'Charm Lab — tap to add pieces', light:true, how:'Tap any piece to add it to your bracelet, or hit Surprise mix for a random design. Clear to start fresh.'});
+    a.scoreWrap.style.display='none';
+    const S=a.surface; S.style.padding='18px';
+    const cord=this.el('div',`display:flex;align-items:center;gap:5px;flex-wrap:wrap;justify-content:center;min-height:60px;padding:14px;border-radius:14px;background:linear-gradient(${this.alpha(t.color,.12)},${this.alpha(t.color,.04)});box-shadow:inset 0 0 0 1px ${this.alpha(t.color,.3)};margin-bottom:16px;`);
+    const empty=this.el('span',`font-family:'Plus Jakarta Sans';color:${t.color};opacity:.7;font-size:14px;font-weight:600;`,'Tap pieces below to add them…');
+    cord.append(empty);
+    const charms=['💎','⭐','🔷','🔶','🟣','🟢','💠','⚡','🔑','🏅','✦','◆'];
+    const tray=this.el('div','display:grid;grid-template-columns:repeat(6,1fr);gap:8px;');
+    const add=(ch)=>{ if(empty.parentNode)empty.remove(); const bead=this.el('span',`font-size:24px;display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.12), 0 0 0 2px ${this.alpha(t.color,.15)};`,ch); bead.style.animation='popin .35s cubic-bezier(.2,.9,.3,1.5) both'; cord.append(bead); };
+    charms.forEach(ch=>{ const b=this.el('button',`aspect-ratio:1;border:1px solid #eceae3;cursor:pointer;border-radius:12px;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.05);font-size:22px;transition:transform .1s;`,ch); b.onclick=()=>{ add(ch); b.animate([{transform:'scale(1)'},{transform:'scale(1.3)'},{transform:'scale(1)'}],{duration:250}); }; tray.append(b); });
+    const tools=this.el('div','display:flex;gap:8px;justify-content:center;margin-top:14px;');
+    const sur=this.el('button',`font-family:'Outfit';font-weight:700;border:none;cursor:pointer;background:${t.color};color:#fff;padding:9px 18px;border-radius:10px;font-size:13px;box-shadow:0 6px 16px ${this.alpha(t.color,.4)};`,'✨ Surprise mix');
+    sur.onclick=()=>{ cord.innerHTML=''; const n=5+Math.floor(Math.random()*4); for(let i=0;i<n;i++) this.later(()=>add(charms[Math.floor(Math.random()*charms.length)]), i*90); };
+    const reset=this.el('button',`font-family:'Outfit';font-weight:700;border:none;cursor:pointer;background:#f4f3ee;color:#4f4c57;padding:9px 18px;border-radius:10px;font-size:13px;`,'Clear');
+    reset.onclick=()=>{ cord.innerHTML=''; cord.append(empty); };
+    tools.append(sur,reset);
+    S.append(cord,tray,tools);
+  }
+
+  game_lava(root, t){
+    const a=this.arena(root,t,{goal:'Reach the top', how:'Tap the glowing stone to hop up to it. Climb all the way to the top before the rising lava catches you!'});
+    const S=a.surface; S.style.height='340px';
+    const lava=this.el('div','position:absolute;left:0;right:0;bottom:0;height:0%;background:linear-gradient(#ffb347,#e85423);box-shadow:0 -4px 26px #e85423, inset 0 6px 12px rgba(255,255,255,.3);transition:height .12s linear;z-index:1;');
+    S.append(lava);
+    const NS=6; const stones=[];
+    for(let i=0;i<NS;i++){ const s=this.el('button',`position:absolute;width:72px;height:44px;border:none;border-radius:40px;cursor:pointer;background:linear-gradient(#cfcad4,#9a93a0);box-shadow:0 4px 0 #756e7d, 0 6px 14px rgba(0,0,0,.4);z-index:2;left:${i%2===0?'16%':'48%'};bottom:${8+i*15}%;display:flex;align-items:center;justify-content:center;font-size:18px;color:#fff;opacity:.4;transition:opacity .15s, transform .12s;`,''); stones.push(s); S.append(s); }
+    let next=0, height=0, alive=true; const t0=performance.now();
+    stones[0].style.opacity='1'; stones[0].innerHTML='●';
+    this.every(()=>{ if(!alive)return; height+=1.35; lava.style.height=height+'%'; a.setScore(Math.round((performance.now()-t0)/100));
+      if(height > 8+next*15+5){ alive=false; lava.style.height='100%'; this.shake(S,12); a.goal.innerHTML='🔥 Caught by the lava';
+        const ov=this.el('div','position:absolute;inset:0;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;background:rgba(24,8,4,.6);z-index:8;border-radius:18px;');
+        const tt=this.el('div',"font-family:'Outfit';font-weight:800;font-size:28px;color:#ff8a4d;",'So close!');
+        const rb=this.el('button',`font-family:'Outfit';font-weight:700;font-size:14px;color:#fff;border:none;cursor:pointer;background:${t.color};padding:12px 26px;border-radius:11px;`,'Try again ↻');
+        rb.onclick=()=>{ this._mountedEl=null; this.tryMount(); }; ov.append(tt,rb); S.append(ov);
+      }
+    }, 85);
+    stones.forEach((s,i)=>{ s.onclick=()=>{ if(!alive||i!==next)return; s.innerHTML='✓'; s.style.background=`linear-gradient(${this.light(t.color,.2)},${t.color})`; s.style.boxShadow=`0 4px 0 ${this.shade(t.color)}, 0 0 20px ${this.alpha(t.color,.7)}`; s.style.transform='scale(1.08)'; const r=s.getBoundingClientRect(); this.burst(r.left+r.width/2, r.top, [t.color,'#fff']); next++;
+      if(next<NS){ stones[next].style.opacity='1'; stones[next].innerHTML='●'; } else { alive=false; a.win('Safe Zone!', 'You crossed the lava'); } }; });
+  }
+
+  game_spy(root, t){
+    const a=this.arena(root,t,{goal:'0 / 12 decrypted', how:'Tap each tile to decrypt its letter. Reveal every tile to unlock the secret message and gain access.'});
+    const S=a.surface; S.style.height='300px';
+    const green='#37e0a0';
+    const scan=this.el('div',`position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg, ${this.alpha(green,.05)} 0 2px, transparent 2px 4px);z-index:4;`); S.append(scan);
+    const msg='MISSION READY';
+    const board=this.el('div','position:absolute;top:48%;left:50%;transform:translate(-50%,-50%);display:flex;flex-wrap:wrap;gap:7px;justify-content:center;max-width:88%;');
+    const tiles=[];
+    [...msg].forEach(ch=>{ if(ch===' '){ board.append(this.el('span','width:12px;')); return; } const tile=this.el('button',`width:34px;height:44px;border:none;cursor:pointer;border-radius:8px;background:#0c1f1a;color:${green};font-family:'Outfit';font-weight:800;font-size:20px;box-shadow:inset 0 0 0 1px ${this.alpha(green,.4)};text-shadow:0 0 8px ${green};`,'?'); tile._ch=ch; tile._done=false; tiles.push(tile); board.append(tile); });
+    S.append(board);
+    const hint=this.el('div',`position:absolute;bottom:9%;left:0;right:0;text-align:center;font-family:'Plus Jakarta Sans';font-weight:600;font-size:13px;color:${this.alpha(green,.85)};`,'Tap a tile to decrypt it'); S.append(hint);
+    const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let revealed=0; const total=msg.replace(/ /g,'').length; let score=0;
+    const decrypt=(tile)=>{ if(tile._done)return; tile._done=true; let ticks=0;
+      const spin=this.every(()=>{ tile.textContent=letters[Math.floor(Math.random()*26)]; ticks++; if(ticks>=10){ clearInterval(spin); tile.textContent=tile._ch; tile.style.background=green; tile.style.color='#04130d'; tile.style.boxShadow=`0 0 18px ${green}`; revealed++; score+=50; a.setScore(score); a.setGoal(revealed+' / '+total+' decrypted'); const r=tile.getBoundingClientRect(); this.floatText(r.left+r.width/2, r.top, '+50', green); if(revealed===total) this.later(()=>a.win('Access Granted', 'Message decrypted'), 320); } }, 45);
+    };
+    tiles.forEach(tile=>{ tile.onclick=()=>decrypt(tile); });
+  }
+
+  game_carnival(root, t){
+    const a=this.arena(root,t,{goal:'Tickets: 0', how:'Tap SPIN and see where the wheel lands. Collect tickets with every spin — land the jackpot for bonus tickets!'});
+    const S=a.surface; S.style.height='400px';
+    const prizes=[{n:'Ticket',r:0},{n:'Medal',r:1},{n:'Star',r:0},{n:'Jackpot',r:2},{n:'Ribbon',r:1},{n:'Gem',r:1},{n:'Star',r:0},{n:'Trophy',r:2}];
+    const segCols=['#D63A78','#D9822B','#E5B829','#2EA84F','#118A8C','#2D6CDF','#6C5CE0','#E8533C'];
+    const seg=360/prizes.length; let stops=''; segCols.forEach((c,i)=>{ stops+=`${c} ${i*seg}deg ${(i+1)*seg}deg${i<prizes.length-1?',':''}`; });
+    const box=this.el('div','position:absolute;top:38%;left:50%;transform:translate(-50%,-50%);width:216px;height:216px;');
+    const lights=this.el('div','position:absolute;inset:-14px;border-radius:50%;');
+    for(let i=0;i<16;i++){ const ang=i/16*Math.PI*2; const d=this.el('div',`position:absolute;width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#ffc93a);box-shadow:0 0 10px #ffd23a;left:${50+49*Math.cos(ang)}%;top:${50+49*Math.sin(ang)}%;transform:translate(-50%,-50%);`); lights.append(d); }
+    const wheel=this.el('div',`position:relative;width:100%;height:100%;border-radius:50%;background:conic-gradient(${stops});border:7px solid #fff;box-shadow:0 18px 40px rgba(0,0,0,.55), inset 0 0 0 4px rgba(0,0,0,.12);transition:transform 4.2s cubic-bezier(.1,.75,.15,1);`);
+    const shade=this.el('div','position:absolute;inset:0;border-radius:50%;pointer-events:none;z-index:2;background:radial-gradient(circle at 33% 25%, rgba(255,255,255,.5), rgba(255,255,255,0) 46%), radial-gradient(circle at 72% 84%, rgba(0,0,0,.34), rgba(0,0,0,0) 56%);box-shadow:inset 0 0 44px rgba(0,0,0,.28);');
+    const hub=this.el('div',`position:absolute;top:50%;left:50%;width:54px;height:54px;border-radius:50%;background:radial-gradient(circle at 37% 31%,#fff,#d6d6dd);transform:translate(-50%,-50%);box-shadow:0 5px 14px rgba(0,0,0,.5), inset 0 -3px 6px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;font-size:23px;z-index:3;`,'🎯');
+    const ptr=this.el('div','position:absolute;top:-18px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-top:27px solid #fff;filter:drop-shadow(0 3px 4px rgba(0,0,0,.5));z-index:4;');
+    box.append(lights,wheel,shade,hub,ptr); S.append(box);
+    const result=this.el('div',`position:absolute;bottom:22%;left:0;right:0;text-align:center;font-family:'Outfit';font-weight:800;font-size:19px;color:#fff;white-space:nowrap;text-shadow:0 2px 12px rgba(0,0,0,.55);min-height:24px;`,'');
+    const normSh=`0 8px 0 ${this.shade(t.color)}, 0 15px 28px ${this.alpha(t.color,.55)}, inset 0 1px 0 rgba(255,255,255,.4)`;
+    const btn=this.el('button',`position:absolute;bottom:6%;left:50%;transform:translateX(-50%);font-family:'Outfit';font-weight:800;font-size:17px;letter-spacing:1px;color:#fff;border:none;cursor:pointer;background:linear-gradient(160deg,${this.light(t.color,.22)},${this.shade(t.color)});padding:15px 48px;border-radius:15px;box-shadow:${normSh};transition:transform .1s, box-shadow .1s;`,'SPIN');
+    btn.onpointerdown=()=>{ btn.style.transform='translateX(-50%) translateY(5px)'; btn.style.boxShadow=`0 3px 0 ${this.shade(t.color)}, 0 8px 16px ${this.alpha(t.color,.45)}`; };
+    btn.onpointerup=btn.onpointerleave=()=>{ btn.style.transform='translateX(-50%)'; btn.style.boxShadow=normSh; };
+    S.append(result,btn);
+    let rot=0, spinning=false, tickets=0;
+    this.every(()=>{ [...lights.children].forEach((d,i)=>{ d.style.opacity=(Math.floor(performance.now()/200)+i)%2?'1':'.4'; }); }, 200);
+    btn.onclick=()=>{ if(spinning)return; spinning=true; result.textContent=''; btn.style.opacity='.6';
+      const idx=Math.floor(Math.random()*prizes.length); const target=360*6 + (360-(idx*seg+seg/2)); rot+=target; wheel.style.transform=`rotate(${rot}deg)`;
+      this.later(()=>{ const p=prizes[idx]; const r=box.getBoundingClientRect(); const cx=r.left+r.width/2, cy=r.top+r.height/2;
+        result.textContent=(p.r===2?'★ ':'')+'You won: '+p.n+'!'; result.style.color=p.r===2?'#ffe07a':'#fff';
+        tickets+=p.r+1; a.setGoal('Tickets: '+tickets); a.setScore(tickets);
+        this.burst(cx,cy, p.r===2?['#ffe07a','#ffd23a','#fff','#ff8a3c']:[t.color,'#fff']);
+        if(p.r===2){ this.shake(S,10); this.burst(cx-46,cy,['#ffe07a','#fff']); this.burst(cx+46,cy,['#ffd23a','#fff']); }
+        spinning=false; btn.style.opacity='1';
+      }, 4300);
+    };
+  }
+}
+</script>

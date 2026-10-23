@@ -1,0 +1,32 @@
+/* Late, product-detail-only fallback for Uplifter edge caches that may still
+   serve the removed mobile flex/order mutation. This restores native block
+   flow and native child order without changing registration content. */
+@media (max-width: 760px) {
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer {
+    display: block !important;
+    flex-direction: initial !important;
+  }
+
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer > header,
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer > table,
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer > footer {
+    order: 0 !important;
+  }
+
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .boxGroupContainer > footer {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  html body:has(#pageBody.calEventDetails)
+  #pageBody.calEventDetails .addToCartAjax .btnAction {
+    display: inline-block !important;
+    width: auto !important;
+    min-height: 0 !important;
+  }
+}

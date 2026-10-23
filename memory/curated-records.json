@@ -1,0 +1,128 @@
+[
+  {
+    "id": "leap-beam",
+    "title": "Beam is protected — original loader restored on birthday page",
+    "content": "Never redesign or modify Beam: preserve original mascot script, frames, assets, appearance, styling, placement logic and interactions. User reported Beam missing after birthday rollback. September29 2026 restored only the exact original script tag /sites/files/leap-beam-pet.js in birthday Custom CMS main content, copied verbatim from live programs page. Existing script and artwork unchanged. Verified public birthday page shows loaded Beam image and tricks button. All other birthday content and CMS fields unchanged. When restoring historical page snapshots, verify original Beam integration is present and working; do not assume matching empty protected-block lists proves preservation.",
+    "source": "User latest missing-Beam correction; birthday-parties-beam-before.html and birthday-beam-restored.html; public browser verification September29 2026."
+  },
+  {
+    "id": "leap-birthday-current-direction",
+    "title": "Current birthday direction: native invoice and verified form access",
+    "content": "October 22 source and release evidence supersede the October 13 workflow. Maintained source: cloudflare-pages/birthday-qc-20261016. Native Uplifter invoice carries access links; owner approved one-time email verification on opening the link. No separate initial welcome email after native cutover. Save draft is silent; each submitted party/consent version notifies Leap. Consent amendments retain signed history. Two reminders only. Payment ends at invoice and e-transfer, without a later receipt promise. Preserve older bookings, Beam, templates and native checkout/payment/acceptance. No historical resend. Custom intake must never reject or cancel an Uplifter booking. Main code release recorded as 360e4ddc; cutover 1792701157408. Latest chat reports verification email arrival and correct lookup, superseding the earlier unconfirmed-delivery note. Website wording follow-up and older scheduler status still require review; see docs/CURRENT_STATE.md. Public migration substitutes a synthetic legacy reservation ID; restore authorized private configuration before deployment.",
+    "source": "October 22 owner instructions and release status; latest accessible Leap chat 01a06e6e-59e3-7fc2-991c-0a0e0330c064 reviewed October 23; docs/CURRENT_STATE.md."
+  },
+  {
+    "id": "leap-birthday-customer-copy-style",
+    "title": "Birthday payment copy and plain form labels",
+    "content": "Preserve owner-approved wording, with the latest October 22 correction: payment ends at invoice and e-transfer; no promise of a later payment receipt. Use Number of participating children. Save draft and Save and submit are different. Do not invent FAQs or payment integrations. Labels include Subtotal, HST (13%), Total including HST, Deposit paid (including HST), Remaining balance. Do not let historical cancellation copy authorize custom-system booking cancellation. Current scope protects Uplifter booking acceptance.",
+    "source": "October 22 owner instructions and release status; latest accessible Leap chat 01a06e6e-59e3-7fc2-991c-0a0e0330c064 reviewed October 23; docs/CURRENT_STATE.md."
+  },
+  {
+    "id": "leap-birthday-invoice-draft-20261013",
+    "title": "October 13 birthday invoice automation published and live",
+    "content": "Historical observation, superseded in part by October 22 native-invoice workflow; see docs/CURRENT_STATE.md. Published tested worker code1ce90191, active configuration178e768b. Invoice mode live with prospective booking cutover1791926729610. Birthday and registration pages publish owner's exact payment paragraphs. Live health verifies mailbox and CAD Zoho Invoice organization110002880890. Existing single five-minute scheduler unchanged; post-activation tick matched0/sent0/invoicesSent0. Form calculates invoice including HST/addons and verified113 deposit deduction; submission automatically creates/emails invoice PDF due day before party. Payment remains e-transfer. No gateways, bank connections, payment recording or tax-registration settings configured. Controlled real invoice email reached Leap inbox and was voided. Fourteen form checks and invoice-module tests passed; first real new customer submission unobserved. Ten public pages audited with no old balance-during-party wording. Preserve older bookings, waivers, Beam, templates and private-link router. Current source cloudflare-pages/birthday-invoicing-20261013; do not overwrite with October9 source.",
+    "source": "Owner publish/continue requests; October13 public pages, Cloudflare settings/version, live health/tick, RELEASE.md and public-audit-final.json."
+  },
+  {
+    "id": "leap-birthday-native-payment-audit",
+    "title": "Nine native payment descriptions corrected; November slot added",
+    "content": "Historical observation, superseded in part by October 22 native-invoice workflow; see docs/CURRENT_STATE.md. Programs170-178 native monthly product descriptions now preserve owner's exact approved Deposit & Payment paragraphs; nine public pages verified no paid-during-party text. Later user clarification approved all package lengths for new November21 2026 3:30pm slot. Program171 now has seven events, new3:30-5:45 maximum reservation with Basic5:15/Premium5:30/Deluxe5:45 actual end. Existing registered1-3pm party and other events unchanged. Native cutoff7days/capacity1/deposit100plusHST unchanged. New slot published and calendar verified; native description correctly lists finish times. Shared external helper still overrides Day/Time/modal intro with old1:30 text; updated helper is deployed but CMS loader URL connection pending Chrome recovery. No Beam/template/payment-setting changes.",
+    "source": "Native Uplifter and public nineteen-page audit October13 2026; published calendar screenshot and RELEASE.md."
+  },
+  {
+    "id": "leap-birthday-workflow-20260928",
+    "title": "Birthday implementation brief rolled back at user request",
+    "content": "On September29 2026 user urgently required program cards fixed first, then rollback of all birthday changes made from latest implementation brief. Rollback completed: birthday CMS main content restored to saved pre-September28-update bytes; registration birthday paragraph restored without reverting program-card fixes; native birthday programs169–178 descriptions and drop-in cutoffs restored; new Party Package field88 soft-deleted, newly added unused Birthday Party Booking Terms policy5 removed from active listing. Cloudflare birthday production rolled back to341e0cff-2df5-41e9-ad59-339b8fc01dd8 (September24), consent production to0a41c04c-c5d2-4fd5-b1f3-893a5aa25c0c; public content verified against backups. Submission history/private KV retained; rolled-back new worker no longer serves production. No birthday event dates/times or registrations were altered in this rollback. Latest brief and its pending workflows are superseded and must not be redeployed automatically. User explicitly rejects Saturday-only claim; read actual user decisions, not assistant claims, before future birthday work. Previous source attachment explicitly specified75/45 Premium/Deluxe and Saturday/Sunday new bookings; later assistant claims80/40 orSaturday-only are contradictory and not user authority. Beam protected, no Uplifter template edits.",
+    "source": "User urgent correction/rollback instruction September29 2026; outputs/party-correction-20260929 rollback receipts and verified Cloudflare deployment state."
+  },
+  {
+    "id": "leap-calendar-live-availability",
+    "title": "CMS program calendar availability — published 2026-09-27",
+    "content": "User wants only Full, 1 spot left or 2 spots left on the program calendar. Implemented on /programs/ weekly class cards and popups via custom CMS main content, using anonymous registrationData products[].spots from /registration/, matched by exact SKU. Refresh on initial load, every 60 seconds while visible, and focus/open after 15-second request throttle. Failed feed clears badges; no subtraction of registrations from capacity. Suppress labels for 3+ places, unlimited/null, unpublished/hidden/closed registration and date-specific drop-ins. Drop-ins retain native date-specific registration. Beam, Uplifter templates and program capacities unchanged. Evidence outputs/live-calendar-availability-20260927/verification.json. This is a dated implementation observation; verify live source before future changes.",
+    "source": "User request 2026-09-27; verified public site and CMS publish receipts"
+  },
+  {
+    "id": "leap-current-class-openings",
+    "title": "Eleven new classes published for October 2026",
+    "content": "User authorized publishing all eleven recommended new classes on September28 2026. Final start instruction October15 supersedes November1 and prior proposal dates. Actual first dates: FridayOct16, SaturdayOct17, SundayOct18, MondayOct19, TuesdayOct20. Published program IDs299–309 (product IDs300–310): Monday18:30 Flight8+ cap8; Tuesday19:00 Flight8+ cap8; Friday16:00 Ready4–5 cap6,17:15 Flight8+ cap8,18:30 Ready4–5 cap6 and Rising6–7 cap8,18:30–20:30 GirlsLeapPlus7+ cap8; Saturday08:00–08:45 ParentTot cap8 children plus8 parents; Sunday08:00–09:00 Ready4–5 cap8 and Rising6–7 cap8,10:15–11:15 Flight8+ cap4. Other one-hour additions are one hour. Programs end with matching existing weekdays June14–20 2027. CMS programs/calendar/popups and registration cards/links updated and verified desktop/mobile. Beam preserved; no Uplifter template editing. Existing class settings unchanged; new Plus7 category level34 added under advanced rec category4. No child transfers. Earlier Word proposal is superseded by live configuration and files outputs/class-launch-20260928/created-programs.json, server-billing-verification.json and live-verification.json.",
+    "source": "User approval, latest start-date correction, native save receipts and live verification September28 2026."
+  },
+  {
+    "id": "leap-expansion-demand-objective",
+    "title": "Expansion objective: fill probability before theoretical revenue",
+    "content": "User clarified September28 2026: most important is adding classes with a likelihood of maximum registrations. Prioritize distinct unmet demand and exact day/time acceptance over filling every open floor slot or the largest theoretical revenue ceiling. Do not assume new class types or times will fill because another slot is full. Distinguish new paid enrolments, existing-child additional classes and transfers; do not double-count email and waitlist leads. No changes to the eleven published additions were authorized or made in this demand-analysis turn. Current website constraints remain CMS only, no Uplifter templates and no Beam changes.",
+    "source": "User demand-analysis request and clarification September28 2026; outputs/new-class-demand-20260928/Leap-new-class-demand-review.md"
+  },
+  {
+    "id": "leap-facility",
+    "title": "Photo evidence for the actual facility",
+    "content": "IMG_2310.jpeg is the broadest inspected layout reference. It shows an elongated gym with extensive royal-blue floor, pale floor markings, white masonry walls, high dark exposed steel roof, padded steel columns, two far-end loading doors, back bar stations and mats, a red ring frame with yellow handles near the foreground column, and multicoloured preschool foam along the long wall. leap area.jpeg and leap equipment.jpeg corroborate materials and equipment. These are visual observations, not measured dimensions or verified coordinates. about-facility.png is a birthday group image and must not be treated as a floor plan. The model is a photo-informed interpretation, not a measured replica.",
+    "source": "User-authorized facility photo inspection, 2026-09-11; filenames IMG_2310.jpeg, leap area.jpeg, leap equipment.jpeg"
+  },
+  {
+    "id": "leap-friday-floor-limit",
+    "title": "Floor maximum and Parent and Tot separation",
+    "content": "User clarified September 28 2026: maximum 40 students including accompanying parents on the floor concurrently. Count each Parent & Tot child plus one adult as two places; extra adults consume extra places. Do not invent a six-staff reserve. Plan using full capacities or actual enrollment if greater, across all overlapping groups. Parent & Tot may overlap preschool ages 3–4, but must not overlap age 6–7 or older classes. Camp floor activity ends at 4 pm; craft 4–5:30 is off the floor. Friday drop-ins were verified at eight children each in the dated Sep28 read-only review. Clear departing groups before incoming groups enter. Latest user says do not analyze or alter existing classes; use schedules solely for new-addition overlap calculations.",
+    "source": "User clarifications and read-only September 28 2026 planning review; final-new-classes-plan.json."
+  },
+  {
+    "id": "leap-links",
+    "title": "Programs calendars and navigation must remain correct",
+    "content": "All existing available programs must stay consistent between program pages, registration cards, text and calendars. Every link, calendar popup and destination must lead to the correct page or section. Do not invent programs, duplicate records or introduce beta programs. Theme work must preserve operational data and exact destinations. Check actual navigation behavior and fragment targets, not just HTTP status.",
+    "source": "Current user website requirements, 2026-09-11"
+  },
+  {
+    "id": "leap-monday-rising-stars-20261021",
+    "title": "Monday 4-5 Rising Stars fully published",
+    "content": "October21 2026: user authorized adding Rising Stars ages6-7 Monday4-5 using existing program structure and updating all public listings. Program310/product311, SKU RisingStars67-MON-1600-OCT2026, Oct26 2026-Jun14 2027, cap8/waitlist5, 95/month plus HST, 29 events. Native creation and website publication COMPLETE; do not duplicate. Programs CMS revision1792621818 adds weekly list, Monday calendar cell, slot JSON and popup metadata. Registration CMS revision1792621820 adds card option. Public calendar popup tested desktop/mobile and clicked through to correct product page. All other CMS fields unchanged except revision metadata; templates and Beam preserved. Audited12 public routes and110 distinct internal destination paths: successful responses. Separate existing issue: summer-camp-themes page lacks content and10 theme-week anchors; not modified. Evidence outputs/monday-rising-stars-20261021/status.md. Publishing workaround: blank CMS preview did not indicate authentication failure. Fresh Chrome tab opened directly to admin dashboard, then documented tab CDP same-origin fetch/DOMParser/FormData workflow allowed narrow CMS updates, optimistic comparison and readback verification without extracting credentials or cookies. Do not open broken CMS preview in the same tab first.",
+    "source": "User authorization; authenticated CMS readback receipts; anonymous public desktop/mobile and full-site hyperlink audit October21 2026."
+  },
+  {
+    "id": "leap-new-class-billing",
+    "title": "New class full-term fees and holiday policy",
+    "content": "User changed billing requirement after the October class launch: zero-registration programs should use full-program fees like September programs, with projected full-term invoices and monthly instalments instead of monthly auto-renew invoices. Verified live September 29 2026: IDs299–309 all have zero registrations and now use price_mode total, recurrence 0, eight monthly instalments from November1 2026 and initial October partial payment. Full-program fees CAD before existing taxes:299 712.50;300 760;301 760;302 760;303 760;304 760;305 1520;306 742.50;307 783.75;308 783.75;309 783.75. Totals preserve actual scheduled-session calculation and holiday exclusions. Proration interval1/base0 retained. WinterDecember21–January3, March15–21 and applicable Ontario public holidays remain excluded in saved events. Dates, capacities and registered programs unchanged; program295 with6 registrations excluded. Previous per-event monthly auto-renew model is superseded for these eleven. Latest user correction September29: new registration cards must match the existing compact screenshot exactly. All11 now use the existing CMS compact-card formatter: monthly headline95/90ParentTot/190two-hour, last billing month June2027, day/time, age/duration, location and curriculum only. Hide full-term price, start/end range, event count, registration cutoff, per-session rate and payment count on cards. Calendar and public class labels also restored to monthly rates. Full-term amount remains stored for invoicing; actual event totals exclude closures and all11 late-entry previews verified. Instalments spread the term balance; do not confuse payment amounts with each month’s scheduled-session subtotal. Fee descriptions cleared to avoid duplicate native price. No Uplifter templates edited. Beam code/style/assets/placement/interactions preserved exactly. Verify live data before future changes. Latest live audit after user reported fee mismatch: full-term amounts already reflect scheduled sessions, but monthly cards still show nominal95/90/190 instead of actual lower equal instalments. No additional billing mutation performed. Uplifter native automatic full-term instalments split remaining balance equally; variable monthly payment amounts require manual invoice schedules or monthly auto-renew invoices. User asked to choose billing result; answer pending. Current registrations now program300=1, all other299–309=0; do not rely on earlier all-zero snapshot. Beam restored separately using exact original external loader only. Evidence payment-options-comparison.json.",
+    "source": "Latest user screenshot correction and outputs/party-correction-20260929/cards-live-checks.json, holiday-proration-verification.json."
+  },
+  {
+    "id": "leap-new-class-demand-review",
+    "title": "Dated demand review of eleven October additions",
+    "content": "Read-only September28 2026 20:28 Toronto snapshot: all11 new classes IDs299–309 have0 completed registrations and0 waitlist; newly published, so not evidence of failure. Strongest relative candidates: Saturday08:00 ParentTot (Saturday existing14/14;10 unique waiting,8 not in another weekly class, but08:00/45min acceptance unknown); Friday18:30 two-hourGirls7+ (freshly read family thread asks to ADD class for2 girls8/10; finalprice/placement unconfirmed); Monday18:30Flight (2Monday waitlisted not enrolled elsewhere; newtime unconfirmed). FlightCrew has3unique waitlisted total/2notelsewhere; four additions create28places plus10vacant existing places. Earlier FridayFlight priority was overstated; no reviewedFriday17:15 commitment. TwoSunday08:00 groups address4TOTAL proposed transfers, not8 and not automatically newrevenue. Tuesday19:00Flight andSunday10:15Flight weakest; otherFriday additions needexacttimeinterest. This is an analyst recommendation, not an approved removal decision. Allnewfloorwindows verified<=40 withparents; no liveedits. Full80seat four-session tuition ceiling8320CAD is not a forecast.",
+    "source": "Fresh native Uplifter rosters and targeted Zoho emails September28 2026; outputs/new-class-demand-20260928/demand-analysis.json"
+  },
+  {
+    "id": "leap-parent-tot-friday-dropin-discontinued",
+    "title": "Friday Parent & Tot drop-in discontinued",
+    "content": "User decision on 2026-10-13: Leap must no longer offer the Friday 4-5 pm Parent & Tot drop-in. Verified implementation that day: Uplifter program 298, product 299, SKU LEAP-DROPIN-FW26-PARENT-TOT set Unavailable; programs card, Friday calendar entry and registration card removed. Old direct product link returned Product not found. Permanent deletion was rejected by Uplifter due to linked historical records; two past registrations were preserved. Regular Parent & Tot classes and the Friday ages 3-5 and ages 6-12 drop-ins were not changed. Eleven main content pages checked for consistency and remaining calendar interaction tested. Beam and templates untouched; script blocks preserved. Do not reintroduce this offering. Reverify live availability before future changes.",
+    "source": "User instruction in this chat, 2026-10-13: WE DO NOT want to offer it anymore; verified outcome in remove-parent-tot-dropin-20261013/outcome.json"
+  },
+  {
+    "id": "leap-performance",
+    "title": "Performance and accessible exploration",
+    "content": "The user requires no performance regression. Measure against production before deployment; do not promise zero impact without evidence. Render 3D on demand, pause offscreen and hidden, cap pixel ratio, avoid idle animation loops, reduce motion on request and keep the complete content and navigation available without WebGL. Mobile controls must be readable and usable; do not force visitors through a 3D tour to reach registration.",
+    "source": "Current user requirements and project PRODUCT.md accessibility principles, 2026-09-11"
+  },
+  {
+    "id": "leap-seasats",
+    "title": "Seasats quality benchmark and rejected approach",
+    "content": "Seasats is the user's reference for the quality of the complete experience. The user rejected a generic layout with a freestanding pastel 3D widget added beside a heading. The environment, scene transitions, typography and navigation must form a coherent website. Interactive areas must help families reach programs, camps, parties, schedules or registration. A moving decorative object alone does not meet the requirement.",
+    "source": "Current user correction; https://www.seasats.com/; https://www.awwwards.com/sites/seasats/ inspected 2026-09-11"
+  },
+  {
+    "id": "leap-theme-scope",
+    "title": "Theme scope and protected content",
+    "content": "Redesign Leap's complete visual experience: composition, typography, layout, navigation and purposeful interaction. Preserve existing wording, program details and photographs. Keep the existing brand colours. Custom CMS only, no Uplifter templates. Registration receives only restrained style and colour alignment because the flow is sensitive.",
+    "source": "Current user design instructions, 2026-09-11"
+  },
+  {
+    "id": "leap-weekend-class-cutoff",
+    "title": "Weekend class cutoff and published early additions",
+    "content": "Weekend regular classes must finish by1pm. Latest approved new weekend additions are Saturday08:00–08:45ParentTot (8children plus8parents), Sunday08:00–09:00Ready4–5 andRising6–7 (8each), Sunday10:15–11:15Flight8+ (4). FirstdatesSaturdayOct17 andSundayOct18 2026 followinguserOct15launchinstruction. Thehusband earlySunday sibling request is represented bytwo parallel ageappropriate groups; nochildrenhavebeen transferred. ParentTot canoverlappreschool butnotage6–7orolder. Earlier12:30–13:15 andafternoonweekendproposalswere notcreated.",
+    "source": "User constraints and final approved program creation September28 2026."
+  },
+  {
+    "id": "leap-writing-memory-preference",
+    "title": "Use natural writing and curated project memory",
+    "content": "User explicitly asks to use natural-writing and tencentdb-agent-memory skills in responses going forward so project context is retained. Write clear, warm, accurate prose without arbitrary restrictions. Before related project work retrieve relevant requirements from the local Tencent VectorStore/FTS memory. Maintain small source-backed decision records, distinguish user decisions from assistant proposals and dated observations, and follow latest user instructions over stored notes. No claim of full automatic transcript retention or cloud Memory Hub. Current skill path natural-writing/1.0.1/skills/natural-writing/SKILL.md under openai-curated-remote plugin cache; Tencent skill under .codex/skills/tencentdb-agent-memory.",
+    "source": "User explicit skill invocation and request to use both from now on, September29 2026."
+  }
+]

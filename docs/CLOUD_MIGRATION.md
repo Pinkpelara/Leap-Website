@@ -1,39 +1,28 @@
-# Leap cloud consolidation
+# Leap migration coverage, October 23, 2026
 
-Leap-Website is the primary cloud repository. The 2026-09-11 website snapshot remains byte-for-byte unchanged.
+Leap-Website is the primary project repository. This migration closes the earlier gap between the cloud archive and Windows birthday source. Existing history and the September 11 snapshot are preserved, including both previously consolidated Leap-Gym branches.
 
-## Imported from Leap-Gym
+## Transferred and reviewed
 
-Both work branches were merged with their Git histories:
+- Latest birthday source, including October 22 native-invoice portal, draft/submit forms, consent history, recovery and legacy routing.
+- Portable dependency manifest/lock, build and offline tests. Old-machine build paths removed.
+- All 21 curated Tencent records, with birthday decisions corrected and older observations labelled. Fresh local ingest/search verified. JSON and the pinned runtime recreate SQLite; raw SQLite is ignored.
+- Working rules, current state, KB links, setup, environment names without values, and source mapping.
+- Historical custom CMS files alongside previously imported Leap-Gym material.
+- Fresh anonymous public capture: 110 HTML responses and 164 saved assets, 40,543,011 source bytes. One asset URL returned HTTP 404 and was not archived; see errors and omissions. This is not an authenticated CMS/database export.
 
-- `claude/audit-uplifter-site-3nuKq`, e598075d13382c50935e22dbcf3c2559e8566c93: site-content snippets, site-health report and operations analysis.
-- `claude/dreamy-volta-s264fj`, 069c67c222dd099539835605fb7df07354388169: birthday-workflow briefs and reference documents.
+## Exclusions and remaining transfer
 
-The website README was kept when resolving the two repositories' initial README conflict. All 15 non-README files from the two Leap-Gym branches were imported without alteration. The original Leap-Gym repository on GitHub remains intact; this consolidation does not delete or change it.
+No private customer records, signed waivers, private form links, email exports, credentials, browser profiles, administrative HTML, corporate documents or raw chats were added. Originals remain in place; no original source files were moved or deleted.
 
-## Still missing from this cloud workspace
+A separate private backup needs a reviewed destination and scope. The private-backup preference was requested during this task. Marketing/design originals, videos and corporate paperwork in the separate AI/Leap folder are not all represented here. Public assets are captured from the website. Little-Beam remains separate and was not modified.
 
-The local Leap Codex task history identifies newer work in:
+One legacy override contained a private reservation identifier. Public source/tests use a synthetic identifier. Restore authorized private configuration before deployment. Setup does not deploy anything.
 
-- `Documents\New project`: Cloudflare source, project tools, outputs and supporting files.
-- `%USERPROFILE%\.codex\project-data\leap-design`: birthday booking/Zoho invoicing source, preview/build/test scripts, deployment records, screenshots and the requirements.sqlite project-memory database.
+Current docs supersede September brief deployment instructions and the obsolete October 16 draft label. See CURRENT_STATE.md for website wording, summer-theme content and scheduler follow-ups. Live fixes were not part of this migration.
 
-Those Windows folders are not accessible to this cloud shell and have not been imported. The website snapshot and imported briefs predate that newer work. Source files, project memory, task history and live service credentials are separate migration items; importing these Git histories does not transfer them automatically.
+## Validation
 
-Transfer the Leap source/artifacts while keeping credentials in secure environment settings. Preserve originals. Inspect archives and compare files before combining them with this repository. Do not run deployment, invoice/email or production-mutation scripts as setup tests.
+Portable build passed: 16 delivery, 30 form/intake and 10 portal tests, plus invoice, mail-recovery, calendar-alias and package-override suites. Tests use synthetic/in-memory data. Tencent ingest/search succeeded in local VectorStore/FTS mode. No production messages, bookings, payments or deployments were performed.
 
-## Development and validation
-
-The current repository is a public-site reference archive, not an independently runnable CMS or birthday application. Python 3.11+ supports the included public capture tool:
-
-```sh
-python3 -m venv /workspace/.venvs/leap-website
-/workspace/.venvs/leap-website/bin/python -m pip install -r snapshots/2026-09-11/tools/requirements.txt
-/workspace/.venvs/leap-website/bin/python snapshots/2026-09-11/tools/capture.py --help
-cd snapshots/2026-09-11
-sha256sum --check --quiet SHA256SUMS.txt
-```
-
-For a fresh, read-only public capture, run the tool with an output directory outside the tracked snapshot. The existing September snapshot must remain unchanged. Archived forms and registration actions depend on the live service; do not submit archived forms as a smoke test.
-
-Use existing checkouts; cloud tasks are already isolated. Do not create a Git worktree unless explicitly requested. Established Leap preferences include keeping Beam untouched, avoiding templates, auditing the entire site for consistency after site changes, preserving approved wording and existing bookings, and keeping payments by e-transfer.
+See migration/source-map.json for original relative source locations and migration/environment-names.json for variable/binding names. Source paths are provenance, not old-machine dependencies.

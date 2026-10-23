@@ -1,0 +1,269 @@
+/* Restores the existing custom registration-card layout only.
+   No Uplifter product, participant, price, or checkout markup is changed. */
+.leap-reg-guide,
+.leap-reg-guide * {
+  box-sizing: border-box;
+}
+
+.leap-reg-hero {
+  display: grid;
+  grid-template-columns: minmax(170px, 240px) minmax(0, 1fr);
+  gap: clamp(16px, 3vw, 32px);
+  align-items: center;
+  padding: clamp(18px, 2.6vw, 30px);
+}
+
+.leap-reg-logoBox {
+  display: flex;
+  min-height: 132px;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.leap-reg-logoBox img {
+  display: block;
+  width: min(100%, 210px);
+  height: auto;
+}
+
+.leap-reg-label {
+  margin: 0 0 7px;
+  font-size: .78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.leap-reg-hero h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 3.4vw, 3.2rem);
+  line-height: 1.04;
+  font-weight: 900;
+}
+
+.leap-reg-intro {
+  max-width: 790px;
+  margin: 10px 0 0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.leap-reg-tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.leap-reg-tab {
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.leap-reg-tab::after {
+  content: ">";
+  font-weight: 900;
+}
+
+.leap-reg-section {
+  margin-top: 20px;
+  scroll-margin-top: 128px;
+}
+
+.leap-reg-section__head {
+  display: grid;
+  grid-template-columns: minmax(220px, .8fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 12px;
+  padding: 18px;
+}
+
+.leap-reg-section h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.leap-reg-section__head p:last-child {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.leap-reg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+  gap: 12px;
+}
+
+.leap-reg-card {
+  display: flex;
+  min-height: 210px;
+  min-width: 0;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  scroll-margin-top: 128px;
+}
+
+.leap-reg-card__head {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.leap-reg-card__head > span {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  border-radius: 999px;
+  font-size: .74rem;
+  font-weight: 850;
+}
+
+.leap-reg-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.leap-reg-card__head .leap-reg-date {
+  margin: 3px 0 0;
+  font-size: .78rem;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.leap-reg-card p {
+  margin: 0;
+  font-size: .92rem;
+  line-height: 1.45;
+}
+
+.leap-reg-price-note {
+  display: grid;
+  gap: 3px;
+  margin: 2px 0 4px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.leap-reg-price-note strong {
+  font-size: .75rem;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.leap-reg-price-note span {
+  font-size: .84rem;
+  line-height: 1.35;
+  font-weight: 750;
+}
+
+.leap-reg-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+}
+
+.leap-reg-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 27px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: .76rem;
+  font-weight: 800;
+}
+
+.leap-reg-options {
+  display: grid;
+  gap: 7px;
+  max-height: 260px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.leap-reg-option {
+  display: grid;
+  gap: 2px;
+  padding: 9px 10px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.leap-reg-option small {
+  font-size: .75rem;
+  line-height: 1.35;
+  font-weight: 750;
+}
+
+.leap-camp-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.leap-camp-choice {
+  display: grid;
+  gap: 3px;
+  padding: 10px;
+  border: 1px solid rgba(188, 104, 24, .28);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .82);
+}
+
+.leap-camp-choice strong {
+  font-size: .84rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.leap-camp-choice small {
+  font-size: .74rem;
+  line-height: 1.3;
+  font-weight: 750;
+}
+
+@media (max-width: 860px) {
+  .leap-reg-guide {
+    width: calc(100% - 28px) !important;
+  }
+
+  .leap-reg-hero,
+  .leap-reg-section__head {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .leap-reg-logoBox {
+    min-height: 106px;
+  }
+
+  .leap-reg-tabs,
+  .leap-reg-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .leap-reg-options {
+    max-height: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .leap-camp-choice-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

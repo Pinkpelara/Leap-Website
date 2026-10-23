@@ -1,0 +1,57 @@
+{
+  "repository": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+  "commit": "0468a2a5b50eaafc54758ed1e2e6609472e5b6ce",
+  "fetchedAt": "2026-09-11T16:22:07.026Z",
+  "license": "MIT",
+  "compiler": {
+    "name": "TypeScript",
+    "version": "5.9.2",
+    "source": "https://unpkg.com/typescript@5.9.2/lib/typescript.js",
+    "sha256": "e5f1f6b3e82228a89873cc7b941b2465185e839c0692860f83e3e63e53f94c2b"
+  },
+  "mode": "Local SQLite FTS5 only, dimensions=0; no service, no LLM, no embeddings, no traffic proxy.",
+  "files": [
+    {
+      "path": "MemoryCore/src/core/store/sqlite/memory-store.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/store/sqlite/memory-store.ts",
+      "sha256": "f4e62980a0c48f366c53d12c3c2575a80ea9012a276486a81cc6bba2729b276e",
+      "compiled": "MemoryCore/src/core/store/sqlite/memory-store.js",
+      "compiledSha256": "05b3a3f90b65a62a6b84ee0c55ac08ad1fc4f97c3450ce3b1149f90a1d6995a2"
+    },
+    {
+      "path": "MemoryCore/src/core/store/types.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/store/types.ts",
+      "sha256": "2f45fb8e58503d39c49d23b139ec6a225fa30161df6b41b5c8e4ab8d6bb9ba22",
+      "compiled": "MemoryCore/src/core/store/types.js",
+      "compiledSha256": "92461a2c5bbd928d4e1609a5bcd673f9ef885099f6d69ac110c3f9b15fb03e3c"
+    },
+    {
+      "path": "MemoryCore/src/core/store/tokenize.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/store/tokenize.ts",
+      "sha256": "d91c2e9b43605f3e87462f1a127bc47a7941d3f84699e1b8edd60ff64d7f5235",
+      "compiled": "MemoryCore/src/core/store/tokenize.js",
+      "compiledSha256": "b1d36e6bde63a3d4243cafbe3c448fc56b97a8a2e9305182f4a9fb2dcf007817"
+    },
+    {
+      "path": "MemoryCore/src/core/store/isolation.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/store/isolation.ts",
+      "sha256": "e9426032b390c37a340cec13207a1447bbdcc017d704421179ae7b26be9d43f3",
+      "compiled": "MemoryCore/src/core/store/isolation.js",
+      "compiledSha256": "958dee5dbdf6aedb33dca015a4ab5adf129773f510bdbf82d5e1be1377f6a4ed"
+    },
+    {
+      "path": "MemoryCore/src/core/skill/skill-store-ddl.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/skill/skill-store-ddl.ts",
+      "sha256": "0f868d156900fe103dd87e8845591fc31aa24f425fa75bccad13b62ce4ac0fad",
+      "compiled": "MemoryCore/src/core/skill/skill-store-ddl.js",
+      "compiledSha256": "0cd240eee4e54fc0cc32b4a2ebea0b7f5703b9dde1f3a3ec8bfbae303024db20"
+    },
+    {
+      "path": "MemoryCore/src/core/memory-generation-log/types.ts",
+      "source": "https://raw.githubusercontent.com/TencentCloud/TencentDB-Agent-Memory/0468a2a5b50eaafc54758ed1e2e6609472e5b6ce/MemoryCore/src/core/memory-generation-log/types.ts",
+      "sha256": "2e8f1c66aa3056c63b7f491cef5d716a794ef2beb077433a81c9294ff158a0bd",
+      "compiled": "MemoryCore/src/core/memory-generation-log/types.js",
+      "compiledSha256": "c5c64fdb217b9827346644fd4185eddb13e273193b0a9f1bc044e0ce37d5881e"
+    }
+  ]
+}
